@@ -691,15 +691,14 @@ export default function App() {
 
   // Filter calls
   let filtered = calls
-  if (filter !== 'all') {
-    filtered = filtered.filter(c => c.category === filter)
-  }
-  if (answerFilter === 'answered') {
-    filtered = filtered.filter(c => c.answered === true)
-  } else if (answerFilter === 'unanswered') {
-    filtered = filtered.filter(c => c.answered === false)
-  } else if (answerFilter === 'voicemail') {
+  if (filter === 'customer') {
+    // Customers only (no voicemails)
+    filtered = filtered.filter(c => c.category === 'customer' && !c.voicemail)
+  } else if (filter === 'voicemail') {
+    // All voicemails
     filtered = filtered.filter(c => c.voicemail === true)
+  } else if (filter !== 'all') {
+    filtered = filtered.filter(c => c.category === filter)
   }
   if (dateFrom) {
     const fromDate = new Date(dateFrom)
@@ -937,19 +936,25 @@ export default function App() {
                 className={`filter-btn ${filter === 'customer' ? 'active' : ''}`}
                 onClick={() => setFilter('customer')}
               >
-                🟢 Customers ({stats.inbound_answered_by_category?.customer || 0}{calls.filter(c => c.voicemail && c.category === 'customer').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'customer').length} VM` : ''})
+                🟢 Customers ({calls.filter(c => c.category === 'customer' && !c.voicemail).length})
+              </button>
+              <button
+                className={`filter-btn ${filter === 'voicemail' ? 'active' : ''}`}
+                onClick={() => setFilter('voicemail')}
+              >
+                📞 Voicemail ({calls.filter(c => c.voicemail).length})
               </button>
               <button
                 className={`filter-btn ${filter === 'spam' ? 'active' : ''}`}
                 onClick={() => setFilter('spam')}
               >
-                🔴 Spam ({stats.inbound_answered_by_category?.spam || 0}{calls.filter(c => c.voicemail && c.category === 'spam').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'spam').length} VM` : ''})
+                🔴 Spam ({stats.inbound_answered_by_category?.spam || 0})
               </button>
               <button
                 className={`filter-btn ${filter === 'operations' ? 'active' : ''}`}
                 onClick={() => setFilter('operations')}
               >
-                🔵 Operations ({stats.inbound_answered_by_category?.operations || 0}{calls.filter(c => c.voicemail && c.category === 'operations').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'operations').length} VM` : ''})
+                🔵 Operations ({stats.inbound_answered_by_category?.operations || 0})
               </button>
               <button
                 className={`filter-btn ${filter === 'other_inquiry' ? 'active' : ''}`}
@@ -962,33 +967,6 @@ export default function App() {
                 onClick={() => setFilter('incomplete')}
               >
                 ⚪ Incomplete ({stats.inbound_answered_by_category?.incomplete || 0})
-              </button>
-            </div>
-
-            <div className="filters">
-              <button
-                className={`filter-btn ${answerFilter === 'all' ? 'active' : ''}`}
-                onClick={() => setAnswerFilter('all')}
-              >
-                All Status
-              </button>
-              <button
-                className={`filter-btn ${answerFilter === 'answered' ? 'active' : ''}`}
-                onClick={() => setAnswerFilter('answered')}
-              >
-                ✓ Answered ({stats.answered})
-              </button>
-              <button
-                className={`filter-btn ${answerFilter === 'unanswered' ? 'active' : ''}`}
-                onClick={() => setAnswerFilter('unanswered')}
-              >
-                ✗ Missed ({stats.unanswered})
-              </button>
-              <button
-                className={`filter-btn ${answerFilter === 'voicemail' ? 'active' : ''}`}
-                onClick={() => setAnswerFilter('voicemail')}
-              >
-                📞 Voicemail ({stats.voicemail})
               </button>
             </div>
 
