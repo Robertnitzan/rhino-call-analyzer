@@ -729,6 +729,7 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <div className="logo">🦏 Rhino</div>
+          <div className="date-range">Q4 2025 + January 2026</div>
         </div>
       </header>
 
@@ -796,6 +797,130 @@ export default function App() {
                   color="var(--color-incomplete)"
                   onClick={() => { setFilter('incomplete'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
+              </div>
+            </div>
+          </section>
+
+          {/* Breakdown Details */}
+          <section className="section">
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
+              {/* Spam Breakdown */}
+              <div className="card">
+                <div className="card-header">
+                  <span className="card-title">🔴 Spam Breakdown ({stats.inbound_answered_by_category?.spam || 0})</span>
+                </div>
+                <div style={{ padding: '12px', fontSize: '13px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Google/EMG Listing Robocalls</span>
+                    <strong style={{ color: 'var(--color-spam)' }}>{stats.spam_breakdown?.google_listing || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Other Robocalls</span>
+                    <strong style={{ color: 'var(--color-spam)' }}>{stats.spam_breakdown?.robocall || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>B2B Sales (QuickBooks, Housecall Pro)</span>
+                    <strong style={{ color: 'var(--color-spam)' }}>{stats.spam_breakdown?.b2b_sales || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Merchant Services</span>
+                    <strong style={{ color: 'var(--color-spam)' }}>{stats.spam_breakdown?.merchant_services || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Workshop Sales (Aspire Institute)</span>
+                    <strong style={{ color: 'var(--color-spam)' }}>{stats.spam_breakdown?.workshop_sales || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+                    <span>Other Spam</span>
+                    <strong style={{ color: 'var(--color-spam)' }}>{stats.spam_breakdown?.other || 0}</strong>
+                  </div>
+                </div>
+              </div>
+
+              {/* Customer Breakdown */}
+              <div className="card">
+                <div className="card-header">
+                  <span className="card-title">🟢 Customer Breakdown ({stats.inbound_answered_by_category?.customer || 0})</span>
+                </div>
+                <div style={{ padding: '12px', fontSize: '13px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>ADU / Room Addition</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.adu_inquiry || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Voicemail Inquiries</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.voicemail || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Driveway / Walkway</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.driveway_walkway || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Bathroom / Kitchen Remodel</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.bathroom_kitchen || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Concrete / Wall Work</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.concrete_wall || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Window Replacement</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.window || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Drainage</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.drainage || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border)' }}>
+                    <span>Foundation</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.foundation || 0}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0' }}>
+                    <span>General / Estimate Requests</span>
+                    <strong style={{ color: 'var(--color-customer)' }}>{stats.customer_breakdown?.general || 0}</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Period Comparison */}
+          <section className="section">
+            <div className="card">
+              <div className="card-header">
+                <span className="card-title">📅 By Period</span>
+              </div>
+              <div style={{ padding: '12px' }}>
+                <table style={{ width: '100%', fontSize: '13px', borderCollapse: 'collapse' }}>
+                  <thead>
+                    <tr style={{ borderBottom: '2px solid var(--border)' }}>
+                      <th style={{ textAlign: 'left', padding: '8px' }}>Period</th>
+                      <th style={{ textAlign: 'right', padding: '8px' }}>Total</th>
+                      <th style={{ textAlign: 'right', padding: '8px' }}>🟢 Customer</th>
+                      <th style={{ textAlign: 'right', padding: '8px' }}>🔴 Spam</th>
+                      <th style={{ textAlign: 'right', padding: '8px' }}>🔵 Operations</th>
+                      <th style={{ textAlign: 'right', padding: '8px' }}>⚪ Incomplete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style={{ borderBottom: '1px solid var(--border)' }}>
+                      <td style={{ padding: '8px' }}>Q4 2025</td>
+                      <td style={{ textAlign: 'right', padding: '8px' }}>{stats.by_period?.q4_2025?.total || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-customer)' }}>{stats.by_period?.q4_2025?.customer || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-spam)' }}>{stats.by_period?.q4_2025?.spam || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-operations)' }}>{stats.by_period?.q4_2025?.operations || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-incomplete)' }}>{stats.by_period?.q4_2025?.incomplete || 0}</td>
+                    </tr>
+                    <tr>
+                      <td style={{ padding: '8px' }}>Jan 2026</td>
+                      <td style={{ textAlign: 'right', padding: '8px' }}>{stats.by_period?.jan_2026?.total || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-customer)' }}>{stats.by_period?.jan_2026?.customer || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-spam)' }}>{stats.by_period?.jan_2026?.spam || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-operations)' }}>{stats.by_period?.jan_2026?.operations || 0}</td>
+                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-incomplete)' }}>{stats.by_period?.jan_2026?.incomplete || 0}</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </section>
