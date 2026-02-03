@@ -605,7 +605,7 @@ function PasswordGate({ onSuccess }) {
     }}>
       <div className="card" style={{ maxWidth: '400px', width: '100%', textAlign: 'center' }}>
         <div style={{ fontSize: '48px', marginBottom: '16px' }}>🦏</div>
-        <h1 style={{ fontSize: '20px', marginBottom: '8px' }}>Rhino Concrete</h1>
+        <h1 style={{ fontSize: '20px', marginBottom: '8px' }}>Rhino</h1>
         <p className="text-muted" style={{ marginBottom: '24px' }}>Call Analysis Dashboard</p>
         <form onSubmit={handleSubmit}>
           <input
@@ -722,7 +722,7 @@ export default function App() {
       {/* Header */}
       <header className="header">
         <div className="header-top">
-          <div className="logo">🦏 Rhino Concrete</div>
+          <div className="logo">🦏 Rhino</div>
           <div className="date-range">{dateRange}</div>
         </div>
       </header>
