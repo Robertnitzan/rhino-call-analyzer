@@ -1,0 +1,10 @@
+Call ID: CAL019c0feaa7217c439314772aa167d607
+Date: 2026-01-30T09:19:22.358-08:00
+Duration: 13s
+From: +19252083032
+To: +19252919542
+Company: Rhino Concrete
+
+--- TRANSCRIPT ---
+
+Please hold for the next available agent. This has been an important message regarding your Google Business account. Our system shows new registrations for your business, but Google and Google Voice clients are currently having trouble finding you.

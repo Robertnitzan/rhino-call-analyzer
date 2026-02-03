@@ -1,0 +1,10 @@
+Call ID: CAL019bfb4d5a8f717a853d4225bbd3fcf4
+Date: 2026-01-26T09:15:09.325-08:00
+Duration: 22s
+From: +18882192787
+To: +14086621467
+Company: Rhino ADU / Garage Builder
+
+--- TRANSCRIPT ---
+
+This message is from CallRail. We will be discontinuing the Lead center softPhone product on January 27th in favor of better and more reliable options so you can continue to effectively communicate with your customers. Please reach out to your CallRail administrator or contact our support team at migration@callrail.com if you have any questions or need assistance with the transition.

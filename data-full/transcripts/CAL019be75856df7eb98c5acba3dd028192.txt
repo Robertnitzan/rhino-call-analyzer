@@ -1,0 +1,10 @@
+Call ID: CAL019be75856df7eb98c5acba3dd028192
+Date: 2026-01-22T12:14:44.916-08:00
+Duration: 13s
+From: +19252181094
+To: +19253697669
+Company: Rhino Builders
+
+--- TRANSCRIPT ---
+
+Please hold for the next available agent.

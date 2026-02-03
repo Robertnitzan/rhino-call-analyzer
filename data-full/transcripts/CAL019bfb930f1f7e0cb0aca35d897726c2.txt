@@ -1,0 +1,10 @@
+Call ID: CAL019bfb930f1f7e0cb0aca35d897726c2
+Date: 2026-01-26T10:31:17.504-08:00
+Duration: 8s
+From: +13509305920
+To: +19253964532
+Company: Rhino Concrete
+
+--- TRANSCRIPT ---
+
+hold for the next available agent.
