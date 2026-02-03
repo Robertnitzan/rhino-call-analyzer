@@ -729,7 +729,6 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <div className="logo">🦏 Rhino</div>
-          <div className="date-range">January 2026</div>
         </div>
       </header>
 
@@ -762,30 +761,11 @@ export default function App() {
         <MissedOpportunitiesTab calls={calls} onSelectCall={setSelectedCall} />
       ) : (
         <>
-          {/* Stats Overview */}
+          {/* Classification Overview */}
           <section className="section">
-            <div className="stats-grid">
-              <StatCard
-                label="Total Calls"
-                value={stats.total}
-                subtext="inbound calls analyzed"
-              />
-              <StatCard
-                label="Classified"
-                value={stats.inbound_answered}
-                subtext="calls with clear classification"
-              />
-              <StatCard
-                label="Voicemail"
-                value={stats.inbound_voicemail}
-                subtext="customer voicemails"
-              />
-            </div>
-
-            {/* Inbound Answered Classification */}
-            <div className="card" style={{ marginTop: '16px' }}>
+            <div className="card">
               <div className="card-header">
-                <span className="card-title">Inbound Answered Classification ({stats.inbound_answered} calls)</span>
+                <span className="card-title">Call Classification ({stats.total} calls)</span>
               </div>
               <div className="stats-grid" style={{ marginTop: '12px' }}>
                 <StatCard
