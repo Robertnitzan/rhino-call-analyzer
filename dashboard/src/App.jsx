@@ -579,8 +579,78 @@ function MethodologyTab({ stats, calls }) {
   )
 }
 
+// Password Gate
+function PasswordGate({ onSuccess }) {
+  const [password, setPassword] = useState('')
+  const [error, setError] = useState(false)
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (password === 'rhino2026') {
+      localStorage.setItem('rhino-auth', 'true')
+      onSuccess()
+    } else {
+      setError(true)
+      setTimeout(() => setError(false), 2000)
+    }
+  }
+
+  return (
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      background: 'var(--bg-base)'
+    }}>
+      <div className="card" style={{ maxWidth: '400px', width: '100%', textAlign: 'center' }}>
+        <div style={{ fontSize: '48px', marginBottom: '16px' }}>🦏</div>
+        <h1 style={{ fontSize: '20px', marginBottom: '8px' }}>Rhino Concrete</h1>
+        <p className="text-muted" style={{ marginBottom: '24px' }}>Call Analysis Dashboard</p>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="password"
+            className="search-input"
+            placeholder="Enter password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            style={{ 
+              width: '100%', 
+              marginBottom: '16px',
+              borderColor: error ? 'var(--color-spam)' : undefined
+            }}
+            autoFocus
+          />
+          <button
+            type="submit"
+            style={{
+              width: '100%',
+              padding: '12px',
+              background: 'var(--accent)',
+              color: 'white',
+              border: 'none',
+              borderRadius: 'var(--radius-md)',
+              fontSize: '14px',
+              fontWeight: 500,
+              cursor: 'pointer'
+            }}
+          >
+            Access Dashboard
+          </button>
+        </form>
+        {error && (
+          <p style={{ color: 'var(--color-spam)', marginTop: '12px', fontSize: '13px' }}>
+            Incorrect password
+          </p>
+        )}
+      </div>
+    </div>
+  )
+}
+
 // Main App
 export default function App() {
+  const [authenticated, setAuthenticated] = useState(() => localStorage.getItem('rhino-auth') === 'true')
   const [data, setData] = useState(null)
   const [tab, setTab] = useState('calls')
   const [filter, setFilter] = useState('all')
@@ -591,11 +661,16 @@ export default function App() {
   const [dateTo, setDateTo] = useState('')
 
   useEffect(() => {
+    if (!authenticated) return
     fetch('./data/results.json?v=' + Date.now())
       .then(r => r.json())
       .then(setData)
       .catch(err => console.error('Failed to load data:', err))
-  }, [])
+  }, [authenticated])
+
+  if (!authenticated) {
+    return <PasswordGate onSuccess={() => setAuthenticated(true)} />
+  }
 
   if (!data) {
     return (
