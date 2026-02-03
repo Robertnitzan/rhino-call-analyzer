@@ -135,9 +135,13 @@ function AudioLink({ url }) {
 }
 
 // Stats card
-function StatCard({ label, value, subtext, color }) {
+function StatCard({ label, value, subtext, color, onClick }) {
   return (
-    <div className="stat-card">
+    <div 
+      className="stat-card" 
+      onClick={onClick}
+      style={onClick ? { cursor: 'pointer' } : {}}
+    >
       <div className="stat-label">{label}</div>
       <div className="stat-value" style={{ color }}>{value}</div>
       {subtext && <div className="stat-subtext">{subtext}</div>}
@@ -787,24 +791,28 @@ export default function App() {
                   value={stats.inbound_answered_by_category?.customer || 0}
                   subtext={`${((stats.inbound_answered_by_category?.customer || 0) / stats.inbound_answered * 100).toFixed(1)}%`}
                   color="var(--color-customer)"
+                  onClick={() => { setFilter('customer'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
                 <StatCard
                   label="Spam"
                   value={stats.inbound_answered_by_category?.spam || 0}
                   subtext={`${((stats.inbound_answered_by_category?.spam || 0) / stats.inbound_answered * 100).toFixed(1)}%`}
                   color="var(--color-spam)"
+                  onClick={() => { setFilter('spam'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
                 <StatCard
                   label="Operations"
                   value={stats.inbound_answered_by_category?.operations || 0}
                   subtext={`${((stats.inbound_answered_by_category?.operations || 0) / stats.inbound_answered * 100).toFixed(1)}%`}
                   color="var(--color-operations)"
+                  onClick={() => { setFilter('operations'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
                 <StatCard
                   label="Incomplete"
                   value={stats.inbound_answered_by_category?.incomplete || 0}
                   subtext={`${stats.inbound_answered_without_recording || 0} no recording · ${(stats.inbound_answered_by_category?.incomplete || 0) - (stats.inbound_answered_without_recording || 0)} unclear`}
                   color="var(--color-incomplete)"
+                  onClick={() => { setFilter('incomplete'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
               </div>
             </div>
@@ -910,7 +918,7 @@ export default function App() {
 
           {/* Calls Table */}
           <section className="section">
-            <h2 className="section-title">Call List</h2>
+            <h2 id="call-list" className="section-title">Call List</h2>
 
             {/* Filters */}
             <div className="filters">
