@@ -25,6 +25,41 @@ function parseCSV(text) {
 const csv = readFileSync('jan-manual-review.csv', 'utf-8');
 const records = parseCSV(csv);
 
+// Build calls array with proper structure
+const calls = records.map((row, idx) => ({
+  id: row.id,
+  direction: row.direction || 'inbound',
+  duration: parseInt(row.duration) || 0,
+  category: row.category,
+  sub_category: row.sub_category,
+  answered: row.category !== 'incomplete',  // assume answered if not incomplete
+  voicemail: row.sub_category?.includes('voicemail') || false,
+  transcript_preview: row.summary,
+  transcript_full: row.summary,
+  start_time: new Date(2026, 0, 1 + Math.floor(idx / 10)).toISOString(),  // spread across January
+  confidence_classification: row.confidence === 'high' ? 0.95 : row.confidence === 'medium' ? 0.75 : 0.6,
+  customer_phone: '',
+  customer_city: ''
+}));
+
+// Calculate stats
+const stats = {
+  total: calls.length,
+  inbound: calls.filter(c => c.direction === 'inbound').length,
+  outbound: calls.filter(c => c.direction === 'outbound').length,
+  inbound_answered: calls.filter(c => c.direction === 'inbound' && c.answered).length,
+  inbound_unanswered: calls.filter(c => c.direction === 'inbound' && !c.answered).length,
+  inbound_voicemail: calls.filter(c => c.voicemail).length,
+  inbound_answered_by_category: {
+    customer: calls.filter(c => c.category === 'customer').length,
+    spam: calls.filter(c => c.category === 'spam').length,
+    operations: calls.filter(c => c.category === 'operations').length,
+    incomplete: calls.filter(c => c.category === 'incomplete').length,
+    other_inquiry: calls.filter(c => c.category === 'other_inquiry').length
+  },
+  inbound_answered_without_recording: 0
+};
+
 const results = {
   metadata: {
     generatedAt: new Date().toISOString(),
@@ -32,27 +67,10 @@ const results = {
     method: "manual_review",
     totalCalls: records.length
   },
-  summary: { customer: 0, spam: 0, operations: 0, incomplete: 0, other_inquiry: 0 },
-  calls: []
+  stats,
+  calls
 };
 
-for (const row of records) {
-  const cat = row.category;
-  if (results.summary[cat] !== undefined) results.summary[cat]++;
-  
-  results.calls.push({
-    id: row.id,
-    direction: row.direction,
-    duration: parseInt(row.duration) || 0,
-    category: cat,
-    sub_category: row.sub_category,
-    caller_intent: row.caller_intent,
-    outcome: row.outcome,
-    summary: row.summary,
-    confidence: row.confidence,
-    notes: row.notes
-  });
-}
-
 writeFileSync('jan-results.json', JSON.stringify(results, null, 2));
-console.log('Summary:', results.summary);
+console.log('Generated jan-results.json with stats');
+console.log('Stats:', JSON.stringify(stats, null, 2));

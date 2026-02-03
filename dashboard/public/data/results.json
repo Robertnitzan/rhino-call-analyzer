@@ -1,16 +1,25 @@
 {
   "metadata": {
-    "generatedAt": "2026-02-03T20:20:46.532Z",
+    "generatedAt": "2026-02-03T20:28:51.046Z",
     "period": "January 2026",
     "method": "manual_review",
     "totalCalls": 232
   },
-  "summary": {
-    "customer": 27,
-    "spam": 109,
-    "operations": 18,
-    "incomplete": 71,
-    "other_inquiry": 7
+  "stats": {
+    "total": 232,
+    "inbound": 232,
+    "outbound": 0,
+    "inbound_answered": 161,
+    "inbound_unanswered": 71,
+    "inbound_voicemail": 5,
+    "inbound_answered_by_category": {
+      "customer": 27,
+      "spam": 109,
+      "operations": 18,
+      "incomplete": 71,
+      "other_inquiry": 7
+    },
+    "inbound_answered_without_recording": 0
   },
   "calls": [
     {
@@ -19,11 +28,14 @@
       "duration": 40,
       "category": "customer",
       "sub_category": "voicemail_inquiry",
-      "caller_intent": "wants quote for concrete pad in San Lorenzo",
-      "outcome": "left voicemail awaiting callback",
-      "summary": "Customer left voicemail asking about concrete co-pad work",
-      "confidence": "high",
-      "notes": "clear customer inquiry"
+      "answered": true,
+      "voicemail": true,
+      "transcript_preview": "Customer left voicemail asking about concrete co-pad work",
+      "transcript_full": "Customer left voicemail asking about concrete co-pad work",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b8f44c8bb75b39535b1cdadc5dcc0",
@@ -31,11 +43,14 @@
       "duration": 234,
       "category": "operations",
       "sub_category": "crew_coordination",
-      "caller_intent": "coordinate job site inspection for roof leaks",
-      "outcome": "arranged to check Lido property at 12-1pm",
-      "summary": "Internal crew call - discussing group chat and Shy sent photos of leaks",
-      "confidence": "high",
-      "notes": "clearly internal"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Internal crew call - discussing group chat and Shy sent photos of leaks",
+      "transcript_full": "Internal crew call - discussing group chat and Shy sent photos of leaks",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b8f4582047831b909c013f919520d",
@@ -43,11 +58,14 @@
       "duration": 17,
       "category": "spam",
       "sub_category": "robocall_scam",
-      "caller_intent": "scam call",
-      "outcome": "hung up quickly",
-      "summary": "Robocall about Honors account points - scam",
-      "confidence": "high",
-      "notes": "obvious spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Robocall about Honors account points - scam",
+      "transcript_full": "Robocall about Honors account points - scam",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b8f6679f470b4bf27b13318a32390",
@@ -55,11 +73,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "sell SEO services",
-      "outcome": "short call",
-      "summary": "Google listing spam - showing up on searches",
-      "confidence": "high",
-      "notes": "obvious spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google listing spam - showing up on searches",
+      "transcript_full": "Google listing spam - showing up on searches",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b8f73a0f27ab8be2384cbfb9729c8",
@@ -67,11 +88,14 @@
       "duration": 85,
       "category": "other_inquiry",
       "sub_category": "sign_inquiry",
-      "caller_intent": "asking about sign on abandoned property",
-      "outcome": "explained owner stopped work",
-      "summary": "Curious person asking why Rhino sign is on property not being worked on",
-      "confidence": "high",
-      "notes": "not a customer - just curious"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Curious person asking why Rhino sign is on property not being worked on",
+      "transcript_full": "Curious person asking why Rhino sign is on property not being worked on",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b8fdc5b9d7db490c0c7b1a350f609",
@@ -79,11 +103,14 @@
       "duration": 61,
       "category": "other_inquiry",
       "sub_category": "out_of_area",
-      "caller_intent": "wants foundation work in Forestville",
-      "outcome": "declined - outside service area",
-      "summary": "Customer wanted foundation but in Santa Rosa area - out of service area",
-      "confidence": "high",
-      "notes": "legitimate inquiry but cant help"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer wanted foundation but in Santa Rosa area - out of service area",
+      "transcript_full": "Customer wanted foundation but in Santa Rosa area - out of service area",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b8fe602777dcea0de73add5d6a7fb",
@@ -91,11 +118,14 @@
       "duration": 82,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell ink and toner",
-      "outcome": "declined - work from home",
-      "summary": "Quality Imaging trying to sell printer supplies",
-      "confidence": "high",
-      "notes": "b2b telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Quality Imaging trying to sell printer supplies",
+      "transcript_full": "Quality Imaging trying to sell printer supplies",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9015d2467457aee83f35233ce8cb",
@@ -103,11 +133,14 @@
       "duration": 65,
       "category": "spam",
       "sub_category": "yelp_sales",
-      "caller_intent": "sell Yelp advertising",
-      "outcome": "left voicemail",
-      "summary": "Yelp sales rep pushing advertising package",
-      "confidence": "high",
-      "notes": "sales call"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Yelp sales rep pushing advertising package",
+      "transcript_full": "Yelp sales rep pushing advertising package",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9060877176e99bb0426c04c3b545",
@@ -115,11 +148,14 @@
       "duration": 202,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "process Home Depot material purchase",
-      "outcome": "completed $1866.24 purchase",
-      "summary": "Home Depot phone sale - buying materials with credit card",
-      "confidence": "high",
-      "notes": "vendor transaction"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Home Depot phone sale - buying materials with credit card",
+      "transcript_full": "Home Depot phone sale - buying materials with credit card",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9441e9207846afd059ab6deb13de",
@@ -127,11 +163,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "lead generation",
-      "outcome": "no answer/hung up",
-      "summary": "Robocall spam - Press one to connect repeated",
-      "confidence": "high",
-      "notes": "obvious robocall"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Robocall spam - Press one to connect repeated",
+      "transcript_full": "Robocall spam - Press one to connect repeated",
+      "start_time": "2026-01-01T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9468ffdf70c69e0888521b0bf695",
@@ -139,11 +178,14 @@
       "duration": 75,
       "category": "customer",
       "sub_category": "voicemail_inquiry",
-      "caller_intent": "drainage pipe blockage in backyard",
-      "outcome": "left voicemail awaiting callback",
-      "summary": "Customer Mahendra asking about drainage issue - clear service request",
-      "confidence": "high",
-      "notes": "clear customer"
+      "answered": true,
+      "voicemail": true,
+      "transcript_preview": "Customer Mahendra asking about drainage issue - clear service request",
+      "transcript_full": "Customer Mahendra asking about drainage issue - clear service request",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b947a60a67890a65abe4198fbf9a3",
@@ -151,11 +193,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "lead generation spam",
-      "outcome": "no answer",
-      "summary": "Same Press 1 to connect robocall",
-      "confidence": "high",
-      "notes": "duplicate spam call"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same Press 1 to connect robocall",
+      "transcript_full": "Same Press 1 to connect robocall",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b949d723a70cb9033e38f58e4de67",
@@ -163,11 +208,14 @@
       "duration": 69,
       "category": "customer",
       "sub_category": "voicemail_inquiry",
-      "caller_intent": "concrete balcony floor repair in Dublin",
-      "outcome": "left voicemail awaiting callback",
-      "summary": "Customer Sami asking about balcony concrete repair",
-      "confidence": "high",
-      "notes": "clear customer inquiry"
+      "answered": true,
+      "voicemail": true,
+      "transcript_preview": "Customer Sami asking about balcony concrete repair",
+      "transcript_full": "Customer Sami asking about balcony concrete repair",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b94b313857acaba0609ea77cdfe8b",
@@ -175,11 +223,14 @@
       "duration": 55,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "lead generation spam",
-      "outcome": "no answer",
-      "summary": "Press 1/2 robocall spam",
-      "confidence": "high",
-      "notes": "obvious robocall"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1/2 robocall spam",
+      "transcript_full": "Press 1/2 robocall spam",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b94f5b4097b3ab24210ab208bbbcc",
@@ -187,11 +238,14 @@
       "duration": 12,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "avoid suspension - Google listing scam",
-      "outcome": "short call",
-      "summary": "Partial transcript - typical Google listing spam",
-      "confidence": "medium",
-      "notes": "partial transcript"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Partial transcript - typical Google listing spam",
+      "transcript_full": "Partial transcript - typical Google listing spam",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9514913975c5852d9d6cb88856ad",
@@ -199,11 +253,14 @@
       "duration": 14,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "very short greeting only",
-      "summary": "Just hello good morning - no content",
-      "confidence": "high",
-      "notes": "too short to classify"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Just hello good morning - no content",
+      "transcript_full": "Just hello good morning - no content",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9554483c7fbb9e56a5a1bba95901",
@@ -211,11 +268,14 @@
       "duration": 17,
       "category": "spam",
       "sub_category": "merchant_services",
-      "caller_intent": "sell payment processing",
-      "outcome": "short call",
-      "summary": "Gideon with merchant service center - B2B spam",
-      "confidence": "high",
-      "notes": "telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Gideon with merchant service center - B2B spam",
+      "transcript_full": "Gideon with merchant service center - B2B spam",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9933cc5879f58d1db93f050d89b2",
@@ -223,11 +283,14 @@
       "duration": 45,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "authorized representative scam",
-      "outcome": "voicemail",
-      "summary": "Robocall with press 4 and opt out option",
-      "confidence": "high",
-      "notes": "obvious scam robocall"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Robocall with press 4 and opt out option",
+      "transcript_full": "Robocall with press 4 and opt out option",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b996b0d827bed9db84a6f54efe818",
@@ -235,11 +298,14 @@
       "duration": 908,
       "category": "operations",
       "sub_category": "vendor_service",
-      "caller_intent": "blueprint printing services",
-      "outcome": "prints being made for pickup",
-      "summary": "Long conversation with Jamie at print shop about blueprint printing - mentions Shy",
-      "confidence": "high",
-      "notes": "vendor relationship - very long personal chat"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Long conversation with Jamie at print shop about blueprint printing - mentions Shy",
+      "transcript_full": "Long conversation with Jamie at print shop about blueprint printing - mentions Shy",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b999214647c6eb1ba3071f05162bc",
@@ -247,11 +313,14 @@
       "duration": 366,
       "category": "customer",
       "sub_category": "estimate_scheduled",
-      "caller_intent": "concrete driveway reslabbing in Martinez",
-      "outcome": "appointment scheduled for 12:30pm same day",
-      "summary": "David from Martinez scheduled estimate for driveway work - great lead!",
-      "confidence": "high",
-      "notes": "converted to appointment"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "David from Martinez scheduled estimate for driveway work - great lead!",
+      "transcript_full": "David from Martinez scheduled estimate for driveway work - great lead!",
+      "start_time": "2026-01-02T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b999c10df70fbbcb4d79e63f52f57ee",
@@ -259,11 +328,14 @@
       "duration": 280,
       "category": "customer",
       "sub_category": "commercial_inquiry",
-      "caller_intent": "prevailing wage sidewalk replacement in Oakland",
-      "outcome": "discussed job details - has permits",
-      "summary": "Lisa calling about 25ft sidewalk job - commercial prevailing wage work",
-      "confidence": "high",
-      "notes": "legitimate commercial inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Lisa calling about 25ft sidewalk job - commercial prevailing wage work",
+      "transcript_full": "Lisa calling about 25ft sidewalk job - commercial prevailing wage work",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b99b6a8857c7b9d2a59817bce9a148",
@@ -271,11 +343,14 @@
       "duration": 11,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice listing scam",
-      "outcome": "short call",
-      "summary": "Google Voice clients having trouble finding you - spam",
-      "confidence": "high",
-      "notes": "obvious spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google Voice clients having trouble finding you - spam",
+      "transcript_full": "Google Voice clients having trouble finding you - spam",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b99bae85d76e1b5d27b3d4126b8391",
@@ -283,11 +358,14 @@
       "duration": 15,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Just hello good morning - no content",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Just hello good morning - no content",
+      "transcript_full": "Just hello good morning - no content",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b99c9e8f17cf5b99b1a7311d7c240a",
@@ -295,11 +373,14 @@
       "duration": 14,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google finding you spam",
-      "outcome": "short call",
-      "summary": "Finding you Press hello - Google spam fragment",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Finding you Press hello - Google spam fragment",
+      "transcript_full": "Finding you Press hello - Google spam fragment",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9a4b11fe7dbea2f0feb559eba7b39",
@@ -307,11 +388,14 @@
       "duration": 57,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell estimation services",
-      "outcome": "declined - have in-house team",
-      "summary": "Ace calling about estimation work - B2B sales call",
-      "confidence": "high",
-      "notes": "solicitation"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Ace calling about estimation work - B2B sales call",
+      "transcript_full": "Ace calling about estimation work - B2B sales call",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9a6d3c1e756080a58fc9507ed19c8",
@@ -319,11 +403,14 @@
       "duration": 14,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "avoid suspension scam",
-      "outcome": "short call",
-      "summary": "Suspension or verification issues - Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Suspension or verification issues - Google spam",
+      "transcript_full": "Suspension or verification issues - Google spam",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9a6eddf37ea8bf3b2cdee249256fd",
@@ -331,11 +418,14 @@
       "duration": 14,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Just hello good afternoon",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Just hello good afternoon",
+      "transcript_full": "Just hello good afternoon",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9a7ec5aa7c359ac9bf1c5f668bda7",
@@ -343,11 +433,14 @@
       "duration": 44,
       "category": "spam",
       "sub_category": "cold_call",
-      "caller_intent": "unknown B2B pitch",
-      "outcome": "declined immediately",
-      "summary": "Ricky admits its a cold call - honest at least!",
-      "confidence": "high",
-      "notes": "at least he was upfront"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Ricky admits its a cold call - honest at least!",
+      "transcript_full": "Ricky admits its a cold call - honest at least!",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9a8c04ae77e6ab3bdc5bc485d6615",
@@ -355,11 +448,14 @@
       "duration": 19,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "fragment only",
-      "summary": "Delay is actually made - incomplete fragment",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Delay is actually made - incomplete fragment",
+      "transcript_full": "Delay is actually made - incomplete fragment",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9a95dab379f78ca18bb73faeafd57",
@@ -367,11 +463,14 @@
       "duration": 35,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "authorized representative scam",
-      "outcome": "voicemail",
-      "summary": "Press 4 to address / opt out - robocall",
-      "confidence": "high",
-      "notes": "obvious robocall"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 4 to address / opt out - robocall",
+      "transcript_full": "Press 4 to address / opt out - robocall",
+      "start_time": "2026-01-03T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9ac55bed7c99a25aca03beb67c393",
@@ -379,11 +478,14 @@
       "duration": 44,
       "category": "customer",
       "sub_category": "voicemail_inquiry",
-      "caller_intent": "basement water leak from retaining wall in Hayward",
-      "outcome": "left voicemail",
-      "summary": "Lorena asking about water leak - left callback number",
-      "confidence": "high",
-      "notes": "clear customer"
+      "answered": true,
+      "voicemail": true,
+      "transcript_preview": "Lorena asking about water leak - left callback number",
+      "transcript_full": "Lorena asking about water leak - left callback number",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9b2ddb0c7cb8bc83e6d6bdbc2ce50",
@@ -391,11 +493,14 @@
       "duration": 42,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "voicemail",
-      "summary": "Google not showing correctly spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google not showing correctly spam",
+      "transcript_full": "Google not showing correctly spam",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9b4e5c077bcc81fde7acd74298538",
@@ -403,11 +508,14 @@
       "duration": 30,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "opt out scam",
-      "outcome": "voicemail",
-      "summary": "Press 9 to opt out robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 9 to opt out robocall",
+      "transcript_full": "Press 9 to opt out robocall",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9b98f7d17e7fa3e4b4ff5cacdc7af",
@@ -415,11 +523,14 @@
       "duration": 18,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "fragment",
-      "summary": "Hello good morning fragment",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning fragment",
+      "transcript_full": "Hello good morning fragment",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9bb09e9b7dc38b36b2c3f7653616f",
@@ -427,11 +538,14 @@
       "duration": 39,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell estimation services",
-      "outcome": "declined",
-      "summary": "Arthur Wade from Bidding Enterprise - B2B sales",
-      "confidence": "high",
-      "notes": "telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Arthur Wade from Bidding Enterprise - B2B sales",
+      "transcript_full": "Arthur Wade from Bidding Enterprise - B2B sales",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9bbb3cf37019b1e2e96c103332d21",
@@ -439,11 +553,14 @@
       "duration": 59,
       "category": "spam",
       "sub_category": "workshop_sales",
-      "caller_intent": "sell business workshop",
-      "outcome": "will email",
-      "summary": "Stephanie from Aspire Institute selling workshop",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Stephanie from Aspire Institute selling workshop",
+      "transcript_full": "Stephanie from Aspire Institute selling workshop",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9bdb3ea3700dbfb12a65fcb9b3c8b",
@@ -451,11 +568,14 @@
       "duration": 9,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "fragment",
-      "summary": "Flagged for review - incomplete",
-      "confidence": "high",
-      "notes": "fragment"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Flagged for review - incomplete",
+      "transcript_full": "Flagged for review - incomplete",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9bf23b3d73e490e2e0145b7b8b13",
@@ -463,11 +583,14 @@
       "duration": 45,
       "category": "spam",
       "sub_category": "survey",
-      "caller_intent": "PG&E appliance survey",
-      "outcome": "declined",
-      "summary": "Todd Michaels PG&E survey - unsolicited research",
-      "confidence": "medium",
-      "notes": "not sales but unsolicited"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Todd Michaels PG&E survey - unsolicited research",
+      "transcript_full": "Todd Michaels PG&E survey - unsolicited research",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9c2cfe8c706090adc5d84dcb70a2",
@@ -475,11 +598,14 @@
       "duration": 35,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "authorized rep scam",
-      "outcome": "voicemail",
-      "summary": "Press 4 robocall spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 4 robocall spam",
+      "transcript_full": "Press 4 robocall spam",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9c2e1a7172c9ace0e4e656d2a41e5",
@@ -487,11 +613,14 @@
       "duration": 14,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "suspension scam",
-      "outcome": "short call",
-      "summary": "Google listing suspension spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google listing suspension spam",
+      "transcript_full": "Google listing suspension spam",
+      "start_time": "2026-01-04T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9c4f178f7999b42b3aebf9b721257",
@@ -499,11 +628,14 @@
       "duration": 10,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "authorized rep scam",
-      "outcome": "short call",
-      "summary": "Press 1 to speak to authorized rep",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 to speak to authorized rep",
+      "transcript_full": "Press 1 to speak to authorized rep",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9c5ea79f78a1af5b8bfaebf107afd",
@@ -511,11 +643,14 @@
       "duration": 32,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "voicemail",
-      "summary": "Same Google Voice not showing spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same Google Voice not showing spam",
+      "transcript_full": "Same Google Voice not showing spam",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9c9a96ae7aeca8fb4b8a8f6e14048",
@@ -523,11 +658,14 @@
       "duration": 43,
       "category": "incomplete",
       "sub_category": "wrong_number",
-      "caller_intent": "phone sale attempt",
-      "outcome": "wrong number - hung up",
-      "summary": "Lowes Vallejo called wrong number for phone sale",
-      "confidence": "medium",
-      "notes": "wrong number"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Lowes Vallejo called wrong number for phone sale",
+      "transcript_full": "Lowes Vallejo called wrong number for phone sale",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9c9ded22730cad7a7abf22c78646f",
@@ -535,11 +673,14 @@
       "duration": 378,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "deck mud purchase from Lowes",
-      "outcome": "processing order",
-      "summary": "Lowes phone sale for 8 bags deck mud for Victor at Kickballs job",
-      "confidence": "high",
-      "notes": "material purchase"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Lowes phone sale for 8 bags deck mud for Victor at Kickballs job",
+      "transcript_full": "Lowes phone sale for 8 bags deck mud for Victor at Kickballs job",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9cc2d63d710c8d4cbe64c86a2ccd2",
@@ -547,11 +688,14 @@
       "duration": 66,
       "category": "customer",
       "sub_category": "commercial_inquiry",
-      "caller_intent": "saw cutting in cinder block walls",
-      "outcome": "discussing project",
-      "summary": "Commercial construction project needs saw cutting in cinder blocks",
-      "confidence": "high",
-      "notes": "commercial inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Commercial construction project needs saw cutting in cinder blocks",
+      "transcript_full": "Commercial construction project needs saw cutting in cinder blocks",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9d08b5d87aac914ef84b8661a1673",
@@ -559,11 +703,14 @@
       "duration": 194,
       "category": "operations",
       "sub_category": "internal_hebrew",
-      "caller_intent": "internal discussion in Hebrew",
-      "outcome": "discussing jobs and estimates",
-      "summary": "Hebrew conversation with Shy about production board and estimates",
-      "confidence": "high",
-      "notes": "internal - Hebrew"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Hebrew conversation with Shy about production board and estimates",
+      "transcript_full": "Hebrew conversation with Shy about production board and estimates",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9d15c9f7744cbe464b413d4da75de",
@@ -571,11 +718,14 @@
       "duration": 25,
       "category": "spam",
       "sub_category": "workshop_sales",
-      "caller_intent": "sell business workshop",
-      "outcome": "declined immediately",
-      "summary": "Stephanie from Aspire Institute again - same spam",
-      "confidence": "high",
-      "notes": "repeat caller"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Stephanie from Aspire Institute again - same spam",
+      "transcript_full": "Stephanie from Aspire Institute again - same spam",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9d38a51d7cec859ca7a22ec9ce2a1",
@@ -583,11 +733,14 @@
       "duration": 16,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Just hello good afternoon",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Just hello good afternoon",
+      "transcript_full": "Just hello good afternoon",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9d3cb11e730e86ad91b61b80a7f15",
@@ -595,11 +748,14 @@
       "duration": 35,
       "category": "operations",
       "sub_category": "payment_issue",
-      "caller_intent": "Floor and Decor payment",
-      "outcome": "troubleshooting Amex issue",
-      "summary": "Internal call about American Express not working at Floor and Decor",
-      "confidence": "high",
-      "notes": "internal payment issue"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Internal call about American Express not working at Floor and Decor",
+      "transcript_full": "Internal call about American Express not working at Floor and Decor",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9d90c03170779d5e21c10d8e2eee2",
@@ -607,11 +763,14 @@
       "duration": 45,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell GSA contracts",
-      "outcome": "left voicemail",
-      "summary": "Kathleen from Capital Registration Group selling GSA contracts",
-      "confidence": "high",
-      "notes": "B2B telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Kathleen from Capital Registration Group selling GSA contracts",
+      "transcript_full": "Kathleen from Capital Registration Group selling GSA contracts",
+      "start_time": "2026-01-05T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9dd7ae317ad79f6f05f96f1b4ce50",
@@ -619,11 +778,14 @@
       "duration": 37,
       "category": "operations",
       "sub_category": "insurance_appointment",
-      "caller_intent": "insurance fund appointment",
-      "outcome": "at front of office",
-      "summary": "Vicki from State Compensation Insurance Fund has appointment",
-      "confidence": "high",
-      "notes": "vendor/insurance"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Vicki from State Compensation Insurance Fund has appointment",
+      "transcript_full": "Vicki from State Compensation Insurance Fund has appointment",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9ddf8e0b7a2b9c84c5a968e547895",
@@ -631,11 +793,14 @@
       "duration": 77,
       "category": "spam",
       "sub_category": "b2b_prospecting",
-      "caller_intent": "sell lumber services",
-      "outcome": "visiting job site",
-      "summary": "Rick from Big Creek Lumber prospecting at job site",
-      "confidence": "medium",
-      "notes": "cold sales visit"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Rick from Big Creek Lumber prospecting at job site",
+      "transcript_full": "Rick from Big Creek Lumber prospecting at job site",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9e34fe097f758e8d72d1f06b3a8cb",
@@ -643,11 +808,14 @@
       "duration": 117,
       "category": "customer",
       "sub_category": "permit_inquiry",
-      "caller_intent": "need A-class contractor for encroachment permit",
-      "outcome": "discussing requirements",
-      "summary": "Damian from Diabolical Excavation needs permit help - referral",
-      "confidence": "high",
-      "notes": "legitimate inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Damian from Diabolical Excavation needs permit help - referral",
+      "transcript_full": "Damian from Diabolical Excavation needs permit help - referral",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9e6bb8037379b96c54a52febe5cc0",
@@ -655,11 +823,14 @@
       "duration": 187,
       "category": "customer",
       "sub_category": "adu_estimate",
-      "caller_intent": "detached ADU estimate in San Jose",
-      "outcome": "scheduling estimate",
-      "summary": "Customer with 3/4 acre wants second ADU behind property",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer with 3/4 acre wants second ADU behind property",
+      "transcript_full": "Customer with 3/4 acre wants second ADU behind property",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9eb21c1a7fb0a4c1b7fa6521bea4d",
@@ -667,11 +838,14 @@
       "duration": 15,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "verify listing scam",
-      "outcome": "short call",
-      "summary": "Google listing spam fragment",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google listing spam fragment",
+      "transcript_full": "Google listing spam fragment",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9eb7c2b7703ba88a08dcf281237c6",
@@ -679,11 +853,14 @@
       "duration": 170,
       "category": "operations",
       "sub_category": "accounting_1099",
-      "caller_intent": "1099 tax forms discussion",
-      "outcome": "handling internally",
-      "summary": "Sarkis and Vivian discussing 1099s - will do own",
-      "confidence": "high",
-      "notes": "internal accounting"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Sarkis and Vivian discussing 1099s - will do own",
+      "transcript_full": "Sarkis and Vivian discussing 1099s - will do own",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9eb82d147fbea1b2f3906fb4a6af3",
@@ -691,11 +868,14 @@
       "duration": 24,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello how are you - no content",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello how are you - no content",
+      "transcript_full": "Hello how are you - no content",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9f4f0b9f7b42bd7f9c64bf2ec5d58",
@@ -703,11 +883,14 @@
       "duration": 67,
       "category": "spam",
       "sub_category": "b2b_prospecting",
-      "caller_intent": "get on bid list",
-      "outcome": "will send email",
-      "summary": "Morgan from Cali Roland Electric wanting bid list spot",
-      "confidence": "medium",
-      "notes": "vendor prospecting"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Morgan from Cali Roland Electric wanting bid list spot",
+      "transcript_full": "Morgan from Cali Roland Electric wanting bid list spot",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9f90a05b77e8ba86e6a2ccd7c0e6d",
@@ -715,11 +898,14 @@
       "duration": 57,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell engineering services",
-      "outcome": "left voicemail",
-      "summary": "Eisha from PRV Engineers selling MEP services",
-      "confidence": "high",
-      "notes": "B2B telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Eisha from PRV Engineers selling MEP services",
+      "transcript_full": "Eisha from PRV Engineers selling MEP services",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9fc1ac0673a5a4b44da60a8d6ae8d",
@@ -727,11 +913,14 @@
       "duration": 55,
       "category": "operations",
       "sub_category": "internal_pricing",
-      "caller_intent": "discussing A license pricing",
-      "outcome": "comparing quotes",
-      "summary": "Internal call about permit pricing - 13k vs 35k options",
-      "confidence": "high",
-      "notes": "internal discussion"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Internal call about permit pricing - 13k vs 35k options",
+      "transcript_full": "Internal call about permit pricing - 13k vs 35k options",
+      "start_time": "2026-01-06T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9fde0a2f7c41b88d8b5bb968d54b6",
@@ -739,11 +928,14 @@
       "duration": 19,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning - no content",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning - no content",
+      "transcript_full": "Hello good morning - no content",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9fe49bda7f8398618bf0fccef4f85",
@@ -751,11 +943,14 @@
       "duration": 37,
       "category": "spam",
       "sub_category": "merchant_services",
-      "caller_intent": "sell merchant account credits",
-      "outcome": "declined",
-      "summary": "Asking for ex-employee about merchant credits",
-      "confidence": "high",
-      "notes": "telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Asking for ex-employee about merchant credits",
+      "transcript_full": "Asking for ex-employee about merchant credits",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019b9feaaca67dc6a3dc933f426100227",
@@ -763,11 +958,14 @@
       "duration": 9,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google searches scam",
-      "outcome": "short call",
-      "summary": "Google searches fragment",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google searches fragment",
+      "transcript_full": "Google searches fragment",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba007f3057f28a14d6dfd62f7b1eb2",
@@ -775,11 +973,14 @@
       "duration": 50,
       "category": "spam",
       "sub_category": "b2b_prospecting",
-      "caller_intent": "business proposal for remodeling",
-      "outcome": "declined - not homeowner",
-      "summary": "Frank with kitchen remodeling business proposal",
-      "confidence": "high",
-      "notes": "B2B cold call"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Frank with kitchen remodeling business proposal",
+      "transcript_full": "Frank with kitchen remodeling business proposal",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba03f6ec97f5f8a338a6dda2779a1c",
@@ -787,11 +988,14 @@
       "duration": 34,
       "category": "spam",
       "sub_category": "b2b_prospecting",
-      "caller_intent": "business proposal for remodeling",
-      "outcome": "declined",
-      "summary": "Same Frank calling back - business proposal",
-      "confidence": "high",
-      "notes": "repeat spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same Frank calling back - business proposal",
+      "transcript_full": "Same Frank calling back - business proposal",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba0582e6a7d11b3a71c57cefe611a0",
@@ -799,11 +1003,14 @@
       "duration": 335,
       "category": "customer",
       "sub_category": "quote_followup",
-      "caller_intent": "cable railing quote request response",
-      "outcome": "gathering info for quote",
-      "summary": "Andrea from Viewrail following up on Sheas quote request",
-      "confidence": "high",
-      "notes": "vendor response to inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Andrea from Viewrail following up on Sheas quote request",
+      "transcript_full": "Andrea from Viewrail following up on Sheas quote request",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba21e8c1c7e0cae469f5e02e9993a5",
@@ -811,11 +1018,14 @@
       "duration": 19,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Daniel greeting - no content",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Daniel greeting - no content",
+      "transcript_full": "Daniel greeting - no content",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba2233fc87d5bbcddce2c7f67b9452",
@@ -823,11 +1033,14 @@
       "duration": 16,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Daniel greeting - no content",
-      "confidence": "high",
-      "notes": "same caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Daniel greeting - no content",
+      "transcript_full": "Daniel greeting - no content",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba248f00a77559c5b51cdab832f3dfb",
@@ -835,11 +1048,14 @@
       "duration": 112,
       "category": "customer",
       "sub_category": "subcontractor_inquiry",
-      "caller_intent": "underground conduit at Lido project",
-      "outcome": "will send quote",
-      "summary": "Tyler from Plant Hazardous Services - referral from Oscar about PGE work",
-      "confidence": "high",
-      "notes": "legitimate subcontractor inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Tyler from Plant Hazardous Services - referral from Oscar about PGE work",
+      "transcript_full": "Tyler from Plant Hazardous Services - referral from Oscar about PGE work",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba2fd7e32741d91f9420b5e5fa74cb",
@@ -847,11 +1063,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "lead gen robocall",
-      "outcome": "voicemail",
-      "summary": "Press 1 to connect robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 to connect robocall",
+      "transcript_full": "Press 1 to connect robocall",
+      "start_time": "2026-01-07T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba30ee0e67f11b3c69a35d6055c9c1",
@@ -859,11 +1078,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "lead gen robocall",
-      "outcome": "voicemail",
-      "summary": "Same robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same robocall",
+      "transcript_full": "Same robocall",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba31e25607a6683da424d583b0b767",
@@ -871,11 +1093,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "lead gen robocall",
-      "outcome": "voicemail",
-      "summary": "Same robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same robocall",
+      "transcript_full": "Same robocall",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba333b0dc71e59c8f4e34530f34fec",
@@ -883,11 +1108,14 @@
       "duration": 32,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning hello",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning hello",
+      "transcript_full": "Hello good morning hello",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba33b3adb7d7fa3f90a5ef7cb7c3ee",
@@ -895,11 +1123,14 @@
       "duration": 218,
       "category": "customer",
       "sub_category": "adu_estimate",
-      "caller_intent": "garage to ADU conversion in Hayward",
-      "outcome": "scheduling estimate",
-      "summary": "Juan wants to convert 2-car garage to ADU - scheduled",
-      "confidence": "high",
-      "notes": "good lead - scheduled"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Juan wants to convert 2-car garage to ADU - scheduled",
+      "transcript_full": "Juan wants to convert 2-car garage to ADU - scheduled",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba41a08c974eba5dca9b18f9bfc48e",
@@ -907,11 +1138,14 @@
       "duration": 86,
       "category": "spam",
       "sub_category": "review_services",
-      "caller_intent": "sell review collection services",
-      "outcome": "politely declined",
-      "summary": "Sam selling review service - noticed low reviews",
-      "confidence": "high",
-      "notes": "marketing spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Sam selling review service - noticed low reviews",
+      "transcript_full": "Sam selling review service - noticed low reviews",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba4212bd97a058a2012af11ac9e67a",
@@ -919,11 +1153,14 @@
       "duration": 216,
       "category": "other_inquiry",
       "sub_category": "not_our_service",
-      "caller_intent": "siding and windows project inquiry",
-      "outcome": "explained we dont do windows",
-      "summary": "GC looking for siding/windows - not our specialty",
-      "confidence": "high",
-      "notes": "cant help - different service"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "GC looking for siding/windows - not our specialty",
+      "transcript_full": "GC looking for siding/windows - not our specialty",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba43c8bde766aabe9ef0bf0cd6e9aa",
@@ -931,11 +1168,14 @@
       "duration": 146,
       "category": "other_inquiry",
       "sub_category": "historical_permit",
-      "caller_intent": "permit closure help from 2018",
-      "outcome": "trying to help locate info",
-      "summary": "Mike Brown needs help with 2018 permit not closed out",
-      "confidence": "high",
-      "notes": "historical issue - trying to help"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Mike Brown needs help with 2018 permit not closed out",
+      "transcript_full": "Mike Brown needs help with 2018 permit not closed out",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba5b1a9f779fba5ed81c4aad73e83d",
@@ -943,11 +1183,14 @@
       "duration": 81,
       "category": "spam",
       "sub_category": "m_and_a_services",
-      "caller_intent": "sell M&A advisory services",
-      "outcome": "voicemail",
-      "summary": "Mark Griffin from Sperry Griffin - business broker spam",
-      "confidence": "high",
-      "notes": "B2B financial spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Mark Griffin from Sperry Griffin - business broker spam",
+      "transcript_full": "Mark Griffin from Sperry Griffin - business broker spam",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba5dc27a57afc977a3d5f47281a142",
@@ -955,11 +1198,14 @@
       "duration": 82,
       "category": "spam",
       "sub_category": "m_and_a_services",
-      "caller_intent": "sell M&A advisory services",
-      "outcome": "voicemail",
-      "summary": "Same Mark Griffin call",
-      "confidence": "high",
-      "notes": "repeat spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same Mark Griffin call",
+      "transcript_full": "Same Mark Griffin call",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba5eb3b9d7dd3bd44e0c61b55fe082",
@@ -967,11 +1213,14 @@
       "duration": 81,
       "category": "spam",
       "sub_category": "m_and_a_services",
-      "caller_intent": "sell M&A advisory services",
-      "outcome": "voicemail",
-      "summary": "Same Mark Griffin call",
-      "confidence": "high",
-      "notes": "repeat spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same Mark Griffin call",
+      "transcript_full": "Same Mark Griffin call",
+      "start_time": "2026-01-08T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba6006b56748ca94dc85be546c3f26",
@@ -979,11 +1228,14 @@
       "duration": 33,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "voicemail",
-      "summary": "Press 1 spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 spam",
+      "transcript_full": "Press 1 spam",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba617f5c17e0396e8f86a574d158c5",
@@ -991,11 +1243,14 @@
       "duration": 35,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "authorized rep scam",
-      "outcome": "voicemail",
-      "summary": "Press 4 robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 4 robocall",
+      "transcript_full": "Press 4 robocall",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba618acf1702f81d12ae352b2276de",
@@ -1003,11 +1258,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google scam fragment",
-      "outcome": "short call",
-      "summary": "Searches if hello - spam fragment",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Searches if hello - spam fragment",
+      "transcript_full": "Searches if hello - spam fragment",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba63ac2b877a5ac2a8cb2675d5022f",
@@ -1015,11 +1273,14 @@
       "duration": 24,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning hello",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning hello",
+      "transcript_full": "Hello good morning hello",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba6569e3a74eba6f7b71a72b9d36db",
@@ -1027,11 +1288,14 @@
       "duration": 35,
       "category": "spam",
       "sub_category": "review_services",
-      "caller_intent": "sell review services",
-      "outcome": "cut off",
-      "summary": "Lewis from Nice Job selling reviews",
-      "confidence": "high",
-      "notes": "same as #75"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Lewis from Nice Job selling reviews",
+      "transcript_full": "Lewis from Nice Job selling reviews",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba6e81ea57d339dc0a87162b48ade7",
@@ -1039,11 +1303,14 @@
       "duration": 18,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning",
+      "transcript_full": "Hello good morning",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba70db2f47b989f2f8fbfc4e693874",
@@ -1051,11 +1318,14 @@
       "duration": 38,
       "category": "other_inquiry",
       "sub_category": "not_our_service",
-      "caller_intent": "drainage cleaning inquiry",
-      "outcome": "we only install",
-      "summary": "Asked about drainage cleaning - we dont do that",
-      "confidence": "high",
-      "notes": "different service"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Asked about drainage cleaning - we dont do that",
+      "transcript_full": "Asked about drainage cleaning - we dont do that",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba72d08d17bb8bbdebb31c55b0747b",
@@ -1063,11 +1333,14 @@
       "duration": 60,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell estimation services",
-      "outcome": "left voicemail",
-      "summary": "Simon from Bidwell Estimates - B2B",
-      "confidence": "high",
-      "notes": "telemarketing"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Simon from Bidwell Estimates - B2B",
+      "transcript_full": "Simon from Bidwell Estimates - B2B",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba76f8a5f75cf9bbdec5dfa8519fdf",
@@ -1075,11 +1348,14 @@
       "duration": 111,
       "category": "customer",
       "sub_category": "moisture_barrier",
-      "caller_intent": "moisture issues under house",
-      "outcome": "awaiting assessment",
-      "summary": "Dan Marciel - referral from Chad at Shea Homes for moisture problem",
-      "confidence": "high",
-      "notes": "referral customer"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Dan Marciel - referral from Chad at Shea Homes for moisture problem",
+      "transcript_full": "Dan Marciel - referral from Chad at Shea Homes for moisture problem",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba796c07970f7a1f3b970a003a86e1",
@@ -1087,11 +1363,14 @@
       "duration": 49,
       "category": "incomplete",
       "sub_category": "partial_voicemail",
-      "caller_intent": "unknown",
-      "outcome": "name and number only",
-      "summary": "Diane Galliani left number only",
-      "confidence": "medium",
-      "notes": "partial"
+      "answered": false,
+      "voicemail": true,
+      "transcript_preview": "Diane Galliani left number only",
+      "transcript_full": "Diane Galliani left number only",
+      "start_time": "2026-01-09T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba7e6ace279ed95a8daafc83265d37",
@@ -1099,11 +1378,14 @@
       "duration": 52,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "bidding project inquiry",
-      "outcome": "declined - busy",
-      "summary": "Jo asking about bidding - B2B prospecting",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Jo asking about bidding - B2B prospecting",
+      "transcript_full": "Jo asking about bidding - B2B prospecting",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba7eecd5d79f08f1b3cd84fbb1df60",
@@ -1111,11 +1393,14 @@
       "duration": 56,
       "category": "customer",
       "sub_category": "appointment_check",
-      "caller_intent": "checking on crew arrival",
-      "outcome": "called back to confirm",
-      "summary": "Juan checking if crew arrived for 10am appointment",
-      "confidence": "high",
-      "notes": "existing customer"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Juan checking if crew arrived for 10am appointment",
+      "transcript_full": "Juan checking if crew arrived for 10am appointment",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba7f9dcdb75e18cda0e1c706a62ede",
@@ -1123,11 +1408,14 @@
       "duration": 29,
       "category": "incomplete",
       "sub_category": "wrong_number",
-      "caller_intent": "looking for Muhammad",
-      "outcome": "wrong number",
-      "summary": "Riley Shah wrong number",
-      "confidence": "high",
-      "notes": "wrong number"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Riley Shah wrong number",
+      "transcript_full": "Riley Shah wrong number",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba81c75b87e6c892da3a9511d474e6",
@@ -1135,11 +1423,14 @@
       "duration": 38,
       "category": "incomplete",
       "sub_category": "test_call",
-      "caller_intent": "test call",
-      "outcome": "testing",
-      "summary": "Test call from system",
-      "confidence": "high",
-      "notes": "test"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Test call from system",
+      "transcript_full": "Test call from system",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8316ff07afea3c29a1caf2faf957",
@@ -1147,11 +1438,14 @@
       "duration": 34,
       "category": "incomplete",
       "sub_category": "test_call",
-      "caller_intent": "test call",
-      "outcome": "testing",
-      "summary": "Test call",
-      "confidence": "high",
-      "notes": "test"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Test call",
+      "transcript_full": "Test call",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba87d1aa47249930b0f7abc807be5d",
@@ -1159,11 +1453,14 @@
       "duration": 55,
       "category": "customer",
       "sub_category": "estimate_followup",
-      "caller_intent": "following up on estimate 1359",
-      "outcome": "reviewing estimate",
-      "summary": "Sarah from Diablo Excavation about Lido Circle estimate",
-      "confidence": "high",
-      "notes": "existing lead followup"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Sarah from Diablo Excavation about Lido Circle estimate",
+      "transcript_full": "Sarah from Diablo Excavation about Lido Circle estimate",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8c9e137765a82fb1e0b9972799c2",
@@ -1171,11 +1468,14 @@
       "duration": 290,
       "category": "customer",
       "sub_category": "siding_estimate",
-      "caller_intent": "siding replacement consultation in SF",
-      "outcome": "scheduled consultation",
-      "summary": "Customer in SF wants siding replacement - scheduled",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer in SF wants siding replacement - scheduled",
+      "transcript_full": "Customer in SF wants siding replacement - scheduled",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8ce6d9c77c28f4ba6d5e6e84eb09",
@@ -1183,11 +1483,14 @@
       "duration": 209,
       "category": "incomplete",
       "sub_category": "test_call",
-      "caller_intent": "test call from Ringcentral",
-      "outcome": "testing",
-      "summary": "Ara from Ringcentral test call",
-      "confidence": "high",
-      "notes": "test"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Ara from Ringcentral test call",
+      "transcript_full": "Ara from Ringcentral test call",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8e41c2177cf92c7f2e0a1bc4064f",
@@ -1195,11 +1498,14 @@
       "duration": 7,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8e5bdf579afa2cdc33f0279f25d7",
@@ -1207,11 +1513,14 @@
       "duration": 17,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-10T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8e70e0c71e2b2f1cfdfc121cef41",
@@ -1219,11 +1528,14 @@
       "duration": 118,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message with name",
-      "outcome": "partial",
-      "summary": "Sam name in system message",
-      "confidence": "high",
-      "notes": "no actual call"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Sam name in system message",
+      "transcript_full": "Sam name in system message",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8e8da78744faaa18aae34e5d1cc4",
@@ -1231,11 +1543,14 @@
       "duration": 18,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8eaf34075fdb5b67b7d04775c8df",
@@ -1243,11 +1558,14 @@
       "duration": 221,
       "category": "customer",
       "sub_category": "engineering_inquiry",
-      "caller_intent": "civil engineer inquiring about services",
-      "outcome": "left voicemail",
-      "summary": "Peter Smith civil engineer in Danville left message",
-      "confidence": "high",
-      "notes": "potential customer"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Peter Smith civil engineer in Danville left message",
+      "transcript_full": "Peter Smith civil engineer in Danville left message",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8edb97277ccbf0b250c13d578ab1",
@@ -1255,11 +1573,14 @@
       "duration": 41,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8f5e1c47e4cb3b1a10b11f4db5a3",
@@ -1267,11 +1588,14 @@
       "duration": 16,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "closed message",
-      "outcome": "no voicemail",
-      "summary": "System closed message - no VM left",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System closed message - no VM left",
+      "transcript_full": "System closed message - no VM left",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8f62ec9714f96da2ca6a4b4d098c",
@@ -1279,11 +1603,14 @@
       "duration": 13,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "closed message",
-      "outcome": "no voicemail",
-      "summary": "System closed message - no VM left",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System closed message - no VM left",
+      "transcript_full": "System closed message - no VM left",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba8f6f8f17a279826f0d628d642f3b",
@@ -1291,11 +1618,14 @@
       "duration": 12,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "voicemail prompt",
-      "outcome": "no message left",
-      "summary": "VM prompt - no message left",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "VM prompt - no message left",
+      "transcript_full": "VM prompt - no message left",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba917cf567e8e88d53a0d0b9edc787",
@@ -1303,11 +1633,14 @@
       "duration": 75,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "On hold for 75s no answer",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "On hold for 75s no answer",
+      "transcript_full": "On hold for 75s no answer",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9249f757a4a9a0e9e1475bc4062e",
@@ -1315,11 +1648,14 @@
       "duration": 46,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "residential referrals",
-      "outcome": "declined",
-      "summary": "Patricia with Coltony asking about referrals",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Patricia with Coltony asking about referrals",
+      "transcript_full": "Patricia with Coltony asking about referrals",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba931ff7a77c299ee6ca24148c812a",
@@ -1327,11 +1663,14 @@
       "duration": 87,
       "category": "spam",
       "sub_category": "lead_gen",
-      "caller_intent": "lining up contractors for jobs",
-      "outcome": "declined",
-      "summary": "Walafi from lead gen company prospecting",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Walafi from lead gen company prospecting",
+      "transcript_full": "Walafi from lead gen company prospecting",
+      "start_time": "2026-01-11T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba93a33d274baa9f939eb841f61432",
@@ -1339,11 +1678,14 @@
       "duration": 24,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "system message",
-      "summary": "Google listing spam over system",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google listing spam over system",
+      "transcript_full": "Google listing spam over system",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba941b1ff73399fb01ca64028387ce",
@@ -1351,11 +1693,14 @@
       "duration": 30,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning hello",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning hello",
+      "transcript_full": "Hello good morning hello",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9445b7779b793ba444bfce95140b1",
@@ -1363,11 +1708,14 @@
       "duration": 65,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell engineering services",
-      "outcome": "left voicemail",
-      "summary": "Eisha PRV Engineers repeat call",
-      "confidence": "high",
-      "notes": "repeat spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Eisha PRV Engineers repeat call",
+      "transcript_full": "Eisha PRV Engineers repeat call",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9454e5e70449ff7ea2b9f1a06ffa",
@@ -1375,11 +1723,14 @@
       "duration": 19,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "short call",
-      "summary": "Google spam over system",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam over system",
+      "transcript_full": "Google spam over system",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9475e3079b3a8e9ec9bce05899fb",
@@ -1387,11 +1738,14 @@
       "duration": 11,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba96d632a77d5b37e03b02faba6eee",
@@ -1399,11 +1753,14 @@
       "duration": 267,
       "category": "customer",
       "sub_category": "siding_inquiry",
-      "caller_intent": "siding installation for building",
-      "outcome": "discussing project",
-      "summary": "Tree from Lickhe Properties asking about siding for building",
-      "confidence": "high",
-      "notes": "commercial inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Tree from Lickhe Properties asking about siding for building",
+      "transcript_full": "Tree from Lickhe Properties asking about siding for building",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba99e95e87f859f57ef7a5b9090f05",
@@ -1411,11 +1768,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "short call",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9a37ad778629813fde3d42b7e2b9",
@@ -1423,11 +1783,14 @@
       "duration": 46,
       "category": "spam",
       "sub_category": "lead_gen",
-      "caller_intent": "asking about new clients",
-      "outcome": "declined",
-      "summary": "Harleen from Born Again lead gen company",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Harleen from Born Again lead gen company",
+      "transcript_full": "Harleen from Born Again lead gen company",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9ab31867c8b8b35b2f921a6b3fbe",
@@ -1435,11 +1798,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "inquiry robocall",
-      "outcome": "voicemail",
-      "summary": "Press 1 to connect robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 to connect robocall",
+      "transcript_full": "Press 1 to connect robocall",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9b39f757ec8a60e0c32fb27329f9",
@@ -1447,11 +1813,14 @@
       "duration": 219,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "Home Depot phone sale $6502",
-      "outcome": "processing payment",
-      "summary": "Rudy from Concord Home Depot phone sale",
-      "confidence": "high",
-      "notes": "material purchase"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Rudy from Concord Home Depot phone sale",
+      "transcript_full": "Rudy from Concord Home Depot phone sale",
+      "start_time": "2026-01-12T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9b4c8f97caebb4edd92dd6e46c17",
@@ -1459,11 +1828,14 @@
       "duration": 142,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System message with Sam",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message with Sam",
+      "transcript_full": "System message with Sam",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9b5932776e79f3fd2f756920eeb4",
@@ -1471,11 +1843,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "inquiry robocall",
-      "outcome": "voicemail",
-      "summary": "Press 1 robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 robocall",
+      "transcript_full": "Press 1 robocall",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9b6a72b7ece809c44c20037905ee",
@@ -1483,11 +1858,14 @@
       "duration": 56,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "inquiry robocall",
-      "outcome": "voicemail",
-      "summary": "Press 1 robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 robocall",
+      "transcript_full": "Press 1 robocall",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9b7f6017ef8893df8e6ed4a5aa3d",
@@ -1495,11 +1873,14 @@
       "duration": 65,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "voicemail prompt",
-      "outcome": "no message left",
-      "summary": "System message no VM",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message no VM",
+      "transcript_full": "System message no VM",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9b9c0c87dc697f7fbcd32d81646b",
@@ -1507,11 +1888,14 @@
       "duration": 40,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam over system",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam over system",
+      "transcript_full": "Google spam over system",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9c99ccf7b10bb3edd1463e9122f5",
@@ -1519,11 +1903,14 @@
       "duration": 19,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Pro directory spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Pro directory spam",
+      "transcript_full": "Pro directory spam",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9cac95777c5b4a32a88fd154655a",
@@ -1531,11 +1918,14 @@
       "duration": 7,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9f0f4ec7abeaab0ba1eb567a0327",
@@ -1543,11 +1933,14 @@
       "duration": 29,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning",
+      "transcript_full": "Hello good morning",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019ba9f5bd3f7c3f93d422e78e87aa286",
@@ -1555,11 +1948,14 @@
       "duration": 17,
       "category": "incomplete",
       "sub_category": "test_call",
-      "caller_intent": "Ringcentral test",
-      "outcome": "testing",
-      "summary": "Test call",
-      "confidence": "high",
-      "notes": "test"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Test call",
+      "transcript_full": "Test call",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa04c2d6706dbd5de57bf987ca773",
@@ -1567,11 +1963,14 @@
       "duration": 148,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "real estate inquiry",
-      "outcome": "declined",
-      "summary": "Sam from Red Oak Realty prospecting",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Sam from Red Oak Realty prospecting",
+      "transcript_full": "Sam from Red Oak Realty prospecting",
+      "start_time": "2026-01-13T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa0b80f67dd093ff5a0dff6fa8f71",
@@ -1579,11 +1978,14 @@
       "duration": 54,
       "category": "spam",
       "sub_category": "cold_call",
-      "caller_intent": "machine sales",
-      "outcome": "declined immediately",
-      "summary": "Matt from Matts Machine cold call",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Matt from Matts Machine cold call",
+      "transcript_full": "Matt from Matts Machine cold call",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa0e45a072d3b6a36be78bd49f728",
@@ -1591,11 +1993,14 @@
       "duration": 32,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa0f8f9a70dfb0e5d59f7155cf495",
@@ -1603,11 +2008,14 @@
       "duration": 22,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa10cd1c7f33817f22095c1b056c6",
@@ -1615,11 +2023,14 @@
       "duration": 35,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Press 4 Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 4 Google spam",
+      "transcript_full": "Press 4 Google spam",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa11ca4f74b68c7b09856c2608a3e",
@@ -1627,11 +2038,14 @@
       "duration": 23,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa1389d77f19ba9f0b0d8dd028192",
@@ -1639,11 +2053,14 @@
       "duration": 13,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam short",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam short",
+      "transcript_full": "Google spam short",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa13edac7e1c94bfdb0f1df5dfdb7",
@@ -1651,11 +2068,14 @@
       "duration": 14,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam short",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam short",
+      "transcript_full": "Google spam short",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa14ba0274be8e13c2ac0ffc4164d",
@@ -1663,11 +2083,14 @@
       "duration": 199,
       "category": "operations",
       "sub_category": "vendor_delivery",
-      "caller_intent": "Ashby Lumber delivery coordination",
-      "outcome": "coordinating delivery",
-      "summary": "Manny from Ashby Lumber Concord about delivery for Selden",
-      "confidence": "high",
-      "notes": "vendor"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Manny from Ashby Lumber Concord about delivery for Selden",
+      "transcript_full": "Manny from Ashby Lumber Concord about delivery for Selden",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa2d59a17d06b8feefca23c26f14e",
@@ -1675,11 +2098,14 @@
       "duration": 279,
       "category": "operations",
       "sub_category": "vendor_service",
-      "caller_intent": "print job quote",
-      "outcome": "discussing specs",
-      "summary": "Danny at BPX Printing about color print job quote",
-      "confidence": "high",
-      "notes": "vendor"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Danny at BPX Printing about color print job quote",
+      "transcript_full": "Danny at BPX Printing about color print job quote",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa3bcff47bc3a58d20bcef86d8d6d",
@@ -1687,11 +2113,14 @@
       "duration": 10,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-14T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa3f65aa7e3f96b69f56aeeea22c8",
@@ -1699,11 +2128,14 @@
       "duration": 291,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "Home Depot phone sale $72.05",
-      "outcome": "approved and processing",
-      "summary": "Home Depot phone sale for 7 Scander Court Pleasant Hill",
-      "confidence": "high",
-      "notes": "material purchase"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Home Depot phone sale for 7 Scander Court Pleasant Hill",
+      "transcript_full": "Home Depot phone sale for 7 Scander Court Pleasant Hill",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa40de9f7a34bd3ee16e4377f23ad",
@@ -1711,11 +2143,14 @@
       "duration": 81,
       "category": "operations",
       "sub_category": "vendor_followup",
-      "caller_intent": "print job followup",
-      "outcome": "will do later",
-      "summary": "Danny at BPX about letterhead email - boss said another time",
-      "confidence": "high",
-      "notes": "vendor followup"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Danny at BPX about letterhead email - boss said another time",
+      "transcript_full": "Danny at BPX about letterhead email - boss said another time",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa41e4787e3c861104b0b2bff552a",
@@ -1723,11 +2158,14 @@
       "duration": 32,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa43d5af784a96aef8e2f790ecb57",
@@ -1735,11 +2173,14 @@
       "duration": 22,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa447a2b754fb10d0ecc41a209201",
@@ -1747,11 +2188,14 @@
       "duration": 21,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Pro directory spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Pro directory spam",
+      "transcript_full": "Pro directory spam",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa4b3a74772db3e0e8fe3b16bb701",
@@ -1759,11 +2203,14 @@
       "duration": 276,
       "category": "customer",
       "sub_category": "kitchen_bath_inquiry",
-      "caller_intent": "kitchen and bath refresh in Orinda",
-      "outcome": "discussing project",
-      "summary": "Customer with kitchen and bath job in Orinda",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer with kitchen and bath job in Orinda",
+      "transcript_full": "Customer with kitchen and bath job in Orinda",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa526f1070248bb40e879a06454c2",
@@ -1771,11 +2218,14 @@
       "duration": 177,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System message with Sam",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message with Sam",
+      "transcript_full": "System message with Sam",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa5fcf6574e891c5bf91a54499d4d",
@@ -1783,11 +2233,14 @@
       "duration": 216,
       "category": "customer",
       "sub_category": "drainage_inquiry",
-      "caller_intent": "storm drain snaking on property",
-      "outcome": "discussing needs",
-      "summary": "Linda asking about storm drain snaking",
-      "confidence": "high",
-      "notes": "customer inquiry"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Linda asking about storm drain snaking",
+      "transcript_full": "Linda asking about storm drain snaking",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa6f59d0733fb46ce53e53cf23219",
@@ -1795,11 +2248,14 @@
       "duration": 38,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message",
+      "transcript_full": "System message",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa75e3c0757f824b464c88da5e54f",
@@ -1807,11 +2263,14 @@
       "duration": 417,
       "category": "customer",
       "sub_category": "estimate_inquiry",
-      "caller_intent": "asking about free estimates",
-      "outcome": "scheduled consultation",
-      "summary": "Customer asking if they give free estimates - yes",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer asking if they give free estimates - yes",
+      "transcript_full": "Customer asking if they give free estimates - yes",
+      "start_time": "2026-01-15T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa79b26a70d4bf1ad891ff054c074",
@@ -1819,11 +2278,14 @@
       "duration": 81,
       "category": "other_inquiry",
       "sub_category": "subcontractor_seeking",
-      "caller_intent": "looking for siding subcontract work",
-      "outcome": "explained process",
-      "summary": "Cesar subcontractor with siding crew looking for work",
-      "confidence": "high",
-      "notes": "not customer - sub seeking work"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Cesar subcontractor with siding crew looking for work",
+      "transcript_full": "Cesar subcontractor with siding crew looking for work",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa7eb91a76e5b42a3a26e822be316",
@@ -1831,11 +2293,14 @@
       "duration": 114,
       "category": "customer",
       "sub_category": "appointment_cancel",
-      "caller_intent": "canceling siding consultation",
-      "outcome": "confirmed cancellation",
-      "summary": "Rachel Forbes canceling siding consultation",
-      "confidence": "high",
-      "notes": "existing lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Rachel Forbes canceling siding consultation",
+      "transcript_full": "Rachel Forbes canceling siding consultation",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa8c1d79767f9ad3c83acbbd3fcf4",
@@ -1843,11 +2308,14 @@
       "duration": 22,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "CallRail announcement",
-      "outcome": "system message",
-      "summary": "CallRail Lead Center discontinuation notice",
-      "confidence": "high",
-      "notes": "system"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "CallRail Lead Center discontinuation notice",
+      "transcript_full": "CallRail Lead Center discontinuation notice",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa8eed1873809ad6a1a4170eca73b",
@@ -1855,11 +2323,14 @@
       "duration": 8,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa8fd9bf74669dbfe9e02897726c2",
@@ -1867,11 +2338,14 @@
       "duration": 8,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa90fdcb7c4e96f58a87cd7046846",
@@ -1879,11 +2353,14 @@
       "duration": 198,
       "category": "customer",
       "sub_category": "appointment_cancel",
-      "caller_intent": "canceling appointment for tomorrow",
-      "outcome": "confirmed cancellation",
-      "summary": "Customer canceling 10am appointment tomorrow",
-      "confidence": "high",
-      "notes": "existing lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer canceling 10am appointment tomorrow",
+      "transcript_full": "Customer canceling 10am appointment tomorrow",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa9d3a0b72aea5db05f7a00fe247e",
@@ -1891,11 +2368,14 @@
       "duration": 14,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baa9eb91074ebb8c89d9d868297bf7",
@@ -1903,11 +2383,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa0047475d3b6a6f5af88cb3db4f",
@@ -1915,11 +2398,14 @@
       "duration": 14,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa1019f7e7b9fc25c2382082995f",
@@ -1927,11 +2413,14 @@
       "duration": 51,
       "category": "incomplete",
       "sub_category": "connection_issue",
-      "caller_intent": "hello hello no response",
-      "outcome": "no connection",
-      "summary": "Call connected but no audio both ways",
-      "confidence": "high",
-      "notes": "connection issue"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Call connected but no audio both ways",
+      "transcript_full": "Call connected but no audio both ways",
+      "start_time": "2026-01-16T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa37e257eb59f3ff97832a9891e",
@@ -1939,11 +2428,14 @@
       "duration": 250,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "Home Depot phone sale $603.98",
-      "outcome": "processing two transactions",
-      "summary": "Ruth from Concord Home Depot phone sale",
-      "confidence": "high",
-      "notes": "material purchase"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Ruth from Concord Home Depot phone sale",
+      "transcript_full": "Ruth from Concord Home Depot phone sale",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa4b6db7c68bf55bdb3339cd8491",
@@ -1951,11 +2443,14 @@
       "duration": 25,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa561b67b0ba44a30b45558f75ce",
@@ -1963,11 +2458,14 @@
       "duration": 25,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa5b8567c36939aad74ea70e53b6",
@@ -1975,11 +2473,14 @@
       "duration": 30,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa6eacc72acb6e7c7d60ffe497bf",
@@ -1987,11 +2488,14 @@
       "duration": 19,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa71cfc7cd0aeb21e5319d29e486",
@@ -1999,11 +2503,14 @@
       "duration": 8,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaa9c2577e449fc51e9dc78292753",
@@ -2011,11 +2518,14 @@
       "duration": 22,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaaa70f9743caaf57f4538d9329ab",
@@ -2023,11 +2533,14 @@
       "duration": 15,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaabcd2c7e08bf31f3f4ada483df4",
@@ -2035,11 +2548,14 @@
       "duration": 22,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baab5abdb700e9de9cc3f16eed0965",
@@ -2047,11 +2563,14 @@
       "duration": 18,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-17T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baabb48d27e6fb81fc28bfa9fc552e",
@@ -2059,11 +2578,14 @@
       "duration": 42,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "Lead Vision looking for Clayton",
-      "outcome": "left message to call back",
-      "summary": "Jack from Lead Vision B2B prospecting",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Jack from Lead Vision B2B prospecting",
+      "transcript_full": "Jack from Lead Vision B2B prospecting",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baac12a847a96bac63e7dc562ac8de",
@@ -2071,11 +2593,14 @@
       "duration": 19,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baac47a63744d8e1eca1e0c772f6b9",
@@ -2083,11 +2608,14 @@
       "duration": 12,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baac85e4c7f4db9b33a7d45c1ad2e1",
@@ -2095,11 +2623,14 @@
       "duration": 69,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "quote opportunity inquiry",
-      "outcome": "declined - B2B",
-      "summary": "Carlos calling back from last year for quoting work",
-      "confidence": "high",
-      "notes": "B2B prospecting"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Carlos calling back from last year for quoting work",
+      "transcript_full": "Carlos calling back from last year for quoting work",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaca1f777a4cabb0b0d8f92d5ae67",
@@ -2107,11 +2638,14 @@
       "duration": 38,
       "category": "incomplete",
       "sub_category": "connection_issue",
-      "caller_intent": "hello hello no response",
-      "outcome": "no connection",
-      "summary": "Call connected but no audio",
-      "confidence": "high",
-      "notes": "connection issue"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Call connected but no audio",
+      "transcript_full": "Call connected but no audio",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baacb002676f4a2f63ed10dbfb9874",
@@ -2119,11 +2653,14 @@
       "duration": 10,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baacb5ac277fc87bc21f1be4bf00b5",
@@ -2131,11 +2668,14 @@
       "duration": 17,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baacc0c5b7dabb4cca6db52ec5228e",
@@ -2143,11 +2683,14 @@
       "duration": 30,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baacc6e8e747e99ba71cf83eed053c4",
@@ -2155,11 +2698,14 @@
       "duration": 44,
       "category": "spam",
       "sub_category": "cold_call",
-      "caller_intent": "Mitch cold call",
-      "outcome": "answered then hung up",
-      "summary": "Mitch admits cold call - caught in loop",
-      "confidence": "high",
-      "notes": "repeat caller"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Mitch admits cold call - caught in loop",
+      "transcript_full": "Mitch admits cold call - caught in loop",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baacd7e267c09b33c33dff40473b6a",
@@ -2167,11 +2713,14 @@
       "duration": 27,
       "category": "spam",
       "sub_category": "cold_call",
-      "caller_intent": "Mitch cold call again",
-      "outcome": "declined immediately",
-      "summary": "Same Mitch - declined",
-      "confidence": "high",
-      "notes": "repeat spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Same Mitch - declined",
+      "transcript_full": "Same Mitch - declined",
+      "start_time": "2026-01-18T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baace5e537b4a8d94dd0bfa2152eed",
@@ -2179,11 +2728,14 @@
       "duration": 44,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "voicemail prompt",
-      "outcome": "no message",
-      "summary": "System message no VM left",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message no VM left",
+      "transcript_full": "System message no VM left",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baacfa9b47a7bb2a3a03f2685bfcd7",
@@ -2191,11 +2743,14 @@
       "duration": 21,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baad08ee47ebab42e25b7f04f9d608",
@@ -2203,11 +2758,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baad12fc57eb994b5d16e6553e0fd6",
@@ -2215,11 +2773,14 @@
       "duration": 24,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "pro directory scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baad1b2ff7ad59ad5b0a013da9354f",
@@ -2227,11 +2788,14 @@
       "duration": 23,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baad22ebf7af9b7fb71dc44d10db42",
@@ -2239,11 +2803,14 @@
       "duration": 29,
       "category": "spam",
       "sub_category": "cold_call",
-      "caller_intent": "Mitch again",
-      "outcome": "told him stop calling",
-      "summary": "Mitch called again - told him not interested",
-      "confidence": "high",
-      "notes": "repeat spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Mitch called again - told him not interested",
+      "transcript_full": "Mitch called again - told him not interested",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baad32e0d7659b80e01ad3390a244e",
@@ -2251,11 +2818,14 @@
       "duration": 32,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam + system",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam + system",
+      "transcript_full": "Google spam + system",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baad8a34574eb957bee69cbac0aa29",
@@ -2263,11 +2833,14 @@
       "duration": 116,
       "category": "customer",
       "sub_category": "kitchen_hood",
-      "caller_intent": "kitchen hood installation in Orinda",
-      "outcome": "discussing sloped ceiling",
-      "summary": "Janet Bellingham in Orinda needs kitchen hood installed",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Janet Bellingham in Orinda needs kitchen hood installed",
+      "transcript_full": "Janet Bellingham in Orinda needs kitchen hood installed",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baadab6c97e4dbaaeb1c497d578d3a",
@@ -2275,11 +2848,14 @@
       "duration": 14,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baadb74c474f799929ab463639649f",
@@ -2287,11 +2863,14 @@
       "duration": 26,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "hello only",
-      "summary": "Hello hello no content",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello hello no content",
+      "transcript_full": "Hello hello no content",
+      "start_time": "2026-01-19T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baadc3b8f750e9a11d87e019bffc98",
@@ -2299,11 +2878,14 @@
       "duration": 19,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baadc7c5775839c3a2e5850cb0e9a6",
@@ -2311,11 +2893,14 @@
       "duration": 11,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaddae0572c7b83d06fe5299b772a",
@@ -2323,11 +2908,14 @@
       "duration": 15,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baade679a74189b930f51c3e0d8482",
@@ -2335,11 +2923,14 @@
       "duration": 59,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "Home Depot phone purchase",
-      "outcome": "left voicemail with callback",
-      "summary": "John at Concord Home Depot for Rudy - Claudia Drive",
-      "confidence": "high",
-      "notes": "vendor"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "John at Concord Home Depot for Rudy - Claudia Drive",
+      "transcript_full": "John at Concord Home Depot for Rudy - Claudia Drive",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baadf88e27a72b10d4f2e3318a4abc",
@@ -2347,11 +2938,14 @@
       "duration": 58,
       "category": "operations",
       "sub_category": "vendor_purchase",
-      "caller_intent": "Home Depot phone purchase",
-      "outcome": "texting confirmation",
-      "summary": "John at Concord Home Depot for Claudia Drive - fixing text",
-      "confidence": "high",
-      "notes": "vendor followup"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "John at Concord Home Depot for Claudia Drive - fixing text",
+      "transcript_full": "John at Concord Home Depot for Claudia Drive - fixing text",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae28e1976e388a76ce16fa336844",
@@ -2359,11 +2953,14 @@
       "duration": 16,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "voicemail prompt",
-      "outcome": "no message",
-      "summary": "VM prompt no message",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "VM prompt no message",
+      "transcript_full": "VM prompt no message",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae303b07ebea8a04f7ecfaa74708",
@@ -2371,11 +2968,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae41cb57f7586c800024c6d2f1b3",
@@ -2383,11 +2983,14 @@
       "duration": 20,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae5e02a79cc8a40a4e5bbec7bcfd",
@@ -2395,11 +2998,14 @@
       "duration": 34,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello morning",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello morning",
+      "transcript_full": "Hello morning",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae67ddc78989dc1a0de5a167d607",
@@ -2407,11 +3013,14 @@
       "duration": 13,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-20T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae788eb7b2aae0f0d67452796e4",
@@ -2419,11 +3028,14 @@
       "duration": 12,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baae9dcf67fa1a21f0a9d97759082",
@@ -2431,11 +3043,14 @@
       "duration": 32,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaec3b027a4bafabc8d52acf8bc8d",
@@ -2443,11 +3058,14 @@
       "duration": 13,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaec758c77568ebc8c66151d7ea02",
@@ -2455,11 +3073,14 @@
       "duration": 30,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning hello",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning hello",
+      "transcript_full": "Hello good morning hello",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaed2ce07b1e87d0e0a2369836c58",
@@ -2467,11 +3088,14 @@
       "duration": 15,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaefd4a77bd2a58ecf7c2a011c845",
@@ -2479,11 +3103,14 @@
       "duration": 21,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "homeowner inquiry robocall",
-      "outcome": "over system",
-      "summary": "Press 1 to connect robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 to connect robocall",
+      "transcript_full": "Press 1 to connect robocall",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf049be78aba7e01e152d6311ad",
@@ -2491,11 +3118,14 @@
       "duration": 8,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf0d1db7d7eb1e4bce308c248f4a",
@@ -2503,11 +3133,14 @@
       "duration": 22,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "homeowner inquiry robocall",
-      "outcome": "over system",
-      "summary": "Press 1 robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 robocall",
+      "transcript_full": "Press 1 robocall",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf15fc97b1793fea1ce00b44b209",
@@ -2515,11 +3148,14 @@
       "duration": 24,
       "category": "spam",
       "sub_category": "robocall",
-      "caller_intent": "homeowner inquiry robocall",
-      "outcome": "over system",
-      "summary": "Press 1 robocall",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Press 1 robocall",
+      "transcript_full": "Press 1 robocall",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf3d5d171c2abd70f4df728a3208",
@@ -2527,11 +3163,14 @@
       "duration": 58,
       "category": "incomplete",
       "sub_category": "connection_issue",
-      "caller_intent": "hello hello no response",
-      "outcome": "no connection",
-      "summary": "Call connected no audio",
-      "confidence": "high",
-      "notes": "connection issue"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Call connected no audio",
+      "transcript_full": "Call connected no audio",
+      "start_time": "2026-01-21T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf49b3679e6af3e0c02846dc530d",
@@ -2539,11 +3178,14 @@
       "duration": 59,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold message",
-      "outcome": "no content",
-      "summary": "System with Sam name",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System with Sam name",
+      "transcript_full": "System with Sam name",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf5f8ee77a090b2c2b1fc3a8cf56",
@@ -2551,11 +3193,14 @@
       "duration": 9,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "voicemail prompt",
-      "outcome": "no message",
-      "summary": "VM prompt no message",
-      "confidence": "high",
-      "notes": "no content"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "VM prompt no message",
+      "transcript_full": "VM prompt no message",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf79d0c7e1ab39ae7bd367efb56a",
@@ -2563,11 +3208,14 @@
       "duration": 33,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baaf8d2c67eeeb8a29e2c384a775a8",
@@ -2575,11 +3223,14 @@
       "duration": 86,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold long",
-      "outcome": "no content",
-      "summary": "Long hold no connection",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Long hold no connection",
+      "transcript_full": "Long hold no connection",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafa10a17e299c3ee12db14a8d895",
@@ -2587,11 +3238,14 @@
       "duration": 393,
       "category": "customer",
       "sub_category": "walkway_repair",
-      "caller_intent": "walkway dropped 1.5 inches in San Ramon",
-      "outcome": "discussing repair options",
-      "summary": "Roy Roos in San Ramon - walkway dropped needs repair",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Roy Roos in San Ramon - walkway dropped needs repair",
+      "transcript_full": "Roy Roos in San Ramon - walkway dropped needs repair",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafac59a7cfc8fa959f2f891a83f3",
@@ -2599,11 +3253,14 @@
       "duration": 51,
       "category": "customer",
       "sub_category": "bathroom_remodel",
-      "caller_intent": "3-6 bathroom complete remodel inquiry",
-      "outcome": "interested via robocall lead",
-      "summary": "Someone interested in bathroom remodels via lead service",
-      "confidence": "medium",
-      "notes": "possible lead from robocall"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Someone interested in bathroom remodels via lead service",
+      "transcript_full": "Someone interested in bathroom remodels via lead service",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.75,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafbee0373a9ae88e29fc55fd5615",
@@ -2611,11 +3268,14 @@
       "duration": 12,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafd066a72daa31f4f1d0d1bcfbed",
@@ -2623,11 +3283,14 @@
       "duration": 198,
       "category": "customer",
       "sub_category": "painting_deck_quote",
-      "caller_intent": "painting walls and deck roof",
-      "outcome": "scheduling estimate",
-      "summary": "Customer wants quote on interior painting and deck roof",
-      "confidence": "high",
-      "notes": "good lead"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Customer wants quote on interior painting and deck roof",
+      "transcript_full": "Customer wants quote on interior painting and deck roof",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafd84bb7f7c91a457bae95aabe29",
@@ -2635,11 +3298,14 @@
       "duration": 62,
       "category": "other_inquiry",
       "sub_category": "property_inquiry",
-      "caller_intent": "asking about Overhill property with fencing",
-      "outcome": "explained not our project anymore",
-      "summary": "Louis asking about fenced Overhill property - not our project",
-      "confidence": "high",
-      "notes": "same property as earlier"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Louis asking about fenced Overhill property - not our project",
+      "transcript_full": "Louis asking about fenced Overhill property - not our project",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafe9fa7724ebefc88d09baed63a4",
@@ -2647,11 +3313,14 @@
       "duration": 28,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "greeting only",
-      "summary": "Hello good morning hello",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good morning hello",
+      "transcript_full": "Hello good morning hello",
+      "start_time": "2026-01-22T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019baafffa7b7d0db67db3b55c852288",
@@ -2659,11 +3328,14 @@
       "duration": 20,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab00c8f6786392c46ac7020650606",
@@ -2671,11 +3343,14 @@
       "duration": 16,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab01d1fc7bf3a69be8f1e9abf1e4f",
@@ -2683,11 +3358,14 @@
       "duration": 59,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "hello afternoon",
-      "summary": "Hello good afternoon",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Hello good afternoon",
+      "transcript_full": "Hello good afternoon",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab028a2973988e295b5e03decc9f0",
@@ -2695,11 +3373,14 @@
       "duration": 12,
       "category": "incomplete",
       "sub_category": "system_message",
-      "caller_intent": "on hold only",
-      "outcome": "no content",
-      "summary": "System message only",
-      "confidence": "high",
-      "notes": "no caller"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "System message only",
+      "transcript_full": "System message only",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab05cf197c589cb89eb41c58551d1",
@@ -2707,11 +3388,14 @@
       "duration": 68,
       "category": "operations",
       "sub_category": "vendor_followup",
-      "caller_intent": "Woodland Direct Fireplace looking for Roli",
-      "outcome": "scheduled callback at 1:10pm",
-      "summary": "Ryan from Woodland Direct Fireplace Company",
-      "confidence": "high",
-      "notes": "vendor contact"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Ryan from Woodland Direct Fireplace Company",
+      "transcript_full": "Ryan from Woodland Direct Fireplace Company",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab0766d07596a93d6eb6c1176dbec",
@@ -2719,11 +3403,14 @@
       "duration": 13,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google listing flagged",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab087e3a751db7e4ed899fa3ab31",
@@ -2731,11 +3418,14 @@
       "duration": 12,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab0a7e5c75d6b70d1d3fefb72d23a",
@@ -2743,11 +3433,14 @@
       "duration": 15,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab0b7f2d7e67b4f2a7e30ff163fde",
@@ -2755,11 +3448,14 @@
       "duration": 33,
       "category": "spam",
       "sub_category": "google_listing",
-      "caller_intent": "Google Voice scam",
-      "outcome": "over system",
-      "summary": "Google spam",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Google spam",
+      "transcript_full": "Google spam",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab0eb7a57eb2b53e93e20a8f7ed0b",
@@ -2767,11 +3463,14 @@
       "duration": 78,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "sell engineering services",
-      "outcome": "declined - already have",
-      "summary": "Aisha TRV Engineers B2B - repeat caller",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Aisha TRV Engineers B2B - repeat caller",
+      "transcript_full": "Aisha TRV Engineers B2B - repeat caller",
+      "start_time": "2026-01-23T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab0faacd7c5990cdbf0e67aa1539a",
@@ -2779,11 +3478,14 @@
       "duration": 22,
       "category": "incomplete",
       "sub_category": "too_short",
-      "caller_intent": "unknown",
-      "outcome": "asking for Rolly",
-      "summary": "Is this Rolly - no content",
-      "confidence": "high",
-      "notes": "too short"
+      "answered": false,
+      "voicemail": false,
+      "transcript_preview": "Is this Rolly - no content",
+      "transcript_full": "Is this Rolly - no content",
+      "start_time": "2026-01-24T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     },
     {
       "id": "CAL019bab11041e7ca0b3ead54a2fb051169",
@@ -2791,11 +3493,14 @@
       "duration": 100,
       "category": "spam",
       "sub_category": "b2b_sales",
-      "caller_intent": "engineering project inquiry",
-      "outcome": "declined",
-      "summary": "Kevin from Innodes Engineering B2B prospecting",
-      "confidence": "high",
-      "notes": "spam"
+      "answered": true,
+      "voicemail": false,
+      "transcript_preview": "Kevin from Innodes Engineering B2B prospecting",
+      "transcript_full": "Kevin from Innodes Engineering B2B prospecting",
+      "start_time": "2026-01-24T00:00:00.000Z",
+      "confidence_classification": 0.95,
+      "customer_phone": "",
+      "customer_city": ""
     }
   ]
 }
