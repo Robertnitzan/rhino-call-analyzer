@@ -50,6 +50,7 @@ function CategoryBadge({ category }) {
     customer: 'Customer',
     spam: 'Spam',
     operations: 'Operations',
+    other_inquiry: 'Other Inquiry',
     incomplete: 'Incomplete'
   }
   return (
@@ -451,6 +452,7 @@ function MethodologyTab({ stats, calls }) {
   const customerWithRec = withRecording.filter(c => c.category === 'customer').length
   const spamWithRec = withRecording.filter(c => c.category === 'spam').length
   const opsWithRec = withRecording.filter(c => c.category === 'operations').length
+  const otherInqWithRec = withRecording.filter(c => c.category === 'other_inquiry').length
   const incompleteWithRec = withRecording.filter(c => c.category === 'incomplete').length
 
   return (
@@ -475,6 +477,7 @@ function MethodologyTab({ stats, calls }) {
                   <div>├── {customerWithRec} Customer</div>
                   <div>├── {spamWithRec} Spam</div>
                   <div>├── {opsWithRec} Operations</div>
+                  <div>├── {otherInqWithRec} Other Inquiry</div>
                   <div>└── {incompleteWithRec} Incomplete (short/unclear)</div>
                 </div>
                 <div>└── {answeredNoRec.length} Without recording (outbound) → Incomplete</div>

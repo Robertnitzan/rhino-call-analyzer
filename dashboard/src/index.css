@@ -26,6 +26,8 @@
   --color-operations-bg: rgba(59, 130, 246, 0.12);
   --color-incomplete: #71717a;
   --color-incomplete-bg: rgba(113, 113, 122, 0.12);
+  --color-other_inquiry: #f59e0b;
+  --color-other_inquiry-bg: rgba(245, 158, 11, 0.12);
   
   /* Sentiment Colors */
   --color-positive: #22c55e;
@@ -218,6 +220,11 @@ body {
 .badge-incomplete {
   background: var(--color-incomplete-bg);
   color: var(--color-incomplete);
+}
+
+.badge-other_inquiry {
+  background: var(--color-other_inquiry-bg);
+  color: var(--color-other_inquiry);
 }
 
 .badge-b2b {
