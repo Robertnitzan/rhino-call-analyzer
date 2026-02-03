@@ -827,12 +827,12 @@ export default function App() {
                     <li>70 Inbound missed (no one answered = nothing to record)</li>
                     <li>14 Inbound answered without recording (CallRail config issue)</li>
                   </ul>
-                  <p style={{ marginTop: '8px' }}><strong>Classification based on 228 Inbound Answered calls:</strong></p>
+                  <p style={{ marginTop: '8px' }}><strong>Classification based on {stats.inbound_answered} Inbound Answered calls:</strong></p>
                   <ul style={{ marginLeft: '20px', marginTop: '4px' }}>
-                    <li><span style={{ color: 'var(--color-spam)' }}>Spam (111)</span> = Cold calls, robocalls, sales pitches</li>
-                    <li><span style={{ color: 'var(--color-customer)' }}>Customer (29)</span> = Real inquiries about concrete work</li>
-                    <li><span style={{ color: 'var(--color-operations)' }}>Operations (9)</span> = Suppliers, insurance, accounting</li>
-                    <li><span style={{ color: 'var(--color-incomplete)' }}>Incomplete (79)</span> = Too short or unclear to classify</li>
+                    <li><span style={{ color: 'var(--color-spam)' }}>Spam ({stats.inbound_answered_by_category?.spam || 0})</span> = Cold calls, robocalls, sales pitches</li>
+                    <li><span style={{ color: 'var(--color-customer)' }}>Customer ({stats.inbound_answered_by_category?.customer || 0})</span> = Real inquiries about concrete work</li>
+                    <li><span style={{ color: 'var(--color-operations)' }}>Operations ({stats.inbound_answered_by_category?.operations || 0})</span> = Suppliers, insurance, accounting</li>
+                    <li><span style={{ color: 'var(--color-incomplete)' }}>Incomplete ({stats.inbound_answered_by_category?.incomplete || 0})</span> = Too short or unclear to classify</li>
                   </ul>
                 </div>
 
@@ -872,15 +872,15 @@ export default function App() {
 
                   {/* Pie Chart 2: Classification */}
                   <div style={{ textAlign: 'center' }}>
-                    <h4 style={{ marginBottom: '4px', color: 'var(--text-secondary)', fontSize: '12px' }}>Classification (228)</h4>
+                    <h4 style={{ marginBottom: '4px', color: 'var(--text-secondary)', fontSize: '12px' }}>Classification ({stats.inbound_answered})</h4>
                     <ResponsiveContainer width={220} height={220}>
                       <PieChart>
                         <Pie
                           data={[
-                            { name: 'Spam (111) 49%', value: stats.inbound_answered_by_category?.spam || 111 },
-                            { name: 'Customer (29) 13%', value: stats.inbound_answered_by_category?.customer || 29 },
-                            { name: 'Operations (9) 4%', value: stats.inbound_answered_by_category?.operations || 9 },
-                            { name: 'Incomplete (79) 35%', value: stats.inbound_answered_by_category?.incomplete || 79 }
+                            { name: `Spam (${stats.inbound_answered_by_category?.spam || 0})`, value: stats.inbound_answered_by_category?.spam || 0 },
+                            { name: `Customer (${stats.inbound_answered_by_category?.customer || 0})`, value: stats.inbound_answered_by_category?.customer || 0 },
+                            { name: `Operations (${stats.inbound_answered_by_category?.operations || 0})`, value: stats.inbound_answered_by_category?.operations || 0 },
+                            { name: `Incomplete (${stats.inbound_answered_by_category?.incomplete || 0})`, value: stats.inbound_answered_by_category?.incomplete || 0 }
                           ]}
                           cx="50%"
                           cy="45%"
@@ -924,19 +924,19 @@ export default function App() {
                 className={`filter-btn ${filter === 'customer' ? 'active' : ''}`}
                 onClick={() => setFilter('customer')}
               >
-                🟢 Customers ({stats.by_category.customer || 0})
+                🟢 Customers ({stats.inbound_answered_by_category?.customer || 0}{calls.filter(c => c.voicemail && c.category === 'customer').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'customer').length} VM` : ''})
               </button>
               <button
                 className={`filter-btn ${filter === 'spam' ? 'active' : ''}`}
                 onClick={() => setFilter('spam')}
               >
-                🔴 Spam ({stats.by_category.spam || 0})
+                🔴 Spam ({stats.inbound_answered_by_category?.spam || 0}{calls.filter(c => c.voicemail && c.category === 'spam').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'spam').length} VM` : ''})
               </button>
               <button
                 className={`filter-btn ${filter === 'operations' ? 'active' : ''}`}
                 onClick={() => setFilter('operations')}
               >
-                🔵 Operations ({stats.by_category.operations || 0})
+                🔵 Operations ({stats.inbound_answered_by_category?.operations || 0}{calls.filter(c => c.voicemail && c.category === 'operations').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'operations').length} VM` : ''})
               </button>
               <button
                 className={`filter-btn ${filter === 'incomplete' ? 'active' : ''}`}
