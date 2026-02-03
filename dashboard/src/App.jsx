@@ -729,7 +729,7 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <div className="logo">🦏 Rhino</div>
-          <div className="date-range">{dateRange}</div>
+          <div className="date-range">January 2026</div>
         </div>
       </header>
 
@@ -768,17 +768,17 @@ export default function App() {
               <StatCard
                 label="Total Calls"
                 value={stats.total}
-                subtext={`${stats.inbound} inbound · ${stats.outbound} outbound`}
+                subtext="inbound calls analyzed"
               />
               <StatCard
-                label="Inbound"
-                value={stats.inbound}
-                subtext={`${stats.inbound_answered} answered · ${stats.voicemail} voicemail · ${stats.inbound_missed - stats.voicemail} missed`}
+                label="Classified"
+                value={stats.inbound_answered}
+                subtext="calls with clear classification"
               />
               <StatCard
-                label="With Recording"
-                value={stats.with_recording}
-                subtext={`${stats.without_recording} without (${stats.outbound} outbound + ${stats.without_recording - stats.outbound} inbound)`}
+                label="Voicemail"
+                value={stats.inbound_voicemail}
+                subtext="customer voicemails"
               />
             </div>
 
