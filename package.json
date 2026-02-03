@@ -1,0 +1,10 @@
+{
+  "name": "rhino-analyzer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "transcribe": "node transcribe.mjs",
+    "analyze": "node analyze.mjs",
+    "report": "node report.mjs"
+  }
+}
