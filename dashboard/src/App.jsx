@@ -50,7 +50,7 @@ function CategoryBadge({ category }) {
     customer: 'Customer',
     spam: 'Spam',
     operations: 'Operations',
-    other_inquiry: 'Other Inquiry',
+    other_inquiry: 'Not Relevant',
     incomplete: 'Incomplete'
   }
   return (
@@ -477,7 +477,7 @@ function MethodologyTab({ stats, calls }) {
                   <div>├── {customerWithRec} Customer</div>
                   <div>├── {spamWithRec} Spam</div>
                   <div>├── {opsWithRec} Operations</div>
-                  <div>├── {otherInqWithRec} Other Inquiry</div>
+                  <div>├── {otherInqWithRec} Not Relevant</div>
                   <div>└── {incompleteWithRec} Incomplete (short/unclear)</div>
                 </div>
                 <div>└── {answeredNoRec.length} Without recording (outbound) → Incomplete</div>
@@ -870,7 +870,7 @@ export default function App() {
                             { name: `Spam (${stats.inbound_answered_by_category?.spam || 0})`, value: stats.inbound_answered_by_category?.spam || 0 },
                             { name: `Customer (${stats.inbound_answered_by_category?.customer || 0})`, value: stats.inbound_answered_by_category?.customer || 0 },
                             { name: `Operations (${stats.inbound_answered_by_category?.operations || 0})`, value: stats.inbound_answered_by_category?.operations || 0 },
-                            { name: `Other (${stats.inbound_answered_by_category?.other_inquiry || 0})`, value: stats.inbound_answered_by_category?.other_inquiry || 0 },
+                            { name: `Not Relevant (${stats.inbound_answered_by_category?.other_inquiry || 0})`, value: stats.inbound_answered_by_category?.other_inquiry || 0 },
                             { name: `Incomplete (${stats.inbound_answered_by_category?.incomplete || 0})`, value: stats.inbound_answered_by_category?.incomplete || 0 }
                           ]}
                           cx="50%"
@@ -940,7 +940,7 @@ export default function App() {
                 className={`filter-btn ${filter === 'other_inquiry' ? 'active' : ''}`}
                 onClick={() => setFilter('other_inquiry')}
               >
-                🟡 Other ({stats.inbound_answered_by_category?.other_inquiry || 0})
+                🟡 Not Relevant ({stats.inbound_answered_by_category?.other_inquiry || 0})
               </button>
               <button
                 className={`filter-btn ${filter === 'incomplete' ? 'active' : ''}`}
