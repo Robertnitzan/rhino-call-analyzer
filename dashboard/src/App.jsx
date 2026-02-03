@@ -891,6 +891,7 @@ export default function App() {
                             { name: `Spam (${stats.inbound_answered_by_category?.spam || 0})`, value: stats.inbound_answered_by_category?.spam || 0 },
                             { name: `Customer (${stats.inbound_answered_by_category?.customer || 0})`, value: stats.inbound_answered_by_category?.customer || 0 },
                             { name: `Operations (${stats.inbound_answered_by_category?.operations || 0})`, value: stats.inbound_answered_by_category?.operations || 0 },
+                            { name: `Other (${stats.inbound_answered_by_category?.other_inquiry || 0})`, value: stats.inbound_answered_by_category?.other_inquiry || 0 },
                             { name: `Incomplete (${stats.inbound_answered_by_category?.incomplete || 0})`, value: stats.inbound_answered_by_category?.incomplete || 0 }
                           ]}
                           cx="50%"
@@ -903,6 +904,7 @@ export default function App() {
                           <Cell fill="#ef4444" />
                           <Cell fill="#22c55e" />
                           <Cell fill="#3b82f6" />
+                          <Cell fill="#eab308" />
                           <Cell fill="#6b7280" />
                         </Pie>
                         <Tooltip formatter={(value, name) => [value + ' calls', name.split(' ')[0]]} />
@@ -950,10 +952,16 @@ export default function App() {
                 🔵 Operations ({stats.inbound_answered_by_category?.operations || 0}{calls.filter(c => c.voicemail && c.category === 'operations').length > 0 ? ` + ${calls.filter(c => c.voicemail && c.category === 'operations').length} VM` : ''})
               </button>
               <button
+                className={`filter-btn ${filter === 'other_inquiry' ? 'active' : ''}`}
+                onClick={() => setFilter('other_inquiry')}
+              >
+                🟡 Other ({stats.inbound_answered_by_category?.other_inquiry || 0})
+              </button>
+              <button
                 className={`filter-btn ${filter === 'incomplete' ? 'active' : ''}`}
                 onClick={() => setFilter('incomplete')}
               >
-                ⚪ Incomplete ({stats.by_category.incomplete || 0})
+                ⚪ Incomplete ({stats.inbound_answered_by_category?.incomplete || 0})
               </button>
             </div>
 
