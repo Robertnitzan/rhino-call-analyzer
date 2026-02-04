@@ -1,639 +1,639 @@
-id,direction,duration,category,sub_category,summary,confidence
-CAL019a033cd7f27bafa8f3fe5ca476d3b8,inbound,1209,customer,general_inquiry,"General customer inquiry",high
-CAL019a4bd2e7f47c6ea9fc2371517c2840,inbound,996,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019a6fa0ae6e7aef868faca4e85adf6a,inbound,567,operations,general,"General operations call",high
-CAL019b0a7769a478728aa65121133af951,inbound,566,customer,window_inquiry,"Window replacement inquiry",high
-CAL019a12aacaac72acab44deb8f0d14b8d,inbound,553,customer,estimate_inquiry,"Estimate request",high
-CAL019a50aab78b7586a2932b2fc8e74a10,inbound,481,customer,foundation_inquiry,"Foundation repair inquiry",high
-CAL019a79b353727c61b3eec6d5756a2477,inbound,461,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019a07c9eccb7539bba03661af57fb90,inbound,458,operations,accounting,"Internal accounting",high
-CAL019a087b677573bb92621bf809af7b5d,inbound,427,customer,wall_inquiry,"Wall construction inquiry",high
-CAL019af08327d8718f8a38411106c1eaf4,inbound,395,customer,walkway_repair,"Walkway repair inquiry",high
-CAL019aa7d1ec3b782a80a5f8151afd6a42,inbound,390,customer,estimate_inquiry,"Estimate request",high
-CAL019a03b0e27a7cc98ff96a14363f9894,inbound,389,customer,foundation_inquiry,"Foundation repair inquiry",high
-CAL019b33fe073775e1b92144fda66be8a7,inbound,349,customer,wall_inquiry,"Wall construction inquiry",high
-CAL019a7ee938937ff3811d73f79221b0cd,inbound,344,customer,bathroom_remodel,"Bathroom remodel inquiry",high
-CAL019b140201f7728a9fce6c4850fb57fe,inbound,336,customer,estimate_inquiry,"Estimate request",high
-CAL019afff6f267713c995133521a59cbf8,inbound,320,operations,vendor_purchase,"Ashby Lumber purchase",high
-CAL019ae5bf160b75649d38b05e235549bc,inbound,315,operations,accounting,"Internal accounting",high
-CAL019a3b93a02778a08b4e73808f4aa2c6,inbound,293,customer,drainage_inquiry,"Drainage work inquiry",high
-CAL019ab8656b3f7a4eb8d9ba94f4adb2d9,inbound,278,customer,general_inquiry,"General customer inquiry",high
-CAL019a07b00ea476ec9a47fd5169b7712e,inbound,274,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019adb6a6dfc72419ae8b8f0ccea117f,inbound,264,operations,permit_inquiry,"Fire district inquiry",high
-CAL0199c61c41d17e5aa4614ff3f06a54cb,inbound,256,operations,internal,"Internal - Shy unavailable",high
-CAL019b478c4b17725d9a560e30f05a6d2a,inbound,250,customer,water_damage,"Water damage inquiry",high
-CAL019b004b919b78bd8163eaed80aeb5dd,inbound,249,customer,driveway_inquiry,"Driveway work inquiry",high
-CAL019ab6b5e2227b4e8acc676708bddc20,inbound,240,customer,general_inquiry,"General customer inquiry",high
-CAL019a9d4e3c3e7e738aadc8d28931425b,inbound,239,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019b388c68317431917d3323b5f4bd19,inbound,236,operations,general,"General operations call",high
-CAL019a5b29880577d89804942b5b66569a,inbound,232,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL019b2d1c8b997c449642d48ee10f6137,inbound,227,operations,vendor_purchase,"Home Depot phone purchase",high
-CAL019aa36ab13374f68631c1c09a353dc7,inbound,223,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL019a50f0d77b754589244b35b8d5fd6e,inbound,220,customer,foundation_inquiry,"Foundation repair inquiry",high
-CAL019ab6e6eff07640a2f7873ac49f7245,inbound,219,operations,vendor_service,"Printing service",high
-CAL019a60d4a1357a7683c56cfc8ce89147,inbound,217,customer,general_inquiry,"General customer inquiry",high
-CAL019aa38d4b7974f396e9af825ea5d6c2,inbound,214,customer,bathroom_remodel,"Bathroom remodel inquiry",high
-CAL019a4b4dc01571c3937fa91794072661,inbound,212,customer,driveway_inquiry,"Driveway work inquiry",high
-CAL019b054689c077c8ade87b28b64a9e68,inbound,210,customer,general_inquiry,"General customer inquiry",high
-CAL019a31b722b57ad3b5a42a9ef7261e63,inbound,210,operations,general,"General operations call",high
-CAL019a799d860d77c3a93f4d4ebcdf90c5,inbound,207,operations,internal,"Internal - Shy unavailable",high
-CAL019a5b38cc26774f928154dea89f854c,inbound,205,operations,permit_inquiry,"City permit inquiry",high
-CAL0199f3d91f4876dcb14ac9e105011e7f,inbound,200,operations,general,"General operations call",high
-CAL019a50dcda6878d7b612831d8fe1947e,inbound,199,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019a0e38b6ab7c4d9ede2fcb121fb482,inbound,198,customer,concrete_inquiry,"Concrete work inquiry",high
-CAL019a756bf54e7daa9145c9b7695504b4,inbound,188,customer,general_inquiry,"General customer inquiry",high
-CAL019a0d94bfee7fd489f36c4d1309b77e,inbound,184,operations,general,"General operations call",high
-CAL019b05974fb8755ca28cbc5c3b465254,inbound,178,customer,general_inquiry,"General customer inquiry",high
-CAL019b241ccd2b75c6b95421d608fee038,inbound,173,operations,vendor_purchase,"Home Depot phone purchase",high
-CAL019a30dde27372c2b9f2c28e12e203a6,inbound,169,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019a5afb7c237f0aa2132376e59b00cd,inbound,167,operations,general,"General operations call",high
-CAL019b6c6c3f727925959d09976e1e415f,inbound,166,operations,general,"General operations call",high
-CAL0199ba236df9787295179c231d53251e,inbound,166,operations,general,"General operations call",high
-CAL019a364a76e27bc9bef3ce71b3260eb9,inbound,163,customer,general_inquiry,"General customer inquiry",high
-CAL019abd047bbf7d5989e0b74c4fa89475,inbound,154,operations,vendor_purchase,"Prosource purchase",high
-CAL019a5146efa57ef4aa85a4fedc1ba9b7,inbound,148,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL0199e980840d74e79cbde2ccf9349b6f,inbound,147,operations,general,"General operations call",high
-CAL019ae55ec41d7ca98751050b8db8e901,inbound,146,operations,general,"General operations call",high
-CAL019a6fe1e0367628a420177104117f1d,inbound,143,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL0199f445b7d77ceb8ab68cecd2a7a018,inbound,141,customer,general_inquiry,"General customer inquiry",high
-CAL019a4c180e9273f7aecc12b13b70284d,inbound,140,customer,general_inquiry,"General customer inquiry",high
-CAL0199c618242375b9b987d18f9831e422,inbound,133,operations,vendor_service,"Printing service",high
-CAL019abccc336c72a588cdbcb684644955,inbound,131,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019ab6d13e767b02a2fd3288fc9a8885,inbound,127,operations,general,"General operations call",high
-CAL019a7a67b58d7b08aec66ef5da1fe051,inbound,124,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL019b052050107d3ab91dca392b4c6805,inbound,120,operations,general,"General operations call",high
-CAL019adbfc7cb67ee0b6323f55355344d7,inbound,119,customer,voicemail_inquiry,"Voicemail/callback request",high
-CAL0199c5830347718ca8bcbf2b9f9b7e81,inbound,117,operations,general,"General operations call",high
-CAL019b6c9e21b971fe8b5dd79df162bfb1,inbound,116,customer,general_inquiry,"General customer inquiry",high
-CAL019abcf85b3a78ffa37a48c52b38587b,inbound,115,customer,window_inquiry,"Window replacement inquiry",high
-CAL019a2cc34eb475deaf05945984f814a9,inbound,113,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019a848485687c7aa8354b7cabc975c0,inbound,111,operations,vendor_purchase,"Home Depot phone purchase",high
-CAL019ab86a9bdf7dac907e03edf51a8231,inbound,109,customer,general_inquiry,"General customer inquiry",high
-CAL019b04f548a776cfad0b314d544cb75e,inbound,107,customer,general_inquiry,"General customer inquiry",high
-CAL019a17d7326c7b7198fc2c4c9548a3e5,inbound,106,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aea7082d67a0aaa94fe01a3508134,inbound,105,customer,drainage_inquiry,"Drainage work inquiry",high
-CAL019aa858d0837aafa822e9b12a188e9a,inbound,105,customer,voicemail_inquiry,"Voicemail/callback request",high
-CAL019adbe4357c704dbdf4801a119d354a,inbound,103,customer,deck_inquiry,"Deck/balcony inquiry",high
-CAL019a2c88b8e07ef0a37588e752b5ceb4,inbound,100,operations,general,"General operations call",high
-CAL019a0d01c1ec7b88a3a85bb0a571f6be,inbound,100,customer,estimate_inquiry,"Estimate request",high
-CAL019b2415bae176688345b062ad2fef08,inbound,99,operations,accounting,"Internal accounting",high
-CAL019a837f7f877636bcdf820c3c6480c1,inbound,99,spam,workshop_sales,"Aspire Institute workshop spam",high
-CAL0199ba7d7b467a7ea5b6da07e17d94ef,inbound,99,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL019ab6ef35bd75a287655c0bbd6800d6,inbound,97,operations,shipping,"Shipping/delivery",high
-CAL019a2ce2fe08742bb8771f27f7e17524,inbound,96,spam,b2b_sales,"Engineering services spam",high
-CAL019a08e941587718857f25edcf454460,inbound,94,customer,general_inquiry,"General customer inquiry",high
-CAL019b0e726eec7a03bb8237ad42283b01,inbound,92,operations,vendor_purchase,"Westside Building Materials purchase",high
-CAL019adc30bbd5722fbb34822937b9edde,inbound,92,operations,general,"General operations call",high
-CAL019a83588f50740c9a0a5a0375ad05d5,inbound,92,customer,general_inquiry,"General customer inquiry",high
-CAL019a702c4c9a701286fd256420ec6a89,inbound,92,other_inquiry,out_of_area,"Out of service area",high
-CAL0199a0ad85777c4ca24c0d534c5d6045,inbound,91,other_inquiry,out_of_area,"Out of service area",high
-CAL019a55360c387036a5aae3c69f1db83e,inbound,90,operations,general,"General operations call",high
-CAL0199ee62e1c5768f95f8f438849983ba,inbound,90,operations,general,"General operations call",high
-CAL0199ba1d6a907f0bbd3bb20703788ce1,inbound,90,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019b0e5afdd17f90bf0901b641f532c8,inbound,85,customer,houzz_lead,"Houzz lead",high
-CAL019aa906c4be7f1c9c8c2c1574515eda,inbound,85,customer,window_inquiry,"Window replacement inquiry",high
-CAL019a7a746059726e9d35b6d61a44186f,inbound,84,operations,general,"General operations call",high
-CAL019adc6ded027157add3afa441ee5176,inbound,83,spam,b2b_sales,"Security services spam",high
-CAL019a70401ee97989970e50898259f8c6,inbound,83,customer,general_inquiry,"General customer inquiry",high
-CAL019b71a529ee7254811624a40ba4c669,inbound,82,customer,general_inquiry,"General customer inquiry",high
-CAL019a3bfcf7027a1da35df8e2cd7f12d2,inbound,82,customer,wall_inquiry,"Wall construction inquiry",high
-CAL019a02e8bcd5752a9e21b300edaf4f83,inbound,81,customer,foundation_inquiry,"Foundation repair inquiry",high
-CAL0199a20270bf7d4085887a1c980754be,inbound,80,other_inquiry,job_seeker,"Job seeker inquiry",high
-CAL019a84829290773c92f9b194efcb958c,inbound,78,operations,general,"General operations call",high
-CAL0199cf20b93a73e792e073403a37d87f,inbound,77,operations,permit_inquiry,"City permit inquiry",high
-CAL019a9e29a1547dd5b5b7e51896615074,inbound,76,spam,workshop_sales,"Aspire Institute workshop spam",high
-CAL019a31946f8c76ea99dfbf719f161f39,inbound,76,operations,accounting,"Internal accounting",high
-CAL0199f417a7747cab9d89c367a4ef6beb,inbound,75,operations,general,"General operations call",high
-CAL019a3c9e558a7e4f9d5ef1564d98aa57,inbound,74,customer,driveway_inquiry,"Driveway work inquiry",high
-CAL0199c00684a47653a2b37b2a9f8c5366,inbound,74,customer,general_inquiry,"General customer inquiry",high
-CAL019a55b7ced279af8bc72ee4d7f75c55,inbound,73,spam,b2b_sales,"Housecall Pro spam",high
-CAL019a3640062a78838ee53684dd5a72da,inbound,73,operations,shipping,"Shipping/delivery",high
-CAL019b0e6406c971648da42c5f12ecc4c9,inbound,72,customer,window_inquiry,"Window replacement inquiry",high
-CAL019b1456fdbc74e0801d2d818836ac46,inbound,71,customer,general_inquiry,"General customer inquiry",high
-CAL0199f3c9c9467f13a596870b0394e1ba,inbound,71,other_inquiry,job_seeker,"Job seeker inquiry",high
-CAL019ae601312a7d39a1d45dafad4b5982,inbound,70,customer,general_inquiry,"General customer inquiry",high
-CAL019a844b4e8a72be9a4ff9908e7b5acc,inbound,70,customer,general_inquiry,"General customer inquiry",high
-CAL019a03b2d5c07244bdffda2b4bb89c0f,inbound,70,spam,b2b_sales,"Business broker spam",high
-CAL019b5ca413c37dc4980c4df4f99f153e,inbound,69,customer,concrete_inquiry,"Concrete work inquiry",high
-CAL019a4ae0d7a57a5a9bac3235fbed25ed,inbound,69,other_inquiry,job_seeker,"Job seeker inquiry",high
-CAL019a07ae9329796f94cd90c1cac619d7,inbound,69,customer,general_inquiry,"General customer inquiry",high
-CAL019a97c0d54973e18931c02bb70174ec,inbound,67,customer,walkway_repair,"Walkway repair inquiry",high
-CAL019b1417d8417dd2841573a2a99757ac,inbound,66,operations,general,"General operations call",high
-CAL019ae5469835737b91cc325a0e9e3947,inbound,65,operations,general,"General operations call",high
-CAL019a35cd1ea87bf1b1d08a7deb986743,inbound,65,spam,google_listing,"Google listing robocall spam",high
-CAL019a0d5ea59c752785cdb2229c869e20,inbound,65,spam,b2b_sales,"Housecall Pro spam",high
-CAL0199b6d040ba71c18d2c5a25a5154946,inbound,65,spam,b2b_sales,"Small Business Lending spam",high
-CAL019b0981973d7bf5bb68a3942792926d,inbound,64,customer,voicemail_inquiry,"Voicemail/callback request",high
-CAL019a031274217d8789dc0d6db7cc8f0c,inbound,64,other_inquiry,job_seeker,"Job seeker inquiry",high
-CAL0199e468c9827312bacb3885d2212b0a,inbound,64,spam,google_listing,"Google listing robocall spam",high
-CAL019aff0b75367b82bf6a2721ff9e3a3a,inbound,63,operations,general,"General operations call",high
-CAL019aa27a02927b0d971abd5ddc97226c,inbound,63,operations,business_partner,"Realm/Roam partner",high
-CAL019a12c5da23786284049dcfe180945e,inbound,63,operations,general,"General operations call",high
-CAL0199ea3b01c07aa78c68f7087992e708,inbound,63,operations,general,"General operations call",high
-CAL0199a1eb912770ca9918123d55e670de,inbound,63,customer,general_inquiry,"General customer inquiry",high
-CAL019b0ee479527948b8c7cc8b16fe1594,inbound,62,spam,workshop_sales,"Aspire Institute workshop spam",high
-CAL019aa7d3d10f75ddb39bed2452c2a8ea,inbound,62,customer,general_inquiry,"General customer inquiry",high
-CAL019a7f1acb007cfaa13be12afb881474,inbound,62,operations,general,"General operations call",high
-CAL0199e88f431e7fde8d859a282480e1f6,inbound,62,spam,google_listing,"Google listing robocall spam",high
-CAL0199e884a6887625b05c75f90bb5d254,inbound,62,spam,google_listing,"Google listing robocall spam",high
-CAL0199ba88dd357ec7988174249c29f3de,inbound,62,spam,google_listing,"Google listing robocall spam",high
-CAL019b2e30c6467893bdf3486e72697a32,inbound,61,operations,general,"General operations call",high
-CAL019ae540d5e17bdbb8c6ee5a76ba70b8,inbound,61,operations,general,"General operations call",high
-CAL019aec0359287808b472c90a8ca96a0b,inbound,60,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a833ae6cf7102a91676ecc7febb5a,inbound,60,spam,google_listing,"Google listing robocall spam",high
-CAL019a4fa70ffb720aa22ccc2a3739a215,inbound,60,spam,robocall,"Robocall spam",high
-CAL019b714702f37cca86930aceb7090e9b,inbound,59,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b46ec215d78958d7a458affaa8ac9,inbound,59,spam,robocall,"Robocall spam",high
-CAL019b2dfca1017dc29a4c1ba9592cf7c1,inbound,59,spam,b2b_sales,"Small Business Lending spam",high
-CAL019aa7449aa977b59e5b4a3ad51155d2,inbound,59,spam,robocall,"Robocall spam",high
-CAL019aa2582f0b77e19d24f2ae567577b2,inbound,59,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a97bb87167b82ae121c973625186e,inbound,59,customer,walkway_repair,"Walkway repair inquiry",high
-CAL019a12a8b7367b61a4f6c34a9394149f,inbound,59,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0d26b5b1726f8cde72e5366d5495,inbound,59,operations,internal,"Short internal call",high
-CAL019ac123b0cb72169d8f42235464555e,inbound,58,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199f3e73aae7c28b7a834b583f85474,inbound,58,incomplete,no_transcript,"Empty or no transcript",high
-CAL0199f2fb002e753680bc02345b0af942,inbound,58,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a36b822277e309e0037f8fa9859d2,inbound,57,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a27d09f877f9b98d427a313394488,inbound,57,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ae145b4ea7f65a8a6f5cb5520d12f,inbound,56,customer,concrete_inquiry,"Concrete work inquiry",high
-CAL019a31ea64547a088f37487857f63812,inbound,56,spam,merchant_services,"Merchant Service Center spam",high
-CAL0199de4cfdf37d1baf932e79a95b6aec,inbound,56,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b6b0b892271acb6a10ff50b3cc7e6,inbound,55,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199df2c6dc97ec79b67922c827e5d99,inbound,55,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a592253e7e79b2e6baaf87dc6108,inbound,55,spam,robocall,"Robocall spam",high
-CAL019ae54b950f754db5219eb1d89dbc16,inbound,54,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a4aa67cf87d4d92806e49835a5ba8,inbound,54,spam,google_listing,"Google listing robocall spam",high
-CAL019a35d1c204787893ccf77446dad386,inbound,54,spam,google_listing,"Google listing robocall spam",high
-CAL0199ea3f63787f6ca99b2e61fb320275,inbound,54,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a6b750f47355996b23b5e7666ccc,inbound,54,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b27fd62e677068c6eaa9e86786e3f,inbound,53,spam,robocall,"Robocall spam",high
-CAL019afecbac5771f8bf8b5cee9d7c80c0,inbound,53,spam,google_listing,"Google listing robocall spam",high
-CAL019a74b9f36b723784e0f250f8203f9f,inbound,53,spam,robocall,"Robocall spam",high
-CAL019a11b51f23736ea7eaac0207634d02,inbound,53,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e8c1002172b09765d519d1b21e02,inbound,53,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a1626ba37439b150d7b6bf63061a,inbound,53,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b2ed5d9e87e95810bd12af3fb1302,inbound,52,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b192ed0a3700c888bd0d5758db9fa,inbound,52,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ac1bc99a77fa98ed7bbdbeac65a83,inbound,52,spam,b2b_sales,"Housecall Pro spam",high
-CAL019a93a10adf7f4c8a1235ad3658734f,inbound,51,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a090d2d6875689669b150dd3208ad,inbound,51,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ea4ed7487217b23f381cdc177573,inbound,51,customer,appointment_confirm,"Appointment confirmation",high
-CAL019ae5f61b6f7765a4063ccf67ab620a,inbound,50,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a9856bc677880b4b512d8949e4e4b,inbound,50,customer,window_inquiry,"Window replacement inquiry",high
-CAL019a7b20fc81759ca911ef64bf7af5f1,inbound,50,spam,b2b_sales,"Small Business Lending spam",high
-CAL019a661e6ed472689a717a763ed24d6b,inbound,50,spam,b2b_sales,"Small Business Lending spam",high
-CAL019a5a506f007a3589c84011e7169c06,inbound,50,spam,b2b_sales,"Housecall Pro spam",high
-CAL0199e434bd487c64bd31e0a01c63e20b,inbound,50,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199cfbb2251707498f60a3a32dbed5c,inbound,50,operations,internal,"Short internal call",high
-CAL019b7086c66d76b884b6135712481774,inbound,49,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b625ea9d17ecba0c14ef070b15f46,inbound,49,spam,b2b_sales,"Small Business Lending spam",high
-CAL019affc88a617ed8989d702b8ad24f45,inbound,49,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a365258fe71c78f75939982b9c4a8,inbound,49,spam,b2b_sales,"Magazine feature spam",high
-CAL019a318effe8743ca3762b37cee4c79d,inbound,49,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019a099bdf4c7a169f796ef0d28cb132,inbound,49,spam,b2b_sales,"Small Business Lending spam",high
-CAL019b0e8b97137aaea5dad35bb94e3b57,inbound,48,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a4b76f4a679e5b4c7c0f7118a1ebd,inbound,48,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a30ee6afb7d139352fa22d1622043,inbound,48,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a03bbbd0f7466b7a09a948513b929,inbound,48,incomplete,no_transcript,"Empty or no transcript",high
-CAL0199abb90ddc705296b9c944836e0f7a,inbound,48,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ab7d2a2ce7562a7d0791d1146e528,inbound,47,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199de853ee57d25a1661335c0fb0724,inbound,47,customer,houzz_lead,"Houzz lead",high
-CAL0199bb197be77265a765125e26d61f0a,inbound,47,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ae0627cd97f3aa644e8298b7ccd6b,inbound,46,other_inquiry,out_of_area,"Out of service area",high
-CAL019b0ea05f7f7a05be825f6442f7580b,inbound,45,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b0e39489f79e4b7a9bedcc12b6692,inbound,45,spam,robocall,"Robocall spam",high
-CAL019a78eb97f072bd8ab2c3e798807852,inbound,45,customer,water_damage,"Water damage inquiry",high
-CAL019a6f7240d3749e9ec2024701366da4,inbound,45,customer,bathroom_remodel,"Bathroom remodel inquiry",high
-CAL019a275db5e07458a83c94f875c3c47b,inbound,45,spam,robocall,"Robocall spam",high
-CAL0199cfb03cf97586b0c422aaf4e78206,inbound,45,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199bab89bd87ba8af061c95511ebbee,inbound,45,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a1a0b7227c9dbaf8e6499abbf053,inbound,45,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0e86e3b27aa9a101c6b01611b366,inbound,44,operations,utility,"PG&E utility",high
-CAL019a935ce87f7130bdd3e29e0f385d00,inbound,44,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019a74b957c270d4bdafc73e86f01592,inbound,44,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199bbb4d56a7873b0f78a8f47b1678a,inbound,44,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b2db02bd7732e975024bc5650a582,inbound,43,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a9498d8257f7880253aba59c3ab7b,inbound,43,customer,voicemail_inquiry,"Voicemail/callback request",high
-CAL019a843abb9d7c18a0acd17200b37496,inbound,43,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a3b76c00f7de587dc56d6706b0553,inbound,43,spam,b2b_sales,"Engineering services spam",high
-CAL019a3093f0f97482a171a1d878920a9b,inbound,43,spam,google_listing,"Google listing robocall spam",high
-CAL019a2c7ccaac7ca58d5cb38cd2ab76af,inbound,43,spam,robocall,"Robocall spam",high
-CAL019a0d0c355075dab56e3ade39a5285b,inbound,43,spam,robocall,"Robocall spam",high
-CAL019a07c70a7d7fe69c57bb2b17bfbe84,inbound,43,spam,b2b_sales,"B2B prospecting call",high
-CAL019b13cf7fba7249bce6125d0ae85a80,inbound,42,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aff5f51c574deb33a675d302fdbec,inbound,42,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a7e0e444f79e6ab6ceb229cdef198,inbound,42,operations,internal,"Short internal call",high
-CAL019a35a46bc37a3ea3640f5728a4e77b,inbound,42,customer,voicemail_inquiry,"Voicemail/callback request",high
-CAL0199c9d6c4177e5aa8bb154cefae2ba7,inbound,42,spam,google_listing,"Google listing robocall spam",high
-CAL0199c54da77a747ea6495e73f9e45152,inbound,42,spam,google_listing,"EMG listing spam",high
-CAL019afecab0b47ce7bfd9626650255b87,inbound,41,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adfeec7ed702e8895473eb9f93d3c,inbound,41,customer,voicemail_inquiry,"Voicemail/callback request",high
-CAL019a7e28d7ee70a4a14247f12aa7a6bb,inbound,41,spam,robocall,"Robocall spam",high
-CAL019a4a8e32447aaaaa367507e39071b8,inbound,41,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e359551d77c7b3558f9b103e4a5d,inbound,41,spam,b2b_sales,"QuickBooks integration spam",high
-CAL0199ab7819c476bab5ba4e2faa6df5f6,inbound,41,spam,google_listing,"Google listing robocall spam",high
-CAL0199aac419947718a440cca63670f7b7,inbound,41,spam,google_listing,"Google listing robocall spam",high
-CAL019b0932732074dfa0751136028b705a,inbound,40,spam,robocall,"Robocall spam",high
-CAL019a92b97e4b7722baf545052f7868fb,inbound,40,spam,robocall,"Robocall spam",high
-CAL019a5a0b50807e7e86ac0dcdbea99c39,inbound,40,spam,google_listing,"EMG listing spam",high
-CAL019a31e8af25707c9c13a05c419de27c,inbound,40,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a08dd68a17b1ca542a57ee6928d37,inbound,40,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ceb4386a780388a1425444ae56e2,inbound,40,spam,robocall,"Robocall spam",high
-CAL019b13a9083d7bf391f556ea00333585,inbound,39,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ae531f2ae7d86a4b37aebf6fbbb61,inbound,39,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a4faaa0c5700fad1609799a44e7b0,inbound,39,spam,robocall,"Robocall spam",high
-CAL019a31153d7d743cb57abfdf47f4f20b,inbound,39,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a282e323277129724433ede554d76,inbound,39,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0d8ec32e70439399c8b6b5b38bb6,inbound,39,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199de471a467418a781af4d75d6f8e4,inbound,39,spam,robocall,"Robocall spam",high
-CAL0199cfe932a5710d9f097a8f577ca5ec,inbound,39,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ca9cfdfd71fa9bc32ce99be9bf65,inbound,39,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ae537a97a760e985b8440f1559d6a,inbound,38,operations,vendor_purchase,"Floor and Decor purchase",high
-CAL0199e35fa250787ea304e3babbad5ff7,inbound,38,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019a7f634f8979c9a3e7bd217b2723e8,inbound,37,operations,permit_inquiry,"Fire district inquiry",high
-CAL019ae0c4e94f7fd8aa046b75a51a88c0,inbound,36,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a73d8d62677b893df9aba095f37b5,inbound,35,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a31ad244f79258a502515bba1f850,inbound,35,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2660e14b72a596759f338590d6bd,inbound,35,spam,robocall,"Robocall spam",high
-CAL019b3769a85f7d5aad8cfd752bc7d6ab,inbound,34,spam,google_listing,"Google listing robocall spam",high
-CAL019b002044e372abade0ac644a9356d6,inbound,34,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ab8090be6727c82695e93885cc6a5,inbound,34,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a560f351e71cfab4fe8ac7cbf52d1,inbound,34,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2c71d70f7b4a80ddd4c131b3e344,inbound,34,spam,google_listing,"Google listing robocall spam",high
-CAL019a2b71cd8178df9af9120b11083000,inbound,34,spam,google_listing,"Google listing robocall spam",high
-CAL019a0db43b097c7abf18161f3bd46837,inbound,34,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a024ce8f075d78ead821d3bc85665,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199f414234c7c55839d76955c7d6431,inbound,34,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199f36bb5e57589b8dcba5678aa407b,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199f350b64a796cb220df44f1525699,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199f33861f87ce59832ba59895eea26,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199f301a37e7e8da0799fa0ba76564f,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199ee5a24ce7edc9149e85b60aeb559,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199edf6fa207f868cd7639ef6bed3f1,inbound,34,spam,robocall,"Robocall spam",high
-CAL0199e48197eb7eafa6d50171ded5547f,inbound,34,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ba77bb9076dca881339a6f115a56,inbound,34,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a598693a7f79834cce5e13bcff1a,inbound,34,spam,google_listing,"Google listing robocall spam",high
-CAL019b3795cb1278e4ba72d935e54ae48d,inbound,33,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b1416cdd6740e806c9fd4cad6621b,inbound,33,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019af08cedf074ea828952fd4814b08d,inbound,33,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aeb8abd8b719cbfc8f94821577d03,inbound,33,spam,workshop_sales,"Aspire Institute workshop spam",high
-CAL019a9e807f27707d8d2f8cbd188e4fa0,inbound,33,spam,b2b_sales,"Security services spam",high
-CAL019a94832c4f7125a70d9d385a39a016,inbound,33,spam,b2b_sales,"Storage container spam",high
-CAL019a83410329745d9d0b090f6a43fa47,inbound,33,spam,google_listing,"Google listing robocall spam",high
-CAL019a16ee1a2770fa9acfd7d7227950cb,inbound,33,spam,google_listing,"Google listing robocall spam",high
-CAL019a077af4777a8c957272d1a2473abb,inbound,33,spam,google_listing,"EMG listing spam",high
-CAL0199e35a67c37ddea48a16ddfc573650,inbound,33,spam,google_listing,"EMG listing spam",high
-CAL019b28136d1e71eea67c93a4b371faef,inbound,32,spam,google_listing,"Google listing robocall spam",high
-CAL019b280621ed79559f352cede0076b80,inbound,32,spam,google_listing,"Google listing robocall spam",high
-CAL019b100be0cd7c9492335ba324f09686,inbound,32,operations,internal,"Internal - Shy unavailable",high
-CAL019aac7f9d617bb1a2aaa96645d20b7e,inbound,32,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a6f9b84ca7152bda0f2c553c1653e,inbound,32,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5a1d33687962879952dcac946d8a,inbound,32,spam,b2b_sales,"Security services spam",high
-CAL019a508a19eb782a843bf0d3611f096b,inbound,32,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0c9407ca7fdf8d6f59f42e9177c4,inbound,32,spam,google_listing,"Google listing robocall spam",high
-CAL0199c48010b178568cc4fa96cd894e6d,inbound,32,spam,google_listing,"Google listing robocall spam",high
-CAL019aa20a996c7794bc6995b4d21bcdbc,inbound,31,spam,robocall,"Robocall spam",high
-CAL019a7a235acf77eda3cbb44ed91cc710,inbound,31,spam,google_listing,"EMG listing spam",high
-CAL019a74d17d8a783f96367db30629c5df,inbound,31,spam,robocall,"Robocall spam",high
-CAL019a3bc36f357e469913076fbe36d141,inbound,31,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019a2c850c647fe592b8de8661503cff,inbound,31,spam,robocall,"Robocall spam",high
-CAL019a2c7701367db488330fadf34ac287,inbound,31,spam,robocall,"Robocall spam",high
-CAL019a11b8d2207b7e980f1697951b1aac,inbound,31,spam,google_listing,"Google listing robocall spam",high
-CAL019a0c9c96db704a9a5808bb3e55882c,inbound,31,spam,google_listing,"Google listing robocall spam",high
-CAL019a022e83957978b1c1cb8969e08c0d,inbound,31,spam,robocall,"Robocall spam",high
-CAL0199df5d389a780da5342a49e447248b,inbound,31,incomplete,no_transcript,"Empty or no transcript",high
-CAL0199c9aa62ca724d8c0127922df3e471,inbound,31,spam,google_listing,"Google listing robocall spam",high
-CAL0199c0491cee72269ea8c973bda05d9e,inbound,31,spam,google_listing,"Google listing robocall spam",high
-CAL0199bf5bada275c6965ebad06c2815e3,inbound,31,spam,google_listing,"Google listing robocall spam",high
-CAL0199abdbd93f7a34bb9dc20f2064558d,inbound,31,spam,google_listing,"Google listing robocall spam",high
-CAL019b2df334a8731e8f566994132d2bdb,inbound,30,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b000755ac78e19ad320c2db360d4b,inbound,30,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019afecd84c37ceb82963e297202dde9,inbound,30,spam,robocall,"Robocall spam",high
-CAL019aef7459147f7bad54d3351817109e,inbound,30,spam,robocall,"Robocall spam",high
-CAL019aea2321647894a4e05e866c91d92f,inbound,30,spam,robocall,"Robocall spam",high
-CAL019ae0f5c2ac7ec499704eb23cef21ff,inbound,30,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adaa78726748d90e1f2c1fce77536,inbound,30,spam,robocall,"Robocall spam",high
-CAL019ab7ae297f7da1a32565ae9bebeb70,inbound,30,spam,workshop_sales,"Aspire Institute workshop spam",high
-CAL019a566f9ba87d9184da835787255613,inbound,30,spam,b2b_sales,"Small Business Lending spam",high
-CAL019a3188ac0173b1b8e6e6e97be34432,inbound,30,spam,b2b_sales,"QuickBooks integration spam",high
-CAL019a308b353f7c0ca28ddf5f12a91440,inbound,30,spam,robocall,"Robocall spam",high
-CAL019a0c899c4a7c75ac2e15e89f7583ae,inbound,30,spam,robocall,"Robocall spam",high
-CAL019a0880ea647f268242d482b0056db9,inbound,30,spam,robocall,"Robocall spam",high
-CAL019a076c72a87cb39b41843e8cb4a19a,inbound,30,spam,robocall,"Robocall spam",high
-CAL0199f2df9b5e79a4914eb300231c1070,inbound,30,spam,google_listing,"EMG listing spam",high
-CAL0199edb2609e72c4a08c5a7a039804bf,inbound,30,spam,robocall,"Robocall spam",high
-CAL0199de1bf2fb73c6ac16496cceb032ea,inbound,30,spam,robocall,"Robocall spam",high
-CAL0199c98fbf5f7dbc95809af13202e4ce,inbound,30,spam,robocall,"Robocall spam",high
-CAL019b47bfb3fd787bacf1c9d3cc84aa52,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ab74b11537b79acff63e51e77a342,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a4bee2f207db49f1c42b090510bd6,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a3c5d58f978b589ce7bb45d25503f,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a3bf113b57b0a883ae74636de0d2e,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a31c5e8957347822cc52f97823ec3,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2c3a8223756985e36ba5f819fc27,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a035d80437201ab3ab8a9a468aaa1,inbound,29,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a02295dea71339bef9839014fb53e,inbound,29,spam,robocall,"Robocall spam",high
-CAL0199c05d59187f4f837fa69e969da9f1,inbound,29,spam,google_listing,"EMG listing spam",high
-CAL0199bf5ccf7e71708b603909489d29b3,inbound,29,spam,google_listing,"EMG listing spam",high
-CAL0199bf52095c7830ab9b727fe2e3e7cf,inbound,29,spam,google_listing,"EMG listing spam",high
-CAL0199a19d0e4872f0910a23fdc8cb5cbe,inbound,29,spam,merchant_services,"Merchant Service Center spam",high
-CAL019b045b4ea67f56adfb61eac925d19b,inbound,28,customer,drainage_inquiry,"Drainage work inquiry",high
-CAL019acc7fe8bf741fa56711ad676357bb,inbound,28,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a5520dc5a7f82b23319be04755b2a,inbound,28,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a4b93b71b7d1b8abaf6fdc4b60c93,inbound,28,operations,internal,"Short internal call",high
-CAL019a0dae8ddd7004b3101501f49534e0,inbound,28,spam,merchant_services,"Merchant Service Center spam",high
-CAL019b0e755168763ca81982acf9a4cf63,inbound,27,customer,adu_inquiry,"ADU/addition inquiry",high
-CAL019abd284d41792c887eb72e30cd682c,inbound,27,spam,merchant_services,"Merchant Service Center spam",high
-CAL019a6fe2cf7e7aca909b21d68acf6b95,inbound,27,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a177d88eb7aa4a709d0d9586164e6,inbound,27,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b71d4955476af8129f52726f9e1bf,inbound,26,spam,b2b_sales,"Small Business Lending spam",high
-CAL019b4d66031b79f3abac64fe89dc4181,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b31d3b44c797c81cb96b94d071b21,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b24081b56716ca3e1ee11dd99ccc1,inbound,26,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ae0735271750bb4fc48041e58c722,inbound,26,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a8483768d76ab810caf8a25afbf5e,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a59779b6d7488b6ccfccf94b917c7,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a3c1383637e77900a5ae1836de493,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a16a0e9937a4489efc20edd85d2b0,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a16874a037c8b8e2212d32022e2eb,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a0322cc717b1cb2b09b00b4f4d7ff,inbound,26,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ac27684c771cca5906e757540caeb,inbound,25,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ac221f3a5768291c147f33e23de66,inbound,25,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a79fcf70674a59a4eb40d62a12958,inbound,25,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a7450f46d78c28cfb9894a3c8335e,inbound,25,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a6f14ca5a7c5fa21ec592581609ff,inbound,25,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a60bdcbf975d9b5572f6172436a1a,inbound,25,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5bb9f9e87363b1cb00b4f954573a,inbound,25,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a3c571c93727abb94e1b4bf5df606,inbound,25,spam,b2b_sales,"Local Splash spam",high
-CAL019a0d4f33d974e7bbc19f5921db08a7,inbound,25,customer,realtor_inquiry,"Real estate agent inquiry",high
-CAL019a0ce2553a7629aa307a660f94808f,inbound,25,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ded478db75929f9e8469fb252cd1,inbound,25,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b38c39a66788d88d711dbd0a22fff,inbound,24,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b2e540e3d78d2953b41fb9fa047e2,inbound,24,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019abc4826a671c09efe01666a97e4c0,inbound,24,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a9da74e6e74aa8264a3f8794b0777,inbound,24,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a978e11097c62b36c140cbb7554b9,inbound,24,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a12bda1f37b52abbf7ec9c8328b6b,inbound,24,spam,robocall,"Robocall spam",high
-CAL019a03ac2d897d079996db45b3ad8fa0,inbound,24,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199eeb066307f86b02dae6260ac977c,inbound,24,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b519ee362767c9869ebead6338626,inbound,23,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f4330257bc3a435614514b9c243,inbound,23,spam,b2b_sales,"B2B prospecting call",high
-CAL019b04c0615a78adbe9e744e78589dd2,inbound,23,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019acb7c3a5f78f0aafa5aa930fcdb0b,inbound,23,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aa874d8f67c33a27666c6f0a1e87c,inbound,23,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a6fe978f97a1aad3da0a1b89a2aa6,inbound,23,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199f43a61467768b75dee9bda6edf9a,inbound,23,incomplete,no_transcript,"Empty or no transcript",high
-CAL0199e2683a2b7a98b4f6f8ea5f120849,inbound,23,spam,google_listing,"Google listing robocall spam",high
-CAL019b4808e03b7cc082d80cb9123460d4,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b28d056197497b3e2fe7a015bfdaf,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f6f6018759cae01f4a69724a0f7,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0090fdf3724396daedd117a93263,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ae62319b776cd860767814b1a3b68,inbound,22,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a4c61a3917c0aa769a56fe459856f,inbound,22,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a36e04b4e752aaf81f95b3c54ada2,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2be05fd177c791a85040cbf20eae,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a0a61918769ca6c2460fc549d646,inbound,22,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a078047276efb3429e77aec157bf,inbound,22,other_inquiry,job_seeker,"Job seeker inquiry",high
-CAL019b51e470157e1ab567e5e81f0cf490,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b32eb26a5752194deb74def38b5d4,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b329bb4dd708ea3591c78bc043560,inbound,21,spam,robocall,"Robocall spam",high
-CAL019ae0cb532e7dac910edf926a5059fa,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aa31f42237c56963ebbc9d329a337,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a9d8a0a2c7a25bd9fca1cf93af8dc,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a84656a0d70ae886ad4e54fcac350,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a701f47a870219e3a726459cc5761,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a557f88867773bfce48c88a6952e2,inbound,21,spam,google_listing,"Google listing robocall spam",high
-CAL019a5011c21479728995ac92a96c1fb0,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a36ebefe97f41ab75169556ccaaa4,inbound,21,spam,google_listing,"Google listing robocall spam",high
-CAL019a312b76187d4ebbc05a42394b68b0,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a30ff4a987207ac893bc994602d75,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a08e085c379f4868c2071f6eb60ee,inbound,21,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a0384c63773679303211e3b6948d1,inbound,21,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b33dea07e7196a995bcc6f94c0f07,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b2e31d9487fd2b2367391eaaaf9a1,inbound,20,spam,robocall,"Robocall spam",high
-CAL019b1400e5a37cf383244a81d08afa81,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f2930a672a295b9143f0f8d8c4d,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f1294ff73b29004847879b9b17e,inbound,20,spam,b2b_sales,"Pinion newsletter spam",high
-CAL019b04a0ca52709fa4f857372413a399,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aefb0e43a737387e65fe191374b13,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adaecb8767334a57708541c5df270,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ac21c5e74700da889a670b51b884d,inbound,20,incomplete,no_transcript,"Empty or no transcript",high
-CAL019abc81fee87502a2cc0c620fea71d1,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019abc36d5c772cda27b2e3176ae462a,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a742b4b2d7e8f848f2c3b587cdd0a,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5b4ffc407ac39ee11306e5499f59,inbound,20,spam,merchant_services,"Merchant Service Center spam",high
-CAL019a3b64e3e3740f972415e875b73385,inbound,20,spam,b2b_sales,"Local Splash spam",high
-CAL019a36b500bf7797aabe47c9b99cf0af,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a126b2c447531a33d757fc73a40a9,inbound,20,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b2e4680c37f498ca37c24fb02aeed,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b2d6ae8e1735f85aeee04800c1902,inbound,19,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b231e6c6e78dfb8053255cc3a0dd0,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f9ae09670eea05a9d931cff5087,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aefe2461b71f9a515a700b1051336,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adfdc63d078a5a69f93118ca3bdb0,inbound,19,incomplete,no_transcript,"Empty or no transcript",high
-CAL019abc47cedc7206984274db2af025f8,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5fc07d1a72eaa7f38c48803e4cf8,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2c4281d770ec8e1acf133288ed60,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2752b27e7936b6d09631d617ec5c,inbound,19,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a183656837c568460329b2d77f633,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0dbe82f3719e848aae2b17607f33,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a035725ce75f88a3e17bed258a966,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e99ab431700cb29ff36816b716b7,inbound,19,spam,robocall,"Robocall spam",high
-CAL0199c4c5920075a1a5b21558811620cb,inbound,19,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b4cbaad837d95b9d798cfa5eb6ad7,inbound,18,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b23363dc17a3d86789fd18dc5d322,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b14556f3e731ea8188f67e3bfe97b,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b1419ab517cfe9176d74a6c5e1060,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f13cb587b6ca39b7a43a46af492,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f135a15745c8ab71e7aeecd9cb4,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019affdcf0257c96bd669486e33b713c,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ae01dd08f71088f6c93be7e9dbd28,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adbbc57717ae6bf9cd81e44b6a5bb,inbound,18,incomplete,no_transcript,"Empty or no transcript",high
-CAL019acbf6c635759993a8f7e7364beb64,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019abd17587070e9aa4e92a27bf8eee3,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a84926f16739aa7712d8ec0d6c8d7,inbound,18,spam,merchant_services,"Merchant Service Center spam",high
-CAL019a841322ac7a9fb8e36b6282fd6fc7,inbound,18,spam,merchant_services,"Merchant Service Center spam",high
-CAL019a83773612746f8a245066acfd9e33,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a74c8b170714f8f6c7abca71bab4d,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a60274ee179f386b4552d629b27fe,inbound,18,spam,google_listing,"Google listing robocall spam",high
-CAL019a5fa9e23c7315a8cb6e68b6a48aa0,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5b4896207021955c037fdc97e9e5,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a365797617266bb8d9118e3b04633,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a3160916779b8b9f668fcbc3b85b3,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a277142c67848802e6c70df74eabc,inbound,18,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a17e9cf4372cbb0bbfadfb60c9313,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a08a02ba879c18cdaf9591791476b,inbound,18,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a0898c5007483937c1088e02d8241,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a088a8b60754796751af63c1aee44,inbound,18,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a03500b6c7280963eb32c8ffbc6fb,inbound,18,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199cffc0ca17c64ad1bc09eef0d8c27,inbound,18,spam,google_listing,"Google listing robocall spam",high
-CAL019b4cc75e757beca7b168c8810ec8f3,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b331aa07f77819999e95882453f6b,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b28cd7c6f7d2eae1c83164332c92c,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f0a03cc7f72b85f3efaa8308db8,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019af03658467f07a374cb8ca83e6d10,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ac1d2bf707c85ab0cd9699d800fea,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aa2a6b183747883c3d08422ef3cc0,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aa2a6452a76889df03edb4ea24f53,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a9d14e4c471488e5d7ce6fd8df4ca,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a7a6f93f07495835d413cae4b965e,inbound,17,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a79432c597c428f9031c129b776b0,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a608ebe8f7bcaa88a0f16fd910add,inbound,17,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a55ab4f387f9ead6dfd6e3cdd43c4,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a50a83f547d4e931137e1c048be59,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a31b21d9a7ad7943266154bf45cf6,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2ba8d6f27551b8d8de3e42585bc5,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a17e8c8a8707894f1b8b9df3b3ed5,inbound,17,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a11dd77e97e0d82b14e13fe0f4362,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a11ccf30874229fd8c981613ad4d1,inbound,17,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a08a1ee9a730fb66b7d0eb557e29e,inbound,17,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b4cf6838f7cae967ab7e1b4600db4,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b4cd8d8ae7e72b42fedd90e648d7d,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b389c137f705f8cfb99506e416264,inbound,16,spam,google_listing,"Google listing robocall spam",high
-CAL019b23c93fe37e6a8877e6cee99d311b,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b239ddc1371439c4a3b92c03a41cd,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b141b193074909417901d6f8ecd22,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0516119e70bfba2c8acca2d07ccf,inbound,16,incomplete,no_transcript,"Empty or no transcript",high
-CAL019ae01da507723599f15a7dde19900c,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019abc9c0c4d71eeb0ea3d59c1d77d13,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a930585727b45bd77552926d8d8c5,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a848cdd367e629aebca4af8b7387f,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a83e23e3471aba353b8420ac67f68,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a7ea0c9b37b18862bdcdc79f77e7f,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5fec3bbc763085cf20d9eb46837a,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5a26354a7457aba05c317cb8ed41,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5082420179f0aeb5f49c6a98a140,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a31aa84717c36aaa797f29115bfab,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2bdb66067d069198767cc2cddec0,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a17416088796f8d346e85ab670358,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a121c0dc371458165e6c92a75eaed,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a08e26d057c438867b4a8bd4e0673,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a089a752d7e9e8ca92ed434bda1aa,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a038e27db7fa9ab4ec849f6990be1,inbound,16,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b38538d1679f19fde504e59462f1a,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b2328110d7d60aef9a6e31b0eeede,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0e925b5d70018d8fdcff96dabacc,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adbffdfd07ec4b79dc6285dc54dd5,inbound,15,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a98282db37065912d08115206c9b0,inbound,15,incomplete,too_short,"Hello only - no conversation",high
-CAL019a848ddc0d7c9cb0ffa005b854ba2c,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a79d48e187bd9a21aca8194eb4600,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a55714a0970cfb07b6e477bc0ab84,inbound,15,spam,robocall,"Robocall spam",high
-CAL019a1768684972fabb65b949b09272ac,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a12c0bf0b7383910aba1efdeab3b0,inbound,15,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0359c06878cda80dc3a7cc449cef,inbound,15,spam,robocall,"Robocall spam",high
-CAL019b5b9dabfb7348957737e0f0905dd5,inbound,14,spam,google_listing,"Google listing robocall spam",high
-CAL019b470e717f7b2d8b79aafc7626282c,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b38308f21728a9e29b7dc67e0d6cf,inbound,14,incomplete,too_short,"Hello only - no conversation",high
-CAL019aeb2a022071d9bc6f1170b8957822,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aa370dc5c760cbc6acfadbba3cf36,inbound,14,spam,google_listing,"Google listing robocall spam",high
-CAL019a939ff26070ec8fc63e4fc6f892df,inbound,14,spam,google_listing,"Google listing robocall spam",high
-CAL019a7a0883ce7ada871f88a6c0e374a2,inbound,14,spam,google_listing,"Google listing robocall spam",high
-CAL019a7a030ed47ce591b35efa0eba5126,inbound,14,spam,google_listing,"Google listing robocall spam",high
-CAL019a5fc36fc17db69e48b3f6071be4be,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a50b4940f79079bdec52e11cfc62b,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a3623d2737429a85b21be1e5f81b3,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a35e1cef5741691d3c869a417ab58,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2c28e80a7bba9e9bb89b8a1298a8,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a124bd5787e37b61df6f6a4cf1b7d,inbound,14,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e45991877f7587938945a0abedb0,inbound,14,operations,internal,"Short internal call",high
-CAL019aeaa9de7d7899aa4efba74305f107,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ae08c8d667886adef6e43096961eb,inbound,13,spam,google_listing,"Google listing robocall spam",high
-CAL019abc139cb373b098130998a0e9f889,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a79fd63a775e59860bc52ce0a28a2,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a749bae4276028621b96d14cc3eec,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a7452121d7f03be1f9bd8003531ca,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5a6e5a597f169487e2d8e783d686,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a36a7fc4a7caaa5040485b5fc8515,inbound,13,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a268a8683712a8f63d05f4074df73,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a11edd18d7a2eb29a8390191a67a9,inbound,13,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b6b5b17da780e98acbf4ea3e35a48,inbound,12,incomplete,no_transcript,"Empty or no transcript",high
-CAL019b0a2ef3e77271bb7d9c852e874385,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b050299a7730a9fadc5940e6afb8b,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019ac193fbe9731e9cc78546d0137257,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a84823d427e73af3331feb166d11e,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a6f99a5377c2498d820f9a0e40ae9,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a3bff965170bda15b3a11f2438021,inbound,12,spam,google_listing,"Google listing robocall spam",high
-CAL019a2c60e0837e70b6d35e5b9b56df75,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a26e3f7e075f79aefd0675ea6cd7e,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a178652c5760d893546edb46a7a66,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a172bd3137dd292e998aa522f1b12,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a1287c53f7252b764483f38226985,inbound,12,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b289883877751aead707ee1d83c2a,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b05460f0a7d64ba928e3bc6bd0021,inbound,11,incomplete,no_transcript,"Empty or no transcript",high
-CAL019aea69c049706ebf86f3b53c33e8dc,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019adbe36bc276a8b1d2ab2351c6fb50,inbound,11,spam,b2b_sales,"B2B prospecting call",high
-CAL019a7f2e0e4072c8b5a3526456c8dfd6,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a792380e5766d8fd485582a8dc56c,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a6f9e059c7d9585d4c6644213fe57,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2c0dd6c47cff92150badff22b35b,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a2666d2e175b4905ad298498e8d8f,inbound,11,spam,google_listing,"Google listing robocall spam",high
-CAL019a11d460217cdbaa469af5ae14e9db,inbound,11,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b4c6718807577a500bfd1607ad7e7,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019b0f2c92ea7142aa7131982d1856e6,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019af02e185f7984bb6f6c45e1edaf5a,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019abc884e2674b79348e4cf47c7bd08,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a930efb197f3a8c430d9c073d45a1,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5aa23b3179cfa2c8d4d7884e59d9,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5a9faeaf7891aa41868812b9a023,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5a27eb537fd88f1cac266de355d3,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a5077af7d72acbe4178d6add3940d,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a17e2093878af8af43fe0dac14282,inbound,10,spam,google_listing,"Google listing robocall spam",high
-CAL0199e434f76672bdaa26c0063fee507e,inbound,10,incomplete,wrong_number,"Wrong number",high
-CAL0199e43270ac7737aa83335566acecab,inbound,10,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199c5bdefc37133959c3198672852cb,inbound,10,spam,google_listing,"Google listing robocall spam",high
-CAL019b043628567ca1938e22089a56aabb,inbound,9,spam,b2b_sales,"B2B prospecting call",high
-CAL019ab6d35c6f7bca95fa5295ff1133dc,inbound,9,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019aa242a1da7028b9770ae40d6a5aa7,inbound,9,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a847f2b80786a9362f79658bd4f51,inbound,9,incomplete,no_transcript,"Empty or no transcript",high
-CAL019a836bfe59708c910831236016359c,inbound,9,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a36adf0f07fa786b3237c8c5ca092,inbound,9,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a17f5ca3f77669a7bc79e5964686e,inbound,9,spam,google_listing,"Google listing robocall spam",high
-CAL019a07a724137f6383c7092f3b9e17e5,inbound,9,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199cfa981e370369fcc6e8be8e14bca,inbound,9,incomplete,too_short,"Hello only - no conversation",high
-CAL019a0cc0a67d72e58442f044e11ca4a1,inbound,8,incomplete,too_short,"Hello only - no conversation",high
-CAL0199cfa083e77791b15ad0e7d917a2d7,inbound,8,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a1326a7f7e00a8122285b19b3a5a,inbound,8,incomplete,too_short,"Hello only - no conversation",high
-CAL0199a1107e2e7a2e96b25ce8b0f115d7,inbound,8,spam,google_listing,"Digital activation spam",high
-CAL0199a0c8e26777c391fe95bb0b6628ca,inbound,8,spam,google_listing,"Digital activation spam",high
-CAL019a0d7c46b9738b852361623dc5a62f,inbound,7,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0d5882fd73d5835bcd97c9881a28,inbound,7,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e91fad3e74889406b1021193f53f,inbound,7,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e8d28794728fa8683dfbb7a246cd,inbound,7,spam,google_listing,"Digital activation spam",high
-CAL0199e8c029147a9db8ff79c4c0786e66,inbound,7,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e439a9297be2b5dbdc7de2d6611b,inbound,7,spam,google_listing,"Digital activation spam",high
-CAL0199cee2fdb37a0dbfd86781576b8cd6,inbound,7,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ca8a71417cf4a9e7d1d5bda36dcf,inbound,7,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ca5cac4b765893aa0893ff00587a,inbound,7,incomplete,too_short,"Hello only - no conversation",high
-CAL0199a5f5cfa6772b9e42e4352de981c1,inbound,7,spam,google_listing,"Digital activation spam",high
-CAL0199e3bffc9b7bd6b556779cbf155021,inbound,6,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ca5711247cc980228ea26af13d54,inbound,6,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ca47830f7bbe809c1a7eb7d35cc9,inbound,6,spam,google_listing,"Digital activation spam",high
-CAL0199ca464bad7ef896c95e14f83a6891,inbound,6,incomplete,too_short,"Hello only - no conversation",high
-CAL0199c5508b327a979ca88039d07d5b78,inbound,6,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199c4d8600876fda6cf29014089ab7b,inbound,6,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a1182a067899893d91422e40f645,inbound,6,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0cc903e873cc97546a8b0de1984a,inbound,5,incomplete,too_short,"Hello only - no conversation",high
-CAL0199ee4e72d47fbf945d1dc6f408a6c0,inbound,5,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0d72757a73ad9148a22b7c73aa1b,inbound,4,incomplete,too_short,"Hello only - no conversation",high
-CAL019a0d5f080271379376c513eb3b1e18,inbound,4,incomplete,too_short,"Hello only - no conversation",high
-CAL019a0d29f1b7786ba1082638ec0964eb,inbound,4,incomplete,too_short,"Hello only - no conversation",high
-CAL019a0d1c078b70a495871192975156bc,inbound,4,incomplete,too_short,"Hello only - no conversation",high
-CAL019a0cd9232b779d8b01afc939f6e3d0,inbound,4,incomplete,too_short,"Hello only - no conversation",high
-CAL019a02e896ed7df597bfdb8e3a6fdf04,inbound,4,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a149380b7043952d61eb91c05670,inbound,4,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a0a1758778b099616c8323f060b7,inbound,4,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0cf52a217534b008039235e1245a,inbound,3,incomplete,too_short,"Hello only - no conversation",high
-CAL019a084605be7372ab09a4325cda4adc,inbound,3,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0277060678f1863031cd0c1a0a35,inbound,3,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199e3970810752081d520ec06c41224,inbound,3,incomplete,too_short,"Hello only - no conversation",high
-CAL0199ca736cca7628a4beb0b8a0ce446f,inbound,3,incomplete,too_short,"Hello only - no conversation",high
-CAL0199c9d6a43e7d19b8b7795be251d3e2,inbound,3,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a12d3d907e6abbb444c3d2fd35e6,inbound,3,spam,google_listing,"EMG listing spam",high
-CAL019a0d20b0f571f1acf05a1d877fd66a,inbound,2,incomplete,unclear_content,"Unclear or incomplete",high
-CAL019a0d0867317840855b4d8510255866,inbound,2,incomplete,too_short,"Hello only - no conversation",high
-CAL019a07b8a02c7741ae67fd7752639e30,inbound,2,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199ee3c48dd715d8e5c7dc44a12b84d,inbound,2,incomplete,too_short,"Hello only - no conversation",high
-CAL0199defe0b0e7c1585abacb7764054d0,inbound,2,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199cf7a6eec78fd83199a0bed0eae88,inbound,2,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199cf3b1ba77d82981bbad6ca949202,inbound,2,incomplete,unclear_content,"Unclear or incomplete",high
-CAL0199a14e26437effb62dbae9c281124f,inbound,2,incomplete,unclear_content,"Unclear or incomplete",high
+id,direction,duration,category,sub_category,caller_intent,outcome,summary,confidence,notes
+CAL019a033cd7f27bafa8f3fe5ca476d3b8,inbound,1209,operations,subcontractor_payment,check pickup,processing,Subcontractor payment,high,Sub payment
+CAL019a4bd2e7f47c6ea9fc2371517c2840,inbound,996,operations,internal_coordination,internal,resolved,WhatsApp coordination,high,Internal
+CAL019a6fa0ae6e7aef868faca4e85adf6a,inbound,567,operations,internal_accounting,bookkeeping,processing,Bookkeeping call,high,Accounting
+CAL019b0a7769a478728aa65121133af951,inbound,566,spam,b2b_sales,sell estimation,declined,Estimation outsourcing,high,B2B
+CAL019a12aacaac72acab44deb8f0d14b8d,inbound,553,customer,estimate_request,estimate,scheduling,Customer in Antioch - scheduling estimate,high,Estimate
+CAL019a50aab78b7586a2932b2fc8e74a10,inbound,481,spam,b2b_sales,sell estimation,declined,Estimation outsourcing,high,B2B
+CAL019a79b353727c61b3eec6d5756a2477,inbound,461,customer,adu_inquiry,ADU,discussed,going in Fairfield- Suisun - ADU,high,ADU lead
+CAL019a07c9eccb7539bba03661af57fb90,inbound,458,operations,internal_payment,payment,processing,Payment coordination with Vivian,high,Payment
+CAL019a087b677573bb92621bf809af7b5d,inbound,427,customer,concrete_inquiry,concrete pad,discussed,Customer in Campbell - concrete pad,high,Concrete
+CAL019af08327d8718f8a38411106c1eaf4,inbound,395,operations,owner_unavailable,reach owner,on vacation,Caller asking for Shy (on vacation),high,Owner unavailable
+CAL019aa7d1ec3b782a80a5f8151afd6a42,inbound,390,operations,crew_coordination,job confirmation,confirmed,Internal crew - job scheduling,high,Crew
+CAL019a03b0e27a7cc98ff96a14363f9894,inbound,389,customer,concrete_inquiry,concrete slab,voicemail,in in San Jose West - backyard concrete,high,Concrete
+CAL019b33fe073775e1b92144fda66be8a7,inbound,349,customer,retaining_wall,retaining wall,discussed,Customer in Colorado Springs (Main) - retaining wall,high,Retaining wall
+CAL019a7ee938937ff3811d73f79221b0cd,inbound,344,operations,internal_coordination,communication preference,email sent,Internal - Victor requesting email communication,high,Internal
+CAL019b140201f7728a9fce6c4850fb57fe,inbound,336,operations,permit_inspection,permit,discussed,Permit/inspection call,high,Permit
+CAL019afff6f267713c995133521a59cbf8,inbound,320,operations,vendor_purchase,lumber,processed,Ashby Lumber purchase,high,Lumber
+CAL019ae5bf160b75649d38b05e235549bc,inbound,315,operations,vendor_service,phone service,discussed,RingCentral service,high,Phone vendor
+CAL019a3b93a02778a08b4e73808f4aa2c6,inbound,293,customer,drainage_inquiry,drainage,discussed,interested in Wichita - drainage,high,Drainage
+CAL019ab8656b3f7a4eb8d9ba94f4adb2d9,inbound,278,customer,fire_damage,fire damage,discussed,Customer in Burbank - fire damage,high,Fire damage
+CAL019a07b00ea476ec9a47fd5169b7712e,inbound,274,spam,b2b_sales,sell estimation,declined,Estimation outsourcing,high,B2B
+CAL019adb6a6dfc72419ae8b8f0ccea117f,inbound,264,operations,internal_payment,payment,processing,Payment coordination with Vivian,high,Payment
+CAL0199c61c41d17e5aa4614ff3f06a54cb,inbound,256,operations,owner_unavailable,reach owner,on vacation,Caller asking for Shy (on vacation),high,Owner unavailable
+CAL019b478c4b17725d9a560e30f05a6d2a,inbound,250,operations,internal_payment,payment,processing,Payment coordination with Vivian,high,Payment
+CAL019b004b919b78bd8163eaed80aeb5dd,inbound,249,customer,foundation_inquiry,foundation,discussed,busy in Concord - foundation,high,Foundation
+CAL019ab6b5e2227b4e8acc676708bddc20,inbound,240,operations,crew_coordination,job confirmation,confirmed,Internal crew - job scheduling,high,Crew
+CAL019a9d4e3c3e7e738aadc8d28931425b,inbound,239,customer,adu_inquiry,ADU,discussed,good in Hercules Rodeo - ADU,high,ADU lead
+CAL019b388c68317431917d3323b5f4bd19,inbound,236,operations,vendor_purchase,material purchase,processed,Home Depot phone sale $337.92,high,Material purchase
+CAL019a5b29880577d89804942b5b66569a,inbound,232,operations,vendor_purchase,materials,processed,Westside Building Materials,high,Materials
+CAL019b2d1c8b997c449642d48ee10f6137,inbound,227,operations,vendor_purchase,material purchase,processed,Home Depot phone sale $558.98,high,Material purchase
+CAL019aa36ab13374f68631c1c09a353dc7,inbound,223,operations,vendor_purchase,materials,processed,Westside Building Materials,high,Materials
+CAL019a50f0d77b754589244b35b8d5fd6e,inbound,220,customer,adu_inquiry,ADU,discussed,Customer in Lafayette - ADU,high,ADU lead
+CAL019ab6e6eff07640a2f7873ac49f7245,inbound,219,operations,crew_coordination,job confirmation,confirmed,Internal crew - job scheduling,high,Crew
+CAL019a60d4a1357a7683c56cfc8ce89147,inbound,217,customer,foundation_inquiry,foundation,discussed,Customer in Hayward - foundation,high,Foundation
+CAL019aa38d4b7974f396e9af825ea5d6c2,inbound,214,spam,b2b_sales,sell estimation,declined,Estimation outsourcing,high,B2B
+CAL019a4b4dc01571c3937fa91794072661,inbound,212,customer,general_inquiry,discussion,discussed,Extended 3min call in Poughkeepsie,medium,Long - likely customer
+CAL019b054689c077c8ade87b28b64a9e68,inbound,210,operations,owner_unavailable,reach owner,on vacation,Caller asking for Shy (on vacation),high,Owner unavailable
+CAL019a31b722b57ad3b5a42a9ef7261e63,inbound,210,customer,concrete_inquiry,concrete work,discussed,Customer in Antioch - concrete work,high,Concrete
+CAL019a799d860d77c3a93f4d4ebcdf90c5,inbound,207,customer,general_inquiry,discussion,discussed,Extended 3min call in Palo Alto,medium,Long - likely customer
+CAL019a5b38cc26774f928154dea89f854c,inbound,205,operations,permit_inspection,permit,discussed,Permit/inspection call,high,Permit
+CAL0199f3d91f4876dcb14ac9e105011e7f,inbound,200,operations,owner_unavailable,reach owner,on vacation,Caller asking for Shy (on vacation),high,Owner unavailable
+CAL019a50dcda6878d7b612831d8fe1947e,inbound,199,customer,adu_inquiry,ADU,discussed,Customer in Palo Alto - ADU,high,ADU lead
+CAL019a0e38b6ab7c4d9ede2fcb121fb482,inbound,198,customer,concrete_inquiry,concrete slab,voicemail,Customer in East Bay - Mn Piedmont - backyard concrete,high,Concrete
+CAL019a756bf54e7daa9145c9b7695504b4,inbound,188,customer,exterior_inquiry,doors,discussed,Customer in Hayward - doors,high,Exterior
+CAL019a0d94bfee7fd489f36c4d1309b77e,inbound,184,customer,exterior_inquiry,doors,discussed,Customer in Antioch - doors,high,Exterior
+CAL019b05974fb8755ca28cbc5c3b465254,inbound,178,customer,scheduling,schedule visit,scheduling,Sebastian scheduling site visit,high,Scheduling
+CAL019b241ccd2b75c6b95421d608fee038,inbound,173,operations,vendor_purchase,material purchase,processed,Home Depot phone sale,high,Material purchase
+CAL019a30dde27372c2b9f2c28e12e203a6,inbound,169,spam,yelp_sales,sell ads,declined,Yelp sales,high,Yelp spam
+CAL019a5afb7c237f0aa2132376e59b00cd,inbound,167,customer,general_inquiry,inquiry,discussed,Customer in Antioch - 167s call,medium,Review
+CAL019b6c6c3f727925959d09976e1e415f,inbound,166,customer,houzz_lead,Houzz,scheduling,Customer in La Jolla from Houzz,high,Houzz lead!
+CAL0199ba236df9787295179c231d53251e,inbound,166,customer,general_inquiry,inquiry,discussed,ready in Concord - 166s call,medium,Review
+CAL019a364a76e27bc9bef3ce71b3260eb9,inbound,163,customer,voicemail_inquiry,voicemail,needs callback,Jenna in East Contra Costa left voicemail,medium,Callback
+CAL019abd047bbf7d5989e0b74c4fa89475,inbound,154,customer,followup,followup,discussed,Foley in Concord following up,high,Followup
+CAL019a5146efa57ef4aa85a4fedc1ba9b7,inbound,148,operations,internal_payment,payment request,processing,Bayardo requesting payment,high,Internal payment
+CAL0199e980840d74e79cbde2ccf9349b6f,inbound,147,operations,internal_accounting,bookkeeping,processing,Bookkeeping call,high,Accounting
+CAL019ae55ec41d7ca98751050b8db8e901,inbound,146,customer,general_inquiry,inquiry,discussed,Customer in Antioch - 146s call,medium,Review
+CAL019a6fe1e0367628a420177104117f1d,inbound,143,operations,internal_payment,payment request,processing,Bayardo requesting payment,high,Internal payment
+CAL0199f445b7d77ceb8ab68cecd2a7a018,inbound,141,customer,exterior_inquiry,windows,discussed,Customer in San Jose South - windows,high,Exterior
+CAL019a4c180e9273f7aecc12b13b70284d,inbound,140,customer,concrete_inquiry,concrete work,discussed,Customer in Belvedere - concrete work,high,Concrete
+CAL0199c618242375b9b987d18f9831e422,inbound,133,operations,internal_accounting,bookkeeping,processing,Bookkeeping call,high,Accounting
+CAL019abccc336c72a588cdbcb684644955,inbound,131,customer,adu_inquiry,ADU,discussed,Charlotte in Los Angeles - ADU,high,ADU lead
+CAL019ab6d13e767b02a2fd3288fc9a8885,inbound,127,customer,exterior_inquiry,windows,discussed,sorry in Hayward - windows,high,Exterior
+CAL019a7a67b58d7b08aec66ef5da1fe051,inbound,124,operations,internal_payment,payment request,processing,Bayardo requesting payment,high,Internal payment
+CAL019b052050107d3ab91dca392b4c6805,inbound,120,customer,voicemail_inquiry,voicemail,needs callback,Rolly in Fresno left voicemail,medium,Callback
+CAL019adbfc7cb67ee0b6323f55355344d7,inbound,119,customer,voicemail_inquiry,voicemail,needs callback,Customer in Richmond left voicemail,medium,Callback
+CAL0199c5830347718ca8bcbf2b9f9b7e81,inbound,117,customer,general_inquiry,inquiry,discussed,just in Antioch - 117s call,medium,Review
+CAL019b6c9e21b971fe8b5dd79df162bfb1,inbound,116,spam,cold_call,asset recovery,declined,Claim Notify,high,Scam likely
+CAL019abcf85b3a78ffa37a48c52b38587b,inbound,115,customer,concrete_inquiry,concrete work,discussed,Customer in Livermore - concrete work,high,Concrete
+CAL019a2cc34eb475deaf05945984f814a9,inbound,113,customer,adu_inquiry,ADU,discussed,Customer in Omaha - ADU,high,ADU lead
+CAL019a848485687c7aa8354b7cabc975c0,inbound,111,operations,vendor_purchase,material purchase,processed,Home Depot phone sale $288.24,high,Material purchase
+CAL019ab86a9bdf7dac907e03edf51a8231,inbound,109,customer,general_inquiry,inquiry,discussed,not in Burbank - 109s call,medium,Review
+CAL019b04f548a776cfad0b314d544cb75e,inbound,107,operations,crew_coordination,scheduling,coordinating,Discovery Bay job coordination,high,Crew
+CAL019a17d7326c7b7198fc2c4c9548a3e5,inbound,106,customer,general_inquiry,inquiry,discussed,Customer in Antioch - 106s call,medium,Review
+CAL019aea7082d67a0aaa94fe01a3508134,inbound,105,other_inquiry,vendor_seeking_work,sell supplies,took info,Landscape supply distributor,high,Supplier
+CAL019aa858d0837aafa822e9b12a188e9a,inbound,105,customer,voicemail_inquiry,voicemail,needs callback,Customer in Plano left voicemail,medium,Callback
+CAL019adbe4357c704dbdf4801a119d354a,inbound,103,operations,permit_inspection,permit,discussed,Permit/inspection call,high,Permit
+CAL019a2c88b8e07ef0a37588e752b5ceb4,inbound,100,customer,general_inquiry,inquiry,discussed,Customer in Antioch - 100s call,medium,Review
+CAL019a0d01c1ec7b88a3a85bb0a571f6be,inbound,100,customer,estimate_request,estimate,scheduling,extremely in Palo Alto - scheduling estimate,high,Estimate
+CAL019b2415bae176688345b062ad2fef08,inbound,99,operations,subcontractor_payment,check pickup,processing,Subcontractor payment,high,Sub payment
+CAL019a837f7f877636bcdf820c3c6480c1,inbound,99,spam,workshop_sales,sell training,declined,Workshop sales,high,Training spam
+CAL0199ba7d7b467a7ea5b6da07e17d94ef,inbound,99,operations,vendor_purchase,materials,processed,Westside Building Materials,high,Materials
+CAL019ab6ef35bd75a287655c0bbd6800d6,inbound,97,operations,vendor_service,printing,processed,Blueprint printing,high,Printing
+CAL019a2ce2fe08742bb8771f27f7e17524,inbound,96,customer,general_inquiry,inquiry,discussed,Eisha in Norwalk - inquiry,medium,Review
+CAL019a08e941587718857f25edcf454460,inbound,94,customer,estimate_request,estimate,scheduling,Luis in Pacifica - scheduling estimate,high,Estimate
+CAL019b0e726eec7a03bb8237ad42283b01,inbound,92,operations,internal_payment,payment request,processing,Bayardo requesting payment,high,Internal payment
+CAL019adc30bbd5722fbb34822937b9edde,inbound,92,customer,general_inquiry,inquiry,discussed,Customer in East Bay - Frutvale - 92s call,medium,Review
+CAL019a83588f50740c9a0a5a0375ad05d5,inbound,92,customer,general_inquiry,inquiry,discussed,Amir in Sacramento - 92s call,medium,Review
+CAL019a702c4c9a701286fd256420ec6a89,inbound,92,other_inquiry,out_of_area,foundation,declined,Customer in Vallejo - outside service area,high,Out of area
+CAL0199a0ad85777c4ca24c0d534c5d6045,inbound,91,customer,bathroom_remodel,bathroom,discussed,Maggie in Santa Rosa - bathroom remodel,high,Remodel
+CAL019a55360c387036a5aae3c69f1db83e,inbound,90,operations,internal_payment,payment,processing,Payment coordination with Vivian,high,Payment
+CAL0199ee62e1c5768f95f8f438849983ba,inbound,90,customer,general_inquiry,inquiry,discussed,Customer in San Jose South - 90s call,medium,Review
+CAL0199ba1d6a907f0bbd3bb20703788ce1,inbound,90,spam,quickbooks_scam,phishing,scam,QuickBooks scam,high,Scam
+CAL019b0e5afdd17f90bf0901b641f532c8,inbound,85,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019aa906c4be7f1c9c8c2c1574515eda,inbound,85,customer,exterior_inquiry,windows,discussed,Jay in San Francisco - windows,high,Exterior
+CAL019a7a746059726e9d35b6d61a44186f,inbound,84,customer,followup,followup,discussed,Customer in Palo Alto following up,high,Followup
+CAL019adc6ded027157add3afa441ee5176,inbound,83,spam,b2b_sales,sell security,declined,Security services sales,high,Security spam
+CAL019a70401ee97989970e50898259f8c6,inbound,83,customer,general_inquiry,inquiry,discussed,Customer in Petaluma Main - 83s call,medium,Review
+CAL019b71a529ee7254811624a40ba4c669,inbound,82,customer,accessibility_inquiry,grab bars,voicemail,Jeff in East Bay - Mn Piedmont needs grab bars,high,Accessibility
+CAL019a3bfcf7027a1da35df8e2cd7f12d2,inbound,82,customer,retaining_wall,retaining wall,discussed,Customer in Antioch - retaining wall,high,Retaining wall
+CAL019a02e8bcd5752a9e21b300edaf4f83,inbound,81,customer,foundation_inquiry,foundation,discussed,Jacob in Fort Bragg - foundation,high,Foundation
+CAL0199a20270bf7d4085887a1c980754be,inbound,80,other_inquiry,job_seeker,seeking employment,voicemail,Customer seeking employment/apprentice position,high,Job inquiry
+CAL019a84829290773c92f9b194efcb958c,inbound,78,customer,general_inquiry,inquiry,discussed,Thomas in Concord - 78s call,medium,Review
+CAL0199cf20b93a73e792e073403a37d87f,inbound,77,operations,permit_inspection,permit,discussed,Permit/inspection call,high,Permit
+CAL019a9e29a1547dd5b5b7e51896615074,inbound,76,spam,workshop_sales,sell training,declined,Workshop sales,high,Training spam
+CAL019a31946f8c76ea99dfbf719f161f39,inbound,76,operations,internal_accounting,bookkeeping,processing,Bookkeeping call,high,Accounting
+CAL0199f417a7747cab9d89c367a4ef6beb,inbound,75,customer,general_inquiry,inquiry,discussed,Frank in East Bay - Trinidad - 75s call,medium,Review
+CAL019a3c9e558a7e4f9d5ef1564d98aa57,inbound,74,customer,concrete_inquiry,concrete driveway,discussed,Doug in San Mateo - concrete driveway,high,Concrete
+CAL0199c00684a47653a2b37b2a9f8c5366,inbound,74,customer,voicemail_inquiry,voicemail,needs callback,Debbie in Campbell left voicemail,medium,Callback
+CAL019a55b7ced279af8bc72ee4d7f75c55,inbound,73,customer,general_inquiry,inquiry,discussed,Michael in Danville - 73s call,medium,Review
+CAL019a3640062a78838ee53684dd5a72da,inbound,73,customer,general_inquiry,inquiry,discussed,FedEx in Hayward - 73s call,medium,Review
+CAL019b0e6406c971648da42c5f12ecc4c9,inbound,72,customer,exterior_inquiry,windows,discussed,seeing in Walnut Creek - windows,high,Exterior
+CAL019b1456fdbc74e0801d2d818836ac46,inbound,71,operations,personnel_inquiry,reach Clayton,no longer employed,Asking for Clayton - no longer with company,high,Personnel
+CAL0199f3c9c9467f13a596870b0394e1ba,inbound,71,other_inquiry,job_seeker,seeking employment,voicemail,Customer seeking employment/apprentice position,high,Job inquiry
+CAL019ae601312a7d39a1d45dafad4b5982,inbound,70,customer,general_inquiry,inquiry,discussed,Customer in Hayward - 70s call,medium,Review
+CAL019a844b4e8a72be9a4ff9908e7b5acc,inbound,70,operations,vendor_service,printing,processed,Blueprint printing,high,Printing
+CAL019a03b2d5c07244bdffda2b4bb89c0f,inbound,70,customer,general_inquiry,inquiry,discussed,Mark in Kelseyville - 70s call,medium,Review
+CAL019b5ca413c37dc4980c4df4f99f153e,inbound,69,customer,concrete_inquiry,concrete slab,voicemail,Sasan in Morgan Hill - backyard concrete ~500 sqft,high,Concrete
+CAL019a4ae0d7a57a5a9bac3235fbed25ed,inbound,69,customer,general_inquiry,inquiry,discussed,looking in Sausalito - 69s call,medium,Review
+CAL019a07ae9329796f94cd90c1cac619d7,inbound,69,customer,exterior_inquiry,siding,discussed,looking in South San Francisco - siding,high,Exterior
+CAL019a97c0d54973e18931c02bb70174ec,inbound,67,customer,concrete_inquiry,concrete work,discussed,Kevin in East Bay - Frutvale - concrete work,high,Concrete
+CAL019b1417d8417dd2841573a2a99757ac,inbound,66,customer,general_inquiry,inquiry,discussed,Rovi in Antioch - 66s call,medium,Review
+CAL019ae5469835737b91cc325a0e9e3947,inbound,65,operations,internal_payment,payment,processing,Payment coordination with Vivian,high,Payment
+CAL019a35cd1ea87bf1b1d08a7deb986743,inbound,65,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a0d5ea59c752785cdb2229c869e20,inbound,65,operations,personnel_inquiry,reach Clayton,no longer employed,Asking for Clayton - no longer with company,high,Personnel
+CAL0199b6d040ba71c18d2c5a25a5154946,inbound,65,spam,b2b_lending,sell loans,ignored,Small Business Lending,high,Repeat
+CAL019b0981973d7bf5bb68a3942792926d,inbound,64,customer,voicemail_inquiry,voicemail,needs callback,Allen in San Mateo left voicemail,medium,Callback
+CAL019a031274217d8789dc0d6db7cc8f0c,inbound,64,other_inquiry,job_seeker,seeking employment,voicemail,German seeking employment/apprentice position,high,Job inquiry
+CAL0199e468c9827312bacb3885d2212b0a,inbound,64,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019aff0b75367b82bf6a2721ff9e3a3a,inbound,63,customer,general_inquiry,inquiry,discussed,Julie in Walnut Creek - 63s call,medium,Review
+CAL019aa27a02927b0d971abd5ddc97226c,inbound,63,customer,general_inquiry,inquiry,discussed,Ben in Los Angeles - 63s call,medium,Review
+CAL019a12c5da23786284049dcfe180945e,inbound,63,operations,vendor_order,order confirmation,confirmed,Ledding lighting order confirmation (Dana),high,Fixture order
+CAL0199ea3b01c07aa78c68f7087992e708,inbound,63,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199a1eb912770ca9918123d55e670de,inbound,63,customer,general_inquiry,inquiry,discussed,Customer in Beverly Hills - inquiry,medium,Review
+CAL019b0ee479527948b8c7cc8b16fe1594,inbound,62,spam,workshop_sales,sell training,declined,Workshop sales,high,Training spam
+CAL019aa7d3d10f75ddb39bed2452c2a8ea,inbound,62,customer,general_inquiry,inquiry,discussed,Mark in Walnut Creek - 62s call,medium,Review
+CAL019a7f1acb007cfaa13be12afb881474,inbound,62,customer,general_inquiry,inquiry,discussed,Customer in Antioch - 62s call,medium,Review
+CAL0199e88f431e7fde8d859a282480e1f6,inbound,62,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199e884a6887625b05c75f90bb5d254,inbound,62,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199ba88dd357ec7988174249c29f3de,inbound,62,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019b2e30c6467893bdf3486e72697a32,inbound,61,customer,followup,followup,discussed,Customer in Toronto following up,high,Followup
+CAL019ae540d5e17bdbb8c6ee5a76ba70b8,inbound,61,customer,general_inquiry,inquiry,discussed,having in Vallejo - 61s call,medium,Review
+CAL019aec0359287808b472c90a8ca96a0b,inbound,60,operations,crew_coordination,job confirmation,confirmed,Internal crew - job scheduling,high,Crew
+CAL019a833ae6cf7102a91676ecc7febb5a,inbound,60,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a4fa70ffb720aa22ccc2a3739a215,inbound,60,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b714702f37cca86930aceb7090e9b,inbound,59,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019b46ec215d78958d7a458affaa8ac9,inbound,59,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b2dfca1017dc29a4c1ba9592cf7c1,inbound,59,spam,b2b_lending,sell loans,ignored,Small Business Lending voicemail,high,Repeat caller
+CAL019aa7449aa977b59e5b4a3ad51155d2,inbound,59,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019aa2582f0b77e19d24f2ae567577b2,inbound,59,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a97bb87167b82ae121c973625186e,inbound,59,customer,voicemail_inquiry,voicemail,needs callback,Kevin in East Bay - Frutvale left voicemail,medium,Callback
+CAL019a12a8b7367b61a4f6c34a9394149f,inbound,59,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d26b5b1726f8cde72e5366d5495,inbound,59,customer,scheduling,confirm appointment,confirmed,Vivian in Detroit confirming appointment,high,Confirmed
+CAL019ac123b0cb72169d8f42235464555e,inbound,58,customer,scheduling,schedule visit,scheduling,Sebastian scheduling site visit,high,Scheduling
+CAL0199f3e73aae7c28b7a834b583f85474,inbound,58,incomplete,missed_call,unknown,missed,Missed call from Pittsburg,high,No recording
+CAL0199f2fb002e753680bc02345b0af942,inbound,58,operations,internal_payment,payment request,processing,Bayardo requesting payment,high,Internal payment
+CAL019a36b822277e309e0037f8fa9859d2,inbound,57,operations,internal_coordination,scheduling,confirmed,Brief internal scheduling,high,Internal
+CAL019a27d09f877f9b98d427a313394488,inbound,57,customer,voicemail_inquiry,voicemail,needs callback,Dugart in Sacramento left voicemail,medium,Callback
+CAL019ae145b4ea7f65a8a6f5cb5520d12f,inbound,56,customer,concrete_inquiry,concrete slab,voicemail,Customer in San Francisco - backyard concrete,high,Concrete
+CAL019a31ea64547a088f37487857f63812,inbound,56,spam,merchant_services,sell payment,declined,Merchant services,high,B2B spam
+CAL0199de4cfdf37d1baf932e79a95b6aec,inbound,56,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b6b0b892271acb6a10ff50b3cc7e6,inbound,55,operations,vendor_logistics,delivery,automated,Amazon delivery instructions,high,Amazon
+CAL0199df2c6dc97ec79b67922c827e5d99,inbound,55,operations,internal_checkin,status,confirmed,Brief internal check-in,high,Quick check
+CAL0199a592253e7e79b2e6baaf87dc6108,inbound,55,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019ae54b950f754db5219eb1d89dbc16,inbound,54,operations,internal_payment,payment,processing,Payment coordination with Vivian,high,Payment
+CAL019a4aa67cf87d4d92806e49835a5ba8,inbound,54,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a35d1c204787893ccf77446dad386,inbound,54,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199ea3f63787f6ca99b2e61fb320275,inbound,54,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199a6b750f47355996b23b5e7666ccc,inbound,54,incomplete,missed_call,unknown,missed,Missed call from Pescadero,high,No recording
+CAL019b27fd62e677068c6eaa9e86786e3f,inbound,53,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019afecbac5771f8bf8b5cee9d7c80c0,inbound,53,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a74b9f36b723784e0f250f8203f9f,inbound,53,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a11b51f23736ea7eaac0207634d02,inbound,53,operations,crew_coordination,crew on site,coordinating,Crew call - Efren with fireplace guys,high,Crew
+CAL0199e8c1002172b09765d519d1b21e02,inbound,53,spam,media_pitch,media,screening,Magazine feature pitch,high,Paid media
+CAL0199a1626ba37439b150d7b6bf63061a,inbound,53,incomplete,missed_call,unknown,missed,Missed call from Jacumba,high,No recording
+CAL019b2ed5d9e87e95810bd12af3fb1302,inbound,52,incomplete,wrong_number,wrong number,clarified,Wrong number,high,Wrong number
+CAL019b192ed0a3700c888bd0d5758db9fa,inbound,52,spam,staffing_sales,sell staffing,voicemail,Staffing company call,high,Recruiting spam
+CAL019ac1bc99a77fa98ed7bbdbeac65a83,inbound,52,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019a93a10adf7f4c8a1235ad3658734f,inbound,51,incomplete,unclassified,unknown,needs review,51s call in Antioch,low,Manual review
+CAL019a090d2d6875689669b150dd3208ad,inbound,51,spam,b2b_lending,sell loans,ignored,Small Business Lending voicemail,high,Repeat caller
+CAL0199ea4ed7487217b23f381cdc177573,inbound,51,customer,exterior_inquiry,windows,discussed,Jessica in San Rafael - windows,high,Exterior
+CAL019ae5f61b6f7765a4063ccf67ab620a,inbound,50,customer,concrete_inquiry,concrete work,discussed,Customer in Austin - concrete work,high,Concrete
+CAL019a9856bc677880b4b512d8949e4e4b,inbound,50,customer,exterior_inquiry,windows,discussed,Customer in Half Moon Bay - windows,high,Exterior
+CAL019a7b20fc81759ca911ef64bf7af5f1,inbound,50,spam,b2b_lending,sell loans,ignored,Small Business Lending voicemail,high,Repeat caller
+CAL019a661e6ed472689a717a763ed24d6b,inbound,50,spam,b2b_lending,sell loans,ignored,Small Business Lending voicemail,high,Repeat caller
+CAL019a5a506f007a3589c84011e7169c06,inbound,50,customer,houzz_lead,Houzz,scheduling,Rachel in Danville from Houzz,high,Houzz lead!
+CAL0199e434bd487c64bd31e0a01c63e20b,inbound,50,operations,personnel_inquiry,reach Clayton,no longer employed,Asking for Clayton - no longer with company,high,Personnel
+CAL0199cfbb2251707498f60a3a32dbed5c,inbound,50,incomplete,unclassified,unknown,needs review,50s call in Antioch,low,Manual review
+CAL019b7086c66d76b884b6135712481774,inbound,49,incomplete,missed_call,unknown,missed,Missed call from Hayward,high,No recording
+CAL019b625ea9d17ecba0c14ef070b15f46,inbound,49,spam,b2b_lending,sell loans,ignored,Small Business Lending voicemail,high,Repeat caller
+CAL019affc88a617ed8989d702b8ad24f45,inbound,49,incomplete,missed_call,unknown,missed,Missed call from Rio Vista,high,No recording
+CAL019a365258fe71c78f75939982b9c4a8,inbound,49,spam,media_pitch,media,screening,Magazine feature pitch,high,Paid media
+CAL019a318effe8743ca3762b37cee4c79d,inbound,49,spam,b2b_sales,sell software,declined,QuickBooks solutions provider call,high,B2B spam
+CAL019a099bdf4c7a169f796ef0d28cb132,inbound,49,spam,b2b_lending,sell loans,ignored,Small Business Lending voicemail,high,Repeat caller
+CAL019b0e8b97137aaea5dad35bb94e3b57,inbound,48,incomplete,missed_call,unknown,missed,Missed call from Alhambra,high,No recording
+CAL019a4b76f4a679e5b4c7c0f7118a1ebd,inbound,48,incomplete,missed_call,unknown,missed,Missed call from Lodi,high,No recording
+CAL019a30ee6afb7d139352fa22d1622043,inbound,48,incomplete,missed_call,unknown,missed,Missed call from Tracy,high,No recording
+CAL019a03bbbd0f7466b7a09a948513b929,inbound,48,incomplete,missed_call,unknown,missed,Missed call from Dulles,high,No recording
+CAL0199abb90ddc705296b9c944836e0f7a,inbound,48,incomplete,missed_call,unknown,missed,Missed call from Los Angeles,high,No recording
+CAL019ab7d2a2ce7562a7d0791d1146e528,inbound,47,customer,voicemail_inquiry,voicemail,needs callback,Customer in San Francisco left voicemail,medium,Callback
+CAL0199de853ee57d25a1661335c0fb0724,inbound,47,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199bb197be77265a765125e26d61f0a,inbound,47,incomplete,missed_call,unknown,missed,Missed call from Vista,high,No recording
+CAL019ae0627cd97f3aa644e8298b7ccd6b,inbound,46,customer,concrete_inquiry,concrete work,discussed,Jeanine in Santa Rosa - concrete work,high,Concrete
+CAL019b0ea05f7f7a05be825f6442f7580b,inbound,45,incomplete,no_transcript,unknown,unknown,45s call - no transcript,low,Review recording
+CAL019b0e39489f79e4b7a9bedcc12b6692,inbound,45,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a78eb97f072bd8ab2c3e798807852,inbound,45,customer,voicemail_inquiry,voicemail,needs callback,David in San Francisco left voicemail,medium,Callback
+CAL019a6f7240d3749e9ec2024701366da4,inbound,45,customer,bathroom_remodel,bathroom,discussed,Matthew in Moorestown - bathroom remodel,high,Remodel
+CAL019a275db5e07458a83c94f875c3c47b,inbound,45,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199cfb03cf97586b0c422aaf4e78206,inbound,45,spam,b2b_sales,sell estimation,declined,Estimation outsourcing,high,B2B
+CAL0199bab89bd87ba8af061c95511ebbee,inbound,45,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a1a0b7227c9dbaf8e6499abbf053,inbound,45,operations,internal_coordination,internal,brief,Brief internal call (Fresh),high,Internal
+CAL019b0e86e3b27aa9a101c6b01611b366,inbound,44,operations,utility_coordination,utility,resolved,PGE utility call,high,Utility
+CAL019a935ce87f7130bdd3e29e0f385d00,inbound,44,spam,b2b_sales,sell software,declined,QuickBooks solutions provider call,high,B2B spam
+CAL019a74b957c270d4bdafc73e86f01592,inbound,44,operations,internal_payment,credit card processing,processed,Credit card payment processing call,high,Payment
+CAL0199bbb4d56a7873b0f78a8f47b1678a,inbound,44,incomplete,missed_call,unknown,missed,Missed call from Phoenix,high,No recording
+CAL019b2db02bd7732e975024bc5650a582,inbound,43,operations,owner_unavailable,reach owner,on vacation,Caller asking for Shy (on vacation),high,Owner unavailable
+CAL019a9498d8257f7880253aba59c3ab7b,inbound,43,customer,voicemail_inquiry,voicemail,needs callback,Sonia in Dublin-San Ramon left voicemail,medium,Callback
+CAL019a843abb9d7c18a0acd17200b37496,inbound,43,incomplete,missed_call,unknown,missed,Missed call from Atascadero,high,No recording
+CAL019a3b76c00f7de587dc56d6706b0553,inbound,43,other_inquiry,vendor_seeking_work,offering engineering,took info,Innodes Engineering seeking structural work,high,Vendor followup
+CAL019a3093f0f97482a171a1d878920a9b,inbound,43,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a2c7ccaac7ca58d5cb38cd2ab76af,inbound,43,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a0d0c355075dab56e3ade39a5285b,inbound,43,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a07c70a7d7fe69c57bb2b17bfbe84,inbound,43,incomplete,unclassified,unknown,needs review,43s call in Hercules Rodeo,low,Manual review
+CAL019b13cf7fba7249bce6125d0ae85a80,inbound,42,other_inquiry,research_request,research,declined,Student research call,high,Declined
+CAL019aff5f51c574deb33a675d302fdbec,inbound,42,customer,voicemail_inquiry,voicemail,needs callback,daniel in Concord left voicemail,medium,Callback
+CAL019a7e0e444f79e6ab6ceb229cdef198,inbound,42,customer,commercial_inquiry,bid request,voicemail,Marianne Rollison - commercial building columns wood to stucco bid,high,Commercial lead!
+CAL019a35a46bc37a3ea3640f5728a4e77b,inbound,42,spam,newsletter_sales,sell newsletter,declined,Newsletter sales,high,Newsletter spam
+CAL0199c9d6c4177e5aa8bb154cefae2ba7,inbound,42,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199c54da77a747ea6495e73f9e45152,inbound,42,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019afecab0b47ce7bfd9626650255b87,inbound,41,customer,voicemail_inquiry,voicemail,needs callback,Customer in Minier- Armington left voicemail,medium,Callback
+CAL019adfeec7ed702e8895473eb9f93d3c,inbound,41,customer,voicemail_inquiry,voicemail,needs callback,Luis in Walnut Creek left voicemail,medium,Callback
+CAL019a7e28d7ee70a4a14247f12aa7a6bb,inbound,41,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a4a8e32447aaaaa367507e39071b8,inbound,41,spam,workshop_sales,sell training,declined,Workshop sales,high,Training spam
+CAL0199e359551d77c7b3558f9b103e4a5d,inbound,41,spam,quickbooks_scam,phishing,scam,QuickBooks scam,high,Scam
+CAL0199ab7819c476bab5ba4e2faa6df5f6,inbound,41,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199aac419947718a440cca63670f7b7,inbound,41,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b0932732074dfa0751136028b705a,inbound,40,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a92b97e4b7722baf545052f7868fb,inbound,40,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a5a0b50807e7e86ac0dcdbea99c39,inbound,40,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a31e8af25707c9c13a05c419de27c,inbound,40,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a08dd68a17b1ca542a57ee6928d37,inbound,40,customer,scheduling,confirm appointment,checking,Andrew following up on scheduled consultation,high,Scheduling followup
+CAL0199ceb4386a780388a1425444ae56e2,inbound,40,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b13a9083d7bf391f556ea00333585,inbound,39,incomplete,no_transcript,unknown,unknown,39s call - no transcript,low,Review recording
+CAL019ae531f2ae7d86a4b37aebf6fbbb61,inbound,39,operations,internal_coordination,communication preference,email sent,Internal - Victor requesting email communication,high,Internal
+CAL019a4faaa0c5700fad1609799a44e7b0,inbound,39,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a31153d7d743cb57abfdf47f4f20b,inbound,39,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a282e323277129724433ede554d76,inbound,39,customer,voicemail_inquiry,voicemail,needs callback,Elizabeth in East Bay - Mn Piedmont left voicemail,medium,Callback
+CAL019a0d8ec32e70439399c8b6b5b38bb6,inbound,39,incomplete,unclassified,unknown,needs review,39s call in Antioch,low,Manual review
+CAL0199de471a467418a781af4d75d6f8e4,inbound,39,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199cfe932a5710d9f097a8f577ca5ec,inbound,39,spam,b2b_sales,sell insurance,declined,Workers comp sales,high,Insurance spam
+CAL0199ca9cfdfd71fa9bc32ce99be9bf65,inbound,39,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019ae537a97a760e985b8440f1559d6a,inbound,38,operations,vendor_purchase,flooring,processed,Floor & Decor purchase,high,Flooring
+CAL0199e35fa250787ea304e3babbad5ff7,inbound,38,spam,quickbooks_scam,phishing,scam,QuickBooks scam,high,Scam
+CAL019a7f634f8979c9a3e7bd217b2723e8,inbound,37,customer,followup,followup,discussed,Kathleen in Walnut Creek following up,high,Followup
+CAL019ae0c4e94f7fd8aa046b75a51a88c0,inbound,36,spam,b2b_sales,B2B pitch,declined,B2B business proposal pitch,high,B2B spam
+CAL019a73d8d62677b893df9aba095f37b5,inbound,35,other_inquiry,job_seeker,seeking employment,voicemail,Gabrielle seeking employment/apprentice position,high,Job inquiry
+CAL019a31ad244f79258a502515bba1f850,inbound,35,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a2660e14b72a596759f338590d6bd,inbound,35,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b3769a85f7d5aad8cfd752bc7d6ab,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b002044e372abade0ac644a9356d6,inbound,34,incomplete,missed_call,unknown,missed,Missed call from San Francisco,high,No recording
+CAL019ab8090be6727c82695e93885cc6a5,inbound,34,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a560f351e71cfab4fe8ac7cbf52d1,inbound,34,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a2c71d70f7b4a80ddd4c131b3e344,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a2b71cd8178df9af9120b11083000,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a0db43b097c7abf18161f3bd46837,inbound,34,spam,b2b_sales,sell promo items,declined,Promotional items sales,high,Promo spam
+CAL019a024ce8f075d78ead821d3bc85665,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199f414234c7c55839d76955c7d6431,inbound,34,spam,b2b_sales,B2B pitch,declined,Construction services pitch,high,B2B spam
+CAL0199f36bb5e57589b8dcba5678aa407b,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199f350b64a796cb220df44f1525699,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199f33861f87ce59832ba59895eea26,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199f301a37e7e8da0799fa0ba76564f,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199ee5a24ce7edc9149e85b60aeb559,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199edf6fa207f868cd7639ef6bed3f1,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199e48197eb7eafa6d50171ded5547f,inbound,34,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199ba77bb9076dca881339a6f115a56,inbound,34,operations,material_coordination,material request,coordinating,Internal - material request for Carmen job,high,Materials
+CAL0199a598693a7f79834cce5e13bcff1a,inbound,34,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b3795cb1278e4ba72d935e54ae48d,inbound,33,spam,b2b_sales,B2B,declined,Accounts receivable call,high,B2B spam
+CAL019b1416cdd6740e806c9fd4cad6621b,inbound,33,incomplete,unclassified,unknown,needs review,33s call in Fair Oaks,low,Manual review
+CAL019af08cedf074ea828952fd4814b08d,inbound,33,operations,internal_coordination,address verify,confirmed,Address verification,high,Address confirm
+CAL019aeb8abd8b719cbfc8f94821577d03,inbound,33,spam,workshop_sales,sell training,declined,Workshop sales,high,Training spam
+CAL019a9e807f27707d8d2f8cbd188e4fa0,inbound,33,spam,b2b_sales,sell security,declined,Security services sales,high,Security spam
+CAL019a94832c4f7125a70d9d385a39a016,inbound,33,other_inquiry,vendor_seeking_work,sell containers,voicemail,Storage container rental pitch,high,Vendor outreach
+CAL019a83410329745d9d0b090f6a43fa47,inbound,33,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a16ee1a2770fa9acfd7d7227950cb,inbound,33,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a077af4777a8c957272d1a2473abb,inbound,33,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199e35a67c37ddea48a16ddfc573650,inbound,33,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b28136d1e71eea67c93a4b371faef,inbound,32,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b280621ed79559f352cede0076b80,inbound,32,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b100be0cd7c9492335ba324f09686,inbound,32,operations,owner_unavailable,reach owner,on vacation,Caller asking for Shy (on vacation),high,Owner unavailable
+CAL019aac7f9d617bb1a2aaa96645d20b7e,inbound,32,incomplete,unclassified,unknown,needs review,32s call in Walnut Creek,low,Manual review
+CAL019a6f9b84ca7152bda0f2c553c1653e,inbound,32,incomplete,unclassified,unknown,needs review,32s call in Moorestown,low,Manual review
+CAL019a5a1d33687962879952dcac946d8a,inbound,32,spam,b2b_sales,sell security,declined,Security services sales,high,Security spam
+CAL019a508a19eb782a843bf0d3611f096b,inbound,32,incomplete,unclassified,unknown,needs review,32s call in San Jose North,low,Manual review
+CAL019a0c9407ca7fdf8d6f59f42e9177c4,inbound,32,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199c48010b178568cc4fa96cd894e6d,inbound,32,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019aa20a996c7794bc6995b4d21bcdbc,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a7a235acf77eda3cbb44ed91cc710,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a74d17d8a783f96367db30629c5df,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a3bc36f357e469913076fbe36d141,inbound,31,incomplete,unclassified,unknown,needs review,31s call in Tracy,low,Manual review
+CAL019a2c850c647fe592b8de8661503cff,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a2c7701367db488330fadf34ac287,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a11b8d2207b7e980f1697951b1aac,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a0c9c96db704a9a5808bb3e55882c,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a022e83957978b1c1cb8969e08c0d,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199df5d389a780da5342a49e447248b,inbound,31,incomplete,missed_call,unknown,missed,Missed call from San Francisco,high,No recording
+CAL0199c9aa62ca724d8c0127922df3e471,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199c0491cee72269ea8c973bda05d9e,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199bf5bada275c6965ebad06c2815e3,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199abdbd93f7a34bb9dc20f2064558d,inbound,31,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b2df334a8731e8f566994132d2bdb,inbound,30,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b000755ac78e19ad320c2db360d4b,inbound,30,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019afecd84c37ceb82963e297202dde9,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019aef7459147f7bad54d3351817109e,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019aea2321647894a4e05e866c91d92f,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019ae0f5c2ac7ec499704eb23cef21ff,inbound,30,incomplete,unclassified,unknown,needs review,30s call in Port Arthur,low,Manual review
+CAL019adaa78726748d90e1f2c1fce77536,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019ab7ae297f7da1a32565ae9bebeb70,inbound,30,spam,workshop_sales,sell training,declined,Workshop sales,high,Training spam
+CAL019a566f9ba87d9184da835787255613,inbound,30,spam,b2b_lending,sell loans,ignored,Small Business Lending,high,Repeat
+CAL019a3188ac0173b1b8e6e6e97be34432,inbound,30,incomplete,unclassified,unknown,needs review,30s call in Phoenix,low,Manual review
+CAL019a308b353f7c0ca28ddf5f12a91440,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a0c899c4a7c75ac2e15e89f7583ae,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a0880ea647f268242d482b0056db9,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a076c72a87cb39b41843e8cb4a19a,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199f2df9b5e79a4914eb300231c1070,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199edb2609e72c4a08c5a7a039804bf,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199de1bf2fb73c6ac16496cceb032ea,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199c98fbf5f7dbc95809af13202e4ce,inbound,30,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b47bfb3fd787bacf1c9d3cc84aa52,inbound,29,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019ab74b11537b79acff63e51e77a342,inbound,29,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a4bee2f207db49f1c42b090510bd6,inbound,29,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a3c5d58f978b589ce7bb45d25503f,inbound,29,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a3bf113b57b0a883ae74636de0d2e,inbound,29,incomplete,unclassified,unknown,needs review,29s call in Antioch,low,Manual review
+CAL019a31c5e8957347822cc52f97823ec3,inbound,29,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a2c3a8223756985e36ba5f819fc27,inbound,29,incomplete,unclassified,unknown,needs review,29s call in Morgan Hill,low,Manual review
+CAL019a035d80437201ab3ab8a9a468aaa1,inbound,29,incomplete,unclassified,unknown,needs review,29s call in East Bay - Alameda,low,Manual review
+CAL019a02295dea71339bef9839014fb53e,inbound,29,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199c05d59187f4f837fa69e969da9f1,inbound,29,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199bf5ccf7e71708b603909489d29b3,inbound,29,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199bf52095c7830ab9b727fe2e3e7cf,inbound,29,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199a19d0e4872f0910a23fdc8cb5cbe,inbound,29,spam,merchant_services,sell payment,declined,Merchant services,high,B2B spam
+CAL019b045b4ea67f56adfb61eac925d19b,inbound,28,spam,telemarketing,telemarketing,declined,Telemarketing,high,B2C spam
+CAL019acc7fe8bf741fa56711ad676357bb,inbound,28,incomplete,no_transcript,unknown,unknown,28s call - no transcript,low,Review recording
+CAL019a5520dc5a7f82b23319be04755b2a,inbound,28,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a4b93b71b7d1b8abaf6fdc4b60c93,inbound,28,incomplete,unclassified,unknown,needs review,28s call in Antioch,low,Manual review
+CAL019a0dae8ddd7004b3101501f49534e0,inbound,28,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019b0e755168763ca81982acf9a4cf63,inbound,27,spam,telemarketing,telemarketing,declined,Telemarketing,high,B2C spam
+CAL019abd284d41792c887eb72e30cd682c,inbound,27,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019a6fe2cf7e7aca909b21d68acf6b95,inbound,27,incomplete,missed_call,unknown,missed,Missed call from Fremont/Newark,high,No recording
+CAL019a177d88eb7aa4a709d0d9586164e6,inbound,27,incomplete,unclassified,unknown,needs review,27s call in Sunol,low,Manual review
+CAL019b71d4955476af8129f52726f9e1bf,inbound,26,spam,b2b_lending,sell loans,ignored,Small Business Lending,high,Repeat
+CAL019b4d66031b79f3abac64fe89dc4181,inbound,26,incomplete,missed_call,unknown,missed,Missed call from Munnsville,high,No recording
+CAL019b31d3b44c797c81cb96b94d071b21,inbound,26,incomplete,missed_call,unknown,missed,Missed call from Concord,high,No recording
+CAL019b24081b56716ca3e1ee11dd99ccc1,inbound,26,spam,telemarketing,telemarketing,declined,Telemarketing,high,B2C spam
+CAL019ae0735271750bb4fc48041e58c722,inbound,26,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a8483768d76ab810caf8a25afbf5e,inbound,26,incomplete,missed_call,unknown,missed,Missed call from San Francisco,high,No recording
+CAL019a59779b6d7488b6ccfccf94b917c7,inbound,26,incomplete,missed_call,unknown,missed,Missed call from San Francisco,high,No recording
+CAL019a3c1383637e77900a5ae1836de493,inbound,26,incomplete,missed_call,unknown,missed,Missed call from San Francisco,high,No recording
+CAL019a16a0e9937a4489efc20edd85d2b0,inbound,26,incomplete,missed_call,unknown,missed,Missed call from Lafayette,high,No recording
+CAL019a16874a037c8b8e2212d32022e2eb,inbound,26,incomplete,missed_call,unknown,missed,Missed call from Lafayette,high,No recording
+CAL019a0322cc717b1cb2b09b00b4f4d7ff,inbound,26,incomplete,missed_call,unknown,missed,Missed call from Petaluma Swift,high,No recording
+CAL019ac27684c771cca5906e757540caeb,inbound,25,incomplete,missed_call,unknown,missed,Missed call from Lafayette,high,No recording
+CAL019ac221f3a5768291c147f33e23de66,inbound,25,incomplete,missed_call,unknown,missed,Missed call from La Honda,high,No recording
+CAL019a79fcf70674a59a4eb40d62a12958,inbound,25,incomplete,unclassified,unknown,needs review,25s call in Antioch,low,Manual review
+CAL019a7450f46d78c28cfb9894a3c8335e,inbound,25,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a6f14ca5a7c5fa21ec592581609ff,inbound,25,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a60bdcbf975d9b5572f6172436a1a,inbound,25,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5bb9f9e87363b1cb00b4f954573a,inbound,25,incomplete,missed_call,unknown,missed,Missed call from La Puente,high,No recording
+CAL019a3c571c93727abb94e1b4bf5df606,inbound,25,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019a0d4f33d974e7bbc19f5921db08a7,inbound,25,incomplete,unclassified,unknown,needs review,25s call in Moraga,low,Manual review
+CAL019a0ce2553a7629aa307a660f94808f,inbound,25,incomplete,unclassified,unknown,needs review,25s call in Dallas,low,Manual review
+CAL0199ded478db75929f9e8469fb252cd1,inbound,25,incomplete,unclassified,unknown,needs review,25s call in Moraga,low,Manual review
+CAL019b38c39a66788d88d711dbd0a22fff,inbound,24,operations,internal_coordination,internal,resolved,WhatsApp coordination,high,Internal
+CAL019b2e540e3d78d2953b41fb9fa047e2,inbound,24,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019abc4826a671c09efe01666a97e4c0,inbound,24,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a9da74e6e74aa8264a3f8794b0777,inbound,24,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a978e11097c62b36c140cbb7554b9,inbound,24,incomplete,missed_call,unknown,missed,Missed call from Walnut Creek,high,No recording
+CAL019a12bda1f37b52abbf7ec9c8328b6b,inbound,24,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a03ac2d897d079996db45b3ad8fa0,inbound,24,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199eeb066307f86b02dae6260ac977c,inbound,24,operations,internal_checkin,status,confirmed,Brief internal check-in,high,Quick check
+CAL019b519ee362767c9869ebead6338626,inbound,23,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f4330257bc3a435614514b9c243,inbound,23,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019b04c0615a78adbe9e744e78589dd2,inbound,23,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019acb7c3a5f78f0aafa5aa930fcdb0b,inbound,23,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aa874d8f67c33a27666c6f0a1e87c,inbound,23,incomplete,unclassified,unknown,needs review,23s call in Burlington,low,Manual review
+CAL019a6fe978f97a1aad3da0a1b89a2aa6,inbound,23,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199f43a61467768b75dee9bda6edf9a,inbound,23,incomplete,no_transcript,unknown,unknown,23s call - no transcript,low,Review recording
+CAL0199e2683a2b7a98b4f6f8ea5f120849,inbound,23,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019b4808e03b7cc082d80cb9123460d4,inbound,22,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b28d056197497b3e2fe7a015bfdaf,inbound,22,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f6f6018759cae01f4a69724a0f7,inbound,22,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019b0090fdf3724396daedd117a93263,inbound,22,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019ae62319b776cd860767814b1a3b68,inbound,22,incomplete,no_transcript,unknown,unknown,22s call - no transcript,low,Review recording
+CAL019a4c61a3917c0aa769a56fe459856f,inbound,22,incomplete,missed_call,unknown,missed,Missed call from Santa Clarita -Sangus Canyon,high,No recording
+CAL019a36e04b4e752aaf81f95b3c54ada2,inbound,22,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a2be05fd177c791a85040cbf20eae,inbound,22,incomplete,unclassified,unknown,needs review,22s call in Houston,low,Manual review
+CAL0199a0a61918769ca6c2460fc549d646,inbound,22,incomplete,unclassified,unknown,needs review,22s call,low,Manual review
+CAL0199a078047276efb3429e77aec157bf,inbound,22,incomplete,unclassified,unknown,needs review,22s call in Lower Lake,low,Manual review
+CAL019b51e470157e1ab567e5e81f0cf490,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b32eb26a5752194deb74def38b5d4,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b329bb4dd708ea3591c78bc043560,inbound,21,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019ae0cb532e7dac910edf926a5059fa,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aa31f42237c56963ebbc9d329a337,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a9d8a0a2c7a25bd9fca1cf93af8dc,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a84656a0d70ae886ad4e54fcac350,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a701f47a870219e3a726459cc5761,inbound,21,incomplete,unclassified,unknown,needs review,21s call in San Jose West,low,Manual review
+CAL019a557f88867773bfce48c88a6952e2,inbound,21,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a5011c21479728995ac92a96c1fb0,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a36ebefe97f41ab75169556ccaaa4,inbound,21,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a312b76187d4ebbc05a42394b68b0,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a30ff4a987207ac893bc994602d75,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a08e085c379f4868c2071f6eb60ee,inbound,21,incomplete,no_transcript,unknown,unknown,21s call - no transcript,low,Review recording
+CAL019a0384c63773679303211e3b6948d1,inbound,21,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b33dea07e7196a995bcc6f94c0f07,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b2e31d9487fd2b2367391eaaaf9a1,inbound,20,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b1400e5a37cf383244a81d08afa81,inbound,20,spam,b2b_sales,sell financing,declined,Google Funding cold call,high,B2B spam
+CAL019b0f2930a672a295b9143f0f8d8c4d,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f1294ff73b29004847879b9b17e,inbound,20,spam,newsletter_sales,sell newsletter,declined,Newsletter sales,high,Newsletter spam
+CAL019b04a0ca52709fa4f857372413a399,inbound,20,incomplete,unclassified,unknown,needs review,20s call in Terrace,low,Manual review
+CAL019aefb0e43a737387e65fe191374b13,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019adaecb8767334a57708541c5df270,inbound,20,incomplete,unclassified,unknown,needs review,20s call in Rahway,low,Manual review
+CAL019ac21c5e74700da889a670b51b884d,inbound,20,incomplete,missed_call,unknown,missed,Missed call from San Francisco,high,No recording
+CAL019abc81fee87502a2cc0c620fea71d1,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019abc36d5c772cda27b2e3176ae462a,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a742b4b2d7e8f848f2c3b587cdd0a,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5b4ffc407ac39ee11306e5499f59,inbound,20,spam,merchant_services,sell payment,declined,Merchant services,high,B2B spam
+CAL019a3b64e3e3740f972415e875b73385,inbound,20,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019a36b500bf7797aabe47c9b99cf0af,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a126b2c447531a33d757fc73a40a9,inbound,20,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b2e4680c37f498ca37c24fb02aeed,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b2d6ae8e1735f85aeee04800c1902,inbound,19,incomplete,no_transcript,unknown,unknown,19s call - no transcript,low,Review recording
+CAL019b231e6c6e78dfb8053255cc3a0dd0,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f9ae09670eea05a9d931cff5087,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aefe2461b71f9a515a700b1051336,inbound,19,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019adfdc63d078a5a69f93118ca3bdb0,inbound,19,incomplete,missed_call,unknown,missed,Missed call from Montebello,high,No recording
+CAL019abc47cedc7206984274db2af025f8,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5fc07d1a72eaa7f38c48803e4cf8,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a2c4281d770ec8e1acf133288ed60,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a2752b27e7936b6d09631d617ec5c,inbound,19,incomplete,missed_call,unknown,missed,Missed call from Idyllwild (Riverside Co.),high,No recording
+CAL019a183656837c568460329b2d77f633,inbound,19,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0dbe82f3719e848aae2b17607f33,inbound,19,incomplete,too_short,unknown,brief,19s call,low,Short
+CAL019a035725ce75f88a3e17bed258a966,inbound,19,incomplete,too_short,unknown,brief,19s call,low,Short
+CAL0199e99ab431700cb29ff36816b716b7,inbound,19,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199c4c5920075a1a5b21558811620cb,inbound,19,incomplete,too_short,unknown,brief,19s call,low,Short
+CAL019b4cbaad837d95b9d798cfa5eb6ad7,inbound,18,incomplete,no_transcript,unknown,unknown,18s call - no transcript,low,Review recording
+CAL019b23363dc17a3d86789fd18dc5d322,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b14556f3e731ea8188f67e3bfe97b,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b1419ab517cfe9176d74a6c5e1060,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f13cb587b6ca39b7a43a46af492,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f135a15745c8ab71e7aeecd9cb4,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019affdcf0257c96bd669486e33b713c,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019ae01dd08f71088f6c93be7e9dbd28,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019adbbc57717ae6bf9cd81e44b6a5bb,inbound,18,incomplete,no_transcript,unknown,unknown,18s call - no transcript,low,Review recording
+CAL019acbf6c635759993a8f7e7364beb64,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019abd17587070e9aa4e92a27bf8eee3,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a84926f16739aa7712d8ec0d6c8d7,inbound,18,spam,merchant_services,sell payment,declined,Merchant services,high,B2B spam
+CAL019a841322ac7a9fb8e36b6282fd6fc7,inbound,18,spam,merchant_services,sell payment,declined,Merchant services,high,B2B spam
+CAL019a83773612746f8a245066acfd9e33,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a74c8b170714f8f6c7abca71bab4d,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a60274ee179f386b4552d629b27fe,inbound,18,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a5fa9e23c7315a8cb6e68b6a48aa0,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5b4896207021955c037fdc97e9e5,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a365797617266bb8d9118e3b04633,inbound,18,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL019a3160916779b8b9f668fcbc3b85b3,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a277142c67848802e6c70df74eabc,inbound,18,incomplete,missed_call,unknown,missed,Missed call from Belvedere,high,No recording
+CAL019a17e9cf4372cbb0bbfadfb60c9313,inbound,18,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a08a02ba879c18cdaf9591791476b,inbound,18,incomplete,no_transcript,unknown,unknown,18s call - no transcript,low,Review recording
+CAL019a0898c5007483937c1088e02d8241,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a088a8b60754796751af63c1aee44,inbound,18,incomplete,no_transcript,unknown,unknown,18s call - no transcript,low,Review recording
+CAL019a03500b6c7280963eb32c8ffbc6fb,inbound,18,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199cffc0ca17c64ad1bc09eef0d8c27,inbound,18,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b4cc75e757beca7b168c8810ec8f3,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b331aa07f77819999e95882453f6b,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b28cd7c6f7d2eae1c83164332c92c,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f0a03cc7f72b85f3efaa8308db8,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019af03658467f07a374cb8ca83e6d10,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019ac1d2bf707c85ab0cd9699d800fea,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aa2a6b183747883c3d08422ef3cc0,inbound,17,incomplete,too_short,unknown,brief,17s call,low,Short
+CAL019aa2a6452a76889df03edb4ea24f53,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a9d14e4c471488e5d7ce6fd8df4ca,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a7a6f93f07495835d413cae4b965e,inbound,17,incomplete,no_transcript,unknown,unknown,17s call - no transcript,low,Review recording
+CAL019a79432c597c428f9031c129b776b0,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a608ebe8f7bcaa88a0f16fd910add,inbound,17,incomplete,no_transcript,unknown,unknown,17s call - no transcript,low,Review recording
+CAL019a55ab4f387f9ead6dfd6e3cdd43c4,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a50a83f547d4e931137e1c048be59,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a31b21d9a7ad7943266154bf45cf6,inbound,17,incomplete,too_short,unknown,brief,17s call,low,Short
+CAL019a2ba8d6f27551b8d8de3e42585bc5,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a17e8c8a8707894f1b8b9df3b3ed5,inbound,17,incomplete,no_transcript,unknown,unknown,17s call - no transcript,low,Review recording
+CAL019a11dd77e97e0d82b14e13fe0f4362,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a11ccf30874229fd8c981613ad4d1,inbound,17,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a08a1ee9a730fb66b7d0eb557e29e,inbound,17,incomplete,no_transcript,unknown,unknown,17s call - no transcript,low,Review recording
+CAL019b4cf6838f7cae967ab7e1b4600db4,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b4cd8d8ae7e72b42fedd90e648d7d,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b389c137f705f8cfb99506e416264,inbound,16,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b23c93fe37e6a8877e6cee99d311b,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b239ddc1371439c4a3b92c03a41cd,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b141b193074909417901d6f8ecd22,inbound,16,incomplete,too_short,unknown,brief,16s call,low,Short
+CAL019b0516119e70bfba2c8acca2d07ccf,inbound,16,incomplete,no_transcript,unknown,unknown,16s call - no transcript,low,Review recording
+CAL019ae01da507723599f15a7dde19900c,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019abc9c0c4d71eeb0ea3d59c1d77d13,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a930585727b45bd77552926d8d8c5,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a848cdd367e629aebca4af8b7387f,inbound,16,incomplete,too_short,unknown,brief,16s call,low,Short
+CAL019a83e23e3471aba353b8420ac67f68,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a7ea0c9b37b18862bdcdc79f77e7f,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5fec3bbc763085cf20d9eb46837a,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5a26354a7457aba05c317cb8ed41,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5082420179f0aeb5f49c6a98a140,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a31aa84717c36aaa797f29115bfab,inbound,16,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a2bdb66067d069198767cc2cddec0,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a17416088796f8d346e85ab670358,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a121c0dc371458165e6c92a75eaed,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a08e26d057c438867b4a8bd4e0673,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a089a752d7e9e8ca92ed434bda1aa,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a038e27db7fa9ab4ec849f6990be1,inbound,16,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b38538d1679f19fde504e59462f1a,inbound,15,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b2328110d7d60aef9a6e31b0eeede,inbound,15,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b0e925b5d70018d8fdcff96dabacc,inbound,15,other_inquiry,vendor_seeking_work,offering services,took info,Property damage company,high,Vendor
+CAL019adbffdfd07ec4b79dc6285dc54dd5,inbound,15,incomplete,no_transcript,unknown,unknown,15s call - no transcript,low,Review recording
+CAL019a98282db37065912d08115206c9b0,inbound,15,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a848ddc0d7c9cb0ffa005b854ba2c,inbound,15,incomplete,too_short,unknown,brief,15s call,low,Short
+CAL019a79d48e187bd9a21aca8194eb4600,inbound,15,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a55714a0970cfb07b6e477bc0ab84,inbound,15,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a1768684972fabb65b949b09272ac,inbound,15,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a12c0bf0b7383910aba1efdeab3b0,inbound,15,incomplete,too_short,unknown,brief,15s call,low,Short
+CAL019a0359c06878cda80dc3a7cc449cef,inbound,15,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b5b9dabfb7348957737e0f0905dd5,inbound,14,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b470e717f7b2d8b79aafc7626282c,inbound,14,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b38308f21728a9e29b7dc67e0d6cf,inbound,14,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aeb2a022071d9bc6f1170b8957822,inbound,14,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aa370dc5c760cbc6acfadbba3cf36,inbound,14,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a939ff26070ec8fc63e4fc6f892df,inbound,14,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a7a0883ce7ada871f88a6c0e374a2,inbound,14,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a7a030ed47ce591b35efa0eba5126,inbound,14,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a5fc36fc17db69e48b3f6071be4be,inbound,14,incomplete,too_short,unknown,brief,14s call,low,Short
+CAL019a50b4940f79079bdec52e11cfc62b,inbound,14,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a3623d2737429a85b21be1e5f81b3,inbound,14,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a35e1cef5741691d3c869a417ab58,inbound,14,incomplete,too_short,unknown,brief,14s call,low,Short
+CAL019a2c28e80a7bba9e9bb89b8a1298a8,inbound,14,incomplete,too_short,unknown,brief,14s call,low,Short
+CAL019a124bd5787e37b61df6f6a4cf1b7d,inbound,14,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199e45991877f7587938945a0abedb0,inbound,14,incomplete,too_short,unknown,brief,14s call,low,Short
+CAL019aeaa9de7d7899aa4efba74305f107,inbound,13,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019ae08c8d667886adef6e43096961eb,inbound,13,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019abc139cb373b098130998a0e9f889,inbound,13,incomplete,too_short,unknown,brief,13s call,low,Short
+CAL019a79fd63a775e59860bc52ce0a28a2,inbound,13,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a749bae4276028621b96d14cc3eec,inbound,13,incomplete,too_short,unknown,brief,13s call,low,Short
+CAL019a7452121d7f03be1f9bd8003531ca,inbound,13,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5a6e5a597f169487e2d8e783d686,inbound,13,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a36a7fc4a7caaa5040485b5fc8515,inbound,13,incomplete,too_short,unknown,no content,13s call - too short,high,Minimal
+CAL019a268a8683712a8f63d05f4074df73,inbound,13,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a11edd18d7a2eb29a8390191a67a9,inbound,13,incomplete,too_short,unknown,brief,13s call,low,Short
+CAL019b6b5b17da780e98acbf4ea3e35a48,inbound,12,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0a2ef3e77271bb7d9c852e874385,inbound,12,incomplete,too_short,unknown,brief,12s call,low,Short
+CAL019b050299a7730a9fadc5940e6afb8b,inbound,12,spam,b2b_sales,B2B pitch,declined,Small business cold call,high,B2B spam
+CAL019ac193fbe9731e9cc78546d0137257,inbound,12,incomplete,too_short,unknown,brief,12s call,low,Short
+CAL019a84823d427e73af3331feb166d11e,inbound,12,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a6f99a5377c2498d820f9a0e40ae9,inbound,12,incomplete,too_short,unknown,brief,12s call,low,Short
+CAL019a3bff965170bda15b3a11f2438021,inbound,12,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a2c60e0837e70b6d35e5b9b56df75,inbound,12,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a26e3f7e075f79aefd0675ea6cd7e,inbound,12,incomplete,too_short,unknown,brief,12s call,low,Short
+CAL019a178652c5760d893546edb46a7a66,inbound,12,incomplete,too_short,unknown,brief,12s call,low,Short
+CAL019a172bd3137dd292e998aa522f1b12,inbound,12,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a1287c53f7252b764483f38226985,inbound,12,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b289883877751aead707ee1d83c2a,inbound,11,incomplete,too_short,unknown,brief,11s call,low,Short
+CAL019b05460f0a7d64ba928e3bc6bd0021,inbound,11,incomplete,too_short,unknown,no content,11s call - too short,high,Minimal
+CAL019aea69c049706ebf86f3b53c33e8dc,inbound,11,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019adbe36bc276a8b1d2ab2351c6fb50,inbound,11,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a7f2e0e4072c8b5a3526456c8dfd6,inbound,11,incomplete,too_short,unknown,brief,11s call,low,Short
+CAL019a792380e5766d8fd485582a8dc56c,inbound,11,incomplete,too_short,unknown,brief,11s call,low,Short
+CAL019a6f9e059c7d9585d4c6644213fe57,inbound,11,incomplete,too_short,unknown,brief,11s call,low,Short
+CAL019a2c0dd6c47cff92150badff22b35b,inbound,11,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a2666d2e175b4905ad298498e8d8f,inbound,11,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a11d460217cdbaa469af5ae14e9db,inbound,11,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019b4c6718807577a500bfd1607ad7e7,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019b0f2c92ea7142aa7131982d1856e6,inbound,10,spam,b2b_sales,B2B pitch,declined,Small business cold call,high,B2B spam
+CAL019af02e185f7984bb6f6c45e1edaf5a,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019abc884e2674b79348e4cf47c7bd08,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a930efb197f3a8c430d9c073d45a1,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5aa23b3179cfa2c8d4d7884e59d9,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5a9faeaf7891aa41868812b9a023,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5a27eb537fd88f1cac266de355d3,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a5077af7d72acbe4178d6add3940d,inbound,10,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a17e2093878af8af43fe0dac14282,inbound,10,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL0199e434f76672bdaa26c0063fee507e,inbound,10,incomplete,wrong_number,wrong number,clarified,Wrong number,high,Wrong number
+CAL0199e43270ac7737aa83335566acecab,inbound,10,incomplete,too_short,unknown,brief,10s call,low,Short
+CAL0199c5bdefc37133959c3198672852cb,inbound,10,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019b043628567ca1938e22089a56aabb,inbound,9,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019ab6d35c6f7bca95fa5295ff1133dc,inbound,9,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019aa242a1da7028b9770ae40d6a5aa7,inbound,9,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL019a847f2b80786a9362f79658bd4f51,inbound,9,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a836bfe59708c910831236016359c,inbound,9,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a36adf0f07fa786b3237c8c5ca092,inbound,9,incomplete,too_short,unknown,brief,9s call,low,Short
+CAL019a17f5ca3f77669a7bc79e5964686e,inbound,9,spam,google_listing,sell SEO,ignored,Google listing scam,high,Google spam
+CAL019a07a724137f6383c7092f3b9e17e5,inbound,9,incomplete,too_short,unknown,brief,9s call,low,Short
+CAL0199cfa981e370369fcc6e8be8e14bca,inbound,9,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0cc0a67d72e58442f044e11ca4a1,inbound,8,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199cfa083e77791b15ad0e7d917a2d7,inbound,8,incomplete,too_short,unknown,brief,8s call,low,Short
+CAL0199a1326a7f7e00a8122285b19b3a5a,inbound,8,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a1107e2e7a2e96b25ce8b0f115d7,inbound,8,incomplete,too_short,unknown,brief,8s call,low,Short
+CAL0199a0c8e26777c391fe95bb0b6628ca,inbound,8,incomplete,too_short,unknown,brief,8s call,low,Short
+CAL019a0d7c46b9738b852361623dc5a62f,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL019a0d5882fd73d5835bcd97c9881a28,inbound,7,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199e91fad3e74889406b1021193f53f,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL0199e8d28794728fa8683dfbb7a246cd,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL0199e8c029147a9db8ff79c4c0786e66,inbound,7,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199e439a9297be2b5dbdc7de2d6611b,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL0199cee2fdb37a0dbfd86781576b8cd6,inbound,7,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199ca8a71417cf4a9e7d1d5bda36dcf,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL0199ca5cac4b765893aa0893ff00587a,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL0199a5f5cfa6772b9e42e4352de981c1,inbound,7,incomplete,too_short,unknown,brief,7s call,low,Short
+CAL0199e3bffc9b7bd6b556779cbf155021,inbound,6,incomplete,too_short,unknown,brief,6s call,low,Short
+CAL0199ca5711247cc980228ea26af13d54,inbound,6,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199ca47830f7bbe809c1a7eb7d35cc9,inbound,6,incomplete,too_short,unknown,brief,6s call,low,Short
+CAL0199ca464bad7ef896c95e14f83a6891,inbound,6,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199c5508b327a979ca88039d07d5b78,inbound,6,spam,cold_call,B2B solicitation,screened,Cold call for business owner,high,Screened
+CAL0199c4d8600876fda6cf29014089ab7b,inbound,6,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a1182a067899893d91422e40f645,inbound,6,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0cc903e873cc97546a8b0de1984a,inbound,5,incomplete,too_short,unknown,brief,5s call,low,Short
+CAL0199ee4e72d47fbf945d1dc6f408a6c0,inbound,5,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d72757a73ad9148a22b7c73aa1b,inbound,4,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d5f080271379376c513eb3b1e18,inbound,4,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d29f1b7786ba1082638ec0964eb,inbound,4,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d1c078b70a495871192975156bc,inbound,4,incomplete,too_short,unknown,brief,4s call,low,Short
+CAL019a0cd9232b779d8b01afc939f6e3d0,inbound,4,incomplete,too_short,unknown,brief,4s call,low,Short
+CAL019a02e896ed7df597bfdb8e3a6fdf04,inbound,4,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a149380b7043952d61eb91c05670,inbound,4,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a0a1758778b099616c8323f060b7,inbound,4,incomplete,too_short,unknown,brief,4s call,low,Short
+CAL019a0cf52a217534b008039235e1245a,inbound,3,incomplete,too_short,unknown,brief,3s call,low,Short
+CAL019a084605be7372ab09a4325cda4adc,inbound,3,incomplete,too_short,unknown,brief,3s call,low,Short
+CAL019a0277060678f1863031cd0c1a0a35,inbound,3,incomplete,too_short,unknown,brief,3s call,low,Short
+CAL0199e3970810752081d520ec06c41224,inbound,3,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199ca736cca7628a4beb0b8a0ce446f,inbound,3,spam,robocall,automated,ignored,Robocall spam,high,Automated
+CAL0199c9d6a43e7d19b8b7795be251d3e2,inbound,3,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a12d3d907e6abbb444c3d2fd35e6,inbound,3,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d20b0f571f1acf05a1d877fd66a,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a0d0867317840855b4d8510255866,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL019a07b8a02c7741ae67fd7752639e30,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199ee3c48dd715d8e5c7dc44a12b84d,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199defe0b0e7c1585abacb7764054d0,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199cf7a6eec78fd83199a0bed0eae88,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199cf3b1ba77d82981bbad6ca949202,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings
+CAL0199a14e26437effb62dbae9c281124f,inbound,2,incomplete,brief_exchange,unknown,minimal,Brief exchange - no substance,high,Just greetings

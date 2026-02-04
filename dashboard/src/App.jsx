@@ -273,6 +273,23 @@ function CallModal({ call, onClose }) {
             </div>
           )}
 
+          {call.notes && (
+            <div style={{ marginBottom: '24px' }}>
+              <div className="stat-label" style={{ marginBottom: '8px' }}>📝 Summary</div>
+              <div style={{
+                background: 'rgba(59, 130, 246, 0.08)',
+                border: '1px solid rgba(59, 130, 246, 0.2)',
+                borderRadius: 'var(--radius-md)',
+                padding: '12px 16px',
+                fontSize: '14px',
+                lineHeight: 1.6,
+                color: 'var(--text-primary)'
+              }}>
+                {call.notes}
+              </div>
+            </div>
+          )}
+
           <div>
             <div className="stat-label" style={{ marginBottom: '8px' }}>
               Transcript {call.utterances ? `(${call.utterances.length} segments)` : ''}
@@ -391,20 +408,27 @@ function MissedOpportunitiesTab({ calls, onSelectCall }) {
 
 // Methodology Tab
 function MethodologyTab({ stats, calls }) {
-  // Calculate weekly breakdown - group into 4 proper weeks
-  // Sort calls by date to find date range
+  // Safety check
+  if (!calls || calls.length === 0) {
+    return <div className="section"><p>No calls data available</p></div>
+  }
+
+  // Calculate weekly breakdown
   const sortedCalls = [...calls].sort((a, b) => new Date(a.start_time) - new Date(b.start_time))
-  const firstDate = new Date(sortedCalls[0]?.start_time)
-  const lastDate = new Date(sortedCalls[sortedCalls.length - 1]?.start_time)
+  const firstDate = new Date(sortedCalls[0]?.start_time || Date.now())
+  const lastDate = new Date(sortedCalls[sortedCalls.length - 1]?.start_time || Date.now())
   
-  // Define 4 weeks starting from the first Sunday before/on the first call
+  // Define weeks starting from the first Sunday before/on the first call
   const startSunday = new Date(firstDate)
   startSunday.setDate(firstDate.getDate() - firstDate.getDay())
   startSunday.setHours(0, 0, 0, 0)
   
-  // Create 4 week buckets
+  // Create enough week buckets to cover entire date range
+  const totalDays = Math.ceil((lastDate - startSunday) / (1000 * 60 * 60 * 24))
+  const numWeeks = Math.min(Math.ceil(totalDays / 7) + 1, 52)
+  
   const weekBuckets = []
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < numWeeks; i++) {
     const weekStart = new Date(startSunday)
     weekStart.setDate(startSunday.getDate() + (i * 7))
     const weekEnd = new Date(weekStart)
@@ -428,7 +452,7 @@ function MethodologyTab({ stats, calls }) {
     for (const week of weekBuckets) {
       if (callDate >= week.start && callDate <= week.end) {
         week.total++
-        if (c.has_recording) week.withRec++
+        if (c.recording_url) week.withRec++
         if (c.direction === 'inbound') week.inbound++
         if (c.direction === 'outbound') week.outbound++
         break
@@ -442,18 +466,20 @@ function MethodologyTab({ stats, calls }) {
   // Full breakdown stats
   const answered = calls.filter(c => c.answered === true)
   const missed = calls.filter(c => c.answered === false)
-  const answeredWithRec = answered.filter(c => c.has_recording)
-  const answeredNoRec = answered.filter(c => !c.has_recording)
   const missedWithVoicemail = missed.filter(c => c.voicemail === true)
   const missedNoVoicemail = missed.filter(c => !c.voicemail)
 
-  // Categories with recording
-  const withRecording = calls.filter(c => c.has_recording)
-  const customerWithRec = withRecording.filter(c => c.category === 'customer').length
-  const spamWithRec = withRecording.filter(c => c.category === 'spam').length
-  const opsWithRec = withRecording.filter(c => c.category === 'operations').length
-  const otherInqWithRec = withRecording.filter(c => c.category === 'other_inquiry').length
-  const incompleteWithRec = withRecording.filter(c => c.category === 'incomplete').length
+  // Category counts - consistent with filters (no double counting)
+  const customerAnswered = calls.filter(c => c.category === 'customer' && !c.voicemail).length
+  const customerVoicemail = calls.filter(c => c.category === 'customer' && c.voicemail).length
+  const spamCount = calls.filter(c => c.category === 'spam').length
+  const opsCount = calls.filter(c => c.category === 'operations').length
+  const otherInqCount = calls.filter(c => c.category === 'other_inquiry').length
+  const incompleteCount = calls.filter(c => c.category === 'incomplete').length
+  
+  // For incomplete breakdown section
+  const answeredNoRec = answered.filter(c => !c.recording_url)
+  const incompleteWithRec = calls.filter(c => c.category === 'incomplete' && c.recording_url).length
 
   return (
     <div>
@@ -466,32 +492,39 @@ function MethodologyTab({ stats, calls }) {
               <strong style={{ fontSize: '16px' }}>{stats.total} Total Calls</strong>
             </div>
 
-            {/* Answered */}
+            {/* By Category */}
             <div style={{ marginLeft: '16px', marginBottom: '12px' }}>
               <div style={{ color: 'var(--color-customer)' }}>
-                ├── <strong>{answered.length} Answered</strong>
+                ├── <strong>{customerAnswered} Customer (answered)</strong>
               </div>
-              <div style={{ marginLeft: '24px', color: 'var(--text-secondary)' }}>
-                <div>├── {answeredWithRec.length} With recording → Classified</div>
-                <div style={{ marginLeft: '24px', color: 'var(--text-muted)', fontSize: '12px' }}>
-                  <div>├── {customerWithRec} Customer</div>
-                  <div>├── {spamWithRec} Spam</div>
-                  <div>├── {opsWithRec} Operations</div>
-                  <div>├── {otherInqWithRec} Not Relevant</div>
-                  <div>└── {incompleteWithRec} Incomplete (short/unclear)</div>
-                </div>
-                <div>└── {answeredNoRec.length} Without recording (outbound) → Incomplete</div>
+              <div style={{ color: '#a855f7' }}>
+                ├── <strong>{customerVoicemail} Customer Voicemail</strong>
+              </div>
+              <div style={{ color: 'var(--color-spam)' }}>
+                ├── <strong>{spamCount} Spam</strong>
+              </div>
+              <div style={{ color: 'var(--color-operations)' }}>
+                ├── <strong>{opsCount} Operations</strong>
+              </div>
+              <div style={{ color: 'var(--text-secondary)' }}>
+                ├── <strong>{otherInqCount} Not Relevant</strong>
+              </div>
+              <div style={{ color: 'var(--text-muted)' }}>
+                └── <strong>{incompleteCount} Incomplete</strong>
               </div>
             </div>
 
-            {/* Missed */}
-            <div style={{ marginLeft: '16px' }}>
-              <div style={{ color: 'var(--color-spam)' }}>
-                └── <strong>{missed.length} Missed (Not Answered)</strong>
+            {/* By Answer Status */}
+            <div style={{ marginLeft: '16px', marginTop: '16px', paddingTop: '16px', borderTop: '1px solid var(--border)' }}>
+              <div style={{ marginBottom: '8px', fontSize: '12px', color: 'var(--text-muted)' }}>By Answer Status:</div>
+              <div style={{ color: 'var(--color-customer)' }}>
+                ├── <strong>{answered.length} Answered</strong>
               </div>
-              <div style={{ marginLeft: '24px', color: 'var(--text-secondary)' }}>
-                <div>├── {missedWithVoicemail.length} Left voicemail → Classified by content</div>
-                <div>└── {missedNoVoicemail.length} No voicemail → Incomplete</div>
+              <div style={{ color: 'var(--color-spam)' }}>
+                └── <strong>{missed.length} Missed</strong>
+                <span style={{ marginLeft: '8px', fontSize: '12px', color: 'var(--text-muted)' }}>
+                  ({missedWithVoicemail.length} left voicemail)
+                </span>
               </div>
             </div>
           </div>
@@ -518,7 +551,7 @@ function MethodologyTab({ stats, calls }) {
                   <tr key={idx}>
                     <td className="font-mono">{week.label}</td>
                     <td className="font-mono">{week.total}</td>
-                    <td className="font-mono">{week.withRec} <span className="text-muted">({Math.round(week.withRec/week.total*100)}%)</span></td>
+                    <td className="font-mono">{week.withRec} <span className="text-muted">({week.total > 0 ? Math.round(week.withRec/week.total*100) : 0}%)</span></td>
                     <td className="font-mono">{week.inbound}</td>
                     <td className="font-mono">{week.outbound}</td>
                   </tr>
@@ -557,7 +590,7 @@ function MethodologyTab({ stats, calls }) {
 
       {/* Why Incomplete */}
       <section className="section">
-        <h2 className="section-title">Why 211 Calls Are "Incomplete"</h2>
+        <h2 className="section-title">Why {incompleteCount} Calls Are "Incomplete"</h2>
         <div className="card">
           <div style={{ display: 'grid', gap: '12px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: '1px solid var(--border-subtle)' }}>
@@ -692,11 +725,11 @@ export default function App() {
   // Filter calls
   let filtered = calls
   if (filter === 'customer') {
-    // Customers only (no voicemails)
+    // Customers answered (no voicemails)
     filtered = filtered.filter(c => c.category === 'customer' && !c.voicemail)
-  } else if (filter === 'voicemail') {
-    // All voicemails
-    filtered = filtered.filter(c => c.voicemail === true)
+  } else if (filter === 'customer_voicemail') {
+    // Customer voicemails only
+    filtered = filtered.filter(c => c.category === 'customer' && c.voicemail)
   } else if (filter !== 'all') {
     filtered = filtered.filter(c => c.category === filter)
   }
@@ -729,7 +762,6 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <div className="logo">🦏 Rhino</div>
-          <div className="date-range">Q4 2025 + January 2026</div>
         </div>
       </header>
 
@@ -884,17 +916,17 @@ export default function App() {
             </div>
           </section>
 
-          {/* Period Comparison */}
+          {/* Period Comparison - By Month */}
           <section className="section">
             <div className="card">
               <div className="card-header">
-                <span className="card-title">📅 By Period</span>
+                <span className="card-title">📅 By Month</span>
               </div>
               <div style={{ padding: '12px' }}>
                 <table style={{ width: '100%', fontSize: '13px', borderCollapse: 'collapse' }}>
                   <thead>
                     <tr style={{ borderBottom: '2px solid var(--border)' }}>
-                      <th style={{ textAlign: 'left', padding: '8px' }}>Period</th>
+                      <th style={{ textAlign: 'left', padding: '8px' }}>Month</th>
                       <th style={{ textAlign: 'right', padding: '8px' }}>Total</th>
                       <th style={{ textAlign: 'right', padding: '8px' }}>🟢 Customer</th>
                       <th style={{ textAlign: 'right', padding: '8px' }}>🔴 Spam</th>
@@ -903,22 +935,34 @@ export default function App() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr style={{ borderBottom: '1px solid var(--border)' }}>
-                      <td style={{ padding: '8px' }}>Q4 2025</td>
-                      <td style={{ textAlign: 'right', padding: '8px' }}>{stats.by_period?.q4_2025?.total || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-customer)' }}>{stats.by_period?.q4_2025?.customer || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-spam)' }}>{stats.by_period?.q4_2025?.spam || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-operations)' }}>{stats.by_period?.q4_2025?.operations || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-incomplete)' }}>{stats.by_period?.q4_2025?.incomplete || 0}</td>
-                    </tr>
-                    <tr>
-                      <td style={{ padding: '8px' }}>Jan 2026</td>
-                      <td style={{ textAlign: 'right', padding: '8px' }}>{stats.by_period?.jan_2026?.total || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-customer)' }}>{stats.by_period?.jan_2026?.customer || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-spam)' }}>{stats.by_period?.jan_2026?.spam || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-operations)' }}>{stats.by_period?.jan_2026?.operations || 0}</td>
-                      <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-incomplete)' }}>{stats.by_period?.jan_2026?.incomplete || 0}</td>
-                    </tr>
+                    {(() => {
+                      // Group calls by month
+                      const byMonth = {};
+                      calls.forEach(c => {
+                        const d = new Date(c.start_time);
+                        const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+                        if (!byMonth[key]) byMonth[key] = [];
+                        byMonth[key].push(c);
+                      });
+                      // Sort months
+                      const months = Object.keys(byMonth).sort();
+                      const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                      return months.map((m, i) => {
+                        const monthCalls = byMonth[m];
+                        const [year, month] = m.split('-');
+                        const label = `${monthNames[parseInt(month) - 1]} ${year}`;
+                        return (
+                          <tr key={m} style={i < months.length - 1 ? { borderBottom: '1px solid var(--border)' } : {}}>
+                            <td style={{ padding: '8px' }}>{label}</td>
+                            <td style={{ textAlign: 'right', padding: '8px' }}>{monthCalls.length}</td>
+                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-customer)' }}>{monthCalls.filter(c => c.category === 'customer').length}</td>
+                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-spam)' }}>{monthCalls.filter(c => c.category === 'spam').length}</td>
+                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-operations)' }}>{monthCalls.filter(c => c.category === 'operations').length}</td>
+                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-incomplete)' }}>{monthCalls.filter(c => c.category === 'incomplete').length}</td>
+                          </tr>
+                        );
+                      });
+                    })()}
                   </tbody>
                 </table>
               </div>
@@ -934,79 +978,43 @@ export default function App() {
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', alignItems: 'flex-start' }}>
                 {/* Text Explanation */}
                 <div style={{ fontSize: '13px', lineHeight: '1.6', flex: '1', minWidth: '280px' }}>
-                  <p><strong>415 Total Calls</strong> = 333 Inbound + 82 Outbound</p>
-                  <p style={{ marginTop: '8px' }}><strong>333 Inbound</strong> = 228 Answered + 38 Voicemail + 67 Missed</p>
-                  <p style={{ marginTop: '8px' }}><strong>166 Without Recording:</strong></p>
+                  <p><strong>{stats.total} Total Calls</strong></p>
+                  <p style={{ marginTop: '12px' }}><strong>Classification Breakdown:</strong></p>
                   <ul style={{ marginLeft: '20px', marginTop: '4px' }}>
-                    <li>82 Outbound calls (not recorded by CallRail)</li>
-                    <li>70 Inbound missed (no one answered = nothing to record)</li>
-                    <li>14 Inbound answered without recording (CallRail config issue)</li>
-                  </ul>
-                  <p style={{ marginTop: '8px' }}><strong>Classification based on {stats.inbound_answered} Inbound Answered calls:</strong></p>
-                  <ul style={{ marginLeft: '20px', marginTop: '4px' }}>
-                    <li><span style={{ color: 'var(--color-spam)' }}>Spam ({stats.inbound_answered_by_category?.spam || 0})</span> = Cold calls, robocalls, sales pitches</li>
-                    <li><span style={{ color: 'var(--color-customer)' }}>Customer ({stats.inbound_answered_by_category?.customer || 0})</span> = Real inquiries about concrete work</li>
-                    <li><span style={{ color: 'var(--color-operations)' }}>Operations ({stats.inbound_answered_by_category?.operations || 0})</span> = Suppliers, insurance, accounting</li>
-                    <li><span style={{ color: 'var(--color-incomplete)' }}>Incomplete ({stats.inbound_answered_by_category?.incomplete || 0})</span> = Too short or unclear to classify</li>
+                    <li><span style={{ color: 'var(--color-customer)' }}>Customer ({calls.filter(c => c.category === 'customer' && !c.voicemail).length})</span> = Answered inquiries about concrete work</li>
+                    <li><span style={{ color: '#a855f7' }}>Customer VM ({calls.filter(c => c.category === 'customer' && c.voicemail).length})</span> = Customer voicemails (missed opportunities)</li>
+                    <li><span style={{ color: 'var(--color-spam)' }}>Spam ({calls.filter(c => c.category === 'spam').length})</span> = Cold calls, robocalls, sales pitches</li>
+                    <li><span style={{ color: 'var(--color-operations)' }}>Operations ({calls.filter(c => c.category === 'operations').length})</span> = Suppliers, insurance, accounting</li>
+                    <li><span style={{ color: '#eab308' }}>Not Relevant ({calls.filter(c => c.category === 'other_inquiry').length})</span> = Out of area, wrong service</li>
+                    <li><span style={{ color: 'var(--color-incomplete)' }}>Incomplete ({calls.filter(c => c.category === 'incomplete').length})</span> = Too short or unclear to classify</li>
                   </ul>
                 </div>
 
-                {/* Pie Charts */}
+                {/* Pie Chart - Classification */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
-                  {/* Pie Chart 1: Inbound Calls */}
                   <div style={{ textAlign: 'center' }}>
-                    <h4 style={{ marginBottom: '4px', color: 'var(--text-secondary)', fontSize: '12px' }}>Inbound (333)</h4>
-                    <ResponsiveContainer width={220} height={220}>
+                    <h4 style={{ marginBottom: '4px', color: 'var(--text-secondary)', fontSize: '12px' }}>Classification ({stats.total} calls)</h4>
+                    <ResponsiveContainer width={280} height={280}>
                       <PieChart>
                         <Pie
                           data={[
-                            { name: 'Answered (228)', value: stats.inbound_answered || 228 },
-                            { name: 'Voicemail (38)', value: stats.voicemail || 38 },
-                            { name: 'Missed (67)', value: (stats.inbound_missed || 105) - (stats.voicemail || 38) }
+                            { name: `Customer (${calls.filter(c => c.category === 'customer' && !c.voicemail).length})`, value: calls.filter(c => c.category === 'customer' && !c.voicemail).length },
+                            { name: `Customer VM (${calls.filter(c => c.category === 'customer' && c.voicemail).length})`, value: calls.filter(c => c.category === 'customer' && c.voicemail).length },
+                            { name: `Spam (${calls.filter(c => c.category === 'spam').length})`, value: calls.filter(c => c.category === 'spam').length },
+                            { name: `Operations (${calls.filter(c => c.category === 'operations').length})`, value: calls.filter(c => c.category === 'operations').length },
+                            { name: `Not Relevant (${calls.filter(c => c.category === 'other_inquiry').length})`, value: calls.filter(c => c.category === 'other_inquiry').length },
+                            { name: `Incomplete (${calls.filter(c => c.category === 'incomplete').length})`, value: calls.filter(c => c.category === 'incomplete').length }
                           ]}
                           cx="50%"
-                          cy="45%"
-                          innerRadius={40}
-                          outerRadius={65}
+                          cy="40%"
+                          innerRadius={45}
+                          outerRadius={75}
                           paddingAngle={2}
                           dataKey="value"
                         >
                           <Cell fill="#22c55e" />
                           <Cell fill="#a855f7" />
                           <Cell fill="#ef4444" />
-                        </Pie>
-                        <Tooltip formatter={(value, name) => [value + ' calls', name.split(' ')[0]]} />
-                        <Legend 
-                          verticalAlign="bottom" 
-                          height={50}
-                          formatter={(value) => <span style={{ color: 'var(--text-primary)', fontSize: '11px' }}>{value}</span>}
-                        />
-                      </PieChart>
-                    </ResponsiveContainer>
-                  </div>
-
-                  {/* Pie Chart 2: Classification */}
-                  <div style={{ textAlign: 'center' }}>
-                    <h4 style={{ marginBottom: '4px', color: 'var(--text-secondary)', fontSize: '12px' }}>Classification ({stats.inbound_answered})</h4>
-                    <ResponsiveContainer width={220} height={220}>
-                      <PieChart>
-                        <Pie
-                          data={[
-                            { name: `Spam (${stats.inbound_answered_by_category?.spam || 0})`, value: stats.inbound_answered_by_category?.spam || 0 },
-                            { name: `Customer (${stats.inbound_answered_by_category?.customer || 0})`, value: stats.inbound_answered_by_category?.customer || 0 },
-                            { name: `Operations (${stats.inbound_answered_by_category?.operations || 0})`, value: stats.inbound_answered_by_category?.operations || 0 },
-                            { name: `Not Relevant (${stats.inbound_answered_by_category?.other_inquiry || 0})`, value: stats.inbound_answered_by_category?.other_inquiry || 0 },
-                            { name: `Incomplete (${stats.inbound_answered_by_category?.incomplete || 0})`, value: stats.inbound_answered_by_category?.incomplete || 0 }
-                          ]}
-                          cx="50%"
-                          cy="45%"
-                          innerRadius={40}
-                          outerRadius={65}
-                          paddingAngle={2}
-                          dataKey="value"
-                        >
-                          <Cell fill="#ef4444" />
-                          <Cell fill="#22c55e" />
                           <Cell fill="#3b82f6" />
                           <Cell fill="#eab308" />
                           <Cell fill="#6b7280" />
@@ -1014,8 +1022,8 @@ export default function App() {
                         <Tooltip formatter={(value, name) => [value + ' calls', name.split(' ')[0]]} />
                         <Legend 
                           verticalAlign="bottom" 
-                          height={50}
-                          formatter={(value) => <span style={{ color: 'var(--text-primary)', fontSize: '11px' }}>{value}</span>}
+                          height={60}
+                          formatter={(value) => <span style={{ color: 'var(--text-primary)', fontSize: '10px' }}>{value}</span>}
                         />
                       </PieChart>
                     </ResponsiveContainer>
@@ -1044,34 +1052,34 @@ export default function App() {
                 🟢 Customers ({calls.filter(c => c.category === 'customer' && !c.voicemail).length})
               </button>
               <button
-                className={`filter-btn ${filter === 'voicemail' ? 'active' : ''}`}
-                onClick={() => setFilter('voicemail')}
+                className={`filter-btn ${filter === 'customer_voicemail' ? 'active' : ''}`}
+                onClick={() => setFilter('customer_voicemail')}
               >
-                📞 Voicemail ({calls.filter(c => c.voicemail).length})
+                📞 Customer VM ({calls.filter(c => c.category === 'customer' && c.voicemail).length})
               </button>
               <button
                 className={`filter-btn ${filter === 'spam' ? 'active' : ''}`}
                 onClick={() => setFilter('spam')}
               >
-                🔴 Spam ({stats.inbound_answered_by_category?.spam || 0})
+                🔴 Spam ({calls.filter(c => c.category === 'spam').length})
               </button>
               <button
                 className={`filter-btn ${filter === 'operations' ? 'active' : ''}`}
                 onClick={() => setFilter('operations')}
               >
-                🔵 Operations ({stats.inbound_answered_by_category?.operations || 0})
+                🔵 Operations ({calls.filter(c => c.category === 'operations').length})
               </button>
               <button
                 className={`filter-btn ${filter === 'other_inquiry' ? 'active' : ''}`}
                 onClick={() => setFilter('other_inquiry')}
               >
-                🟡 Not Relevant ({stats.inbound_answered_by_category?.other_inquiry || 0})
+                🟡 Not Relevant ({calls.filter(c => c.category === 'other_inquiry').length})
               </button>
               <button
                 className={`filter-btn ${filter === 'incomplete' ? 'active' : ''}`}
                 onClick={() => setFilter('incomplete')}
               >
-                ⚪ Incomplete ({stats.inbound_answered_by_category?.incomplete || 0})
+                ⚪ Incomplete ({calls.filter(c => c.category === 'incomplete').length})
               </button>
             </div>
 
@@ -1158,8 +1166,8 @@ export default function App() {
                         <td><SentimentBar sentiment={call.sentiment_summary} /></td>
                         <td><AudioLink url={call.recording_url} /></td>
                         <td>
-                          <div className="transcript-preview">
-                            {call.transcript_preview || '-'}
+                          <div className="transcript-preview" style={call.notes ? { color: 'var(--text-primary)' } : {}}>
+                            {call.notes || call.transcript_preview || '-'}
                           </div>
                         </td>
                       </tr>
