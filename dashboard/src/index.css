@@ -28,6 +28,12 @@
   --color-incomplete-bg: rgba(113, 113, 122, 0.12);
   --color-other_inquiry: #f59e0b;
   --color-other_inquiry-bg: rgba(245, 158, 11, 0.12);
+  --color-not_fit: #f97316;
+  --color-not_fit-bg: rgba(249, 115, 22, 0.12);
+  --color-system: #8b5cf6;
+  --color-system-bg: rgba(139, 92, 246, 0.12);
+  --color-outbound: #06b6d4;
+  --color-outbound-bg: rgba(6, 182, 212, 0.12);
   
   /* Sentiment Colors */
   --color-positive: #22c55e;
@@ -225,6 +231,21 @@ body {
 .badge-other_inquiry {
   background: var(--color-other_inquiry-bg);
   color: var(--color-other_inquiry);
+}
+
+.badge-not_fit {
+  background: var(--color-not_fit-bg);
+  color: var(--color-not_fit);
+}
+
+.badge-system {
+  background: var(--color-system-bg);
+  color: var(--color-system);
+}
+
+.badge-outbound {
+  background: var(--color-outbound-bg);
+  color: var(--color-outbound);
 }
 
 .badge-b2b {

@@ -1,0 +1,233 @@
+id,direction,duration,category,sub_category,caller_intent,outcome,summary,confidence,notes
+CAL019b84d9b278790d904c5021cdd11263,inbound,40,customer,voicemail_inquiry,wants quote for concrete pad in San Lorenzo,left voicemail awaiting callback,Customer left voicemail asking about concrete co-pad work,high,clear customer inquiry
+CAL019b8f44c8bb75b39535b1cdadc5dcc0,inbound,234,operations,crew_coordination,coordinate job site inspection for roof leaks,arranged to check Lido property at 12-1pm,Internal crew call - discussing group chat and Shy sent photos of leaks,high,clearly internal
+CAL019b8f4582047831b909c013f919520d,inbound,17,spam,robocall_scam,scam call,hung up quickly,Robocall about Honors account points - scam,high,obvious spam
+CAL019b8f6679f470b4bf27b13318a32390,inbound,16,spam,google_listing,sell SEO services,short call,Google listing spam - showing up on searches,high,obvious spam
+CAL019b8f73a0f27ab8be2384cbfb9729c8,inbound,85,other_inquiry,sign_inquiry,asking about sign on abandoned property,explained owner stopped work,Curious person asking why Rhino sign is on property not being worked on,high,not a customer - just curious
+CAL019b8fdc5b9d7db490c0c7b1a350f609,inbound,61,other_inquiry,out_of_area,wants foundation work in Forestville,declined - outside service area,Customer wanted foundation but in Santa Rosa area - out of service area,high,legitimate inquiry but cant help
+CAL019b8fe602777dcea0de73add5d6a7fb,inbound,82,spam,b2b_sales,sell ink and toner,declined - work from home,Quality Imaging trying to sell printer supplies,high,b2b telemarketing
+CAL019b9015d2467457aee83f35233ce8cb,inbound,65,spam,yelp_sales,sell Yelp advertising,left voicemail,Yelp sales rep pushing advertising package,high,sales call
+CAL019b9060877176e99bb0426c04c3b545,inbound,202,operations,vendor_purchase,process Home Depot material purchase,completed $1866.24 purchase,Home Depot phone sale - buying materials with credit card,high,vendor transaction
+CAL019b9441e9207846afd059ab6deb13de,inbound,56,spam,robocall,lead generation,no answer/hung up,Robocall spam - Press one to connect repeated,high,obvious robocall
+CAL019b9468ffdf70c69e0888521b0bf695,inbound,75,customer,voicemail_inquiry,drainage pipe blockage in backyard,left voicemail awaiting callback,Customer Mahendra asking about drainage issue - clear service request,high,clear customer
+CAL019b947a60a67890a65abe4198fbf9a3,inbound,56,spam,robocall,lead generation spam,no answer,Same Press 1 to connect robocall,high,duplicate spam call
+CAL019b949d723a70cb9033e38f58e4de67,inbound,69,customer,voicemail_inquiry,concrete balcony floor repair in Dublin,left voicemail awaiting callback,Customer Sami asking about balcony concrete repair,high,clear customer inquiry
+CAL019b94b313857acaba0609ea77cdfe8b,inbound,55,spam,robocall,lead generation spam,no answer,Press 1/2 robocall spam,high,obvious robocall
+CAL019b94f5b4097b3ab24210ab208bbbcc,inbound,12,spam,google_listing,avoid suspension - Google listing scam,short call,Partial transcript - typical Google listing spam,medium,partial transcript
+CAL019b9514913975c5852d9d6cb88856ad,inbound,14,incomplete,too_short,unknown,very short greeting only,Just hello good morning - no content,high,too short to classify
+CAL019b9554483c7fbb9e56a5a1bba95901,inbound,17,spam,merchant_services,sell payment processing,short call,Gideon with merchant service center - B2B spam,high,telemarketing
+CAL019b9933cc5879f58d1db93f050d89b2,inbound,45,spam,robocall,authorized representative scam,voicemail,Robocall with press 4 and opt out option,high,obvious scam robocall
+CAL019b996b0d827bed9db84a6f54efe818,inbound,908,operations,vendor_service,blueprint printing services,prints being made for pickup,Long conversation with Jamie at print shop about blueprint printing - mentions Shy,high,vendor relationship - very long personal chat
+CAL019b999214647c6eb1ba3071f05162bc,inbound,366,customer,estimate_scheduled,concrete driveway reslabbing in Martinez,appointment scheduled for 12:30pm same day,David from Martinez scheduled estimate for driveway work - great lead!,high,converted to appointment
+CAL019b999c10df70fbbcb4d79e63f52f57ee,inbound,280,customer,commercial_inquiry,prevailing wage sidewalk replacement in Oakland,discussed job details - has permits,Lisa calling about 25ft sidewalk job - commercial prevailing wage work,high,legitimate commercial inquiry
+CAL019b99b6a8857c7b9d2a59817bce9a148,inbound,11,spam,google_listing,Google Voice listing scam,short call,Google Voice clients having trouble finding you - spam,high,obvious spam
+CAL019b99bae85d76e1b5d27b3d4126b8391,inbound,15,incomplete,too_short,unknown,greeting only,Just hello good morning - no content,high,too short
+CAL019b99c9e8f17cf5b99b1a7311d7c240a,inbound,14,spam,google_listing,Google finding you spam,short call,Finding you Press hello - Google spam fragment,high,spam
+CAL019b9a4b11fe7dbea2f0feb559eba7b39,inbound,57,spam,b2b_sales,sell estimation services,declined - have in-house team,Ace calling about estimation work - B2B sales call,high,solicitation
+CAL019b9a6d3c1e756080a58fc9507ed19c8,inbound,14,spam,google_listing,avoid suspension scam,short call,Suspension or verification issues - Google spam,high,spam
+CAL019b9a6eddf37ea8bf3b2cdee249256fd,inbound,14,incomplete,too_short,unknown,greeting only,Just hello good afternoon,high,too short
+CAL019b9a7ec5aa7c359ac9bf1c5f668bda7,inbound,44,spam,cold_call,unknown B2B pitch,declined immediately,Ricky admits its a cold call - honest at least!,high,at least he was upfront
+CAL019b9a8c04ae77e6ab3bdc5bc485d6615,inbound,19,incomplete,too_short,unknown,fragment only,Delay is actually made - incomplete fragment,high,too short
+CAL019b9a95dab379f78ca18bb73faeafd57,inbound,35,spam,robocall,authorized representative scam,voicemail,Press 4 to address / opt out - robocall,high,obvious robocall
+CAL019b9ac55bed7c99a25aca03beb67c393,inbound,44,customer,voicemail_inquiry,basement water leak from retaining wall in Hayward,left voicemail,Lorena asking about water leak - left callback number,high,clear customer
+CAL019b9b2ddb0c7cb8bc83e6d6bdbc2ce50,inbound,42,spam,google_listing,Google Voice scam,voicemail,Google not showing correctly spam,high,spam
+CAL019b9b4e5c077bcc81fde7acd74298538,inbound,30,spam,robocall,opt out scam,voicemail,Press 9 to opt out robocall,high,spam
+CAL019b9b98f7d17e7fa3e4b4ff5cacdc7af,inbound,18,incomplete,too_short,unknown,fragment,Hello good morning fragment,high,too short
+CAL019b9bb09e9b7dc38b36b2c3f7653616f,inbound,39,spam,b2b_sales,sell estimation services,declined,Arthur Wade from Bidding Enterprise - B2B sales,high,telemarketing
+CAL019b9bbb3cf37019b1e2e96c103332d21,inbound,59,spam,workshop_sales,sell business workshop,will email,Stephanie from Aspire Institute selling workshop,high,spam
+CAL019b9bdb3ea3700dbfb12a65fcb9b3c8b,inbound,9,incomplete,too_short,unknown,fragment,Flagged for review - incomplete,high,fragment
+CAL019b9bf23b3d73e490e2e0145b7b8b13,inbound,45,spam,survey,PG&E appliance survey,declined,Todd Michaels PG&E survey - unsolicited research,medium,not sales but unsolicited
+CAL019b9c2cfe8c706090adc5d84dcb70a2,inbound,35,spam,robocall,authorized rep scam,voicemail,Press 4 robocall spam,high,spam
+CAL019b9c2e1a7172c9ace0e4e656d2a41e5,inbound,14,spam,google_listing,suspension scam,short call,Google listing suspension spam,high,spam
+CAL019b9c4f178f7999b42b3aebf9b721257,inbound,10,spam,google_listing,authorized rep scam,short call,Press 1 to speak to authorized rep,high,spam
+CAL019b9c5ea79f78a1af5b8bfaebf107afd,inbound,32,spam,google_listing,Google Voice scam,voicemail,Same Google Voice not showing spam,high,spam
+CAL019b9c9a96ae7aeca8fb4b8a8f6e14048,inbound,43,incomplete,wrong_number,phone sale attempt,wrong number - hung up,Lowes Vallejo called wrong number for phone sale,medium,wrong number
+CAL019b9c9ded22730cad7a7abf22c78646f,inbound,378,operations,vendor_purchase,deck mud purchase from Lowes,processing order,Lowes phone sale for 8 bags deck mud for Victor at Kickballs job,high,material purchase
+CAL019b9cc2d63d710c8d4cbe64c86a2ccd2,inbound,66,customer,commercial_inquiry,saw cutting in cinder block walls,discussing project,Commercial construction project needs saw cutting in cinder blocks,high,commercial inquiry
+CAL019b9d08b5d87aac914ef84b8661a1673,inbound,194,operations,internal_hebrew,internal discussion in Hebrew,discussing jobs and estimates,Hebrew conversation with Shy about production board and estimates,high,internal - Hebrew
+CAL019b9d15c9f7744cbe464b413d4da75de,inbound,25,spam,workshop_sales,sell business workshop,declined immediately,Stephanie from Aspire Institute again - same spam,high,repeat caller
+CAL019b9d38a51d7cec859ca7a22ec9ce2a1,inbound,16,incomplete,too_short,unknown,greeting only,Just hello good afternoon,high,too short
+CAL019b9d3cb11e730e86ad91b61b80a7f15,inbound,35,operations,payment_issue,Floor and Decor payment,troubleshooting Amex issue,Internal call about American Express not working at Floor and Decor,high,internal payment issue
+CAL019b9d90c03170779d5e21c10d8e2eee2,inbound,45,spam,b2b_sales,sell GSA contracts,left voicemail,Kathleen from Capital Registration Group selling GSA contracts,high,B2B telemarketing
+CAL019b9dd7ae317ad79f6f05f96f1b4ce50,inbound,37,operations,insurance_appointment,insurance fund appointment,at front of office,Vicki from State Compensation Insurance Fund has appointment,high,vendor/insurance
+CAL019b9ddf8e0b7a2b9c84c5a968e547895,inbound,77,spam,b2b_prospecting,sell lumber services,visiting job site,Rick from Big Creek Lumber prospecting at job site,medium,cold sales visit
+CAL019b9e34fe097f758e8d72d1f06b3a8cb,inbound,117,customer,permit_inquiry,need A-class contractor for encroachment permit,discussing requirements,Damian from Diabolical Excavation needs permit help - referral,high,legitimate inquiry
+CAL019b9e6bb8037379b96c54a52febe5cc0,inbound,187,customer,adu_estimate,detached ADU estimate in San Jose,scheduling estimate,Customer with 3/4 acre wants second ADU behind property,high,good lead
+CAL019b9eb21c1a7fb0a4c1b7fa6521bea4d,inbound,15,spam,google_listing,verify listing scam,short call,Google listing spam fragment,high,spam
+CAL019b9eb7c2b7703ba88a08dcf281237c6,inbound,170,operations,accounting_1099,1099 tax forms discussion,handling internally,Sarkis and Vivian discussing 1099s - will do own,high,internal accounting
+CAL019b9eb82d147fbea1b2f3906fb4a6af3,inbound,24,incomplete,too_short,unknown,greeting only,Hello how are you - no content,high,too short
+CAL019b9f4f0b9f7b42bd7f9c64bf2ec5d58,inbound,67,spam,b2b_prospecting,get on bid list,will send email,Morgan from Cali Roland Electric wanting bid list spot,medium,vendor prospecting
+CAL019b9f90a05b77e8ba86e6a2ccd7c0e6d,inbound,57,spam,b2b_sales,sell engineering services,left voicemail,Eisha from PRV Engineers selling MEP services,high,B2B telemarketing
+CAL019b9fc1ac0673a5a4b44da60a8d6ae8d,inbound,55,operations,internal_pricing,discussing A license pricing,comparing quotes,Internal call about permit pricing - 13k vs 35k options,high,internal discussion
+CAL019b9fde0a2f7c41b88d8b5bb968d54b6,inbound,19,incomplete,too_short,unknown,greeting only,Hello good morning - no content,high,too short
+CAL019b9fe49bda7f8398618bf0fccef4f85,inbound,37,spam,merchant_services,sell merchant account credits,declined,Asking for ex-employee about merchant credits,high,telemarketing
+CAL019b9feaaca67dc6a3dc933f426100227,inbound,9,spam,google_listing,Google searches scam,short call,Google searches fragment,high,spam
+CAL019ba007f3057f28a14d6dfd62f7b1eb2,inbound,50,spam,b2b_prospecting,business proposal for remodeling,declined - not homeowner,Frank with kitchen remodeling business proposal,high,B2B cold call
+CAL019ba03f6ec97f5f8a338a6dda2779a1c,inbound,34,spam,b2b_prospecting,business proposal for remodeling,declined,Same Frank calling back - business proposal,high,repeat spam
+CAL019ba0582e6a7d11b3a71c57cefe611a0,inbound,335,customer,quote_followup,cable railing quote request response,gathering info for quote,Andrea from Viewrail following up on Sheas quote request,high,vendor response to inquiry
+CAL019ba21e8c1c7e0cae469f5e02e9993a5,inbound,19,incomplete,too_short,unknown,greeting only,Daniel greeting - no content,high,too short
+CAL019ba2233fc87d5bbcddce2c7f67b9452,inbound,16,incomplete,too_short,unknown,greeting only,Daniel greeting - no content,high,same caller
+CAL019ba248f00a77559c5b51cdab832f3dfb,inbound,112,customer,subcontractor_inquiry,underground conduit at Lido project,will send quote,Tyler from Plant Hazardous Services - referral from Oscar about PGE work,high,legitimate subcontractor inquiry
+CAL019ba2fd7e32741d91f9420b5e5fa74cb,inbound,56,spam,robocall,lead gen robocall,voicemail,Press 1 to connect robocall,high,spam
+CAL019ba30ee0e67f11b3c69a35d6055c9c1,inbound,56,spam,robocall,lead gen robocall,voicemail,Same robocall,high,spam
+CAL019ba31e25607a6683da424d583b0b767,inbound,56,spam,robocall,lead gen robocall,voicemail,Same robocall,high,spam
+CAL019ba333b0dc71e59c8f4e34530f34fec,inbound,32,incomplete,too_short,unknown,greeting only,Hello good morning hello,high,too short
+CAL019ba33b3adb7d7fa3f90a5ef7cb7c3ee,inbound,218,customer,adu_estimate,garage to ADU conversion in Hayward,scheduling estimate,Juan wants to convert 2-car garage to ADU - scheduled,high,good lead - scheduled
+CAL019ba41a08c974eba5dca9b18f9bfc48e,inbound,86,spam,review_services,sell review collection services,politely declined,Sam selling review service - noticed low reviews,high,marketing spam
+CAL019ba4212bd97a058a2012af11ac9e67a,inbound,216,other_inquiry,not_our_service,siding and windows project inquiry,explained we dont do windows,GC looking for siding/windows - not our specialty,high,cant help - different service
+CAL019ba43c8bde766aabe9ef0bf0cd6e9aa,inbound,146,other_inquiry,historical_permit,permit closure help from 2018,trying to help locate info,Mike Brown needs help with 2018 permit not closed out,high,historical issue - trying to help
+CAL019ba5b1a9f779fba5ed81c4aad73e83d,inbound,81,spam,m_and_a_services,sell M&A advisory services,voicemail,Mark Griffin from Sperry Griffin - business broker spam,high,B2B financial spam
+CAL019ba5dc27a57afc977a3d5f47281a142,inbound,82,spam,m_and_a_services,sell M&A advisory services,voicemail,Same Mark Griffin call,high,repeat spam
+CAL019ba5eb3b9d7dd3bd44e0c61b55fe082,inbound,81,spam,m_and_a_services,sell M&A advisory services,voicemail,Same Mark Griffin call,high,repeat spam
+CAL019ba6006b56748ca94dc85be546c3f26,inbound,33,spam,google_listing,Google Voice scam,voicemail,Press 1 spam,high,spam
+CAL019ba617f5c17e0396e8f86a574d158c5,inbound,35,spam,robocall,authorized rep scam,voicemail,Press 4 robocall,high,spam
+CAL019ba618acf1702f81d12ae352b2276de,inbound,16,spam,google_listing,Google scam fragment,short call,Searches if hello - spam fragment,high,spam
+CAL019ba63ac2b877a5ac2a8cb2675d5022f,inbound,24,incomplete,too_short,unknown,greeting only,Hello good morning hello,high,too short
+CAL019ba6569e3a74eba6f7b71a72b9d36db,inbound,35,spam,review_services,sell review services,cut off,Lewis from Nice Job selling reviews,high,same as #75
+CAL019ba6e81ea57d339dc0a87162b48ade7,inbound,18,incomplete,too_short,unknown,greeting only,Hello good morning,high,too short
+CAL019ba70db2f47b989f2f8fbfc4e693874,inbound,38,other_inquiry,not_our_service,drainage cleaning inquiry,we only install,Asked about drainage cleaning - we dont do that,high,different service
+CAL019ba72d08d17bb8bbdebb31c55b0747b,inbound,60,spam,b2b_sales,sell estimation services,left voicemail,Simon from Bidwell Estimates - B2B,high,telemarketing
+CAL019ba76f8a5f75cf9bbdec5dfa8519fdf,inbound,111,customer,moisture_barrier,moisture issues under house,awaiting assessment,Dan Marciel - referral from Chad at Shea Homes for moisture problem,high,referral customer
+CAL019ba796c07970f7a1f3b970a003a86e1,inbound,49,incomplete,partial_voicemail,unknown,name and number only,Diane Galliani left number only,medium,partial
+CAL019ba7e6ace279ed95a8daafc83265d37,inbound,52,spam,b2b_sales,bidding project inquiry,declined - busy,Jo asking about bidding - B2B prospecting,high,spam
+CAL019ba7eecd5d79f08f1b3cd84fbb1df60,inbound,56,customer,appointment_check,checking on crew arrival,called back to confirm,Juan checking if crew arrived for 10am appointment,high,existing customer
+CAL019ba7f9dcdb75e18cda0e1c706a62ede,inbound,29,incomplete,wrong_number,looking for Muhammad,wrong number,Riley Shah wrong number,high,wrong number
+CAL019ba81c75b87e6c892da3a9511d474e6,inbound,38,incomplete,test_call,test call,testing,Test call from system,high,test
+CAL019ba8316ff07afea3c29a1caf2faf957,inbound,34,incomplete,test_call,test call,testing,Test call,high,test
+CAL019ba87d1aa47249930b0f7abc807be5d,inbound,55,customer,estimate_followup,following up on estimate 1359,reviewing estimate,Sarah from Diablo Excavation about Lido Circle estimate,high,existing lead followup
+CAL019ba8c9e137765a82fb1e0b9972799c2,inbound,290,customer,siding_estimate,siding replacement consultation in SF,scheduled consultation,Customer in SF wants siding replacement - scheduled,high,good lead
+CAL019ba8ce6d9c77c28f4ba6d5e6e84eb09,inbound,209,incomplete,test_call,test call from Ringcentral,testing,Ara from Ringcentral test call,high,test
+CAL019ba8e41c2177cf92c7f2e0a1bc4064f,inbound,7,incomplete,system_message,on hold message,no content,System message only,high,no caller
+CAL019ba8e5bdf579afa2cdc33f0279f25d7,inbound,17,incomplete,system_message,on hold message,no content,System message only,high,no caller
+CAL019ba8e70e0c71e2b2f1cfdfc121cef41,inbound,118,incomplete,system_message,on hold message with name,partial,Sam name in system message,high,no actual call
+CAL019ba8e8da78744faaa18aae34e5d1cc4,inbound,18,incomplete,system_message,on hold message,no content,System message only,high,no caller
+CAL019ba8eaf34075fdb5b67b7d04775c8df,inbound,221,customer,engineering_inquiry,civil engineer inquiring about services,left voicemail,Peter Smith civil engineer in Danville left message,high,potential customer
+CAL019ba8edb97277ccbf0b250c13d578ab1,inbound,41,incomplete,system_message,on hold message,no content,System message only,high,no caller
+CAL019ba8f5e1c47e4cb3b1a10b11f4db5a3,inbound,16,incomplete,system_message,closed message,no voicemail,System closed message - no VM left,high,no content
+CAL019ba8f62ec9714f96da2ca6a4b4d098c,inbound,13,incomplete,system_message,closed message,no voicemail,System closed message - no VM left,high,no content
+CAL019ba8f6f8f17a279826f0d628d642f3b,inbound,12,incomplete,system_message,voicemail prompt,no message left,VM prompt - no message left,high,no content
+CAL019ba917cf567e8e88d53a0d0b9edc787,inbound,75,incomplete,system_message,on hold message,no content,On hold for 75s no answer,high,no content
+CAL019ba9249f757a4a9a0e9e1475bc4062e,inbound,46,spam,b2b_sales,residential referrals,declined,Patricia with Coltony asking about referrals,high,spam
+CAL019ba931ff7a77c299ee6ca24148c812a,inbound,87,spam,lead_gen,lining up contractors for jobs,declined,Walafi from lead gen company prospecting,high,spam
+CAL019ba93a33d274baa9f939eb841f61432,inbound,24,spam,google_listing,Google Voice scam,system message,Google listing spam over system,high,spam
+CAL019ba941b1ff73399fb01ca64028387ce,inbound,30,incomplete,too_short,unknown,greeting only,Hello good morning hello,high,too short
+CAL019ba9445b7779b793ba444bfce95140b1,inbound,65,spam,b2b_sales,sell engineering services,left voicemail,Eisha PRV Engineers repeat call,high,repeat spam
+CAL019ba9454e5e70449ff7ea2b9f1a06ffa,inbound,19,spam,google_listing,Google Voice scam,short call,Google spam over system,high,spam
+CAL019ba9475e3079b3a8e9ec9bce05899fb,inbound,11,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019ba96d632a77d5b37e03b02faba6eee,inbound,267,customer,siding_inquiry,siding installation for building,discussing project,Tree from Lickhe Properties asking about siding for building,high,commercial inquiry
+CAL019ba99e95e87f859f57ef7a5b9090f05,inbound,16,spam,google_listing,Google Voice scam,short call,Google spam,high,spam
+CAL019ba9a37ad778629813fde3d42b7e2b9,inbound,46,spam,lead_gen,asking about new clients,declined,Harleen from Born Again lead gen company,high,spam
+CAL019ba9ab31867c8b8b35b2f921a6b3fbe,inbound,56,spam,robocall,inquiry robocall,voicemail,Press 1 to connect robocall,high,spam
+CAL019ba9b39f757ec8a60e0c32fb27329f9,inbound,219,operations,vendor_purchase,Home Depot phone sale $6502,processing payment,Rudy from Concord Home Depot phone sale,high,material purchase
+CAL019ba9b4c8f97caebb4edd92dd6e46c17,inbound,142,incomplete,system_message,on hold message,no content,System message with Sam,high,no caller
+CAL019ba9b5932776e79f3fd2f756920eeb4,inbound,56,spam,robocall,inquiry robocall,voicemail,Press 1 robocall,high,spam
+CAL019ba9b6a72b7ece809c44c20037905ee,inbound,56,spam,robocall,inquiry robocall,voicemail,Press 1 robocall,high,spam
+CAL019ba9b7f6017ef8893df8e6ed4a5aa3d,inbound,65,incomplete,system_message,voicemail prompt,no message left,System message no VM,high,no content
+CAL019ba9b9c0c87dc697f7fbcd32d81646b,inbound,40,spam,google_listing,Google Voice scam,over system,Google spam over system,high,spam
+CAL019ba9c99ccf7b10bb3edd1463e9122f5,inbound,19,spam,google_listing,Google listing flagged,over system,Pro directory spam,high,spam
+CAL019ba9cac95777c5b4a32a88fd154655a,inbound,7,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019ba9f0f4ec7abeaab0ba1eb567a0327,inbound,29,incomplete,too_short,unknown,greeting only,Hello good morning,high,too short
+CAL019ba9f5bd3f7c3f93d422e78e87aa286,inbound,17,incomplete,test_call,Ringcentral test,testing,Test call,high,test
+CAL019baa04c2d6706dbd5de57bf987ca773,inbound,148,spam,b2b_sales,real estate inquiry,declined,Sam from Red Oak Realty prospecting,high,spam
+CAL019baa0b80f67dd093ff5a0dff6fa8f71,inbound,54,spam,cold_call,machine sales,declined immediately,Matt from Matts Machine cold call,high,spam
+CAL019baa0e45a072d3b6a36be78bd49f728,inbound,32,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baa0f8f9a70dfb0e5d59f7155cf495,inbound,22,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baa10cd1c7f33817f22095c1b056c6,inbound,35,spam,google_listing,Google listing flagged,over system,Press 4 Google spam,high,spam
+CAL019baa11ca4f74b68c7b09856c2608a3e,inbound,23,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baa1389d77f19ba9f0b0d8dd028192,inbound,13,spam,google_listing,Google Voice scam,over system,Google spam short,high,spam
+CAL019baa13edac7e1c94bfdb0f1df5dfdb7,inbound,14,spam,google_listing,Google Voice scam,over system,Google spam short,high,spam
+CAL019baa14ba0274be8e13c2ac0ffc4164d,inbound,199,operations,vendor_delivery,Ashby Lumber delivery coordination,coordinating delivery,Manny from Ashby Lumber Concord about delivery for Selden,high,vendor
+CAL019baa2d59a17d06b8feefca23c26f14e,inbound,279,operations,vendor_service,print job quote,discussing specs,Danny at BPX Printing about color print job quote,high,vendor
+CAL019baa3bcff47bc3a58d20bcef86d8d6d,inbound,10,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baa3f65aa7e3f96b69f56aeeea22c8,inbound,291,operations,vendor_purchase,Home Depot phone sale $72.05,approved and processing,Home Depot phone sale for 7 Scander Court Pleasant Hill,high,material purchase
+CAL019baa40de9f7a34bd3ee16e4377f23ad,inbound,81,operations,vendor_followup,print job followup,will do later,Danny at BPX about letterhead email - boss said another time,high,vendor followup
+CAL019baa41e4787e3c861104b0b2bff552a,inbound,32,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baa43d5af784a96aef8e2f790ecb57,inbound,22,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baa447a2b754fb10d0ecc41a209201,inbound,21,spam,google_listing,Google listing flagged,over system,Pro directory spam,high,spam
+CAL019baa4b3a74772db3e0e8fe3b16bb701,inbound,276,customer,kitchen_bath_inquiry,kitchen and bath refresh in Orinda,discussing project,Customer with kitchen and bath job in Orinda,high,good lead
+CAL019baa526f1070248bb40e879a06454c2,inbound,177,incomplete,system_message,on hold message,no content,System message with Sam,high,no caller
+CAL019baa5fcf6574e891c5bf91a54499d4d,inbound,216,customer,drainage_inquiry,storm drain snaking on property,discussing needs,Linda asking about storm drain snaking,high,customer inquiry
+CAL019baa6f59d0733fb46ce53e53cf23219,inbound,38,incomplete,system_message,on hold only,no content,System message,high,no caller
+CAL019baa75e3c0757f824b464c88da5e54f,inbound,417,customer,estimate_inquiry,asking about free estimates,scheduled consultation,Customer asking if they give free estimates - yes,high,good lead
+CAL019baa79b26a70d4bf1ad891ff054c074,inbound,81,other_inquiry,subcontractor_seeking,looking for siding subcontract work,explained process,Cesar subcontractor with siding crew looking for work,high,not customer - sub seeking work
+CAL019baa7eb91a76e5b42a3a26e822be316,inbound,114,customer,appointment_cancel,canceling siding consultation,confirmed cancellation,Rachel Forbes canceling siding consultation,high,existing lead
+CAL019baa8c1d79767f9ad3c83acbbd3fcf4,inbound,22,incomplete,system_message,CallRail announcement,system message,CallRail Lead Center discontinuation notice,high,system
+CAL019baa8eed1873809ad6a1a4170eca73b,inbound,8,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baa8fd9bf74669dbfe9e02897726c2,inbound,8,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baa90fdcb7c4e96f58a87cd7046846,inbound,198,customer,appointment_cancel,canceling appointment for tomorrow,confirmed cancellation,Customer canceling 10am appointment tomorrow,high,existing lead
+CAL019baa9d3a0b72aea5db05f7a00fe247e,inbound,14,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baa9eb91074ebb8c89d9d868297bf7,inbound,16,spam,google_listing,Google listing flagged,over system,Google spam,high,spam
+CAL019baaa0047475d3b6a6f5af88cb3db4f,inbound,14,spam,google_listing,Google listing flagged,over system,Google spam,high,spam
+CAL019baaa1019f7e7b9fc25c2382082995f,inbound,51,incomplete,connection_issue,hello hello no response,no connection,Call connected but no audio both ways,high,connection issue
+CAL019baaa37e257eb59f3ff97832a9891e,inbound,250,operations,vendor_purchase,Home Depot phone sale $603.98,processing two transactions,Ruth from Concord Home Depot phone sale,high,material purchase
+CAL019baaa4b6db7c68bf55bdb3339cd8491,inbound,25,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baaa561b67b0ba44a30b45558f75ce,inbound,25,spam,google_listing,Google listing flagged,over system,Google spam,high,spam
+CAL019baaa5b8567c36939aad74ea70e53b6,inbound,30,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baaa6eacc72acb6e7c7d60ffe497bf,inbound,19,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baaa71cfc7cd0aeb21e5319d29e486,inbound,8,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baaa9c2577e449fc51e9dc78292753,inbound,22,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baaaa70f9743caaf57f4538d9329ab,inbound,15,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baaabcd2c7e08bf31f3f4ada483df4,inbound,22,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baab5abdb700e9de9cc3f16eed0965,inbound,18,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baabb48d27e6fb81fc28bfa9fc552e,inbound,42,spam,b2b_sales,Lead Vision looking for Clayton,left message to call back,Jack from Lead Vision B2B prospecting,high,spam
+CAL019baac12a847a96bac63e7dc562ac8de,inbound,19,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baac47a63744d8e1eca1e0c772f6b9,inbound,12,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baac85e4c7f4db9b33a7d45c1ad2e1,inbound,69,spam,b2b_sales,quote opportunity inquiry,declined - B2B,Carlos calling back from last year for quoting work,high,B2B prospecting
+CAL019baaca1f777a4cabb0b0d8f92d5ae67,inbound,38,incomplete,connection_issue,hello hello no response,no connection,Call connected but no audio,high,connection issue
+CAL019baacb002676f4a2f63ed10dbfb9874,inbound,10,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baacb5ac277fc87bc21f1be4bf00b5,inbound,17,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baacc0c5b7dabb4cca6db52ec5228e,inbound,30,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baacc6e8e747e99ba71cf83eed053c4,inbound,44,spam,cold_call,Mitch cold call,answered then hung up,Mitch admits cold call - caught in loop,high,repeat caller
+CAL019baacd7e267c09b33c33dff40473b6a,inbound,27,spam,cold_call,Mitch cold call again,declined immediately,Same Mitch - declined,high,repeat spam
+CAL019baace5e537b4a8d94dd0bfa2152eed,inbound,44,incomplete,system_message,voicemail prompt,no message,System message no VM left,high,no content
+CAL019baacfa9b47a7bb2a3a03f2685bfcd7,inbound,21,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baad08ee47ebab42e25b7f04f9d608,inbound,16,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baad12fc57eb994b5d16e6553e0fd6,inbound,24,spam,google_listing,pro directory scam,over system,Google spam,high,spam
+CAL019baad1b2ff7ad59ad5b0a013da9354f,inbound,23,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baad22ebf7af9b7fb71dc44d10db42,inbound,29,spam,cold_call,Mitch again,told him stop calling,Mitch called again - told him not interested,high,repeat spam
+CAL019baad32e0d7659b80e01ad3390a244e,inbound,32,spam,google_listing,Google Voice scam,over system,Google spam + system,high,spam
+CAL019baad8a34574eb957bee69cbac0aa29,inbound,116,customer,kitchen_hood,kitchen hood installation in Orinda,discussing sloped ceiling,Janet Bellingham in Orinda needs kitchen hood installed,high,good lead
+CAL019baadab6c97e4dbaaeb1c497d578d3a,inbound,14,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baadb74c474f799929ab463639649f,inbound,26,incomplete,too_short,unknown,hello only,Hello hello no content,high,too short
+CAL019baadc3b8f750e9a11d87e019bffc98,inbound,19,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baadc7c5775839c3a2e5850cb0e9a6,inbound,11,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baaddae0572c7b83d06fe5299b772a,inbound,15,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baade679a74189b930f51c3e0d8482,inbound,59,operations,vendor_purchase,Home Depot phone purchase,left voicemail with callback,John at Concord Home Depot for Rudy - Claudia Drive,high,vendor
+CAL019baadf88e27a72b10d4f2e3318a4abc,inbound,58,operations,vendor_purchase,Home Depot phone purchase,texting confirmation,John at Concord Home Depot for Claudia Drive - fixing text,high,vendor followup
+CAL019baae28e1976e388a76ce16fa336844,inbound,16,incomplete,system_message,voicemail prompt,no message,VM prompt no message,high,no content
+CAL019baae303b07ebea8a04f7ecfaa74708,inbound,16,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baae41cb57f7586c800024c6d2f1b3,inbound,20,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baae5e02a79cc8a40a4e5bbec7bcfd,inbound,34,incomplete,too_short,unknown,greeting only,Hello morning,high,too short
+CAL019baae67ddc78989dc1a0de5a167d607,inbound,13,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baae788eb7b2aae0f0d67452796e4,inbound,12,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baae9dcf67fa1a21f0a9d97759082,inbound,32,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baaec3b027a4bafabc8d52acf8bc8d,inbound,13,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baaec758c77568ebc8c66151d7ea02,inbound,30,incomplete,too_short,unknown,greeting only,Hello good morning hello,high,too short
+CAL019baaed2ce07b1e87d0e0a2369836c58,inbound,15,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baaefd4a77bd2a58ecf7c2a011c845,inbound,21,spam,robocall,homeowner inquiry robocall,over system,Press 1 to connect robocall,high,spam
+CAL019baaf049be78aba7e01e152d6311ad,inbound,8,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baaf0d1db7d7eb1e4bce308c248f4a,inbound,22,spam,robocall,homeowner inquiry robocall,over system,Press 1 robocall,high,spam
+CAL019baaf15fc97b1793fea1ce00b44b209,inbound,24,spam,robocall,homeowner inquiry robocall,over system,Press 1 robocall,high,spam
+CAL019baaf3d5d171c2abd70f4df728a3208,inbound,58,incomplete,connection_issue,hello hello no response,no connection,Call connected no audio,high,connection issue
+CAL019baaf49b3679e6af3e0c02846dc530d,inbound,59,incomplete,system_message,on hold message,no content,System with Sam name,high,no caller
+CAL019baaf5f8ee77a090b2c2b1fc3a8cf56,inbound,9,incomplete,system_message,voicemail prompt,no message,VM prompt no message,high,no content
+CAL019baaf79d0c7e1ab39ae7bd367efb56a,inbound,33,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019baaf8d2c67eeeb8a29e2c384a775a8,inbound,86,incomplete,system_message,on hold long,no content,Long hold no connection,high,no caller
+CAL019baafa10a17e299c3ee12db14a8d895,inbound,393,customer,walkway_repair,walkway dropped 1.5 inches in San Ramon,discussing repair options,Roy Roos in San Ramon - walkway dropped needs repair,high,good lead
+CAL019baafac59a7cfc8fa959f2f891a83f3,inbound,51,customer,bathroom_remodel,3-6 bathroom complete remodel inquiry,interested via robocall lead,Someone interested in bathroom remodels via lead service,medium,possible lead from robocall
+CAL019baafbee0373a9ae88e29fc55fd5615,inbound,12,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019baafd066a72daa31f4f1d0d1bcfbed,inbound,198,customer,painting_deck_quote,painting walls and deck roof,scheduling estimate,Customer wants quote on interior painting and deck roof,high,good lead
+CAL019baafd84bb7f7c91a457bae95aabe29,inbound,62,other_inquiry,property_inquiry,asking about Overhill property with fencing,explained not our project anymore,Louis asking about fenced Overhill property - not our project,high,same property as earlier
+CAL019baafe9fa7724ebefc88d09baed63a4,inbound,28,incomplete,too_short,unknown,greeting only,Hello good morning hello,high,too short
+CAL019baafffa7b7d0db67db3b55c852288,inbound,20,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019bab00c8f6786392c46ac7020650606,inbound,16,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019bab01d1fc7bf3a69be8f1e9abf1e4f,inbound,59,incomplete,too_short,unknown,hello afternoon,Hello good afternoon,high,too short
+CAL019bab028a2973988e295b5e03decc9f0,inbound,12,incomplete,system_message,on hold only,no content,System message only,high,no caller
+CAL019bab05cf197c589cb89eb41c58551d1,inbound,68,operations,vendor_followup,Woodland Direct Fireplace looking for Roli,scheduled callback at 1:10pm,Ryan from Woodland Direct Fireplace Company,high,vendor contact
+CAL019bab0766d07596a93d6eb6c1176dbec,inbound,13,spam,google_listing,Google listing flagged,over system,Google spam,high,spam
+CAL019bab087e3a751db7e4ed899fa3ab31,inbound,12,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019bab0a7e5c75d6b70d1d3fefb72d23a,inbound,15,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019bab0b7f2d7e67b4f2a7e30ff163fde,inbound,33,spam,google_listing,Google Voice scam,over system,Google spam,high,spam
+CAL019bab0eb7a57eb2b53e93e20a8f7ed0b,inbound,78,spam,b2b_sales,sell engineering services,declined - already have,Aisha TRV Engineers B2B - repeat caller,high,spam
+CAL019bab0faacd7c5990cdbf0e67aa1539a,inbound,22,incomplete,too_short,unknown,asking for Rolly,Is this Rolly - no content,high,too short
+CAL019bab11041e7ca0b3ead54a2fb051169,inbound,100,spam,b2b_sales,engineering project inquiry,declined,Kevin from Innodes Engineering B2B prospecting,high,spam

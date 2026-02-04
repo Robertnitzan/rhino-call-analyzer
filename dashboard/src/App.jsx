@@ -51,7 +51,10 @@ function CategoryBadge({ category }) {
     spam: 'Spam',
     operations: 'Operations',
     other_inquiry: 'Not Relevant',
-    incomplete: 'Incomplete'
+    incomplete: 'Incomplete',
+    not_fit: 'Not Fit',
+    system: 'System',
+    outbound: 'Outbound'
   }
   return (
     <span className={`badge badge-${category}`}>
@@ -818,14 +821,28 @@ export default function App() {
                 <StatCard
                   label="Operations"
                   value={stats.inbound_answered_by_category?.operations || 0}
-                  subtext={`${((stats.inbound_answered_by_category?.operations || 0) / stats.inbound_answered * 100).toFixed(1)}%`}
+                  subtext={`${((stats.inbound_answered_by_category?.operations || 0) / stats.total * 100).toFixed(1)}%`}
                   color="var(--color-operations)"
                   onClick={() => { setFilter('operations'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
                 <StatCard
+                  label="Not Fit"
+                  value={stats.inbound_answered_by_category?.not_fit || 0}
+                  subtext={`${((stats.inbound_answered_by_category?.not_fit || 0) / stats.total * 100).toFixed(1)}%`}
+                  color="var(--color-not_fit)"
+                  onClick={() => { setFilter('not_fit'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
+                />
+                <StatCard
+                  label="System"
+                  value={stats.inbound_answered_by_category?.system || 0}
+                  subtext={`${((stats.inbound_answered_by_category?.system || 0) / stats.total * 100).toFixed(1)}%`}
+                  color="var(--color-system)"
+                  onClick={() => { setFilter('system'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
+                />
+                <StatCard
                   label="Incomplete"
                   value={stats.inbound_answered_by_category?.incomplete || 0}
-                  subtext={`${stats.inbound_answered_without_recording || 0} no recording · ${(stats.inbound_answered_by_category?.incomplete || 0) - (stats.inbound_answered_without_recording || 0)} unclear`}
+                  subtext={`${((stats.inbound_answered_by_category?.incomplete || 0) / stats.total * 100).toFixed(1)}%`}
                   color="var(--color-incomplete)"
                   onClick={() => { setFilter('incomplete'); setTimeout(() => document.getElementById('call-list')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
                 />
@@ -1070,10 +1087,16 @@ export default function App() {
                 🔵 Operations ({calls.filter(c => c.category === 'operations').length})
               </button>
               <button
-                className={`filter-btn ${filter === 'other_inquiry' ? 'active' : ''}`}
-                onClick={() => setFilter('other_inquiry')}
+                className={`filter-btn ${filter === 'not_fit' ? 'active' : ''}`}
+                onClick={() => setFilter('not_fit')}
               >
-                🟡 Not Relevant ({calls.filter(c => c.category === 'other_inquiry').length})
+                🟠 Not Fit ({calls.filter(c => c.category === 'not_fit').length})
+              </button>
+              <button
+                className={`filter-btn ${filter === 'system' ? 'active' : ''}`}
+                onClick={() => setFilter('system')}
+              >
+                🟣 System ({calls.filter(c => c.category === 'system').length})
               </button>
               <button
                 className={`filter-btn ${filter === 'incomplete' ? 'active' : ''}`}
