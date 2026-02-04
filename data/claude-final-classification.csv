@@ -1,0 +1,840 @@
+id,date,direction,duration,source,category,summary
+CAL0199a078047276efb3429e77aec157bf,2025-10-01,inbound,22,Lafayette GMB,OPERATIONS,Job seeker inquiring about employment
+CAL0199a0a1758778b099616c8323f060b7,2025-10-01,inbound,4,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing scam call
+CAL0199a0a61918769ca6c2460fc549d646,2025-10-01,inbound,22,Oakland ADU Builder & Room Addition,SYSTEM,Test call from Colorado technical support
+CAL0199a0ad85777c4ca24c0d534c5d6045,2025-10-01,inbound,91,Lafayette GMB,NOT_FIT,Bathroom remodel inquiry from Windsor - outside service area
+CAL0199a0c8e26777c391fe95bb0b6628ca,2025-10-01,inbound,8,Orinda GMB,SPAM,Digital activation department spam
+CAL0199a1107e2e7a2e96b25ce8b0f115d7,2025-10-01,inbound,8,Lafayette GMB,SPAM,Digital activation department spam
+CAL0199a1182a067899893d91422e40f645,2025-10-01,inbound,6,Orinda GMB,SPAM,Digital activation department spam
+CAL0199a12d3d907e6abbb444c3d2fd35e6,2025-10-01,inbound,3,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listing department spam
+CAL0199a1326a7f7e00a8122285b19b3a5a,2025-10-01,inbound,8,Pleasant Hill GMB,INCOMPLETE,Brief greeting with no content
+CAL0199a149380b7043952d61eb91c05670,2025-10-01,inbound,4,Orinda GMB,INCOMPLETE,Brief greeting with no content
+CAL0199a14e26437effb62dbae9c281124f,2025-10-01,inbound,2,Rhino Concrete Livermore,SPAM,Press button robocall
+CAL0199a19d0e4872f0910a23fdc8cb5cbe,2025-10-01,inbound,29,Orinda GMB,SPAM,Merchant services telemarketing
+CAL0199a1a0b7227c9dbaf8e6499abbf053,2025-10-01,inbound,45,Lafayette GMB,INCOMPLETE,Garbled conversation with no clear purpose
+CAL0199a1eb912770ca9918123d55e670de,2025-10-01,inbound,63,Orinda GMB,SPAM,SEO services sales pitch about Google rankings
+CAL0199a20270bf7d4085887a1c980754be,2025-10-01,inbound,80,Orinda GMB,OPERATIONS,Drywall worker seeking employment
+CAL0199a592253e7e79b2e6baaf87dc6108,2025-10-02,inbound,55,Oakland ADU Builder & Room Addition,SPAM,Press 0/9 opt out robocall scam
+CAL0199a598693a7f79834cce5e13bcff1a,2025-10-02,inbound,34,Rhino Concrete Oakland,SPAM,Google voice listing scam
+CAL0199a5f5cfa6772b9e42e4352de981c1,2025-10-02,inbound,7,Orinda GMB,SPAM,Digital activation department spam
+CAL0199aac419947718a440cca63670f7b7,2025-10-03,inbound,41,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199ab7819c476bab5ba4e2faa6df5f6,2025-10-03,inbound,41,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199abdbd93f7a34bb9dc20f2064558d,2025-10-03,inbound,31,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199b6d040ba71c18d2c5a25a5154946,2025-10-05,inbound,65,Orinda GMB,SPAM,Small business lending offer
+CAL0199ba1d6a907f0bbd3bb20703788ce1,2025-10-06,inbound,90,Orinda GMB,SPAM,QuickBooks payment scam
+CAL0199ba236df9787295179c231d53251e,2025-10-06,inbound,166,ROLLE- Lead Center,OPERATIONS,Material payment for 4 yards shirted red
+CAL0199ba38c5fa709a924525b818187493,2025-10-06,outbound,43,Lafayette GMB,OUTBOUND,Outbound call to Harry about home remodel inquiry
+CAL0199ba3c25d17c89a8c8c6f00bed72fa,2025-10-06,outbound,31,Lafayette GMB,OUTBOUND,Outbound call from Lori
+CAL0199ba77bb9076dca881339a6f115a56,2025-10-06,inbound,34,ROLLE- Lead Center,OPERATIONS,Charlie requesting material for Carmen job
+CAL0199ba7d7b467a7ea5b6da07e17d94ef,2025-10-06,inbound,99,ROLLE- Lead Center,OPERATIONS,Westside Building Material payment for stucco materials
+CAL0199ba88dd357ec7988174249c29f3de,2025-10-06,inbound,62,Oakland ADU Builder & Room Addition,SPAM,Google business listing keyword scam
+CAL0199bab89bd87ba8af061c95511ebbee,2025-10-06,inbound,45,Rhino Concrete Danville,SPAM,Opt out robocall
+CAL0199bf52095c7830ab9b727fe2e3e7cf,2025-10-07,inbound,29,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL0199bf5bada275c6965ebad06c2815e3,2025-10-07,inbound,31,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199bf5ccf7e71708b603909489d29b3,2025-10-07,inbound,29,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL0199c00684a47653a2b37b2a9f8c5366,2025-10-07,inbound,74,Rhino Concrete Danville,OPERATIONS,Palisade Builders GC bidding opportunity for Glen at Heather Farms
+CAL0199c0491cee72269ea8c973bda05d9e,2025-10-07,inbound,31,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199c05d59187f4f837fa69e969da9f1,2025-10-07,inbound,29,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL0199c48010b178568cc4fa96cd894e6d,2025-10-08,inbound,32,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199c4c5920075a1a5b21558811620cb,2025-10-08,inbound,19,Lafayette GMB,SPAM,Commercial cleaning telemarketing
+CAL0199c4d8600876fda6cf29014089ab7b,2025-10-08,inbound,6,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Asking for owner - likely sales
+CAL0199c54da77a747ea6495e73f9e45152,2025-10-08,inbound,42,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL0199c5508b327a979ca88039d07d5b78,2025-10-08,inbound,6,Lafayette GMB,SPAM,Asking for business owner - likely sales
+CAL0199c58302d7e1187a11e6e40f0fb1ef,2025-10-08,inbound,7,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Short call - just greeting and business owner
+CAL0199c5830347718ca8bcbf2b9f9b7e81,2025-10-08,inbound,117,Lafayette GMB,INCOMPLETE,Garbled internal conversation
+CAL0199c5bdefc37133959c3198672852cb,2025-10-08,inbound,10,Orinda GMB,SPAM,Google listing flagged scam
+CAL0199c618242375b9b987d18f9831e422,2025-10-08,inbound,133,Lafayette GMB,OPERATIONS,VX Printing plan payment for 867-15-Ave
+CAL0199c61c41d17e5aa4614ff3f06a54cb,2025-10-08,inbound,256,ROLLE- Lead Center,OPERATIONS,Real estate disclosures for Carmen Court via Glide
+CAL0199c98fbf5f7dbc95809af13202e4ce,2025-10-09,inbound,30,Rhino Retaining Walls & Pavers Oakland,SPAM,Press 0/9 opt out robocall scam
+CAL0199c9aa62ca724d8c0127922df3e471,2025-10-09,inbound,31,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199c9d6a43e7d19b8b7795be251d3e2,2025-10-09,inbound,3,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Press button robocall
+CAL0199c9d6c4177e5aa8bb154cefae2ba7,2025-10-09,inbound,42,Rhino Drainage System Bay Area,SPAM,Google voice listing scam
+CAL0199ca464bad7ef896c95e14f83a6891,2025-10-09,inbound,6,Orinda GMB,INCOMPLETE,Brief greeting with no content
+CAL0199ca47830f7bbe809c1a7eb7d35cc9,2025-10-09,inbound,6,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Digital activation department spam
+CAL0199ca5711247cc980228ea26af13d54,2025-10-09,inbound,6,Orinda GMB,INCOMPLETE,Brief greeting only
+CAL0199ca5cac4b765893aa0893ff00587a,2025-10-09,inbound,7,Orinda GMB,INCOMPLETE,Brief greeting - construction company
+CAL0199ca736cca7628a4beb0b8a0ce446f,2025-10-09,inbound,3,Lafayette GMB,SPAM,Press button robocall
+CAL0199ca8a71417cf4a9e7d1d5bda36dcf,2025-10-09,inbound,7,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Brief greeting - construction company
+CAL0199ca9cfdfd71fa9bc32ce99be9bf65,2025-10-09,inbound,39,Lafayette GMB,OPERATIONS,Internal call - Rolly refresh check
+CAL0199ceb4386a780388a1425444ae56e2,2025-10-10,inbound,40,Rhino Concrete Oakland,SPAM,Press 0/9 opt out robocall scam
+CAL0199cee2fdb37a0dbfd86781576b8cd6,2025-10-10,inbound,7,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Brief greeting only
+CAL0199cf20b93a73e792e073403a37d87f,2025-10-10,inbound,77,Lafayette GMB,OPERATIONS,City of Lafayette permit call about erosion control at 1099 Via Media
+CAL0199cf3b1ba77d82981bbad6ca949202,2025-10-10,inbound,2,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Press for information robocall
+CAL0199cf7a6eec78fd83199a0bed0eae88,2025-10-10,inbound,2,Home Remodelers Orinda,SPAM,Business outreach group spam
+CAL0199cfa083e77791b15ad0e7d917a2d7,2025-10-10,inbound,8,Orinda GMB,SPAM,Voice activations department spam
+CAL0199cfa981e370369fcc6e8be8e14bca,2025-10-10,inbound,9,Lafayette GMB,INCOMPLETE,Brief greeting with no response
+CAL0199cfb03cf97586b0c422aaf4e78206,2025-10-10,inbound,45,Lafayette GMB,NOT_FIT,Foundation work inquiry from Santa Rosa - outside service area
+CAL0199cfbb2251707498f60a3a32dbed5c,2025-10-10,inbound,50,Lafayette GMB,OPERATIONS,Internal call scheduling - Daniel Thursday next week
+CAL0199cfe932a5710d9f097a8f577ca5ec,2025-10-10,inbound,39,Orinda GMB,SPAM,Workers compensation insurance telemarketing
+CAL0199cffc0ca17c64ad1bc09eef0d8c27,2025-10-10,inbound,18,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google business listing verification scam
+CAL0199de1bf2fb73c6ac16496cceb032ea,2025-10-13,inbound,30,Home Remodelers Orinda,SPAM,Press 0/9 opt out robocall scam
+CAL0199de471a467418a781af4d75d6f8e4,2025-10-13,inbound,39,Oakland ADU Builder & Room Addition,SPAM,Press 0/9 opt out robocall scam
+CAL0199de4cfdf37d1baf932e79a95b6aec,2025-10-13,inbound,56,Orinda GMB,SYSTEM,Houzz automated inquiry notification
+CAL0199de853ee57d25a1661335c0fb0724,2025-10-13,inbound,47,Orinda GMB,SYSTEM,Houzz project inquiry connection call
+CAL0199ded478db75929f9e8469fb252cd1,2025-10-13,inbound,25,Pleasant Hill GMB,SPAM,Third party referral solicitation
+CAL0199defe0b0e7c1585abacb7764054d0,2025-10-13,inbound,2,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Press button robocall
+CAL0199df2c6dc97ec79b67922c827e5d99,2025-10-13,inbound,55,Lafayette GMB,OPERATIONS,Internal status check with Rolly
+CAL0199e2683a2b7a98b4f6f8ea5f120849,2025-10-14,inbound,23,Orinda GMB,SPAM,Google partner listing scam
+CAL0199e359551d77c7b3558f9b103e4a5d,2025-10-14,inbound,41,Orinda GMB,SPAM,QuickBooks integration scam
+CAL0199e35a67c37ddea48a16ddfc573650,2025-10-14,inbound,33,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL0199e35fa250787ea304e3babbad5ff7,2025-10-14,inbound,38,Lafayette GMB,SPAM,QuickBooks Paygration scam
+CAL0199e3970810752081d520ec06c41224,2025-10-14,inbound,3,Lafayette GMB,SPAM,Press button robocall
+CAL0199e3bffc9b7bd6b556779cbf155021,2025-10-14,inbound,6,Orinda GMB,INCOMPLETE,Brief greeting - Mike
+CAL0199e42c10277ef9c3b3db47b2e7b814,2025-10-14,inbound,58,Pleasant Hill GMB,SPAM,3D visualization/rendering services sales call
+CAL0199e43270ac7737aa83335566acecab,2025-10-14,inbound,10,Orinda GMB,SPAM,Digital activation department spam
+CAL0199e434bd487c64bd31e0a01c63e20b,2025-10-14,inbound,50,Orinda GMB,SPAM,3D visualization rendering services sales
+CAL0199e434f76672bdaa26c0063fee507e,2025-10-14,inbound,10,Pleasant Hill GMB,INCOMPLETE,Wrong number call
+CAL0199e439a9297be2b5dbdc7de2d6611b,2025-10-14,inbound,7,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Digital activation department spam
+CAL0199e45991877f7587938945a0abedb0,2025-10-14,inbound,14,Lafayette GMB,OPERATIONS,Internal call - Rolly see you tomorrow
+CAL0199e468c9827312bacb3885d2212b0a,2025-10-14,inbound,64,Oakland ADU Builder & Room Addition,SPAM,Google business listing keyword scam
+CAL0199e48197eb7eafa6d50171ded5547f,2025-10-14,inbound,34,Rhino Concrete Livermore,INCOMPLETE,Brief greeting - no response from caller
+CAL0199e884a6887625b05c75f90bb5d254,2025-10-15,inbound,62,Pleasant Hill GMB,SPAM,Google business listing keyword scam
+CAL0199e88f431e7fde8d859a282480e1f6,2025-10-15,inbound,62,Rhino Concrete Danville,SPAM,Google business listing keyword scam
+CAL0199e8c029147a9db8ff79c4c0786e66,2025-10-15,inbound,7,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Brief greeting only
+CAL0199e8c1002172b09765d519d1b21e02,2025-10-15,inbound,53,Rhino Builder Website Number,SPAM,Modern Home Builders magazine feature pitch
+CAL0199e8d28794728fa8683dfbb7a246cd,2025-10-15,inbound,7,Lafayette GMB,SPAM,Digital activation department spam
+CAL0199e91fad3e74889406b1021193f53f,2025-10-15,inbound,7,Rhino Concrete Bay Area,SPAM,Asking for owner - likely sales
+CAL0199e980840d74e79cbde2ccf9349b6f,2025-10-15,inbound,147,Lafayette GMB,OPERATIONS,Habitat for Humanity lien release job discussion
+CAL0199e99ab431700cb29ff36816b716b7,2025-10-15,inbound,19,Pleasant Hill GMB,SPAM,Google listing verification scam
+CAL0199ea3b01c07aa78c68f7087992e708,2025-10-15,inbound,63,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Prank Orbit Google ranking feedback scam
+CAL0199ea3f63787f6ca99b2e61fb320275,2025-10-15,inbound,54,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Rank Orbit Google profile feedback scam
+CAL0199ea4ed7487217b23f381cdc177573,2025-10-15,inbound,51,Pleasanton Window Replacement & Siding,CUSTOMER,Vintage Apartments canceling window service appointment
+CAL0199edb2609e72c4a08c5a7a039804bf,2025-10-16,inbound,30,Rhino Retaining Walls & Pavers Oakland,SPAM,Press 0/9 opt out robocall scam
+CAL0199edf6fa207f868cd7639ef6bed3f1,2025-10-16,inbound,34,Rhino Drainage System Bay Area,SPAM,Google listing verification scam
+CAL0199ee3c48dd715d8e5c7dc44a12b84d,2025-10-16,inbound,2,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Press button robocall
+CAL0199ee4e72d47fbf945d1dc6f408a6c0,2025-10-16,inbound,5,Lafayette GMB,INCOMPLETE,Brief greeting only
+CAL0199ee5a24ce7edc9149e85b60aeb559,2025-10-16,inbound,34,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing verification scam
+CAL0199ee62e1c5768f95f8f438849983ba,2025-10-16,inbound,90,ROLLE- Lead Center,CUSTOMER,James Nakamura scheduling consultation appointment
+CAL0199eeb066307f86b02dae6260ac977c,2025-10-16,inbound,24,Lafayette GMB,OPERATIONS,Internal call - green man punch out
+CAL0199f2df9b5e79a4914eb300231c1070,2025-10-17,inbound,30,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL0199f2fb002e753680bc02345b0af942,2025-10-17,inbound,58,ROLLE- Lead Center,OPERATIONS,Bayardo subcontractor payment inquiry for Lido Discovery
+CAL0199f301a37e7e8da0799fa0ba76564f,2025-10-17,inbound,34,Rhino Concrete Danville,SPAM,Google listing verification scam
+CAL0199f33861f87ce59832ba59895eea26,2025-10-17,inbound,34,Orinda GMB,SPAM,Google listing verification scam
+CAL0199f350b64a796cb220df44f1525699,2025-10-17,inbound,34,Rhino Concrete Livermore,SPAM,Google listing verification scam
+CAL0199f36bb5e57589b8dcba5678aa407b,2025-10-17,inbound,34,Oakland ADU Builder & Room Addition,SPAM,Google listing verification scam
+CAL0199f3c9c9467f13a596870b0394e1ba,2025-10-17,inbound,71,Orinda GMB,OPERATIONS,German drywall worker seeking employment
+CAL0199f3d91f4876dcb14ac9e105011e7f,2025-10-17,inbound,200,Orinda GMB,OPERATIONS,Crash Champions auto body shop update on Ford Raptor repair
+CAL0199f414234c7c55839d76955c7d6431,2025-10-17,inbound,34,Orinda GMB,SPAM,Construction services sales pitch
+CAL0199f417a7747cab9d89c367a4ef6beb,2025-10-17,inbound,75,ROLLE- Lead Center,OPERATIONS,Frank Testing Engineers scheduling rebar inspection Oct 23
+CAL0199f445b7d77ceb8ab68cecd2a7a018,2025-10-17,inbound,141,ROLLE- Lead Center,CUSTOMER,James Nakamura scheduling Monday 1pm consultation in San Jose
+CAL019a02295dea71339bef9839014fb53e,2025-10-20,inbound,29,Rhino Retaining Walls & Pavers Oakland,SPAM,Press 0/9 opt out robocall scam
+CAL019a022e83957978b1c1cb8969e08c0d,2025-10-20,inbound,31,Rhino Concrete Oakland,SPAM,Press 0/9 opt out robocall scam
+CAL019a024ce8f075d78ead821d3bc85665,2025-10-20,inbound,34,Lafayette GMB,SPAM,Google listing verification scam
+CAL019a0277060678f1863031cd0c1a0a35,2025-10-20,inbound,3,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Listing department scam
+CAL019a02e896ed7df597bfdb8e3a6fdf04,2025-10-20,inbound,4,Orinda GMB,INCOMPLETE,Brief greeting only
+CAL019a02e8bcd5752a9e21b300edaf4f83,2025-10-20,inbound,81,Lafayette GMB,NOT_FIT,Foundation inspection inquiry from Santa Rosa - outside service area
+CAL019a031274217d8789dc0d6db7cc8f0c,2025-10-20,inbound,64,Orinda GMB,OPERATIONS,German drywall worker seeking employment - 15 years experience
+CAL019a033cd7f27bafa8f3fe5ca476d3b8,2025-10-20,inbound,1209,Lafayette GMB,OPERATIONS,Accounting reconciliation call - subcontractor payments Excel review
+CAL019a03500b6c7280963eb32c8ffbc6fb,2025-10-20,inbound,18,Oakland ADU Builder & Room Addition,INCOMPLETE,Brief greeting - no caller response
+CAL019a035725ce75f88a3e17bed258a966,2025-10-20,inbound,19,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Brief greeting - no caller response
+CAL019a0359c06878cda80dc3a7cc449cef,2025-10-20,inbound,15,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google business verification scam
+CAL019a035d80437201ab3ab8a9a468aaa1,2025-10-20,inbound,29,Oakland ADU Builder & Room Addition,INCOMPLETE,Brief greeting - no caller response
+CAL019a0384c63773679303211e3b6948d1,2025-10-20,inbound,21,Orinda GMB,INCOMPLETE,Brief greeting - no caller response
+CAL019a038e27db7fa9ab4ec849f6990be1,2025-10-20,inbound,16,Lafayette GMB,INCOMPLETE,Brief greeting - no caller response
+CAL019a03ac2d897d079996db45b3ad8fa0,2025-10-20,inbound,24,Rhino Concrete Oakland,INCOMPLETE,Brief greeting - no caller response
+CAL019a03b0e27a7cc98ff96a14363f9894,2025-10-20,inbound,389,Lafayette GMB,NOT_FIT,Post tension slab GPR survey inquiry from Gilroy - outside service area
+CAL019a03b2d5c07244bdffda2b4bb89c0f,2025-10-20,inbound,70,Rhino Drainage System Bay Area,SPAM,Business broker M&A advisory sales pitch
+CAL019a076c72a87cb39b41843e8cb4a19a,2025-10-21,inbound,30,Rhino Concrete Oakland,SPAM,Press 0/9 opt out robocall scam
+CAL019a077af4777a8c957272d1a2473abb,2025-10-21,inbound,33,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,EMG listings opt out scam
+CAL019a07a724137f6383c7092f3b9e17e5,2025-10-21,inbound,9,Lafayette GMB,SPAM,Telemarketing call from Maria
+CAL019a07ae9329796f94cd90c1cac619d7,2025-10-21,inbound,69,Rhino Siding & Window Replacement,NOT_FIT,Mobile home material inquiry - not service offered
+CAL019a07b00ea476ec9a47fd5169b7712e,2025-10-21,inbound,274,Rhino Drainage System Bay Area,CUSTOMER,Shilpa in Palo Alto - drain system replacement pavers and fill
+CAL019a07b8a02c7741ae67fd7752639e30,2025-10-21,inbound,2,Rhino Retaining Walls & Pavers Oakland,SPAM,Press button robocall
+CAL019a07c70a7d7fe69c57bb2b17bfbe84,2025-10-21,inbound,43,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Montclair Golf Course - asking for owner
+CAL019a07c9eccb7539bba03661af57fb90,2025-10-21,inbound,458,Rhino Concrete Oakland,CUSTOMER,Kelly Kuykendall realtor - driveway regrade quote at 29 Live Oak Road Oakland - scheduled 10/22 1pm
+CAL019a084605be7372ab09a4325cda4adc,2025-10-21,inbound,3,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,UMG listing department robocall
+CAL019a087b677573bb92621bf809af7b5d,2025-10-21,inbound,427,Rhino Concrete Oakland,CUSTOMER,Andrew Ballman in Oakland - CMU garden wall concrete pathway and garbage corral - scheduled same day 2-3pm
+CAL019a0880ea647f268242d482b0056db9,2025-10-21,inbound,30,Rhino Retaining Walls & Pavers Oakland,SPAM,Automated press 0/9 to opt out message
+CAL019a0898c5007483937c1088e02d8241,2025-10-21,inbound,18,Orinda GMB,INCOMPLETE,Just hello from Roli - caller silent
+CAL019a089a752d7e9e8ca92ed434bda1aa,2025-10-21,inbound,16,Rhino Concrete Danville,INCOMPLETE,Just hello from Roli
+CAL019a08a02ba879c18cdaf9591791476b,2025-10-21,inbound,18,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just hello - no conversation
+CAL019a08a1ee9a730fb66b7d0eb557e29e,2025-10-21,inbound,17,Orinda GMB,INCOMPLETE,Just hello - no conversation
+CAL019a08dd68a17b1ca542a57ee6928d37,2025-10-21,inbound,40,Rhino Concrete Oakland,CUSTOMER,Andrew Ballman follow-up asking if consultation still happening
+CAL019a08e26d057c438867b4a8bd4e0673,2025-10-21,inbound,16,Oakland ADU Builder & Room Addition,INCOMPLETE,Just hello from Roli
+CAL019a08e941587718857f25edcf454460,2025-10-21,inbound,94,Orinda GMB,SPAM,Bearstar Insurance workers comp quote sales call
+CAL019a090d2d6875689669b150dd3208ad,2025-10-21,inbound,51,Lafayette GMB,SPAM,Generic sales voicemail with callback number
+CAL019a099bdf4c7a169f796ef0d28cb132,2025-10-21,inbound,49,Oakland ADU Builder & Room Addition,SPAM,Small Business Lending line of credit offer
+CAL019a0c899c4a7c75ac2e15e89f7583ae,2025-10-22,inbound,30,Home Remodelers Orinda,SPAM,Automated press 0/9 to opt out message
+CAL019a0c9407ca7fdf8d6f59f42e9177c4,2025-10-22,inbound,32,Oakland ADU Builder & Room Addition,SPAM,Google Voice listing removal scam
+CAL019a0c9c96db704a9a5808bb3e55882c,2025-10-22,inbound,31,ADU San Jose,SPAM,Google Voice listing removal scam
+CAL019a0cc0a67d72e58442f044e11ca4a1,2025-10-22,inbound,8,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just hello good morning
+CAL019a0cc903e873cc97546a8b0de1984a,2025-10-22,inbound,5,Oakland ADU Builder & Room Addition,SPAM,Business listing sales call
+CAL019a0cd9232b779d8b01afc939f6e3d0,2025-10-22,inbound,4,ADU San Jose,SPAM,Business listing sales call
+CAL019a0ce2553a7629aa307a660f94808f,2025-10-22,inbound,25,Orinda GMB,SPAM,Estimation and takeoff services sales call
+CAL019a0cf52a217534b008039235e1245a,2025-10-22,inbound,3,Oakland ADU Builder & Room Addition,SPAM,Please press to immediately - robocall
+CAL019a0d01c1ec7b88a3a85bb0a571f6be,2025-10-22,inbound,100,Rhino Builder Website Number,CUSTOMER,Shilpa follow-up about missed drain estimate appointment - rescheduled to 2:30-3pm
+CAL019a0d0867317840855b4d8510255866,2025-10-22,inbound,2,Rhino Concrete Livermore,SPAM,Please press to - robocall
+CAL019a0d0c355075dab56e3ade39a5285b,2025-10-22,inbound,43,Pleasant Hill GMB,SPAM,Google listing press 2 scam
+CAL019a0d1c078b70a495871192975156bc,2025-10-22,inbound,4,ADU San Jose,SPAM,Business listing call
+CAL019a0d20b0f571f1acf05a1d877fd66a,2025-10-22,inbound,2,Rhino Concrete Lafayette,SPAM,Press 2 listing scam
+CAL019a0d26b5b1726f8cde72e5366d5495,2025-10-22,inbound,59,Orinda GMB,CUSTOMER,Brendan Millette rescheduling Oakland Hills appointment
+CAL019a0d29f1b7786ba1082638ec0964eb,2025-10-22,inbound,4,Oakland ADU Builder & Room Addition,SPAM,Business listing call
+CAL019a0d4f33d974e7bbc19f5921db08a7,2025-10-22,inbound,25,Rhino Concrete Oakland,CUSTOMER,Kelly Kuykendall confirming 1pm 29 Live Oak appointment
+CAL019a0d5882fd73d5835bcd97c9881a28,2025-10-22,inbound,7,Orinda GMB,INCOMPLETE,Very short call
+CAL019a0d5ea59c752785cdb2229c869e20,2025-10-22,inbound,65,Rhino Concrete Lafayette,SPAM,Housecall Pro CRM sales call
+CAL019a0d5f080271379376c513eb3b1e18,2025-10-22,inbound,4,ADU San Jose,SPAM,Listing call cutoff
+CAL019a0d72757a73ad9148a22b7c73aa1b,2025-10-22,inbound,4,Oakland ADU Builder & Room Addition,SPAM,Business listing call
+CAL019a0d7c46b9738b852361623dc5a62f,2025-10-22,inbound,7,Oakland ADU Builder & Room Addition,SPAM,Speaking to business owner sales call
+CAL019a0d8ec32e70439399c8b6b5b38bb6,2025-10-22,inbound,39,Orinda GMB,OPERATIONS,Internal call - phone number exchange
+CAL019a0d94bfee7fd489f36c4d1309b77e,2025-10-22,inbound,184,Lafayette GMB,OPERATIONS,Internal call - sharing photos and files
+CAL019a0dae8ddd7004b3101501f49534e0,2025-10-22,inbound,28,Rhino Retaining Walls & Pavers Oakland,SPAM,Merchant Service Center sales call
+CAL019a0db43b097c7abf18161f3bd46837,2025-10-22,inbound,34,Orinda GMB,SPAM,Customized T-shirts hats toys sales call
+CAL019a0dbe82f3719e848aae2b17607f33,2025-10-22,inbound,19,Orinda GMB,INCOMPLETE,Very short call - no meaningful content
+CAL019a0e38b6ab7c4d9ede2fcb121fb482,2025-10-22,inbound,198,Pleasant Hill GMB,OPERATIONS,Countertop fabricator Bradley seeking subcontract work
+CAL019a11b51f23736ea7eaac0207634d02,2025-10-23,inbound,53,ROLLE- Lead Center,OPERATIONS,Efren checking on fireplace meeting with owner
+CAL019a11b8d2207b7e980f1697951b1aac,2025-10-23,inbound,31,Oakland ADU Builder & Room Addition,SPAM,Google Voice listing opt-out scam voicemail
+CAL019a11ccf30874229fd8c981613ad4d1,2025-10-23,inbound,17,Lafayette GMB,INCOMPLETE,Just hello greeting
+CAL019a11d460217cdbaa469af5ae14e9db,2025-10-23,inbound,11,Rhino Concrete Livermore,SPAM,Google listing scam - records showing suspended
+CAL019a11dd77e97e0d82b14e13fe0f4362,2025-10-23,inbound,17,Rhino Concrete Lafayette,INCOMPLETE,Just hello greeting
+CAL019a11edd18d7a2eb29a8390191a67a9,2025-10-23,inbound,13,Rhino Concrete Oakland,SPAM,Google listing scam - prevent customers from finding
+CAL019a121c0dc371458165e6c92a75eaed,2025-10-23,inbound,16,Rhino Drainage System Bay Area,INCOMPLETE,Just hello greeting
+CAL019a124bd5787e37b61df6f6a4cf1b7d,2025-10-23,inbound,14,Orinda GMB,INCOMPLETE,Just hello greeting
+CAL019a126b2c447531a33d757fc73a40a9,2025-10-23,inbound,20,Home Remodelers Orinda,INCOMPLETE,Just hello greeting
+CAL019a1287c53f7252b764483f38226985,2025-10-23,inbound,12,Rhino Concrete Lafayette,SPAM,Google listing scam - prevent customers from finding
+CAL019a12a8b7367b61a4f6c34a9394149f,2025-10-23,inbound,59,Lafayette GMB,SPAM,Voicemail with phone number only
+CAL019a12aacaac72acab44deb8f0d14b8d,2025-10-23,inbound,553,Lafayette GMB,OPERATIONS,Internal call discussing MSI payment QuickBooks and scheduling
+CAL019a12bda1f37b52abbf7ec9c8328b6b,2025-10-23,inbound,24,Lafayette GMB,SPAM,Press 9 to opt out scam
+CAL019a12c0bf0b7383910aba1efdeab3b0,2025-10-23,inbound,15,Oakland ADU Builder & Room Addition,SPAM,Google listing scam - not optimized
+CAL019a12c5da23786284049dcfe180945e,2025-10-23,inbound,63,ROLLE- Lead Center,OPERATIONS,Dana from Ledding NY confirming ship-to address for Troy lights order
+CAL019a16ee1a2770fa9acfd7d7227950cb,2025-10-24,inbound,33,Rhino Drainage System Bay Area,SPAM,Google listing scam voicemail with opt-out number
+CAL019a172bd3137dd292e998aa522f1b12,2025-10-24,inbound,12,Rhino Concrete Lafayette,SPAM,Google listing not properly verified scam
+CAL019a17416088796f8d346e85ab670358,2025-10-24,inbound,16,Rhino Concrete Danville,SPAM,Google listing scam - prevent customers
+CAL019a1768684972fabb65b949b09272ac,2025-10-24,inbound,15,Rhino Concrete Danville,SPAM,Google listing scam - avoid disruption
+CAL019a177d88eb7aa4a709d0d9586164e6,2025-10-24,inbound,27,Rhino Retaining Walls & Pavers Oakland,SPAM,Richard calling about Google page
+CAL019a178652c5760d893546edb46a7a66,2025-10-24,inbound,12,Rhino Drainage System Bay Area,SPAM,Google Voice clients having trouble finding you
+CAL019a17d6b3e97c06a10a1a63f0b59f23,2025-10-24,inbound,18,Oakland ADU Builder & Room Addition,SPAM,Google listing scam
+CAL019a17d7326c7b7198fc2c4c9548a3e5,2025-10-24,inbound,106,Lafayette GMB,OPERATIONS,Internal call - brief and casual
+CAL019a17e2093878af8af43fe0dac14282,2025-10-24,inbound,10,Rhino Concrete Livermore,SPAM,Google listing scam - address an issue
+CAL019a17e8c8a8707894f1b8b9df3b3ed5,2025-10-24,inbound,17,Rhino Drainage System Bay Area,INCOMPLETE,Just hello
+CAL019a17e9cf4372cbb0bbfadfb60c9313,2025-10-24,inbound,18,Oakland ADU Builder & Room Addition,SPAM,Google listing not properly verified scam
+CAL019a17f5ca3f77669a7bc79e5964686e,2025-10-24,inbound,9,Oakland ADU Builder & Room Addition,SPAM,Google listing scam - records indicating not verified
+CAL019a183656837c568460329b2d77f633,2025-10-24,inbound,19,Lafayette GMB,INCOMPLETE,Just hello from Roly
+CAL019a2660e14b72a596759f338590d6bd,2025-10-27,inbound,35,Rhino Concrete Livermore,SPAM,Google listing scam voicemail with opt-out
+CAL019a2666d2e175b4905ad298498e8d8f,2025-10-27,inbound,11,Home Remodelers Orinda,SPAM,Google Voice search not verified scam
+CAL019a268a8683712a8f63d05f4074df73,2025-10-27,inbound,13,Rhino Concrete Oakland,SPAM,Google Voice search customers cannot find scam
+CAL019a26e3f7e075f79aefd0675ea6cd7e,2025-10-27,inbound,12,Rhino Concrete Danville,SPAM,Google Voice clients having trouble scam
+CAL019a275db5e07458a83c94f875c3c47b,2025-10-27,inbound,45,Pleasant Hill GMB,SPAM,Google listing scam voicemail with opt-out
+CAL019a27d09f877f9b98d427a313394488,2025-10-27,inbound,57,Orinda GMB,CUSTOMER,Dugart voicemail requesting quote for home remodel in Pleasant Hill
+CAL019a282e323277129724433ede554d76,2025-10-27,inbound,39,Orinda GMB,CUSTOMER,Elizabeth Thomas voicemail for Shane about small cooking project
+CAL019a2b71cd8178df9af9120b11083000,2025-10-28,inbound,34,Home Remodelers Orinda,SPAM,Google Voice listing opt-out scam voicemail
+CAL019a2ba8d6f27551b8d8de3e42585bc5,2025-10-28,inbound,17,Oakland ADU Builder & Room Addition,INCOMPLETE,Just hello greeting
+CAL019a2bdb66067d069198767cc2cddec0,2025-10-28,inbound,16,Lafayette GMB,INCOMPLETE,Just hello greeting
+CAL019a2be05fd177c791a85040cbf20eae,2025-10-28,inbound,22,Lafayette GMB,INCOMPLETE,Just hello greeting
+CAL019a2c0dd6c47cff92150badff22b35b,2025-10-28,inbound,11,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just hello greeting
+CAL019a2c28e80a7bba9e9bb89b8a1298a8,2025-10-28,inbound,14,Oakland ADU Builder & Room Addition,SPAM,Google listing scam - prevent customers
+CAL019a2c3a8223756985e36ba5f819fc27,2025-10-28,inbound,29,Rhino Drainage System Bay Area,NOT_FIT,Caller asking to buy trough drains - not a service inquiry
+CAL019a2c4281d770ec8e1acf133288ed60,2025-10-28,inbound,19,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Just hello greeting
+CAL019a2c60e0837e70b6d35e5b9b56df75,2025-10-28,inbound,12,Oakland ADU Builder & Room Addition,SPAM,Google listing not verified scam
+CAL019a2c71d70f7b4a80ddd4c131b3e344,2025-10-28,inbound,34,Home Remodelers Orinda,SPAM,Google Voice listing opt-out scam voicemail
+CAL019a2c7701367db488330fadf34ac287,2025-10-28,inbound,31,Orinda GMB,SPAM,Google listing scam voicemail with opt-out
+CAL019a2c7ccaac7ca58d5cb38cd2ab76af,2025-10-28,inbound,43,Rhino Concrete Livermore,SPAM,Google listing scam voicemail with opt-out
+CAL019a2c850c647fe592b8de8661503cff,2025-10-28,inbound,31,Rhino Drainage System Bay Area,SPAM,Google listing scam voicemail with opt-out
+CAL019a2c88b8e07ef0a37588e752b5ceb4,2025-10-28,inbound,100,Lafayette GMB,OPERATIONS,Internal call about Elizabeth Thomas reply
+CAL019a2cc34eb475deaf05945984f814a9,2025-10-28,inbound,113,Lafayette GMB,OPERATIONS,Express Updates verifying business info - address bathroom remodeling ADU
+CAL019a2ce2fe08742bb8771f27f7e17524,2025-10-28,inbound,96,Lafayette GMB,OPERATIONS,PRV Engineers offering engineering and special inspection services
+CAL019a308b353f7c0ca28ddf5f12a91440,2025-10-29,inbound,30,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam voicemail with opt-out
+CAL019a3093f0f97482a171a1d878920a9b,2025-10-29,inbound,43,Rhino Concrete Lafayette,SPAM,Google listing scam voicemail
+CAL019a30dde27372c2b9f2c28e12e203a6,2025-10-29,inbound,169,Lafayette GMB,SPAM,Yelp advertising sales call from Mauricio
+CAL019a30ff4a987207ac893bc994602d75,2025-10-29,inbound,21,Pleasant Hill GMB,INCOMPLETE,Just hello greeting
+CAL019a31153d7d743cb57abfdf47f4f20b,2025-10-29,inbound,39,Orinda GMB,SPAM,Maurice claiming Google profile problems - asking for Shay
+CAL019a312b76187d4ebbc05a42394b68b0,2025-10-29,inbound,21,Rhino Concrete Danville,SPAM,Google listing scam - status of listing
+CAL019a3160916779b8b9f668fcbc3b85b3,2025-10-29,inbound,18,Pleasant Hill GMB,INCOMPLETE,Just hello greeting
+CAL019a3188ac0173b1b8e6e6e97be34432,2025-10-29,inbound,30,Orinda GMB,SPAM,QuickBooks and Paygration sales call from Jay
+CAL019a318effe8743ca3762b37cee4c79d,2025-10-29,inbound,49,Lafayette GMB,SPAM,QuickBooks and Paygration sales call from Dustin
+CAL019a31946f8c76ea99dfbf719f161f39,2025-10-29,inbound,76,Lafayette GMB,OPERATIONS,Internal call about Central Valley transactions and accounting
+CAL019a31aa84717c36aaa797f29115bfab,2025-10-29,inbound,16,Pleasant Hill GMB,SPAM,Google listing scam - having trouble finding you
+CAL019a31ad244f79258a502515bba1f850,2025-10-29,inbound,35,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Just hello from Roly
+CAL019a31b21d9a7ad7943266154bf45cf6,2025-10-29,inbound,17,Oakland ADU Builder & Room Addition,SPAM,Google listing scam - prevent customers
+CAL019a31b722b57ad3b5a42a9ef7261e63,2025-10-29,inbound,210,Rhino Concrete Oakland,CUSTOMER,Sharif Jaiyeola requesting quote for 8.25 cubic yards concrete at 812 54th St Oakland
+CAL019a31c5e8957347822cc52f97823ec3,2025-10-29,inbound,29,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Just hello from Roly
+CAL019a31e8af25707c9c13a05c419de27c,2025-10-29,inbound,40,Rhino Drainage System Bay Area,INCOMPLETE,Hello with no response
+CAL019a31ea64547a088f37487857f63812,2025-10-29,inbound,56,Oakland ADU Builder & Room Addition,SPAM,Merchant Service Center sales call from Rafaella
+CAL019a35a46bc37a3ea3640f5728a4e77b,2025-10-30,inbound,42,Orinda GMB,SPAM,Alan from Pinion Newswire about press release
+CAL019a35cd1ea87bf1b1d08a7deb986743,2025-10-30,inbound,65,Home Remodelers Orinda,SPAM,Google listing scam voicemail
+CAL019a35d1c204787893ccf77446dad386,2025-10-30,inbound,54,Pleasant Hill GMB,SPAM,Google listing scam press 9 to opt out
+CAL019a35e1cef5741691d3c869a417ab58,2025-10-30,inbound,14,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just greetings cut off
+CAL019a3623d2737429a85b21be1e5f81b3,2025-10-30,inbound,14,Rhino Concrete Livermore,INCOMPLETE,Just greetings no content
+CAL019a3640062a78838ee53684dd5a72da,2025-10-30,inbound,73,ROLLE- Lead Center,OPERATIONS,FedEx Freight delivery scheduling
+CAL019a364a76e27bc9bef3ce71b3260eb9,2025-10-30,inbound,163,Rhino Concrete Lafayette,SPAM,Walnut Creek City Lifestyle publication sales
+CAL019a365258fe71c78f75939982b9c4a8,2025-10-30,inbound,49,Lafayette GMB,SPAM,Modern Home Builders magazine interview request
+CAL019a365797617266bb8d9118e3b04633,2025-10-30,inbound,18,Orinda GMB,SPAM,Looking for business owner likely sales
+CAL019a36a7fc4a7caaa5040485b5fc8515,2025-10-30,inbound,13,Orinda GMB,INCOMPLETE,Very short cutoff
+CAL019a36adf0f07fa786b3237c8c5ca092,2025-10-30,inbound,9,Orinda GMB,SPAM,Google listing scam
+CAL019a36b500bf7797aabe47c9b99cf0af,2025-10-30,inbound,20,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Just greetings no content
+CAL019a36b822277e309e0037f8fa9859d2,2025-10-30,inbound,57,Lafayette GMB,OPERATIONS,Internal scheduling Bill Harrison
+CAL019a36e04b4e752aaf81f95b3c54ada2,2025-10-30,inbound,22,Orinda GMB,SYSTEM,IVR system press 1 to connect
+CAL019a36ebefe97f41ab75169556ccaaa4,2025-10-30,inbound,21,Pleasant Hill GMB,SPAM,Google listing scam press 9 to opt out
+CAL019a3b64e3e3740f972415e875b73385,2025-10-31,inbound,20,Lafayette GMB,SPAM,Local Splash marketing call
+CAL019a3b76c00f7de587dc56d6706b0553,2025-10-31,inbound,43,Orinda GMB,OPERATIONS,Innodes Engineering following up on quote
+CAL019a3b93a02778a08b4e73808f4aa2c6,2025-10-31,inbound,293,Rhino Drainage System Bay Area,CUSTOMER,French drain inquiry Fremont site visit scheduled
+CAL019a3bc36f357e469913076fbe36d141,2025-10-31,inbound,31,Orinda GMB,SPAM,Intuit QuickBooks sales call
+CAL019a3bf113b57b0a883ae74636de0d2e,2025-10-31,inbound,29,Lafayette GMB,OPERATIONS,Internal call casual
+CAL019a3bfcf7027a1da35df8e2cd7f12d2,2025-10-31,inbound,82,Rhino Retaining Walls & Pavers Oakland,SPAM,Jobber software sales call
+CAL019a3bff965170bda15b3a11f2438021,2025-10-31,inbound,12,Oakland ADU Builder & Room Addition,SPAM,Google search scam
+CAL019a3c571c93727abb94e1b4bf5df606,2025-10-31,inbound,25,Lafayette GMB,SPAM,Local Splash marketing call
+CAL019a3c5d58f978b589ce7bb45d25503f,2025-10-31,inbound,29,Oakland ADU Builder & Room Addition,INCOMPLETE,Just greetings no content
+CAL019a3c9e558a7e4f9d5ef1564d98aa57,2025-10-31,inbound,74,Rhino Concrete Danville,CUSTOMER,Driveway replacement inquiry Danville
+CAL019a4a8e32447aaaaa367507e39071b8,2025-11-03,inbound,41,Orinda GMB,OPERATIONS,City of Oakland calling about permits
+CAL019a4aa67cf87d4d92806e49835a5ba8,2025-11-03,inbound,54,ADU San Jose,SPAM,Google listing scam
+CAL019a4ae0d7a57a5a9bac3235fbed25ed,2025-11-03,inbound,69,Orinda GMB,OPERATIONS,Professional finisher looking for work
+CAL019a4b4dc01571c3937fa91794072661,2025-11-03,inbound,212,Rhino Concrete Oakland,CUSTOMER,Driveway incline repair Berkeley
+CAL019a4b93b71b7d1b8abaf6fdc4b60c93,2025-11-03,inbound,28,Lafayette GMB,OPERATIONS,Internal call scheduling
+CAL019a4bd2e7f47c6ea9fc2371517c2840,2025-11-03,inbound,996,ROLLE- Lead Center,OPERATIONS,Customer payment discussion Orinda foundation job
+CAL019a4bee2f207db49f1c42b090510bd6,2025-11-03,inbound,29,Home Remodelers Orinda,INCOMPLETE,Just greetings no content
+CAL019a4c180e9273f7aecc12b13b70284d,2025-11-03,inbound,140,Rhino Concrete Oakland,CUSTOMER,City of Oakland bid request curbs gutters walkway
+CAL019a4fa70ffb720aa22ccc2a3739a215,2025-11-04,inbound,60,Lafayette GMB,SPAM,Google listing scam press 9 to opt out
+CAL019a4faaa0c5700fad1609799a44e7b0,2025-11-04,inbound,39,Rhino Concrete Lafayette,SPAM,Google listing scam press 9 to opt out
+CAL019a5011c21479728995ac92a96c1fb0,2025-11-04,inbound,21,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a5077af7d72acbe4178d6add3940d,2025-11-04,inbound,10,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a5082420179f0aeb5f49c6a98a140,2025-11-04,inbound,16,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a508a19eb782a843bf0d3611f096b,2025-11-04,inbound,32,Lafayette GMB,SPAM,Asking for business owner likely sales
+CAL019a50a83f547d4e931137e1c048be59,2025-11-04,inbound,17,Rhino Concrete Danville,INCOMPLETE,Just greetings no content
+CAL019a50aab78b7586a2932b2fc8e74a10,2025-11-04,inbound,481,Lafayette GMB,CUSTOMER,Foundation repair inquiry La Quinta Hotel Livermore
+CAL019a50b4940f79079bdec52e11cfc62b,2025-11-04,inbound,14,Pleasant Hill GMB,SPAM,Google search scam
+CAL019a50dcda6878d7b612831d8fe1947e,2025-11-04,inbound,199,Oakland ADU Builder & Room Addition,CUSTOMER,ADU projects Fremont San Jose Belmont multi-family
+CAL019a50f0d77b754589244b35b8d5fd6e,2025-11-04,inbound,220,Rhino Concrete Lafayette,CUSTOMER,Foundation cinder block wall repair Lafayette hillside
+CAL019a5146efa57ef4aa85a4fedc1ba9b7,2025-11-04,inbound,148,ROLLE- Lead Center,OPERATIONS,Westside Building Materials payment processing
+CAL019a5520dc5a7f82b23319be04755b2a,2025-11-05,inbound,28,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a55360c387036a5aae3c69f1db83e,2025-11-05,inbound,90,Orinda GMB,OPERATIONS,Sherwin Paint rep trying to reach Shay
+CAL019a55714a0970cfb07b6e477bc0ab84,2025-11-05,inbound,15,Rhino Drainage System Bay Area,SPAM,Google listing scam
+CAL019a557f88867773bfce48c88a6952e2,2025-11-05,inbound,21,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam
+CAL019a55ab4f387f9ead6dfd6e3cdd43c4,2025-11-05,inbound,17,Home Remodelers Orinda,SPAM,Google listing scam
+CAL019a55b7ced279af8bc72ee4d7f75c55,2025-11-05,inbound,73,Rhino Concrete Lafayette,SPAM,House Call Pro lead gen sales call
+CAL019a560f351e71cfab4fe8ac7cbf52d1,2025-11-05,inbound,34,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just greetings no content
+CAL019a566f9ba87d9184da835787255613,2025-11-05,inbound,30,Oakland ADU Builder & Room Addition,SPAM,Small Business Lending credit line offer
+CAL019a5a0b50807e7e86ac0dcdbea99c39,2025-11-06,inbound,40,Lafayette GMB,SPAM,Google listing scam EMG listings
+CAL019a5a1d33687962879952dcac946d8a,2025-11-06,inbound,32,Orinda GMB,SPAM,Ads Guards security services sales
+CAL019a5a26354a7457aba05c317cb8ed41,2025-11-06,inbound,16,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a5a27eb537fd88f1cac266de355d3,2025-11-06,inbound,10,Rhino Concrete Lafayette,SPAM,Google listing scam
+CAL019a5a506f007a3589c84011e7169c06,2025-11-06,inbound,50,Home Remodelers Orinda,SPAM,House Call Pro sales call
+CAL019a5a6e5a597f169487e2d8e783d686,2025-11-06,inbound,13,Oakland ADU Builder & Room Addition,INCOMPLETE,Just greetings no content
+CAL019a5a9faeaf7891aa41868812b9a023,2025-11-06,inbound,10,Rhino Drainage System Bay Area,SPAM,Google listing scam
+CAL019a5aa23b3179cfa2c8d4d7884e59d9,2025-11-06,inbound,10,Orinda GMB,SPAM,Google listing scam
+CAL019a5afb7c237f0aa2132376e59b00cd,2025-11-06,inbound,167,Lafayette GMB,OPERATIONS,Internal accounting discussion Central Valley deposit
+CAL019a5b29880577d89804942b5b66569a,2025-11-06,inbound,232,ROLLE- Lead Center,OPERATIONS,Westside Building Materials payment processing
+CAL019a5b38cc26774f928154dea89f854c,2025-11-06,inbound,205,Lafayette GMB,OPERATIONS,City of Lafayette encroachment permit inquiry
+CAL019a5b4896207021955c037fdc97e9e5,2025-11-06,inbound,18,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just greetings no content
+CAL019a5b4ffc407ac39ee11306e5499f59,2025-11-06,inbound,20,Oakland ADU Builder & Room Addition,SPAM,Merchant Service Center sales call
+CAL019a5fa9e23c7315a8cb6e68b6a48aa0,2025-11-07,inbound,18,Lafayette GMB,INCOMPLETE,Just greetings no content
+CAL019a5fc07d1a72eaa7f38c48803e4cf8,2025-11-07,inbound,19,Rhino Concrete Livermore,INCOMPLETE,Just greetings no content
+CAL019a5fc36fc17db69e48b3f6071be4be,2025-11-07,inbound,14,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Just greetings no content
+CAL019a5fec3bbc763085cf20d9eb46837a,2025-11-07,inbound,16,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a60274ee179f386b4552d629b27fe,2025-11-07,inbound,18,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam
+CAL019a60bdcbf975d9b5572f6172436a1a,2025-11-07,inbound,25,Oakland ADU Builder & Room Addition,INCOMPLETE,Just greetings no content
+CAL019a60d4a1357a7683c56cfc8ce89147,2025-11-07,inbound,217,Lafayette GMB,CUSTOMER,Foundation inquiry Isleton need to confirm coverage
+CAL019a661e6ed472689a717a763ed24d6b,2025-11-08,inbound,50,Lafayette GMB,SPAM,Small Business Lending credit line offer
+CAL019a6f14ca5a7c5fa21ec592581609ff,2025-11-10,inbound,25,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a6f7240d3749e9ec2024701366da4,2025-11-10,inbound,45,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Social media marketing sales call
+CAL019a6f99a5377c2498d820f9a0e40ae9,2025-11-10,inbound,12,Lafayette GMB,SPAM,Google listing scam
+CAL019a6f9b84ca7152bda0f2c553c1653e,2025-11-10,inbound,32,Orinda GMB,SPAM,Looking for Rhino rep likely sales
+CAL019a6f9e059c7d9585d4c6644213fe57,2025-11-10,inbound,11,Lafayette GMB,SPAM,Google listing scam
+CAL019a6fa0ae6e7aef868faca4e85adf6a,2025-11-10,inbound,567,Lafayette GMB,OPERATIONS,Internal accounting Standard Plumbing receipts
+CAL019a6fe1e0367628a420177104117f1d,2025-11-10,inbound,143,ROLLE- Lead Center,OPERATIONS,Westside Building Materials payment processing
+CAL019a6fe978f97a1aad3da0a1b89a2aa6,2025-11-10,inbound,23,Rhino Concrete Lafayette,INCOMPLETE,Just greetings no content
+CAL019a701f47a870219e3a726459cc5761,2025-11-10,inbound,21,Lafayette GMB,SPAM,Random Bollywood reference likely robocall
+CAL019a702c4c9a701286fd256420ec6a89,2025-11-10,inbound,92,Lafayette GMB,NOT_FIT,Foundation inquiry Vacaville outside service area
+CAL019a70401ee97989970e50898259f8c6,2025-11-10,inbound,83,Lafayette GMB,NOT_FIT,Foundation waterproofing inquiry Sebastopol too far
+CAL019a73d8d62677b893df9aba095f37b5,2025-11-11,inbound,35,Lafayette GMB,OPERATIONS,Job seeker apprentice position inquiry
+CAL019a742b4b2d7e8f848f2c3b587cdd0a,2025-11-11,inbound,20,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a7450f46d78c28cfb9894a3c8335e,2025-11-11,inbound,25,Rhino Concrete Lafayette,INCOMPLETE,Just greetings no content
+CAL019a7452121d7f03be1f9bd8003531ca,2025-11-11,inbound,13,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a749bae4276028621b96d14cc3eec,2025-11-11,inbound,13,Lafayette GMB,SPAM,Google listing scam
+CAL019a74b957c270d4bdafc73e86f01592,2025-11-11,inbound,44,Lafayette GMB,OPERATIONS,Internal call credit card 3% charge
+CAL019a74b9f36b723784e0f250f8203f9f,2025-11-11,inbound,53,Rhino Concrete Oakland,SPAM,Google listing scam press 9 to opt out
+CAL019a74c8b170714f8f6c7abca71bab4d,2025-11-11,inbound,18,Rhino Concrete Oakland,INCOMPLETE,Just greetings no content
+CAL019a74d17d8a783f96367db30629c5df,2025-11-11,inbound,31,Orinda GMB,SPAM,Google listing scam press 9 to opt out
+CAL019a756bf54e7daa9145c9b7695504b4,2025-11-11,inbound,188,ROLLE- Lead Center,OPERATIONS,Subcontractor call about bifold door repair instructions
+CAL019a78eb97f072bd8ab2c3e798807852,2025-11-12,inbound,45,Orinda GMB,CUSTOMER,Kitchen rebuild water damage Oakland
+CAL019a792380e5766d8fd485582a8dc56c,2025-11-12,inbound,11,Lafayette GMB,SPAM,Google listing scam
+CAL019a79432c597c428f9031c129b776b0,2025-11-12,inbound,17,Lafayette GMB,INCOMPLETE,Just greetings no content
+CAL019a799d860d77c3a93f4d4ebcdf90c5,2025-11-12,inbound,207,Lafayette GMB,OPERATIONS,Realm partner calling about new contract
+CAL019a79b353727c61b3eec6d5756a2477,2025-11-12,inbound,461,Lafayette GMB,CUSTOMER,Excavation ADU hillside Concord site visit scheduled
+CAL019a79d48e187bd9a21aca8194eb4600,2025-11-12,inbound,15,Lafayette GMB,INCOMPLETE,Just greetings no content
+CAL019a79fcf70674a59a4eb40d62a12958,2025-11-12,inbound,25,Lafayette GMB,OPERATIONS,Internal call confirmation
+CAL019a79fd63a775e59860bc52ce0a28a2,2025-11-12,inbound,13,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a7a030ed47ce591b35efa0eba5126,2025-11-12,inbound,14,Rhino Concrete Oakland,SPAM,Google voice search scam
+CAL019a7a0883ce7ada871f88a6c0e374a2,2025-11-12,inbound,14,Rhino Concrete Livermore,SPAM,Google listing scam
+CAL019a7a235acf77eda3cbb44ed91cc710,2025-11-12,inbound,31,Lafayette GMB,SPAM,Google listing scam EMG listings
+CAL019a7a67b58d7b08aec66ef5da1fe051,2025-11-12,inbound,124,ROLLE- Lead Center,OPERATIONS,Westside Building Materials payment processing
+CAL019a7a746059726e9d35b6d61a44186f,2025-11-12,inbound,84,Lafayette GMB,OPERATIONS,Realm partner Matt verifying missed call from Shay
+CAL019a7b20fc81759ca911ef64bf7af5f1,2025-11-12,inbound,50,Orinda GMB,SPAM,Small Business Lending credit line offer
+CAL019a7e0e444f79e6ab6ceb229cdef198,2025-11-13,inbound,42,Lafayette GMB,NOT_FIT,Commercial bid request Santa Rosa outside service area
+CAL019a7e28d7ee70a4a14247f12aa7a6bb,2025-11-13,inbound,41,Orinda GMB,SPAM,Google listing scam press 9 to opt out
+CAL019a7ea0c9b37b18862bdcdc79f77e7f,2025-11-13,inbound,16,Rhino Bathroom & Home Remodeler Orinda,SPAM,Google listing scam
+CAL019a7ee938937ff3811d73f79221b0cd,2025-11-13,inbound,344,Orinda GMB,CUSTOMER,Bathroom remodel repairs Oakland site visit scheduled
+CAL019a7f1acb007cfaa13be12afb881474,2025-11-13,inbound,62,Lafayette GMB,OPERATIONS,Internal accounting payment 300
+CAL019a7f2e0e4072c8b5a3526456c8dfd6,2025-11-13,inbound,11,Oakland ADU Builder & Room Addition,SPAM,Google listing scam
+CAL019a7f634f8979c9a3e7bd217b2723e8,2025-11-13,inbound,37,ROLLE- Lead Center,OPERATIONS,Contra Costa County Fire callback
+CAL019a833ae6cf7102a91676ecc7febb5a,2025-11-14,inbound,60,Rhino Concrete Oakland,SPAM,Google listing scam press 9 to opt out
+CAL019a83410329745d9d0b090f6a43fa47,2025-11-14,inbound,33,Rhino Bathroom & Home Remodeler Orinda,SPAM,Google listing scam
+CAL019a83588f50740c9a0a5a0375ad05d5,2025-11-14,inbound,92,Orinda GMB,OPERATIONS,Caller looking for fly ash slurry wrong number
+CAL019a836bfe59708c910831236016359c,2025-11-14,inbound,9,Lafayette GMB,SPAM,Google listing scam
+CAL019a83773612746f8a245066acfd9e33,2025-11-14,inbound,18,Orinda GMB,INCOMPLETE,Just greetings no content
+CAL019a837f7f877636bcdf820c3c6480c1,2025-11-14,inbound,99,Rhino Builder Website Number,SPAM,Aspire Institute business workshop sales
+CAL019a83e23e3471aba353b8420ac67f68,2025-11-14,inbound,16,Pleasant Hill GMB,INCOMPLETE,Just greetings no content
+CAL019a841322ac7a9fb8e36b6282fd6fc7,2025-11-14,inbound,18,Rhino Drainage System Bay Area,SPAM,Merchant Service Center sales call
+CAL019a844b4e8a72be9a4ff9908e7b5acc,2025-11-14,inbound,70,Orinda GMB,CUSTOMER,Customer follow-up 90 Broadway Oakley waiting for estimate
+CAL019a84656a0d70ae886ad4e54fcac350,2025-11-14,inbound,21,Home Remodelers Orinda,INCOMPLETE,Just greetings no content
+CAL019a847f2b80786a9362f79658bd4f51,2025-11-14,inbound,9,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short just name
+CAL019a84823d427e73af3331feb166d11e,2025-11-14,inbound,12,ROLLE- Lead Center,INCOMPLETE,Short greeting only - no meaningful content
+CAL019a84829290773c92f9b194efcb958c,2025-11-14,inbound,78,ROLLE- Lead Center,OPERATIONS,Confused call about Home Depot number and nephew
+CAL019a848485687c7aa8354b7cabc975c0,2025-11-14,inbound,111,ROLLE- Lead Center,OPERATIONS,Home Depot material payment - plumbing supplies
+CAL019a848cdd367e629aebca4af8b7387f,2025-11-14,inbound,16,Pleasant Hill GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019a848ddc0d7c9cb0ffa005b854ba2c,2025-11-14,inbound,15,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Short greeting - call cut off
+CAL019a84926f16739aa7712d8ec0d6c8d7,2025-11-14,inbound,18,Rhino Drainage System Bay Area,SPAM,Merchant Service Center sales call
+CAL019a92b97e4b7722baf545052f7868fb,2025-11-17,inbound,40,Rhino Retaining Walls & Pavers Oakland,SPAM,Press 9 to opt out robocall
+CAL019a930585727b45bd77552926d8d8c5,2025-11-17,inbound,16,Orinda GMB,INCOMPLETE,Short greeting only - no meaningful content
+CAL019a930efb197f3a8c430d9c073d45a1,2025-11-17,inbound,10,Orinda GMB,INCOMPLETE,Partial sentence - call cut off
+CAL019a935ce87f7130bdd3e29e0f385d00,2025-11-17,inbound,44,Orinda GMB,SPAM,QuickBooks third party sales pitch - credit card fees
+CAL019a939ff26070ec8fc63e4fc6f892df,2025-11-17,inbound,14,Lafayette GMB,SPAM,Google listing scam - partial message
+CAL019a93a10adf7f4c8a1235ad3658734f,2025-11-17,inbound,51,Lafayette GMB,INCOMPLETE,Confused call with no clear purpose
+CAL019a94832c4f7125a70d9d385a39a016,2025-11-17,inbound,33,Pleasant Hill GMB,SPAM,Ally Storage Containers sales pitch
+CAL019a9498d8257f7880253aba59c3ab7b,2025-11-17,inbound,43,Rhino Concrete Oakland,CUSTOMER,Inquiry about concrete cut for driveway in Dublin-San Ramon
+CAL019a97bb87167b82ae121c973625186e,2025-11-18,inbound,59,Rhino Concrete Oakland,CUSTOMER,Salvation Army walkway repair inquiry - Oakland
+CAL019a97c0d54973e18931c02bb70174ec,2025-11-18,inbound,67,Rhino Retaining Walls & Pavers Oakland,CUSTOMER,Same Salvation Army walkway - duplicate inquiry
+CAL019a98282db37065912d08115206c9b0,2025-11-18,inbound,15,Orinda GMB,INCOMPLETE,Short greeting only - no meaningful content
+CAL019a9856bc677880b4b512d8949e4e4b,2025-11-18,inbound,50,Rhino Siding & Window Replacement,NOT_FIT,Contractor needing window install help - not Rhino service type
+CAL019a9d14e4c471488e5d7ce6fd8df4ca,2025-11-19,inbound,17,Orinda GMB,INCOMPLETE,Short greeting only - no meaningful content
+CAL019a9d4e3c3e7e738aadc8d28931425b,2025-11-19,inbound,239,Oakland ADU Builder & Room Addition,CUSTOMER,Garage conversion to ADU inquiry - Oakland - appointment set
+CAL019a9d8a0a2c7a25bd9fca1cf93af8dc,2025-11-19,inbound,21,Orinda GMB,INCOMPLETE,Short partial greeting - no meaningful content
+CAL019a9da74e6e74aa8264a3f8794b0777,2025-11-19,inbound,24,Oakland ADU Builder & Room Addition,INCOMPLETE,Short greeting only - caller hung up
+CAL019a9e29a1547dd5b5b7e51896615074,2025-11-19,inbound,76,Orinda GMB,SPAM,Aspire Institute workshop sales call
+CAL019a9e807f27707d8d2f8cbd188e4fa0,2025-11-19,inbound,33,Rhino Concrete Danville,SPAM,American Global Security sales call
+CAL019aa20a996c7794bc6995b4d21bcdbc,2025-11-20,inbound,31,Rhino Concrete Oakland,SPAM,Press 9 to opt out robocall
+CAL019aa242a1da7028b9770ae40d6a5aa7,2025-11-20,inbound,9,Orinda GMB,SPAM,Pro directory spec robocall
+CAL019aa2582f0b77e19d24f2ae567577b2,2025-11-20,inbound,59,Rhino Bathroom & Home Remodeler Orinda,INCOMPLETE,Numbers only - garbled voicemail
+CAL019aa27a02927b0d971abd5ddc97226c,2025-11-20,inbound,63,Lafayette GMB,OPERATIONS,Realm Renovation lead delay notification
+CAL019aa2a6452a76889df03edb4ea24f53,2025-11-20,inbound,17,Oakland ADU Builder & Room Addition,INCOMPLETE,Short greeting only - caller hung up
+CAL019aa2a6b183747883c3d08422ef3cc0,2025-11-20,inbound,17,Orinda GMB,SPAM,Pascal Burke Insurance sales call
+CAL019aa31f42237c56963ebbc9d329a337,2025-11-20,inbound,21,Home Remodelers Orinda,INCOMPLETE,Short greeting only - no meaningful content
+CAL019aa36ab13374f68631c1c09a353dc7,2025-11-20,inbound,223,ROLLE- Lead Center,OPERATIONS,Westside Building materials payment - stucco supplies
+CAL019aa370dc5c760cbc6acfadbba3cf36,2025-11-20,inbound,14,Rhino Bathroom & Home Remodeler Orinda,SPAM,Google listing scam - partial message
+CAL019aa38d4b7974f396e9af825ea5d6c2,2025-11-20,inbound,214,Orinda GMB,CUSTOMER,Bathroom remodel inquiry - Oakland Fruitvale - insurance estimate - appointment set
+CAL019aa7449aa977b59e5b4a3ad51155d2,2025-11-21,inbound,59,Orinda GMB,SPAM,Press 9 to opt out robocall
+CAL019aa7d1ec3b782a80a5f8151afd6a42,2025-11-21,inbound,390,Orinda GMB,CUSTOMER,Attic renovation for storage - Orinda - appointment set Monday 24th
+CAL019aa7d3d10f75ddb39bed2452c2a8ea,2025-11-21,inbound,62,Rhino Concrete Danville,CUSTOMER,Patio leveling project inquiry - Danville
+CAL019aa858d0837aafa822e9b12a188e9a,2025-11-21,inbound,105,Rhino Builder Website Number,SPAM,Generational Group business owner event invitation
+CAL019aa874d8f67c33a27666c6f0a1e87c,2025-11-21,inbound,23,Orinda GMB,INCOMPLETE,Short greeting - call cut off
+CAL019aa906c4be7f1c9c8c2c1574515eda,2025-11-21,inbound,85,Rhino Siding & Window Replacement,CUSTOMER,Window replacement inquiry - 6 windows - San Francisco
+CAL019aac7f9d617bb1a2aaa96645d20b7e,2025-11-22,inbound,32,Orinda GMB,CUSTOMER,Big job bid request - Walnut Creek
+CAL019ab6b5e2227b4e8acc676708bddc20,2025-11-24,inbound,240,ROLLE- Lead Center,OPERATIONS,BPX Printing permit drawings - color printing discussion
+CAL019ab6d13e767b02a2fd3288fc9a8885,2025-11-24,inbound,127,ROLLE- Lead Center,OPERATIONS,Subcontractor pricing call - 439 Frederick Street windows
+CAL019ab6d35c6f7bca95fa5295ff1133dc,2025-11-24,inbound,9,ROLLE- Lead Center,INCOMPLETE,Very short follow-up - incomplete
+CAL019ab6e6eff07640a2f7873ac49f7245,2025-11-24,inbound,219,ROLLE- Lead Center,OPERATIONS,BPX Printing payment - permit drawings delivery
+CAL019ab6ef35bd75a287655c0bbd6800d6,2025-11-24,inbound,97,ROLLE- Lead Center,OPERATIONS,BPX Printing follow-up - blank pages notification
+CAL019ab74b11537b79acff63e51e77a342,2025-11-24,inbound,29,Pleasant Hill GMB,INCOMPLETE,Short repeated hellos - no meaningful content
+CAL019ab7ae297f7da1a32565ae9bebeb70,2025-11-24,inbound,30,Lafayette GMB,SPAM,Aspire Institute workshop voicemail
+CAL019ab7d2a2ce7562a7d0791d1146e528,2025-11-24,inbound,47,Lafayette GMB,OPERATIONS,Rob calling for Shay - internal/personal call
+CAL019ab8090be6727c82695e93885cc6a5,2025-11-24,inbound,34,Rhino Drainage System Bay Area,INCOMPLETE,Short greeting only - no meaningful content
+CAL019ab8656b3f7a4eb8d9ba94f4adb2d9,2025-11-24,inbound,278,Orinda GMB,NOT_FIT,Eaton fire repair bid - Altadena CA - outside service area
+CAL019ab86a9bdf7dac907e03edf51a8231,2025-11-24,inbound,109,Orinda GMB,NOT_FIT,Same Altadena fire damage follow-up - outside service area
+CAL019abc139cb373b098130998a0e9f889,2025-11-25,inbound,13,Orinda GMB,INCOMPLETE,Short greeting - Swift Wrench call cut off
+CAL019abc36d5c772cda27b2e3176ae462a,2025-11-25,inbound,20,Oakland ADU Builder & Room Addition,INCOMPLETE,Short greeting only - caller hung up
+CAL019abc47cedc7206984274db2af025f8,2025-11-25,inbound,19,Lafayette GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019abc4826a671c09efe01666a97e4c0,2025-11-25,inbound,24,Lafayette GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019abc81fee87502a2cc0c620fea71d1,2025-11-25,inbound,20,Rhino Concrete Lafayette,INCOMPLETE,Short greeting only - caller hung up
+CAL019abc884e2674b79348e4cf47c7bd08,2025-11-25,inbound,10,Rhino Concrete Oakland,INCOMPLETE,Very short greeting only
+CAL019abc9c0c4d71eeb0ea3d59c1d77d13,2025-11-25,inbound,16,Rhino Drainage System Bay Area,INCOMPLETE,Short greeting only - caller hung up
+CAL019abccc336c72a588cdbcb684644955,2025-11-25,inbound,131,Lafayette GMB,OPERATIONS,Roam lead service callback - addition project scheduling
+CAL019abcf85b3a78ffa37a48c52b38587b,2025-11-25,inbound,115,Pleasanton Window Replacement & Siding,NOT_FIT,Anderson screen door inquiry - job too small
+CAL019abd047bbf7d5989e0b74c4fa89475,2025-11-25,inbound,154,ROLLE- Lead Center,OPERATIONS,Prosource flooring payment - Duchateau order
+CAL019abd17587070e9aa4e92a27bf8eee3,2025-11-25,inbound,18,Orinda GMB,INCOMPLETE,Short greeting only - no meaningful content
+CAL019abd284d41792c887eb72e30cd682c,2025-11-25,inbound,27,Rhino Concrete Oakland,SPAM,Merchant Service Center sales call
+CAL019ac123b0cb72169d8f42235464555e,2025-11-26,inbound,58,ROLLE- Lead Center,OPERATIONS,Sebastian scheduling call - site visit time change
+CAL019ac193fbe9731e9cc78546d0137257,2025-11-26,inbound,12,Lafayette GMB,SPAM,Google listing scam - partial message
+CAL019ac1bc99a77fa98ed7bbdbeac65a83,2025-11-26,inbound,52,Pleasanton Window Replacement & Siding,SPAM,Housecall Pro sales call
+CAL019ac1d2bf707c85ab0cd9699d800fea,2025-11-26,inbound,17,Orinda GMB,INCOMPLETE,Short greeting only - no meaningful content
+CAL019acb7c3a5f78f0aafa5aa930fcdb0b,2025-11-28,inbound,23,Rhino Concrete Lafayette,INCOMPLETE,Short greeting only - no meaningful content
+CAL019acbf6c635759993a8f7e7364beb64,2025-11-28,inbound,18,Orinda GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019adaa78726748d90e1f2c1fce77536,2025-12-01,inbound,30,Rhino Concrete Oakland,SPAM,Press 9 to opt out robocall
+CAL019adaecb8767334a57708541c5df270,2025-12-01,inbound,20,Oakland ADU Builder & Room Addition,SPAM,Spark IQ business lead generation pitch
+CAL019adb6a6dfc72419ae8b8f0ccea117f,2025-12-01,inbound,264,Orinda GMB,OPERATIONS,Fire district permit extension request - 226 Overhill Orinda
+CAL019adbe36bc276a8b1d2ab2351c6fb50,2025-12-01,inbound,11,Buildzoom,SPAM,Business flagged for review robocall
+CAL019adbe4357c704dbdf4801a119d354a,2025-12-01,inbound,103,Orinda GMB,NOT_FIT,Oakland balcony inspection - caller wants local Oakland contractor
+CAL019adbfc7cb67ee0b6323f55355344d7,2025-12-01,inbound,119,Lafayette GMB,OPERATIONS,Caller wants to speak directly with Shay - transferred
+CAL019adbffdfd07ec4b79dc6285dc54dd5,2025-12-01,inbound,15,Pleasant Hill GMB,INCOMPLETE,Single hello only
+CAL019adc30bbd5722fbb34822937b9edde,2025-12-01,inbound,92,ROLLE- Lead Center,OPERATIONS,Westside materials payment - 21 Issuebot job
+CAL019adc6ded027157add3afa441ee5176,2025-12-01,inbound,83,Oakland ADU Builder & Room Addition,SPAM,Alpha Eagle Security sales voicemail
+CAL019adfeec7ed702e8895473eb9f93d3c,2025-12-02,inbound,41,Pleasant Hill GMB,OPERATIONS,Electrician job seeker - Luis
+CAL019ae01da507723599f15a7dde19900c,2025-12-02,inbound,16,Orinda GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019ae01dd08f71088f6c93be7e9dbd28,2025-12-02,inbound,18,Lafayette GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019ae0627cd97f3aa644e8298b7ccd6b,2025-12-02,inbound,46,Lafayette GMB,NOT_FIT,San Rafael concrete inquiry - outside service area
+CAL019ae0735271750bb4fc48041e58c722,2025-12-02,inbound,26,Rhino Concrete Oakland,INCOMPLETE,Short repeated hellos - no meaningful content
+CAL019ae08c8d667886adef6e43096961eb,2025-12-02,inbound,13,Orinda GMB,SPAM,Google listing scam - partial message
+CAL019ae0c4e94f7fd8aa046b75a51a88c0,2025-12-02,inbound,36,Orinda GMB,SPAM,Business proposal sales call
+CAL019ae0cb532e7dac910edf926a5059fa,2025-12-02,inbound,21,Rhino Drainage System Bay Area,INCOMPLETE,Short greeting only - caller hung up
+CAL019ae0f5c2ac7ec499704eb23cef21ff,2025-12-02,inbound,30,Pleasant Hill GMB,INCOMPLETE,Short greeting only - caller hung up
+CAL019ae145b4ea7f65a8a6f5cb5520d12f,2025-12-02,inbound,56,Orinda GMB,SPAM,Evolve Surfaces stone products sales call
+CAL019ae531f2ae7d86a4b37aebf6fbbb61,2025-12-03,inbound,39,ROLLE- Lead Center,OPERATIONS,Victor email/text preference follow-up
+CAL019ae537a97a760e985b8440f1559d6a,2025-12-03,inbound,38,ROLLE- Lead Center,OPERATIONS,Floor and Decor payment confirmation
+CAL019ae540d5e17bdbb8c6ee5a76ba70b8,2025-12-03,inbound,61,ROLLE- Lead Center,OPERATIONS,Payment technical issue troubleshooting
+CAL019ae5469835737b91cc325a0e9e3947,2025-12-03,inbound,65,ROLLE- Lead Center,OPERATIONS,Payment issue - trying different credit card
+CAL019ae54b950f754db5219eb1d89dbc16,2025-12-03,inbound,54,ROLLE- Lead Center,OPERATIONS,Payment follow-up - checking with Vivian
+CAL019ae55ec41d7ca98751050b8db8e901,2025-12-03,inbound,146,ROLLE- Lead Center,OPERATIONS,Site visit cancellation - 21 Francesca Way
+CAL019ae5bf160b75649d38b05e235549bc,2025-12-03,inbound,315,Lafayette GMB,OPERATIONS,Ringcentral phone system onboarding call
+CAL019ae5f61b6f7765a4063ccf67ab620a,2025-12-03,inbound,50,Rhino Concrete Oakland,SPAM,Lead generation software sales - Austin programmers
+CAL019ae601312a7d39a1d45dafad4b5982,2025-12-03,inbound,70,Lafayette GMB,NOT_FIT,Residential sidewalk repair - county work declined
+CAL019aea7082d67a0aaa94fe01a3508134,2025-12-04,inbound,105,Rhino Drainage System Bay Area,OPERATIONS,Vendor call from Heritage Landscape Supply sales rep seeking business partnership
+CAL019aeaa9de7d7899aa4efba74305f107,2025-12-04,inbound,13,Orinda GMB,INCOMPLETE,Very short call with only greeting
+CAL019aeb2a022071d9bc6f1170b8957822,2025-12-04,inbound,14,Rhino Drainage System Bay Area,SPAM,Google listing scam - still visible customers
+CAL019aeb8abd8b719cbfc8f94821577d03,2025-12-04,inbound,33,Lafayette GMB,SPAM,Wrong number call from Aspire Institute looking for someone else
+CAL019aec0359287808b472c90a8ca96a0b,2025-12-04,inbound,60,ROLLE- Lead Center,OPERATIONS,Subcontractor confirming job schedule and payment for Canyon View shoring
+CAL019aef7459147f7bad54d3351817109e,2025-12-05,inbound,30,Orinda GMB,SPAM,Press 9 to opt out robocall
+CAL019aefb0e43a737387e65fe191374b13,2025-12-05,inbound,20,Oakland ADU Builder & Room Addition,INCOMPLETE,Very short call with only greetings
+CAL019aefe2461b71f9a515a700b1051336,2025-12-05,inbound,19,Rhino Concrete Danville,SPAM,Google listing scam - business owner only notification
+CAL019af02e185f7984bb6f6c45e1edaf5a,2025-12-05,inbound,10,Rhino Drainage System Bay Area,INCOMPLETE,Very short call with only greetings
+CAL019af03658467f07a374cb8ca83e6d10,2025-12-05,inbound,17,Lafayette GMB,INCOMPLETE,Very short call with only greetings
+CAL019af08327d8718f8a38411106c1eaf4,2025-12-05,inbound,395,Lafayette GMB,CUSTOMER,Concrete sidewalk repair inquiry from James Atkins in Fairfield - scheduled site visit
+CAL019af08cedf074ea828952fd4814b08d,2025-12-05,inbound,33,Lafayette GMB,OPERATIONS,Follow-up call from James confirming Fairfield address correction
+CAL019afecab0b47ce7bfd9626650255b87,2025-12-08,inbound,41,Orinda GMB,SPAM,Lead gen company Growth and Operations pitching exclusive appointments
+CAL019afecbac5771f8bf8b5cee9d7c80c0,2025-12-08,inbound,53,Rhino Concrete Danville,SPAM,Google listing scam - press 1 to speak to agent
+CAL019afecd84c37ceb82963e297202dde9,2025-12-08,inbound,30,Rhino Concrete Oakland,SPAM,Press 9 to opt out robocall
+CAL019aff0b75367b82bf6a2721ff9e3a3a,2025-12-08,inbound,63,Lafayette GMB,OPERATIONS,Julie Holland from Stonewood Kitchen Bath introducing cabinetry vendor services
+CAL019aff5f51c574deb33a675d302fdbec,2025-12-08,inbound,42,Lafayette GMB,NOT_FIT,Daniel Perez asking about pellet stove service - wrong business type
+CAL019affdcf0257c96bd669486e33b713c,2025-12-08,inbound,18,Lafayette GMB,INCOMPLETE,Very short call with only greeting
+CAL019afff6f267713c995133521a59cbf8,2025-12-08,inbound,320,ROLLE- Lead Center,OPERATIONS,Material payment to Ashby Lumber Concord for order 19718
+CAL019b000755ac78e19ad320c2db360d4b,2025-12-08,inbound,30,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Caller asking for business owner then hung up
+CAL019b004b919b78bd8163eaed80aeb5dd,2025-12-08,inbound,249,ROLLE- Lead Center,OPERATIONS,Subcontractor call about parking and work schedule coordination
+CAL019b0090fdf3724396daedd117a93263,2025-12-08,inbound,22,ROLLE- Lead Center,INCOMPLETE,Very short call with only greetings
+CAL019b043628567ca1938e22089a56aabb,2025-12-09,inbound,9,Pleasant Hill GMB,SPAM,Google listing scam - press 1 if business owner
+CAL019b045b4ea67f56adfb61eac925d19b,2025-12-09,inbound,28,Rhino Drainage System Bay Area,SPAM,HouseCall Pro sales call
+CAL019b04a0ca52709fa4f857372413a399,2025-12-09,inbound,20,Orinda GMB,INCOMPLETE,Very short call with only greetings
+CAL019b04c0615a78adbe9e744e78589dd2,2025-12-09,inbound,23,Rhino Concrete Danville,INCOMPLETE,Very short call with only greeting
+CAL019b04f548a776cfad0b314d544cb75e,2025-12-09,inbound,107,ROLLE- Lead Center,OPERATIONS,Internal call about plumber schedule for Discovery Bay tub/jacuzzi installation
+CAL019b050299a7730a9fadc5940e6afb8b,2025-12-09,inbound,12,Pleasant Hill GMB,SPAM,Small business services sales pitch
+CAL019b052050107d3ab91dca392b4c6805,2025-12-09,inbound,120,Orinda GMB,OPERATIONS,Call about Orinda property - Rondell Patrick leaving contact info for More
+CAL019b054689c077c8ade87b28b64a9e68,2025-12-09,inbound,210,ROLLE- Lead Center,OPERATIONS,Sebastian from Rome scheduling site visit for Shayla Love project
+CAL019b05974fb8755ca28cbc5c3b465254,2025-12-09,inbound,178,ROLLE- Lead Center,OPERATIONS,Sebastian from Rome follow-up - confirming Friday 11:30 site visit
+CAL019b0932732074dfa0751136028b705a,2025-12-10,inbound,40,Lafayette GMB,SPAM,Press 9 to opt out robocall
+CAL019b0981973d7bf5bb68a3942792926d,2025-12-10,inbound,64,Lafayette GMB,CUSTOMER,Allen from Brentwood leaving callback number for work inquiry
+CAL019b0a2ef3e77271bb7d9c852e874385,2025-12-10,inbound,12,Rhino Concrete Danville,SPAM,Google listing scam - missing information
+CAL019b0a7769a478728aa65121133af951,2025-12-10,inbound,566,Pleasanton Window Replacement & Siding,CUSTOMER,Window and sliding door installation inquiry from Eva Ma in Dublin - scheduled site visit
+CAL019b0e39489f79e4b7a9bedcc12b6692,2025-12-11,inbound,45,Rhino Concrete Oakland,SPAM,Press 9 to opt out robocall
+CAL019b0e5afdd17f90bf0901b641f532c8,2025-12-11,inbound,85,Orinda GMB,SYSTEM,Houzz lead notification - left voicemail for Anthony Guarino callback
+CAL019b0e6406c971648da42c5f12ecc4c9,2025-12-11,inbound,72,Rhino Siding & Window Replacement,NOT_FIT,Window insulation/condensation issue - Rhino only does replacement not repair
+CAL019b0e726eec7a03bb8237ad42283b01,2025-12-11,inbound,92,ROLLE- Lead Center,OPERATIONS,Material payment to West Side Building Material for Bayardo order
+CAL019b0e755168763ca81982acf9a4cf63,2025-12-11,inbound,27,ADU San Jose,SPAM,HouseCall Pro sales call
+CAL019b0e86e3b27aa9a101c6b01611b366,2025-12-11,inbound,44,ROLLE- Lead Center,OPERATIONS,PGE callback from MacKenzie confirming 413 Carmen Orinda visit completed
+CAL019b0e925b5d70018d8fdcff96dabacc,2025-12-11,inbound,15,Orinda GMB,SPAM,Property damage company solicitation cut short
+CAL019b0ea05f7f7a05be825f6442f7580b,2025-12-11,inbound,45,ROLLE- Lead Center,INCOMPLETE,Very short call - only transcribed That
+CAL019b0ee479527948b8c7cc8b16fe1594,2025-12-11,inbound,62,Rhino Builder Website Number,SPAM,Attire Institute business management workshop sales pitch
+CAL019b0f0a03cc7f72b85f3efaa8308db8,2025-12-11,inbound,17,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Very short call with only greetings
+CAL019b0f1294ff73b29004847879b9b17e,2025-12-11,inbound,20,Orinda GMB,SPAM,Pinion newsletter sales pitch
+CAL019b0f135a15745c8ab71e7aeecd9cb4,2025-12-11,inbound,18,Orinda GMB,INCOMPLETE,Very short call with only greeting
+CAL019b0f13cb587b6ca39b7a43a46af492,2025-12-11,inbound,18,Lafayette GMB,INCOMPLETE,Very short call with only greeting
+CAL019b0f2930a672a295b9143f0f8d8c4d,2025-12-11,inbound,20,Orinda GMB,INCOMPLETE,Very short call with only greetings
+CAL019b0f2c92ea7142aa7131982d1856e6,2025-12-11,inbound,10,Rhino Concrete Danville,SPAM,Small business solicitation
+CAL019b0f4330257bc3a435614514b9c243,2025-12-11,inbound,23,Rhino Concrete Lafayette,SPAM,Caller asking for business owner
+CAL019b0f6f6018759cae01f4a69724a0f7,2025-12-11,inbound,22,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Caller asking for business owner
+CAL019b0f9ae09670eea05a9d931cff5087,2025-12-11,inbound,19,Rhino Bathroom & Home Remodeler Orinda,INCOMPLETE,Very short call with only greeting
+CAL019b100be0cd7c9492335ba324f09686,2025-12-11,inbound,32,ROLLE- Lead Center,OPERATIONS,Roman checking if Shy is available - told on vacation
+CAL019b13a9083d7bf391f556ea00333585,2025-12-12,inbound,39,ROLLE- Lead Center,INCOMPLETE,Very short call - garbled transcript
+CAL019b13cf7fba7249bce6125d0ae85a80,2025-12-12,inbound,42,Oakland ADU Builder & Room Addition,SPAM,Student research project about general contracting - declined
+CAL019b1400e5a37cf383244a81d08afa81,2025-12-12,inbound,20,Orinda GMB,SPAM,Google Funding solicitation
+CAL019b140201f7728a9fce6c4850fb57fe,2025-12-12,inbound,336,Orinda GMB,CUSTOMER,Deck and balcony repair inquiry from Allum Ross in Oakland - scheduled Monday 11:30
+CAL019b1416cdd6740e806c9fd4cad6621b,2025-12-12,inbound,33,Rhino Retaining Walls & Pavers Oakland,SPAM,Partial voicemail - solicitation with phone number
+CAL019b1417d8417dd2841573a2a99757ac,2025-12-12,inbound,66,ROLLE- Lead Center,OPERATIONS,Caller checking when Shy returns from Costa Rica vacation
+CAL019b1419ab517cfe9176d74a6c5e1060,2025-12-12,inbound,18,Lafayette GMB,INCOMPLETE,Very short call with only greeting
+CAL019b141b193074909417901d6f8ecd22,2025-12-12,inbound,16,Lafayette GMB,SPAM,Google listing scam - appearance searches warning
+CAL019b14556f3e731ea8188f67e3bfe97b,2025-12-12,inbound,18,Rhino Concrete Livermore,INCOMPLETE,Very short call with only greetings
+CAL019b1456fdbc74e0801d2d818836ac46,2025-12-12,inbound,71,ADU San Jose,OPERATIONS,Urbina's painting company seeking to get on vendor bid list
+CAL019b192ed0a3700c888bd0d5758db9fa,2025-12-13,inbound,52,Orinda GMB,SPAM,Staffing agency recruiting services pitch
+CAL019b231e6c6e78dfb8053255cc3a0dd0,2025-12-15,inbound,19,ROLLE- Lead Center,SYSTEM,Automated school attendance notification - wrong number
+CAL019b2328110d7d60aef9a6e31b0eeede,2025-12-15,inbound,15,Orinda GMB,SPAM,Google listing scam - may be suspended warning
+CAL019b23363dc17a3d86789fd18dc5d322,2025-12-15,inbound,18,Orinda GMB,INCOMPLETE,Very short call with only greetings
+CAL019b239ddc1371439c4a3b92c03a41cd,2025-12-15,inbound,16,Pleasant Hill GMB,INCOMPLETE,Very short call with only greetings
+CAL019b23c93fe37e6a8877e6cee99d311b,2025-12-15,inbound,16,Oakland ADU Builder & Room Addition,INCOMPLETE,Very short call with only greetings
+CAL019b24081b56716ca3e1ee11dd99ccc1,2025-12-15,inbound,26,Orinda GMB,SPAM,Restaurant service center solicitation
+CAL019b2415bae176688345b062ad2fef08,2025-12-15,inbound,99,ROLLE- Lead Center,OPERATIONS,Dragon calling about $10k check payment for Eli/Elon project at 27 Ichabod Orinda
+CAL019b241ccd2b75c6b95421d608fee038,2025-12-15,inbound,173,ROLLE- Lead Center,OPERATIONS,Material payment to Concord Home Depot for order 349 - OSB/boards/leveling
+CAL019b27fd62e677068c6eaa9e86786e3f,2025-12-16,inbound,53,Lafayette GMB,SPAM,Press 9 to opt out robocall
+CAL019b280621ed79559f352cede0076b80,2025-12-16,inbound,32,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam - press 1 to speak to agent
+CAL019b28136d1e71eea67c93a4b371faef,2025-12-16,inbound,32,Rhino Concrete Lafayette,SPAM,Google listing scam - press 1 to speak to agent
+CAL019b289883877751aead707ee1d83c2a,2025-12-16,inbound,11,Rhino Drainage System Bay Area,SPAM,Google listing scam - authorized representative
+CAL019b28cd7c6f7d2eae1c83164332c92c,2025-12-16,inbound,17,Orinda GMB,INCOMPLETE,Very short call with only greeting
+CAL019b28d056197497b3e2fe7a015bfdaf,2025-12-16,inbound,22,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Very short call with only greetings
+CAL019b2d1c8b997c449642d48ee10f6137,2025-12-17,inbound,227,ROLLE- Lead Center,OPERATIONS,Material payment to Concord Home Depot for Lafayette job
+CAL019b2d6ae8e1735f85aeee04800c1902,2025-12-17,inbound,19,ROLLE- Lead Center,INCOMPLETE,Very short call - only sorry
+CAL019b2db02bd7732e975024bc5650a582,2025-12-17,inbound,43,ROLLE- Lead Center,OPERATIONS,Elon checking if Shai is back from vacation - told 22nd
+CAL019b2df334a8731e8f566994132d2bdb,2025-12-17,inbound,30,Rhino Concrete Lafayette,INCOMPLETE,Very short call with only greeting
+CAL019b2dfca1017dc29a4c1ba9592cf7c1,2025-12-17,inbound,59,Orinda GMB,SPAM,Small business lending line of credit pitch
+CAL019b2e30c6467893bdf3486e72697a32,2025-12-17,inbound,61,Orinda GMB,SPAM,Caller asking for CEO Shai Zilber - told on vacation
+CAL019b2e31d9487fd2b2367391eaaaf9a1,2025-12-17,inbound,20,Lafayette GMB,SPAM,Press 0 to handle - opt out robocall
+CAL019b2e4680c37f498ca37c24fb02aeed,2025-12-17,inbound,19,Orinda GMB,INCOMPLETE,Very short call with only greeting
+CAL019b2e540e3d78d2953b41fb9fa047e2,2025-12-17,inbound,24,Rhino Concrete Oakland,INCOMPLETE,Very short call with only greeting
+CAL019b2ed5d9e87e95810bd12af3fb1302,2025-12-17,inbound,52,Lafayette GMB,SPAM,Wrong number - caller looking for Steve at SMP Construction
+CAL019b329bb4dd708ea3591c78bc043560,2025-12-18,inbound,21,Rhino Concrete Oakland,SPAM,Google listing scam - press 9 to not display
+CAL019b32eb26a5752194deb74def38b5d4,2025-12-18,inbound,21,Oakland ADU Builder & Room Addition,INCOMPLETE,Very short call with only greetings
+CAL019b331aa07f77819999e95882453f6b,2025-12-18,inbound,17,Rhino Concrete Oakland,INCOMPLETE,Very short call with only greetings
+CAL019b33dea07e7196a995bcc6f94c0f07,2025-12-18,inbound,20,ROLLE- Lead Center,INCOMPLETE,Very short call with only greeting
+CAL019b33fe073775e1b92144fda66be8a7,2025-12-18,inbound,349,Orinda GMB,CUSTOMER,Foundation and retaining wall inquiry from T Caires in Pinole - scheduled Jan 6 site visit
+CAL019b3769a85f7d5aad8cfd752bc7d6ab,2025-12-19,inbound,34,Rhino Concrete Oakland,SPAM,Google listing scam - press 9 to opt out
+CAL019b3795cb1278e4ba72d935e54ae48d,2025-12-19,inbound,33,Pleasant Hill GMB,SPAM,United Eagle Group accounts receivable solicitation
+CAL019b38308f21728a9e29b7dc67e0d6cf,2025-12-19,inbound,14,Oakland ADU Builder & Room Addition,INCOMPLETE,Very short call with only greeting
+CAL019b38538d1679f19fde504e59462f1a,2025-12-19,inbound,15,Rhino Concrete Oakland,INCOMPLETE,Very short call with only greeting
+CAL019b388c68317431917d3323b5f4bd19,2025-12-19,inbound,236,ROLLE- Lead Center,OPERATIONS,Material payment to Concord Home Depot for Lafayette VMAD job
+CAL019b389c137f705f8cfb99506e416264,2025-12-19,inbound,16,Rhino Concrete Danville,SPAM,Google listing scam - verify GMB listing
+CAL019b38c39a66788d88d711dbd0a22fff,2025-12-19,inbound,24,ROLLE- Lead Center,OPERATIONS,Internal call - Roli calling Sally via WhatsApp
+CAL019b46ec215d78958d7a458affaa8ac9,2025-12-22,inbound,59,Rhino Concrete Oakland,SPAM,Automated scam - press 9 to opt out
+CAL019b470e717f7b2d8b79aafc7626282c,2025-12-22,inbound,14,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short greeting only
+CAL019b478c4b17725d9a560e30f05a6d2a,2025-12-22,inbound,250,Orinda GMB,CUSTOMER,Wine cellar water leak in Piedmont - scheduled appointment for inspection
+CAL019b47bfb3fd787bacf1c9d3cc84aa52,2025-12-22,inbound,29,Orinda GMB,INCOMPLETE,Brief greeting only - no substantive content
+CAL019b4808e03b7cc082d80cb9123460d4,2025-12-22,inbound,22,Orinda GMB,SPAM,Automated scam - press 9 to opt out
+CAL019b4c6718807577a500bfd1607ad7e7,2025-12-23,inbound,10,Rhino Concrete Lafayette,INCOMPLETE,Very short greeting only
+CAL019b4cbaad837d95b9d798cfa5eb6ad7,2025-12-23,inbound,18,Rhino Concrete Lafayette,INCOMPLETE,Hello only - no content
+CAL019b4cc75e757beca7b168c8810ec8f3,2025-12-23,inbound,17,Rhino Concrete Oakland,INCOMPLETE,Very short greeting only
+CAL019b4cd8d8ae7e72b42fedd90e648d7d,2025-12-23,inbound,16,Oakland ADU Builder & Room Addition,INCOMPLETE,Very short greeting only
+CAL019b4cf6838f7cae967ab7e1b4600db4,2025-12-23,inbound,16,Home Remodelers Orinda,INCOMPLETE,Very short greeting only
+CAL019b519ee362767c9869ebead6338626,2025-12-24,inbound,23,Pleasant Hill GMB,INCOMPLETE,Very short greeting only
+CAL019b51e470157e1ab567e5e81f0cf490,2025-12-24,inbound,21,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019b5b9dabfb7348957737e0f0905dd5,2025-12-26,inbound,14,Lafayette GMB,SPAM,Google listing scam call
+CAL019b5ca413c37dc4980c4df4f99f153e,2025-12-26,inbound,69,Rhino Concrete Lafayette,CUSTOMER,Backyard concrete slab inquiry 500sqft in Orinda - left voicemail
+CAL019b625ea9d17ecba0c14ef070b15f46,2025-12-27,inbound,49,Orinda GMB,SPAM,Small business lending scam - revolving line of credit
+CAL019b6b0b892271acb6a10ff50b3cc7e6,2025-12-29,inbound,55,Rhino Siding & Window Replacement,OPERATIONS,Amazon delivery logistics call for delivery instructions
+CAL019b6b5b17da780e98acbf4ea3e35a48,2025-12-29,inbound,12,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short greeting only
+CAL019b6c6c3f727925959d09976e1e415f,2025-12-29,inbound,166,ROLLE- Lead Center,CUSTOMER,Houzz lead callback - scheduled kitchen remodel appointment for Jan 9 at noon
+CAL019b714702f37cca86930aceb7090e9b,2025-12-30,inbound,59,Orinda GMB,SPAM,Google My Business marketing call - SEO services
+CAL019b71a529ee7254811624a40ba4c669,2025-12-30,inbound,82,Rhino Bathroom & Kitchen Remodel Oakland,CUSTOMER,Oakland Hiller Highlands - bathroom grab bars installation inquiry
+CAL019b71d4955476af8129f52726f9e1bf,2025-12-30,inbound,26,Oakland ADU Builder & Room Addition,SPAM,Small business lending scam call
+CAL019b8007176f785eb3919ead3cb7ee6d,2026-01-02,inbound,14,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short greeting only
+CAL019b84d9b278790d904c5021cdd11263,2026-01-03,inbound,40,Rhino Concrete Oakland,CUSTOMER,San Lorenzo concrete pad inquiry - callback requested
+CAL019b8f44c8bb75b39535b1cdadc5dcc0,2026-01-05,inbound,234,Outbound,OPERATIONS,Internal call about Lido roof leak and Kit box project
+CAL019b8f4582047831b909c013f919520d,2026-01-05,inbound,17,Oakland ADU Builder & Room Addition,SPAM,Honors account points scam
+CAL019b8f6679f470b4bf27b13318a32390,2026-01-05,inbound,16,Lafayette GMB,SPAM,Google listing scam call
+CAL019b8f71e6157d778ec24e0c9b3e27e0,2026-01-05,inbound,30,Lafayette GMB,INCOMPLETE,Only said What - no content
+CAL019b8f73a0f27ab8be2384cbfb9729c8,2026-01-05,inbound,85,Lafayette GMB,OPERATIONS,Caller reporting Rhino sign still up at 226 Overhill Orinda - work stopped
+CAL019b8f9a983f7834a0a8af554d9dc775,2026-01-05,inbound,16,Rhino Concrete Oakland,INCOMPLETE,Very short greeting only
+CAL019b8fdc5b9d7db490c0c7b1a350f609,2026-01-05,inbound,61,Lafayette GMB,NOT_FIT,Forestville/Santa Rosa area foundation inquiry - outside service area
+CAL019b8fe602777dcea0de73add5d6a7fb,2026-01-05,inbound,82,Rhino Concrete Lafayette,SPAM,Quality Imaging ink/toner sales call
+CAL019b9015d2467457aee83f35233ce8cb,2026-01-05,inbound,65,Lafayette GMB,SPAM,Yelp advertising sales call
+CAL019b9060877176e99bb0426c04c3b545,2026-01-05,inbound,202,Outbound,OPERATIONS,Home Depot Concord phone sale $1866.24 for materials - credit card payment
+CAL019b9441e9207846afd059ab6deb13de,2026-01-06,inbound,56,Appointments,SYSTEM,IVR automated message - press 1 to connect
+CAL019b9468ffdf70c69e0888521b0bf695,2026-01-06,inbound,75,Rhino Drainage System Bay Area,CUSTOMER,Pleasanton drainage pipe blockage inquiry - callback requested
+CAL019b947a60a67890a65abe4198fbf9a3,2026-01-06,inbound,56,Appointments,SYSTEM,IVR automated message - press 1 to connect
+CAL019b949d723a70cb9033e38f58e4de67,2026-01-06,inbound,69,Lafayette GMB,CUSTOMER,Dublin balcony concrete repair inquiry - left voicemail
+CAL019b94b313857acaba0609ea77cdfe8b,2026-01-06,inbound,55,Appointments,SYSTEM,IVR automated message - press 1 to connect
+CAL019b94f5b4097b3ab24210ab208bbbcc,2026-01-06,inbound,12,Lafayette GMB,SPAM,Google listing suspension scam
+CAL019b9514913975c5852d9d6cb88856ad,2026-01-06,inbound,14,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short greeting only
+CAL019b9536581670819d9d411d6fe25460,2026-01-06,inbound,35,Outbound,INCOMPLETE,Hello only - no substantive content
+CAL019b9554483c7fbb9e56a5a1bba95901,2026-01-06,inbound,17,Rhino Retaining Walls & Pavers Oakland,SPAM,Merchant service center sales call
+CAL019b9933cc5879f58d1db93f050d89b2,2026-01-07,inbound,45,Rhino Retaining Walls & Pavers Oakland,SPAM,Automated scam - press 9 to opt out
+CAL019b996b0d827bed9db84a6f54efe818,2026-01-07,inbound,908,Outbound,OPERATIONS,Print shop call about blueprints for construction project - $621 total
+CAL019b999214647c6eb1ba3071f05162bc,2026-01-07,inbound,366,Lafayette GMB,CUSTOMER,Martinez concrete driveway and RV access - scheduled estimate today 12:30pm
+CAL019b99c2c9f27f119abcb44af52f57ee,2026-01-07,inbound,280,Rhino Concrete Oakland,NOT_FIT,Sidewalk replacement Oakland - declined subcontractor to subcontractor work
+CAL019b99c9dd1c7d428991f99abce9a148,2026-01-07,inbound,11,Rhino Bathroom & Kitchen Remodel Oakland,SYSTEM,Google Voice system notification
+CAL019b99d9a9507badb617f7eb41cd871d,2026-01-07,inbound,16,ADU San Jose,INCOMPLETE,Very short greeting only
+CAL019b99f74210795689702ece126b8391,2026-01-07,inbound,15,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019b9a110e32718480958f801d7c240a,2026-01-07,inbound,14,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Garbled call - press hello
+CAL019b9a2182ad7713ac4fe1999eba7b39,2026-01-07,inbound,57,Orinda GMB,SPAM,Estimation/bidding services sales call
+CAL019b9a2d97997cdd819a498807ed19c8,2026-01-07,inbound,14,Lafayette GMB,SPAM,Google listing suspension scam
+CAL019b9a3aac787ac4b5c14df3249256fd,2026-01-07,inbound,14,Lafayette GMB,INCOMPLETE,Very short greeting only
+CAL019b9ad178217011a3e13002f668bda7,2026-01-07,inbound,44,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Cold call sales pitch - hung up
+CAL019b9b2c271176cfbbb482b1485d6615,2026-01-07,inbound,19,Orinda GMB,INCOMPLETE,Very short voicemail - delay message only
+CAL019b9e6102757f9885156f3cfaeafd57,2026-01-08,inbound,35,Rhino Concrete Oakland,SPAM,Automated scam - press 9 to opt out
+CAL019b9e6c6fa078a8ba3f2660eb67c393,2026-01-08,inbound,44,Lafayette GMB,CUSTOMER,Hayward basement water leak from retaining wall - left voicemail
+CAL019b9e80bd7b7384830ea84fdbc2ce50,2026-01-08,inbound,42,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google Voice search scam - press 1
+CAL019b9e8a7a0a7e689d3f9fb474298538,2026-01-08,inbound,30,Lafayette GMB,SPAM,Automated scam - press 9 to opt out
+CAL019b9edd55b170c081412f1bcacdc7af,2026-01-08,inbound,18,Orinda GMB,SPAM,Google listing remove scam
+CAL019b9ee5239070bc87fe72997653616f,2026-01-08,inbound,39,Orinda GMB,SPAM,Pre-construction cost estimating sales call
+CAL019b9f0b97d5724c9b50479c03332d21,2026-01-08,inbound,59,Rhino Builder Website Number,SPAM,Aspire Institute business management workshop solicitation
+CAL019b9f191e8d756c91b8d16c56cb9b3c8b,2026-01-08,inbound,9,Lafayette GMB,SPAM,Google business flagged for review scam
+CAL019ba01e440b7d11a939cffa5b7b8b13,2026-01-08,inbound,45,Lafayette GMB,SPAM,PG&E survey call about electrifying appliances
+CAL019ba380a2d6715ab74688284dcb70a2,2026-01-09,inbound,35,Rhino Concrete Oakland,SPAM,Automated scam - press 9 to opt out
+CAL019ba3cd494a7205a671824b6d2a41e5,2026-01-09,inbound,14,Rhino Concrete Lafayette,SPAM,Google listing suspension scam
+CAL019ba3cf4b7d719c910bacbd9b721257,2026-01-09,inbound,10,Buildzoom,SPAM,Automated scam - speak to representative
+CAL019bb31173177a8fadb11ca9bf107afd,2026-01-12,inbound,32,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google Voice search scam - press 1
+CAL019bb32970f1735f8ccb0153f6e14048,2026-01-12,inbound,43,ROLLE- Lead Center,OPERATIONS,Lowes Vallejo phone sale attempt - wrong number
+CAL019bb32a79e67fee96b335482c78646f,2026-01-12,inbound,378,ROLLE- Lead Center,OPERATIONS,Lowes Vallejo materials purchase - 8 bags deck mud $56.56 for Kit box project
+CAL019bb33e2324777f9c394f1086a2ccd2,2026-01-12,inbound,66,Lafayette GMB,NOT_FIT,Commercial saw cutting inquiry - not service offered
+CAL019bb38933e27955bfa74191661a1673,2026-01-12,inbound,194,Ralph Ramos - Lead Center,OPERATIONS,Internal Hebrew call - discussing 500sqft addition estimates and platform
+CAL019bb3bbc7de7d1e94002abdd4da75de,2026-01-12,inbound,25,Rhino Builder Website Number,SPAM,Aspire Institute solicitation - declined
+CAL019bb3e10f5f78d281f79f36ec9ce2a1,2026-01-12,inbound,16,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019bb42f99cb7aa1a6ca72a4976c1d82,2026-01-12,inbound,16,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019bb43c7b0971409a859d5e41924b5a,2026-01-12,inbound,19,Lafayette GMB,INCOMPLETE,Hello only - no content
+CAL019bb459953078f4b6979ad6b80a7f15,2026-01-12,inbound,35,Ralph Ramos - Lead Center,OPERATIONS,Internal call about payment issues - Floor and Decor AmEx problem
+CAL019bb8253fde76dc976dae7ed8e2eee2,2026-01-13,inbound,45,Orinda GMB,SPAM,GSA government contract solicitation
+CAL019bb8415b2e77bcb72de0b0f1b4ce50,2026-01-13,inbound,37,Lafayette GMB,NOT_FIT,Vacaville - State Compensation Insurance Fund appointment
+CAL019bb863e93e75989f15aa2a8e547895,2026-01-13,inbound,77,Orinda GMB,OPERATIONS,Big Creek Lumber vendor outreach - 27 Ichabod Lane project
+CAL019bb86d8ded72698371306706b3a8cb,2026-01-13,inbound,117,Outbound,OPERATIONS,Diabolical Excavation encroachment permit inquiry - will send plans
+CAL019bb8cc88897c7c8e2f0445febe5cc0,2026-01-13,inbound,187,ADU San Jose,CUSTOMER,San Jose ADU inquiry 1050sqft detached 2bed/1bath - scheduled estimate tomorrow 10am
+CAL019bb8e67e26700392d88c64521bea4d,2026-01-13,inbound,15,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing verification scam
+CAL019bb8f98b857e37a5316df1281237c6,2026-01-13,inbound,170,Outbound,OPERATIONS,Accountant Sarkis 1099 and W2 filing discussion - Rhino doing own 1099s
+CAL019bbdb9c23277ad9acdac58fb4a6af3,2026-01-14,inbound,24,Lafayette GMB,INCOMPLETE,Very short greeting only
+CAL019bbdfbc63577039d4b510c50042735,2026-01-14,inbound,18,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019bbe06b0f57b64ae3235a8f2ec5d58,2026-01-14,inbound,67,Orinda GMB,OPERATIONS,Cali Rowland Electric subcontractor bid list inquiry
+CAL019bbe67369a77518743d50fcd7c0e6d,2026-01-14,inbound,57,Lafayette GMB,SPAM,PRV Engineers solicitation for engineering services
+CAL019bbe699b4f7309a781a11ba8d6ae8d,2026-01-14,inbound,55,Ralph Ramos - Lead Center,OPERATIONS,Internal call about A license permit costs - $13k vs $35k quotes
+CAL019bc29b3de77c24b3c7c2c3968d54b6,2026-01-15,inbound,19,Lafayette GMB,INCOMPLETE,Very short greeting only
+CAL019bc2b1d10f7797b5e1d779ccef4f85,2026-01-15,inbound,37,Lafayette GMB,SPAM,Merchant account credits sales call
+CAL019bc2ea5d3575f580c04f9ac7a9f4c0,2026-01-15,inbound,14,Lafayette GMB,INCOMPLETE,Very short greeting only
+CAL019bc302fb62768992613e2926100227,2026-01-15,inbound,9,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google searches scam
+CAL019bc312d0877dd391b899ce0ed0025e,2026-01-15,inbound,31,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019bc317743b7373b0d2dcb02f7b1eb2,2026-01-15,inbound,50,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Cold call asking for business owner
+CAL019bc3184e5d71e2ad380e3da2779a1c,2026-01-15,inbound,34,Orinda GMB,SPAM,Business proposal sales call about kitchen remodeling
+CAL019bc35f32bc7772982b9adfefe611a0,2026-01-15,inbound,335,ROLLE- Lead Center,OPERATIONS,Viewrail cable railing quote followup - Discovery Bay project black hardware
+CAL019bc36a3da47fb69a2f39f92e9993a5,2026-01-15,inbound,19,Orinda GMB,INCOMPLETE,Very short greeting only
+CAL019bc36ac59d7b92b4573f3af67b9452,2026-01-15,inbound,16,Orinda GMB,INCOMPLETE,Short call - only greetings exchanged
+CAL019bc399add97221a4777406832f3dfb,2026-01-15,inbound,112,ROLLE- Lead Center,OPERATIONS,Subcontractor Tyler Jaha from Plant Hazardous Services re underground conduit at Lido Discovery Bay
+CAL019bc3b59b867928a8a9237de5fa74cb,2026-01-15,inbound,56,Appointments,SYSTEM,Houzz IVR notification - press 1 to connect press 2 for details
+CAL019bc3ed97c577ff80f6c64b6055c9c1,2026-01-15,inbound,56,Appointments,SYSTEM,Houzz IVR notification - press 1 to connect press 2 for details
+CAL019bc425661a78809dcabc1583b0b767,2026-01-15,inbound,56,Appointments,SYSTEM,Houzz IVR notification - press 1 to connect press 2 for details
+CAL019bc7cf2f0c7f00a0cf4de030f34fec,2026-01-16,inbound,32,Oakland ADU Builder & Room Addition,INCOMPLETE,Short call - only greetings no conversation
+CAL019bc8519eb9745caa89ea4a7cb7c3ee,2026-01-16,inbound,218,Oakland ADU Builder & Room Addition,CUSTOMER,Juan Lopez in Hayward wants garage to ADU conversion - scheduled site visit Tuesday 1/20 at 10am
+CAL019bc86727d77878ad102b01f9bfc48e,2026-01-16,inbound,86,Rhino Retaining Walls & Pavers Oakland,SPAM,Sam from Nice Job soliciting Google reviews service
+CAL019bc871f921776b93d830001ac9e67a,2026-01-16,inbound,216,Rhino Siding & Window Replacement,OPERATIONS,GC inquiring about siding and windows for fire restoration project in San Leandro
+CAL019bc9062fe172b1923c89f00cd6e9aa,2026-01-16,inbound,146,Orinda GMB,CUSTOMER,Mike Brown re 2018 bathroom remodel permit closure issue in San Francisco
+CAL019bcd6dd0757f89b6806cb0ad73e83d,2026-01-17,inbound,81,Rhino Concrete Lafayette,SPAM,Mark Griffin M&A advisor cold call about business valuation exit planning
+CAL019bcd6eb442763281fe1a1b7281a142,2026-01-17,inbound,82,Rhino Drainage System,SPAM,Mark Griffin M&A advisor cold call about business valuation exit planning
+CAL019bcd773e5673a2b59a562cb55fe082,2026-01-17,inbound,81,Rhino Drainage System,SPAM,Mark Griffin M&A advisor cold call about business valuation exit planning
+CAL019bd71e1b4977648b5fefaf546c3f26,2026-01-19,inbound,33,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019bd72e929d7707a52ef44674d158c5,2026-01-19,inbound,35,Orinda GMB,SPAM,Google listing scam - press 4 or press 9 to opt out
+CAL019bd74621d47bbba126143a2b2276de,2026-01-19,inbound,16,Lafayette GMB,INCOMPLETE,Garbled short call - searches if hello service
+CAL019bd74efae87c908e2c1ada75d5022f,2026-01-19,inbound,24,Orinda GMB,INCOMPLETE,Short call - only hellos and good morning
+CAL019bd790787975dda7b3b63e2b9d36db,2026-01-19,inbound,35,Rhino Retaining Walls & Pavers Oakland,SPAM,Lewis from Nice Job soliciting Google reviews - declined
+CAL019bd7c90e447a4c9030df412b48ade7,2026-01-19,inbound,18,Orinda GMB,INCOMPLETE,Short call - hello good morning hello
+CAL019bd7cd0f5e72bb8e3915994e693874,2026-01-19,inbound,38,Rhino Drainage System Bay Area,NOT_FIT,Caller asking about drainage cleaning service - Rhino only installs not cleans
+CAL019bd8215dc97ff0a35c4af155b0747b,2026-01-19,inbound,60,Orinda GMB,SPAM,Simon from Bidwell Estimates cold call for estimating services
+CAL019bd863674b7f4d9ce363cea8519fdf,2026-01-19,inbound,111,Rhino Drainage System Bay Area,CUSTOMER,Dan Marciel in Livermore re moisture under house possible sump pump or moisture barrier - referral from Chad at Shea Homes
+CAL019bd8d2353079dcbf6266b6003a86e1,2026-01-19,inbound,49,Orinda GMB,CUSTOMER,Diane Galliani left callback number 650-759-0559 - brief voicemail
+CAL019bdc913d9e7d1cb3833d0983265d37,2026-01-20,inbound,52,Oakland ADU Builder & Room Addition,SPAM,Jo from estimating company cold call - declined
+CAL019bdc929db87f61b3cf357dfbb1df60,2026-01-20,inbound,56,Rhino Builder Website Number,OPERATIONS,Juan Lopez checking on 10am appointment - estimator not arrived yet
+CAL019bdcda151c7f808514587706a62ede,2026-01-20,inbound,29,Orinda GMB,SPAM,Riley Shah wrong number call looking for Mohammed
+CAL019bdcf3cae579b0b6770b3711d474e6,2026-01-20,inbound,38,Rhino Concrete Danville,SYSTEM,Test call from Nina Poyoung
+CAL019bdd00d72977378b2da74af2faf957,2026-01-20,inbound,34,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Short call - hold message then hellos
+CAL019bdd0b53cc7291a728696fc807be5d,2026-01-20,inbound,55,Signage,OPERATIONS,Sarah Burge from Diablo Excavation re estimate 1359 for 916 Lido Circle Discovery Bay - $10K cost savings correction
+CAL019bdd2c02fb7a57a1bce16f972799c2,2026-01-20,inbound,290,Rhino Siding & Window Replacement,CUSTOMER,Rachel Forbes in SF wants siding replacement consultation - scheduled Monday 1/26 at 11:30am
+CAL019bdd4161097bb59f8f30106e84eb09,2026-01-20,inbound,209,Rhino Concrete Danville,SYSTEM,Test call from Ara at Ringcentral
+CAL019bdd552ad17eb39faa9abe1bc4064f,2026-01-20,inbound,7,Lafayette GMB,INCOMPLETE,Very short call - only hold message
+CAL019bdd5e7cac741b81cee875279f25d7,2026-01-20,inbound,17,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Short call - only hold message and recording notice
+CAL019bdd60f55a7487af48d7c8121cef41,2026-01-20,inbound,118,Orinda GMB,INCOMPLETE,Hold message then unintelligible Sam Sa Sam Sa
+CAL019bdd68ec9f7a7ba8c9f05a4e5d1cc4,2026-01-20,inbound,18,Rhino Concrete Bay Area,INCOMPLETE,Short call - only hold message and recording notice
+CAL019bdd783f177f1ab631f0924775c8df,2026-01-20,inbound,221,Rhino Concrete Danville,CUSTOMER,Peter Smith civil engineer in Danville left VM re concrete work inquiry
+CAL019bddaf3d847699b9229f823d578ab1,2026-01-20,inbound,41,Yelp,INCOMPLETE,Hold message then unintelligible
+CAL019be00b4dc27e0e98ea90d61f4db5a3,2026-01-21,inbound,16,Yelp,INCOMPLETE,After hours message - no caller response
+CAL019be00e0b657281b7cc2c434b4d098c,2026-01-21,inbound,13,Yelp,INCOMPLETE,After hours message - no caller response
+CAL019be013a3a57f7686ff664c8d642f3b,2026-01-21,inbound,12,Yelp,INCOMPLETE,Voicemail prompt - no message left
+CAL019be1516f80788dbaddcf5cb9edc787,2026-01-21,inbound,75,Orinda GMB,INCOMPLETE,Hold message then silence - no conversation
+CAL019be198c51d783a9eaa87255bc4062e,2026-01-21,inbound,46,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Patricia with Coltony asking if owner interested in referrals - declined
+CAL019be19b19ae798a91f53e93148c812a,2026-01-21,inbound,87,Orinda GMB,SPAM,Walafi from Sky Resin Consulting cold call for leads - declined
+CAL019be1c02b707494a1b562c841f61432,2026-01-21,inbound,24,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be1de258a7069bb724a81028387ce,2026-01-21,inbound,30,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Short call - hold message then hellos no conversation
+CAL019be1e7e5c574898d415dfce95140b1,2026-01-21,inbound,65,Lafayette GMB,SPAM,Eisha with PRV Engineers soliciting engineering services
+CAL019be1efb496737395503750f1a06ffa,2026-01-21,inbound,19,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing scam - business not showing correctly
+CAL019be200f04f7a64b7a5cd0fe05899fb,2026-01-21,inbound,11,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short call - only hold message
+CAL019be2071c38732c86114ad8faba6eee,2026-01-21,inbound,267,Rhino Siding & Window Replacement,CUSTOMER,Tree from Lickhe Properties in SF re siding installation for commercial building 4th floor - sent plans to office email
+CAL019be23f4e1a7ba2b0f91cf0b9090f05,2026-01-21,inbound,16,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be249da297382a92e658942b7e2b9,2026-01-21,inbound,46,Lafayette GMB,SPAM,Harleen from Born Again company cold call for new clients - declined
+CAL019be29699077523925352071a6b3fbe,2026-01-21,inbound,56,Appointments,SYSTEM,Houzz IVR notification - press 1 to connect press 2 for details
+CAL019be2b4694173ffbbdc85adb27329f9,2026-01-21,inbound,219,Outbound,OPERATIONS,Home Depot Concord payment call - Rudy materials for 7 Standard Court - $650.65
+CAL019be2c007ff76fbbd56cd50d6e46c17,2026-01-21,inbound,142,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message then unintelligible Sam
+CAL019be2cf6673746c874d73916920eeb4,2026-01-21,inbound,56,Appointments,SYSTEM,Houzz IVR notification - press 1 to connect press 2 for details
+CAL019be307b828723497bccf0e037905ee,2026-01-21,inbound,56,Appointments,SYSTEM,Houzz IVR notification - press 1 to connect press 2 for details
+CAL019be39b153275219670f87dd4a5aa3d,2026-01-21,inbound,65,Oakland ADU Builder & Room Addition,INCOMPLETE,Voicemail prompt - no message left
+CAL019be6a9e3e17f9989db1b662d81646b,2026-01-22,inbound,40,Rhino Bathroom & Home Remodeler Orinda,SPAM,Victor Ramirez Google listing scam - business not showing correctly
+CAL019be6ad5c087a43b480bdd73e9122f5,2026-01-22,inbound,19,Lafayette GMB,SPAM,Google listing scam - flagged for verification press 2
+CAL019be6b6767d7f3f9f18c8bad154655a,2026-01-22,inbound,7,Rhino Concrete Oakland,INCOMPLETE,Very short call - only hold message
+CAL019be6b84bcd72c19c7cf255567a0327,2026-01-22,inbound,29,Oakland ADU Builder & Room Addition,INCOMPLETE,Short call - hold message then hellos no conversation
+CAL019be6c1d83276b197315faee87aa286,2026-01-22,inbound,17,Ralph Ramos - Lead Center,INCOMPLETE,Garbled call - Ring central AGI Basha hold on
+CAL019be6d7f6397401ad121c7a987ca773,2026-01-22,inbound,148,Orinda GMB,SPAM,Colleen from Red Oak Realty soliciting magazine advertising - declined took email
+CAL019be6d9f53473ecbd8529d7f6fa8f71,2026-01-22,inbound,54,Orinda GMB,SPAM,Matt from Matts Machine cold call - too busy declined
+CAL019be7363ccc7149854bc90abd49f728,2026-01-22,inbound,32,Rhino Bathroom & Kitchen Remodel Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be73ed88c7eef812a96d4155cf495,2026-01-22,inbound,22,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be74b7dfa7736b8e3f975c1b056c6,2026-01-22,inbound,35,Orinda GMB,SPAM,Google listing scam - flagged for review press 4 or press 9
+CAL019be74ddef474469d6ff95ec2608a3e,2026-01-22,inbound,23,Pleasant Hill GMB,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be75856df7eb98c5acba3dd028192,2026-01-22,inbound,13,Rhino Concrete Livermore,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be763862c73eeb894d964df5dfdb7,2026-01-22,inbound,14,Rhino Concrete Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019be792f2b27c899195bcb1ffc4164d,2026-01-22,inbound,199,Lafayette GMB,OPERATIONS,Manny at Ashby Lumber Concord re delivery payment for 1099 Via Medea
+CAL019be7dde9997eff9815536d3c26f14e,2026-01-22,inbound,279,Outbound,OPERATIONS,Danny at BPX Printing re quote for job cards and sheets - delivery to Orinda - order cancelled
+CAL019be7f0514f7ac0a1425b18f86d8d6d,2026-01-22,inbound,10,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Very short call - only hold message and recording notice
+CAL019be818ea437f5cbf3abe29eeea22c8,2026-01-22,inbound,291,Outbound,OPERATIONS,Home Depot Concord payment call - Rudy materials for 7 Scander Court - $72.05
+CAL019be847614579229d48aad4377f23ad,2026-01-22,inbound,81,Outbound,OPERATIONS,Danny at BTX Printing followup - order cancelled - address verification
+CAL019bebb2e7987f51b51c8b1b2bff552a,2026-01-23,inbound,32,Rhino Concrete Oakland,SPAM,Google listing scam - business not showing correctly press 1
+CAL019bebd264fb7375b293a5a2790ecb57,2026-01-23,inbound,22,Rhino Concrete Lafayette,SPAM,Google listing scam - business not showing correctly press 1
+CAL019bec7fcec579449b9ea29d1a209201,2026-01-23,inbound,21,Pleasant Hill GMB,SPAM,Google listing scam - flagged for verification press 2
+CAL019beca50168747ba68be948b16bb701,2026-01-23,inbound,276,Lafayette GMB,CUSTOMER,Don Kavanaugh in Orinda re kitchen and bath refresh - scheduled Tuesday 1/27 at 4:30pm
+CAL019becb4ff92751fab3d0425a06454c2,2026-01-23,inbound,177,Lafayette GMB,INCOMPLETE,Hold message then unintelligible Sa Sam
+CAL019becd62b7c787c920dd79c54499d4d,2026-01-23,inbound,216,Rhino Drainage System Bay Area,NOT_FIT,Linda from real estate co asking about storm drain snaking - scope too small declined
+CAL019becf277f477f687c7abaf3cf23219,2026-01-23,inbound,38,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message then silence - no conversation
+CAL019bed01a1cf794a89ba51608da5e54f,2026-01-23,inbound,417,Orinda GMB,CUSTOMER,Yousef Bouh in San Pablo re garage to living space conversion and ADU plus remodeling - scheduled Tuesday at 1pm
+CAL019bed52105a790ab6129899f054c074,2026-01-23,inbound,81,Lafayette GMB,OPERATIONS,Cesar subcontractor looking for siding carpentry work - noted for future
+CAL019bfb16a2a875b08b8cb74e822be316,2026-01-26,inbound,114,Orinda GMB,CUSTOMER,Rachel Forbes cancelling 11:30 siding consultation - successfully cancelled
+CAL019bfb4d5a8f717a853d4225bbd3fcf4,2026-01-26,inbound,22,,SYSTEM,CallRail notification re Lead Center softphone discontinuation 1/27
+CAL019bfb578d8e735dad69ef2170eca73b,2026-01-26,inbound,8,Orinda GMB,INCOMPLETE,Very short call - only hold message
+CAL019bfb930f1f7e0cb0aca35d897726c2,2026-01-26,inbound,8,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Very short call - only hold message
+CAL019bfc58ab87795186705303d7046846,2026-01-26,inbound,198,Rhino Builder Website Number,CUSTOMER,Juan Lopez cancelling 10am appointment - appraisal conflict - will reschedule
+CAL019c00d6da7570809bf82aec00fe247e,2026-01-27,inbound,14,Lafayette GMB,INCOMPLETE,Short call - only hold message
+CAL019c00e79b127fa1bffb132f68297bf7,2026-01-27,inbound,16,Orinda GMB,SPAM,Google listing scam - flagged for review press 4
+CAL019c00ff922e7b9eb78c21d38cb3db4f,2026-01-27,inbound,14,Rhino Concrete Oakland,SPAM,Google listing scam - flagged for review
+CAL019c016ff5847322a359c0eb2082995f,2026-01-27,inbound,51,Home Remodelers Orinda,INCOMPLETE,Short call - Roly answered then hello hello no response
+CAL019c01b0ff977cd8b696d04c32a9891e,2026-01-27,inbound,250,Outbound,OPERATIONS,Home Depot Concord payment - Ruth calling re Rudy phone sale $603.98 and $679 for 3266 Claudia Drive
+CAL019c057045a87de2bff8bc3039cd8491,2026-01-28,inbound,25,Pleasant Hill GMB,SPAM,Google listing scam - business not showing correctly press 1
+CAL019c058db98776b1b31d3587558f75ce,2026-01-28,inbound,25,Lafayette GMB,SPAM,Google listing scam - flagged for review press 4
+CAL019c05df81007f02994ddbe2a70e53b6,2026-01-28,inbound,30,Rhino Concrete Livermore,SPAM,Google listing scam - business not showing correctly press 1
+CAL019c05dfc51771c59647e813ffe497bf,2026-01-28,inbound,19,Rhino Concrete Oakland,INCOMPLETE,Short call - only hold message
+CAL019c05ff94f37ce48c7563979d29e486,2026-01-28,inbound,8,Lafayette GMB,INCOMPLETE,Very short call - only hold message
+CAL019c061670e7706ea3ea7a7378292753,2026-01-28,inbound,22,Pleasant Hill GMB,SPAM,Google listing scam - business not showing correctly press 1
+CAL019c06354b0f7b5a95218d498d9329ab,2026-01-28,inbound,15,Rhino Concrete Lafayette,SPAM,Google listing scam automated message
+CAL019c064ebf7f705482e7cb1bda483df4,2026-01-28,inbound,22,Rhino Concrete Oakland,SPAM,Google listing scam press 1 to verify
+CAL019c067623d97536b4bd40b16eed0965,2026-01-28,inbound,18,Orinda GMB,INCOMPLETE,Hold message only no conversation
+CAL019c0693583e7110a589fbe6a9fc552e,2026-01-28,inbound,42,Orinda GMB,SPAM,Lead Vision sales call for Clayton
+CAL019c069ec90d773eaf03b3f7562ac8de,2026-01-28,inbound,19,Rhino Concrete Danville,SPAM,Google listing scam press 1 to verify
+CAL019c06afb6a37141847187e5c772f6b9,2026-01-28,inbound,12,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Hold message only no conversation
+CAL019c06b414e377a08c1e0e1d5c1ad2e1,2026-01-28,inbound,69,Orinda GMB,OPERATIONS,Insulation subcontractor Carlos seeking work
+CAL019c06b90fa37d398738956692d5ae67,2026-01-28,inbound,38,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message caller hung up
+CAL019c06bb5e1077b08c0abcf4dbfb9874,2026-01-28,inbound,10,Rhino Retaining Walls & Pavers Oakland,INCOMPLETE,Hold message only no conversation
+CAL019c06c1ccf674c89037eebee4bf00b5,2026-01-28,inbound,17,Orinda GMB,INCOMPLETE,Hold message only no conversation
+CAL019c0732b7e27bfa9c3c50c22ec5228e,2026-01-28,inbound,30,Orinda GMB,INCOMPLETE,Hold message only no conversation
+CAL019c0ab361ef70efa6779419eed053c4,2026-01-29,inbound,44,Orinda GMB,SPAM,Mitch cold call sales declined
+CAL019c0ad807437b998562e64a40473b6a,2026-01-29,inbound,27,Orinda GMB,SPAM,Mitch cold call sales declined
+CAL019c0ae995637b74a1734969a2152eed,2026-01-29,inbound,44,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Voicemail greeting no message left
+CAL019c0af49c5f77ae9be7fefc685bfcd7,2026-01-29,inbound,21,Rhino Concrete Lafayette,SPAM,Google listing scam press 1 to verify
+CAL019c0b09e6d1752685ac7b5204f9d608,2026-01-29,inbound,16,Rhino Concrete Oakland,SPAM,Google listing scam press 1 to verify
+CAL019c0b166fbf768f8daae04a553e0fd6,2026-01-29,inbound,24,Lafayette GMB,SPAM,My Pro Directory listing scam press 2
+CAL019c0b2a1167758fa6f0c9f83da9354f,2026-01-29,inbound,23,Pleasant Hill GMB,SPAM,Google listing scam press 1 to verify
+CAL019c0b477dae7ca88d0d6e2e4d10db42,2026-01-29,inbound,29,Oakland ADU Builder & Room Addition,SPAM,Mitch repeated cold caller declined
+CAL019c0b47fee77f32ab684dad390a244e,2026-01-29,inbound,32,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam went to voicemail
+CAL019c0b501191731588503125bac0aa29,2026-01-29,inbound,116,Orinda GMB,NOT_FIT,Kitchen hood job in Orinda too small referred to handyman
+CAL019c0b5978e7758b9cdb63317d578d3a,2026-01-29,inbound,14,Rhino Concrete Danville,SPAM,Google listing scam press 1 to verify
+CAL019c0b664b63710e935941bd3639649f,2026-01-29,inbound,26,Lafayette GMB,INCOMPLETE,Hold message caller hung up
+CAL019c0b9dd6f977f087a69d4e19bffc98,2026-01-29,inbound,19,Rhino Concrete Livermore,SPAM,Google listing scam press 1 to verify
+CAL019c0ba0d2ce7e1da8d1710c0cb0e9a6,2026-01-29,inbound,11,Rhino Bathroom & Kitchen Remodel Oakland,INCOMPLETE,Hold message only no conversation
+CAL019c0bb16aaa74fd9559e0b1299b772a,2026-01-29,inbound,15,Orinda GMB,INCOMPLETE,Hold message only no conversation
+CAL019c0bfbb31f7abcbd31e4893e0d8482,2026-01-29,inbound,59,Outbound,OPERATIONS,Home Depot Concord voicemail re phone purchase Rudy
+CAL019c0bfdba15790c85e05d60318a4abc,2026-01-29,inbound,58,Outbound,OPERATIONS,Home Depot Concord text confirmation for Rudy purchase
+CAL019c0f7e9b5f7ef998fdf94afa336844,2026-01-30,inbound,16,Lafayette GMB,INCOMPLETE,Voicemail greeting no message left
+CAL019c0fc4cbe070d7bda7bd20faa74708,2026-01-30,inbound,16,Rhino Retaining Walls & Pavers Oakland,SPAM,Google listing scam press 1 to verify
+CAL019c0fccac147e979e90a035c6d2f1b3,2026-01-30,inbound,20,Rhino Concrete Oakland,SPAM,Google listing scam press 1 to verify
+CAL019c0fda122e7096a32f5ebbbec7bcfd,2026-01-30,inbound,34,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message caller hung up
+CAL019c0feaa7217c439314772aa167d607,2026-01-30,inbound,13,Rhino Concrete Lafayette,SPAM,Google listing scam automated message
+CAL019c0ff1535174a6b5a0c0e6452796e4,2026-01-30,inbound,12,Rhino Concrete Livermore,SPAM,Google listing scam automated message
+CAL019c0ff7d283777099384f7897759082,2026-01-30,inbound,32,Pleasant Hill GMB,SPAM,Google listing scam press 1 with opt out
+CAL019c10213a977da1bba0500aacf8bc8d,2026-01-30,inbound,13,Orinda GMB,INCOMPLETE,Hold message only no conversation
+CAL019c10236d6079fca7e262dd51d7ea02,2026-01-30,inbound,30,Orinda GMB,INCOMPLETE,Hold message caller said hello only
+CAL019c104a76b977c6b153578b69836c58,2026-01-30,inbound,15,Lafayette GMB,INCOMPLETE,Hold message only no conversation
+CAL019c106c4a9a728cbd89cba4a011c845,2026-01-30,inbound,21,Appointments,SYSTEM,Houzz lead notification press 1 to connect
+CAL019c106d9f7e7410a36998402d6311ad,2026-01-30,inbound,8,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message only 8 seconds
+CAL019c10a4a4227e8ea1abd3398c248f4a,2026-01-30,inbound,22,Appointments,SYSTEM,Houzz lead notification press 1 to connect
+CAL019c10dd318978979a50752b0b44b209,2026-01-30,inbound,24,Appointments,SYSTEM,Houzz lead notification press 1 to connect
+CAL019c10f96d367e7c8579b9c7728a3208,2026-01-30,inbound,58,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message caller hung up
+CAL019c1107a0af7f2dae76f6f446dc530d,2026-01-30,inbound,59,Rhino Concrete Danville,INCOMPLETE,Hold message caller did not respond
+CAL019c1596da5575b286a98041c3a8cf56,2026-01-31,inbound,9,Lafayette GMB,INCOMPLETE,Voicemail greeting no message left
+CAL019c1f3140787417be5a939667efb56a,2026-02-02,inbound,33,Rhino Concrete Danville,SPAM,Google listing scam with opt out number
+CAL019c1f32958476e09fe5eaf784a775a8,2026-02-02,inbound,86,Lafayette GMB,INCOMPLETE,Hold message only no conversation
+CAL019c1f3dc93e7b0f9607536a14a8d895,2026-02-02,inbound,393,Lafayette GMB,CUSTOMER,San Ramon walkway leveling driveway foundation cracks appt set
+CAL019c1f4c9b017e2d82a68a23891a83f3,2026-02-02,inbound,51,Appointments,CUSTOMER,Houzz lead 3-6 bathroom remodel master bath restructure
+CAL019c1f5667947d82a1325bd955fd5615,2026-02-02,inbound,12,Lafayette GMB,INCOMPLETE,Hold message only no conversation
+CAL019c1f708dee73608d36f98ad1bcfbed,2026-02-02,inbound,198,Pleasant Hill GMB,CUSTOMER,Pleasant Hill interior paint bathroom deck roof appt set Wed
+CAL019c1fb1b452750ba3aec5b695aabe29,2026-02-02,inbound,62,925-233-0109,OPERATIONS,Inquiry about Overhill Orinda project ownership
+CAL019c1fb709f97eb5b2f8b5bdbaed63a4,2026-02-02,inbound,28,Orinda GMB,INCOMPLETE,Hold message caller said hello only
+CAL019c1fccccfe78ad887309dd5c852288,2026-02-02,inbound,20,Rhino Concrete Lafayette,SPAM,Google listing scam press 1 to verify
+CAL019c1fdd326278f4af29344b20650606,2026-02-02,inbound,16,Rhino Concrete Livermore,SPAM,Google listing scam press 1 to verify
+CAL019c1ff36b207f4da329adb49abf1e4f,2026-02-02,inbound,59,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message caller hung up
+CAL019c1ff6476174d8a23055323decc9f0,2026-02-02,inbound,12,Lafayette GMB,INCOMPLETE,Hold message only no conversation
+CAL019c1ffd6a6877e39087f8abc58551d1,2026-02-02,inbound,68,ROLLE- Lead Center,OPERATIONS,Woodland Direct Fireplace vendor call for Roli
+CAL019c20040a067b3c83acbb4a1176dbec,2026-02-02,inbound,13,Rhino Concrete Lafayette,SPAM,Google listing flagged for review scam
+CAL019c200a1b717da280eec12e9fa3ab31,2026-02-02,inbound,12,Rhino Concrete Lafayette,SPAM,Google listing scam automated message
+CAL019c202335027669b66a4e96fb72d23a,2026-02-02,inbound,15,Rhino Concrete Danville,SPAM,Google listing scam press 1 to verify
+CAL019c2042bba776da9da6cf15ff163fde,2026-02-02,inbound,33,Rhino Concrete Danville,SPAM,Google listing scam with opt out number
+CAL019c2067013f723798978d3ea8f7ed0b,2026-02-02,inbound,78,Lafayette GMB,OPERATIONS,TRV Engineers Aisha offering engineering services
+CAL019c20a918257bd89c80486d7aa1539a,2026-02-02,inbound,22,Oakland ADU Builder & Room Addition,INCOMPLETE,Hold message caller asked for Rolly only
+CAL019c20d9a5ef75f291852184fb051169,2026-02-02,inbound,100,Orinda GMB,OPERATIONS,Innodes Engineering Kevin MEP services follow up declined
