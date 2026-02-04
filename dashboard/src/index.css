@@ -269,12 +269,22 @@ body {
 /* Table */
 .table-container {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -4px;
+  padding: 0 4px;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+    min-width: 500px;
+  }
 }
 
 th {
@@ -286,10 +296,23 @@ th {
   white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+  th {
+    padding: var(--space-2) var(--space-2);
+    font-size: 11px;
+  }
+}
+
 td {
   padding: var(--space-3) var(--space-4);
   border-bottom: 1px solid var(--border-subtle);
   vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  td {
+    padding: var(--space-2) var(--space-2);
+  }
 }
 
 tr:hover td {
@@ -524,4 +547,115 @@ tr:hover td {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: var(--space-5);
+}
+
+/* Mobile-specific overrides */
+@media (max-width: 768px) {
+  /* Make cards more compact */
+  .card {
+    padding: var(--space-3);
+  }
+  
+  /* Stats grid - 2 columns, tighter */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-2);
+  }
+  
+  .stat-card {
+    padding: var(--space-2);
+  }
+  
+  .stat-value {
+    font-size: 20px;
+  }
+  
+  .stat-label {
+    font-size: 10px;
+  }
+  
+  /* Insights cards - stack horizontally scrolling items */
+  .insight-card-content {
+    flex-direction: column;
+    gap: 8px !important;
+  }
+  
+  .insight-card-content > div:first-child {
+    font-size: 24px !important;
+  }
+  
+  /* Data breakdown - stack on mobile */
+  .data-breakdown-flex {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  
+  /* Pie chart smaller on mobile */
+  .chart-container {
+    width: 100% !important;
+  }
+  
+  /* Modal responsive */
+  .modal-overlay {
+    padding: var(--space-3);
+  }
+  
+  .modal {
+    max-height: 90vh;
+  }
+  
+  .modal-header, .modal-body {
+    padding: var(--space-3);
+  }
+  
+  /* Two-column grid in modals - stack on mobile */
+  .modal-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Section spacing */
+  .section {
+    margin-bottom: var(--space-5);
+  }
+  
+  .section-title {
+    font-size: 16px;
+    margin-bottom: var(--space-3);
+  }
+  
+  /* Filter buttons wrap better */
+  .filters {
+    gap: var(--space-1);
+  }
+  
+  .filter-btn {
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+  
+  /* Insights key findings cards */
+  .finding-card {
+    padding: var(--space-3) !important;
+  }
+  
+  .finding-card h3 {
+    font-size: 14px !important;
+  }
+  
+  .finding-card p {
+    font-size: 12px !important;
+  }
+  
+  /* Recommendations cards */
+  .recommendation-item {
+    padding: var(--space-3) !important;
+  }
+  
+  .recommendation-item h4 {
+    font-size: 13px !important;
+  }
+  
+  .recommendation-item p {
+    font-size: 12px !important;
+  }
 }

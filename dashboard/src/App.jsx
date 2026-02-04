@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts'
 
 // Icons
 const PlayIcon = () => (
@@ -203,7 +202,7 @@ function CallModal({ call, onClose }) {
             </div>
           )}
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '24px' }}>
+          <div className="modal-detail-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '12px', marginBottom: '20px' }}>
             <div>
               <div className="stat-label">Category</div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -386,50 +385,48 @@ function InsightsTab({ stats, calls }) {
       <section className="section">
         <h2 className="section-title">💡 Key Findings</h2>
         
-        <div className="card" style={{ marginBottom: '16px' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
-            <div style={{ fontSize: '32px' }}>⏱️</div>
-            <div>
-              <h3 style={{ margin: '0 0 8px 0', fontSize: '16px' }}>Spam is Costing Real Time</h3>
-              <p className="text-secondary" style={{ margin: 0, fontSize: '14px' }}>
-                <strong style={{ color: 'var(--color-spam)' }}>{spamCalls.length} spam calls</strong> consumed approximately 
-                <strong style={{ color: 'var(--color-spam)' }}> {spamHours} hours</strong> of phone time.
+        <div className="card" style={{ marginBottom: '12px' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
+            <div style={{ fontSize: '24px', flexShrink: 0 }}>⏱️</div>
+            <div style={{ minWidth: 0 }}>
+              <h3 style={{ margin: '0 0 4px 0', fontSize: '14px' }}>Spam is Costing Real Time</h3>
+              <p className="text-secondary" style={{ margin: 0, fontSize: '13px' }}>
+                <strong style={{ color: 'var(--color-spam)' }}>{spamCalls.length} spam calls</strong> = ~<strong style={{ color: 'var(--color-spam)' }}>{spamHours}h</strong> phone time
               </p>
             </div>
           </div>
         </div>
 
-        <div className="card" style={{ marginBottom: '16px' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
-            <div style={{ fontSize: '32px' }}>🚨</div>
-            <div>
-              <h3 style={{ margin: '0 0 8px 0', fontSize: '16px' }}>Google Listing Scams are the #1 Problem</h3>
-              <p className="text-secondary" style={{ margin: 0, fontSize: '14px' }}>
-                <strong>{spamBreakdown['Google Listing Scams']}</strong> calls were Google listing scams.
-                <span style={{ color: 'var(--color-spam)' }}> These are NOT from Google.</span>
+        <div className="card" style={{ marginBottom: '12px' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
+            <div style={{ fontSize: '24px', flexShrink: 0 }}>🚨</div>
+            <div style={{ minWidth: 0 }}>
+              <h3 style={{ margin: '0 0 4px 0', fontSize: '14px' }}>Google Listing Scams = #1 Problem</h3>
+              <p className="text-secondary" style={{ margin: 0, fontSize: '13px' }}>
+                <strong>{spamBreakdown['Google Listing Scams']}</strong> calls · <span style={{ color: 'var(--color-spam)' }}>NOT from Google</span>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="card" style={{ marginBottom: '16px' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
-            <div style={{ fontSize: '32px' }}>📞</div>
-            <div>
-              <h3 style={{ margin: '0 0 8px 0', fontSize: '16px' }}>{incompletePercent}% of Callers Abandon Before Speaking</h3>
-              <p className="text-secondary" style={{ margin: 0, fontSize: '14px' }}>
-                <strong>{incompleteCalls.length} incomplete calls</strong> - possible issues with hold times, IVR, or voicemail length.
+        <div className="card" style={{ marginBottom: '12px' }}>
+          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
+            <div style={{ fontSize: '24px', flexShrink: 0 }}>📞</div>
+            <div style={{ minWidth: 0 }}>
+              <h3 style={{ margin: '0 0 4px 0', fontSize: '14px' }}>{incompletePercent}% Abandon Before Speaking</h3>
+              <p className="text-secondary" style={{ margin: 0, fontSize: '13px' }}>
+                <strong>{incompleteCalls.length} incomplete</strong> - hold times, IVR, or voicemail issues
               </p>
             </div>
           </div>
         </div>
 
         {topSources.length > 0 && (
-          <div className="card" style={{ marginBottom: '16px' }}>
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
-              <div style={{ fontSize: '32px' }}>⭐</div>
-              <div style={{ flex: 1 }}>
-                <h3 style={{ margin: '0 0 12px 0', fontSize: '16px' }}>Best Performing Phone Lines</h3>
+          <div className="card" style={{ marginBottom: '12px' }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
+              <div style={{ fontSize: '24px', flexShrink: 0 }}>⭐</div>
+              <div style={{ flex: 1, minWidth: 0, overflow: 'hidden' }}>
+                <h3 style={{ margin: '0 0 8px 0', fontSize: '14px' }}>Best Performing Lines</h3>
                 <div className="table-container">
                   <table>
                     <thead><tr><th>Source</th><th>Total</th><th>Customers</th><th>Rate</th></tr></thead>
@@ -451,12 +448,12 @@ function InsightsTab({ stats, calls }) {
         )}
 
         <div className="card">
-          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
-            <div style={{ fontSize: '32px' }}>📍</div>
-            <div>
-              <h3 style={{ margin: '0 0 8px 0', fontSize: '16px' }}>Lost Opportunities Outside Service Area</h3>
-              <p className="text-secondary" style={{ margin: 0, fontSize: '14px' }}>
-                <strong>{calls.filter(c => c.category === 'not_fit').length} potential customers</strong> called from areas Rhino doesn't serve.
+          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
+            <div style={{ fontSize: '24px', flexShrink: 0 }}>📍</div>
+            <div style={{ minWidth: 0 }}>
+              <h3 style={{ margin: '0 0 4px 0', fontSize: '14px' }}>Lost Opportunities Outside Area</h3>
+              <p className="text-secondary" style={{ margin: 0, fontSize: '13px' }}>
+                <strong>{calls.filter(c => c.category === 'not_fit').length}</strong> potential customers from areas not served
               </p>
             </div>
           </div>
@@ -464,13 +461,13 @@ function InsightsTab({ stats, calls }) {
       </section>
 
       <section className="section">
-        <h2 className="section-title">🔴 Spam Breakdown ({spamCalls.length} calls)</h2>
+        <h2 className="section-title">🔴 Spam ({spamCalls.length})</h2>
         <div className="card">
-          <div style={{ display: 'grid', gap: '8px' }}>
+          <div style={{ display: 'grid', gap: '4px' }}>
             {Object.entries(spamBreakdown).filter(([_, count]) => count > 0).sort((a, b) => b[1] - a[1]).map(([type, count]) => (
-              <div key={type} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: '1px solid var(--border-subtle)' }}>
-                <span>{type}</span>
-                <span className="font-mono" style={{ color: 'var(--color-spam)' }}>{count}</span>
+              <div key={type} style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border-subtle)', fontSize: '13px' }}>
+                <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: '8px' }}>{type}</span>
+                <span className="font-mono" style={{ color: 'var(--color-spam)', flexShrink: 0 }}>{count}</span>
               </div>
             ))}
           </div>
@@ -478,13 +475,13 @@ function InsightsTab({ stats, calls }) {
       </section>
 
       <section className="section">
-        <h2 className="section-title">🟢 Customer Breakdown ({customerCalls.length} calls)</h2>
+        <h2 className="section-title">🟢 Customers ({customerCalls.length})</h2>
         <div className="card">
-          <div style={{ display: 'grid', gap: '8px' }}>
+          <div style={{ display: 'grid', gap: '4px' }}>
             {Object.entries(customerBreakdown).sort((a, b) => b[1] - a[1]).map(([type, count]) => (
-              <div key={type} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: '1px solid var(--border-subtle)' }}>
-                <span>{type}</span>
-                <span className="font-mono" style={{ color: 'var(--color-customer)' }}>{count}</span>
+              <div key={type} style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 0', borderBottom: '1px solid var(--border-subtle)', fontSize: '13px' }}>
+                <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: '8px' }}>{type}</span>
+                <span className="font-mono" style={{ color: 'var(--color-customer)', flexShrink: 0 }}>{count}</span>
               </div>
             ))}
           </div>
@@ -940,16 +937,16 @@ export default function App() {
               <div className="card-header">
                 <span className="card-title">📅 By Month</span>
               </div>
-              <div style={{ padding: '12px' }}>
-                <table style={{ width: '100%', fontSize: '13px', borderCollapse: 'collapse' }}>
+              <div className="table-container">
+                <table>
                   <thead>
-                    <tr style={{ borderBottom: '2px solid var(--border)' }}>
-                      <th style={{ textAlign: 'left', padding: '8px' }}>Month</th>
-                      <th style={{ textAlign: 'right', padding: '8px' }}>Total</th>
-                      <th style={{ textAlign: 'right', padding: '8px' }}>🟢 Customer</th>
-                      <th style={{ textAlign: 'right', padding: '8px' }}>🔴 Spam</th>
-                      <th style={{ textAlign: 'right', padding: '8px' }}>🔵 Operations</th>
-                      <th style={{ textAlign: 'right', padding: '8px' }}>⚪ Incomplete</th>
+                    <tr>
+                      <th>Month</th>
+                      <th style={{ textAlign: 'right' }}>Total</th>
+                      <th style={{ textAlign: 'right' }}>🟢</th>
+                      <th style={{ textAlign: 'right' }}>🔴</th>
+                      <th style={{ textAlign: 'right' }}>🔵</th>
+                      <th style={{ textAlign: 'right' }}>⚪</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -970,83 +967,19 @@ export default function App() {
                         const [year, month] = m.split('-');
                         const label = `${monthNames[parseInt(month) - 1]} ${year}`;
                         return (
-                          <tr key={m} style={i < months.length - 1 ? { borderBottom: '1px solid var(--border)' } : {}}>
-                            <td style={{ padding: '8px' }}>{label}</td>
-                            <td style={{ textAlign: 'right', padding: '8px' }}>{monthCalls.length}</td>
-                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-customer)' }}>{monthCalls.filter(c => c.category === 'customer').length}</td>
-                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-spam)' }}>{monthCalls.filter(c => c.category === 'spam').length}</td>
-                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-operations)' }}>{monthCalls.filter(c => c.category === 'operations').length}</td>
-                            <td style={{ textAlign: 'right', padding: '8px', color: 'var(--color-incomplete)' }}>{monthCalls.filter(c => c.category === 'incomplete').length}</td>
+                          <tr key={m}>
+                            <td>{label}</td>
+                            <td style={{ textAlign: 'right' }}>{monthCalls.length}</td>
+                            <td style={{ textAlign: 'right', color: 'var(--color-customer)' }}>{monthCalls.filter(c => c.category === 'customer').length}</td>
+                            <td style={{ textAlign: 'right', color: 'var(--color-spam)' }}>{monthCalls.filter(c => c.category === 'spam').length}</td>
+                            <td style={{ textAlign: 'right', color: 'var(--color-operations)' }}>{monthCalls.filter(c => c.category === 'operations').length}</td>
+                            <td style={{ textAlign: 'right', color: 'var(--color-incomplete)' }}>{monthCalls.filter(c => c.category === 'incomplete').length}</td>
                           </tr>
                         );
                       });
                     })()}
                   </tbody>
                 </table>
-              </div>
-            </div>
-          </section>
-
-          {/* Data Explanation with Charts */}
-          <section className="section">
-            <div className="card">
-              <div className="card-header">
-                <span className="card-title">📊 Data Breakdown</span>
-              </div>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', alignItems: 'flex-start' }}>
-                {/* Text Explanation */}
-                <div style={{ fontSize: '13px', lineHeight: '1.6', flex: '1', minWidth: '280px' }}>
-                  <p><strong>{stats.total} Total Calls</strong></p>
-                  <p style={{ marginTop: '12px' }}><strong>Classification Breakdown:</strong></p>
-                  <ul style={{ marginLeft: '20px', marginTop: '4px' }}>
-                    <li><span style={{ color: 'var(--color-customer)' }}>Customer ({calls.filter(c => c.category === 'customer' && !c.voicemail).length})</span> = Answered inquiries about concrete work</li>
-                    <li><span style={{ color: '#a855f7' }}>Customer VM ({calls.filter(c => c.category === 'customer' && c.voicemail).length})</span> = Customer voicemails (missed opportunities)</li>
-                    <li><span style={{ color: 'var(--color-spam)' }}>Spam ({calls.filter(c => c.category === 'spam').length})</span> = Cold calls, robocalls, sales pitches</li>
-                    <li><span style={{ color: 'var(--color-operations)' }}>Operations ({calls.filter(c => c.category === 'operations').length})</span> = Suppliers, insurance, accounting</li>
-                    <li><span style={{ color: '#eab308' }}>Not Relevant ({calls.filter(c => c.category === 'other_inquiry').length})</span> = Out of area, wrong service</li>
-                    <li><span style={{ color: 'var(--color-incomplete)' }}>Incomplete ({calls.filter(c => c.category === 'incomplete').length})</span> = Too short or unclear to classify</li>
-                  </ul>
-                </div>
-
-                {/* Pie Chart - Classification */}
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
-                  <div style={{ textAlign: 'center' }}>
-                    <h4 style={{ marginBottom: '4px', color: 'var(--text-secondary)', fontSize: '12px' }}>Classification ({stats.total} calls)</h4>
-                    <ResponsiveContainer width={280} height={280}>
-                      <PieChart>
-                        <Pie
-                          data={[
-                            { name: `Customer (${calls.filter(c => c.category === 'customer' && !c.voicemail).length})`, value: calls.filter(c => c.category === 'customer' && !c.voicemail).length },
-                            { name: `Customer VM (${calls.filter(c => c.category === 'customer' && c.voicemail).length})`, value: calls.filter(c => c.category === 'customer' && c.voicemail).length },
-                            { name: `Spam (${calls.filter(c => c.category === 'spam').length})`, value: calls.filter(c => c.category === 'spam').length },
-                            { name: `Operations (${calls.filter(c => c.category === 'operations').length})`, value: calls.filter(c => c.category === 'operations').length },
-                            { name: `Not Relevant (${calls.filter(c => c.category === 'other_inquiry').length})`, value: calls.filter(c => c.category === 'other_inquiry').length },
-                            { name: `Incomplete (${calls.filter(c => c.category === 'incomplete').length})`, value: calls.filter(c => c.category === 'incomplete').length }
-                          ]}
-                          cx="50%"
-                          cy="40%"
-                          innerRadius={45}
-                          outerRadius={75}
-                          paddingAngle={2}
-                          dataKey="value"
-                        >
-                          <Cell fill="#22c55e" />
-                          <Cell fill="#a855f7" />
-                          <Cell fill="#ef4444" />
-                          <Cell fill="#3b82f6" />
-                          <Cell fill="#eab308" />
-                          <Cell fill="#6b7280" />
-                        </Pie>
-                        <Tooltip formatter={(value, name) => [value + ' calls', name.split(' ')[0]]} />
-                        <Legend 
-                          verticalAlign="bottom" 
-                          height={60}
-                          formatter={(value) => <span style={{ color: 'var(--text-primary)', fontSize: '10px' }}>{value}</span>}
-                        />
-                      </PieChart>
-                    </ResponsiveContainer>
-                  </div>
-                </div>
               </div>
             </div>
           </section>
