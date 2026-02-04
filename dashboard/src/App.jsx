@@ -316,11 +316,39 @@ function CallModal({ call, onClose }) {
   )
 }
 
-// Insights Tab - Key Findings + Spam Breakdown
+// Insights Tab - Key Findings + Spam Breakdown + Customer Breakdown
 function InsightsTab({ stats, calls }) {
   const spamCalls = calls.filter(c => c.category === 'spam')
   const spamDuration = spamCalls.reduce((sum, c) => sum + (c.duration || 0), 0)
   const spamHours = (spamDuration / 3600).toFixed(1)
+  
+  // Customer breakdown - calculated from notes
+  const customerCalls = calls.filter(c => c.category === 'customer')
+  const customerBreakdown = {}
+  customerCalls.forEach(c => {
+    const note = (c.notes || '').toLowerCase()
+    if (note.includes('adu') || note.includes('addition') || note.includes('garage conversion')) {
+      customerBreakdown['ADU / Room Addition'] = (customerBreakdown['ADU / Room Addition'] || 0) + 1
+    } else if (note.includes('concrete') || note.includes('wall') || note.includes('patio')) {
+      customerBreakdown['Concrete / Wall Work'] = (customerBreakdown['Concrete / Wall Work'] || 0) + 1
+    } else if (note.includes('bathroom') || note.includes('kitchen') || note.includes('remodel')) {
+      customerBreakdown['Bathroom / Kitchen'] = (customerBreakdown['Bathroom / Kitchen'] || 0) + 1
+    } else if (note.includes('driveway') || note.includes('walkway') || note.includes('sidewalk')) {
+      customerBreakdown['Driveway / Walkway'] = (customerBreakdown['Driveway / Walkway'] || 0) + 1
+    } else if (note.includes('drain') || note.includes('french drain')) {
+      customerBreakdown['Drainage'] = (customerBreakdown['Drainage'] || 0) + 1
+    } else if (note.includes('foundation')) {
+      customerBreakdown['Foundation'] = (customerBreakdown['Foundation'] || 0) + 1
+    } else if (note.includes('window')) {
+      customerBreakdown['Window'] = (customerBreakdown['Window'] || 0) + 1
+    } else if (note.includes('fire') || note.includes('damage')) {
+      customerBreakdown['Fire Damage'] = (customerBreakdown['Fire Damage'] || 0) + 1
+    } else if (note.includes('roof')) {
+      customerBreakdown['Roofing'] = (customerBreakdown['Roofing'] || 0) + 1
+    } else {
+      customerBreakdown['Other Inquiry'] = (customerBreakdown['Other Inquiry'] || 0) + 1
+    }
+  })
   
   const sourceStats = {}
   calls.forEach(c => {
@@ -443,6 +471,20 @@ function InsightsTab({ stats, calls }) {
               <div key={type} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: '1px solid var(--border-subtle)' }}>
                 <span>{type}</span>
                 <span className="font-mono" style={{ color: 'var(--color-spam)' }}>{count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <h2 className="section-title">🟢 Customer Breakdown ({customerCalls.length} calls)</h2>
+        <div className="card">
+          <div style={{ display: 'grid', gap: '8px' }}>
+            {Object.entries(customerBreakdown).sort((a, b) => b[1] - a[1]).map(([type, count]) => (
+              <div key={type} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: '1px solid var(--border-subtle)' }}>
+                <span>{type}</span>
+                <span className="font-mono" style={{ color: 'var(--color-customer)' }}>{count}</span>
               </div>
             ))}
           </div>
